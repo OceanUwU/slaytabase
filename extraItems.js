@@ -1200,8 +1200,8 @@ export default {
                         "name": "The Joust",
                         "acts": [2],
                         "options": [
-                            ["Murderer", null, "y/Bet 50 Gold n/- g/70%: win 250 Gold."],
-                            ["Owner", null, "y/Bet 50 Gold n/- g/30%: win 100 Gold."]
+                            ["Murderer", null, "y/Bet 50 Gold n/- g/70%: win 100 Gold."],
+                            ["Owner", null, "y/Bet 50 Gold n/- g/30%: win 250 Gold."]
                         ]
                     },
             
