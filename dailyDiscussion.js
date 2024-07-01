@@ -252,7 +252,7 @@ async function startThread() {
     }
 
     if (cfg.hasOwnProperty('packDiscussions') && cfg.packDiscussions != null && Date.now() > cfg.packDiscussions.startTime + timeBetweenPackDiscussions * packDiscussions.length) {
-        let packs = fn.findAll('type=pack mod=packmaster')
+        let packs = fn.findAll('type=pack mod=packmaster mod=pmexpansion')
             .filter(p => !packDiscussions.includes(p.item.id));
         if (packs.length > 0) {
             let pack = fn.shuffle(packs)[0];
