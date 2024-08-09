@@ -5,7 +5,7 @@ invite the bot: https://discord.com/oauth2/authorize?client_id=96182444365357468
 ## steps for adding/updating mods
 
 1. first time? clone this repo with `git clone https://github.com/OceanUwU/slaytabase --depth=1` (so that you don't download the entire commit history). otherwise just `git pull`
-2. download the latest version of [my fork of modded spire exporter](https://github.com/OceanUwU/sts-exporter/releases)
+2. download and build the latest version of [my fork of modded spire exporter](https://github.com/OceanUwU/sts-exporter)
 3. launch ModTheSpire with BaseMod, my SpireExporter, and the mod(s) you'd like to add/update
 4. in SpireExporter's mod config, disable "export vanilla items", and enable "export images"
 5. create a directory called `gamedata` in this repo
