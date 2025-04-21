@@ -28,6 +28,7 @@ import { off } from './dailyDiscussion.js';
 
 registerFont('./memetemplates/Kreon-Regular.ttf', {family: "Kreon"});
 const mtsbotdata = JSON.parse(fs.readFileSync('./docs/mtsbotdata.json'));
+const vexboxdata = JSON.parse(fs.readFileSync('./static/vexbox/data.json'));
 const charter = new ChartJSNodeCanvas({width: 800, height: 600, backgroundColour: 'white'});
 const delSearchLimit = 25;
 const masks = {};
@@ -1689,6 +1690,24 @@ __List of memes:__
             }
             fs.writeFileSync('feedbacknum.txt', num.toString());
             return {title: `Sent feedback #${num}.`};
+        },
+
+
+
+        'vb?': async (msg, arg) => { return await commands.prefix['vexbox?'](msg, arg); },
+        'box?': async (msg, arg) => { return await commands.prefix['vexbox?'](msg, arg); },
+        'vexbox?': async (msg, arg) => {
+            for (let i in vexboxdata.boxes) {
+                if (vexboxdata.boxes[i].name.toLowerCase() == arg.toLowerCase()) {
+                    console.log(vexboxdata.boxes[i].colour)
+                    return {
+                        title: vexboxdata.boxes[i].name,
+                        description: vexboxdata.boxes[i].description,
+                        color: parseInt(vexboxdata.boxes[i].colour.substr(0, 2) + vexboxdata.boxes[i].colour.substr(2, 2) + vexboxdata.boxes[i].colour.substr(4, 2), 16),
+                        thumbnail: {url: cfg.exportURL + "/vexbox/img/" + i + ".png"},
+                    }
+                }
+            }
         },
     },
 
