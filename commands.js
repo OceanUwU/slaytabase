@@ -1699,7 +1699,6 @@ __List of memes:__
         'vexbox?': async (msg, arg) => {
             for (let i in vexboxdata.boxes) {
                 if (vexboxdata.boxes[i].name.toLowerCase() == arg.toLowerCase()) {
-                    console.log(vexboxdata.boxes[i].colour)
                     return {
                         title: vexboxdata.boxes[i].name,
                         description: vexboxdata.boxes[i].description,
