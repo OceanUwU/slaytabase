@@ -38,6 +38,7 @@ function useExtraData(data, dataToUse) {
     for (let category in dataToUse.edit)
         for (let editData of dataToUse.edit[category]) {
             let item = data[category].find(i => Object.keys(editData.where).filter(key => i[key] != editData.where[key]).length == 0);
+            if (item == null) continue;
             for (let i in editData.to) {
                 if (typeof editData.to[i] == 'function')
                     item[i] = editData.to[i](item[i]);
