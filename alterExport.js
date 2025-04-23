@@ -24,6 +24,7 @@ const copyRecursiveSync = function(src, dest) {
 
 const exportImages = !process.argv.includes('--no-images');
 const exportCards = exportImages && !process.argv.includes('--no-card-images');
+const compressAll = process.argv.includes('--compress');
 
 const width = 678;
 const height = 874;
@@ -38,6 +39,7 @@ function useExtraData(data, dataToUse) {
     for (let category in dataToUse.edit)
         for (let editData of dataToUse.edit[category]) {
             let item = data[category].find(i => Object.keys(editData.where).filter(key => i[key] != editData.where[key]).length == 0);
+            if (item == null) continue;
             for (let i in editData.to) {
                 if (typeof editData.to[i] == 'function')
                     item[i] = editData.to[i](item[i]);
@@ -320,7 +322,10 @@ async function exportMod(modPath){
         let imagesToCompress = gatherImages(path);
         let imageN = 0;
         for (let image of imagesToCompress) {
-            await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant.exe', ['--quality=20-50', '--force', image, '-o', image], res));
+            if (process.platform == "win32")
+                await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant.exe', ['--quality=20-50', '--force', image, '-o', image], res));
+            else
+                await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant', ['--quality=20-50', '--force', image, '-o', image], res));
             process.stdout.clearLine(0);
             process.stdout.cursorTo(0);
             process.stdout.write(`${++imageN}/${imagesToCompress.length}`);
@@ -382,6 +387,22 @@ function gatherImages(path) {
 }
 
 async function exportAll() {
+    if (compressAll) {
+        console.log(`Compressing images...`);
+        let imagesToCompress = gatherImages(process.argv[process.argv.indexOf("--compress")+1]);
+        let imageN = 0;
+        for (let image of imagesToCompress) {
+            if (process.platform == "win32")
+                await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant.exe', ['--quality=20-50', '--force', image, '-o', image], res));
+            else
+                await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant', ['--quality=20-50', '--force', image, '-o', image], res));
+            process.stdout.clearLine(0);
+            process.stdout.cursorTo(0);
+            process.stdout.write(`${++imageN}/${imagesToCompress.length}`);
+        }
+        return;
+    }
+
     const isMod = n => !n.endsWith('.json') && !n.endsWith('.html') && !n.endsWith('.css') && !n.endsWith('.md') && !n.endsWith('.txt') && !['ModStSExporter', 'SlaytabaseModStSExporter', 'basemod', 'colors', 'extraimages'].includes(n);
     if (!process.argv.includes('--collate'))
         for (let mod of fs.readdirSync('gamedata/export').filter(isMod)) {
@@ -414,6 +435,7 @@ async function exportAll() {
     fs.writeFileSync('docs/data.json', JSON.stringify(fullData));
     fs.writeFileSync('docs/dataformatted.json', JSON.stringify(fullData, null, 4));
     fs.writeFileSync('docs/index.html', page);
+
     console.log('Finished!');
 }
 
