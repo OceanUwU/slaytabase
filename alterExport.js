@@ -38,6 +38,7 @@ function useExtraData(data, dataToUse) {
     for (let category in dataToUse.edit)
         for (let editData of dataToUse.edit[category]) {
             let item = data[category].find(i => Object.keys(editData.where).filter(key => i[key] != editData.where[key]).length == 0);
+            if (item == null) continue;
             for (let i in editData.to) {
                 if (typeof editData.to[i] == 'function')
                     item[i] = editData.to[i](item[i]);
@@ -320,7 +321,10 @@ async function exportMod(modPath){
         let imagesToCompress = gatherImages(path);
         let imageN = 0;
         for (let image of imagesToCompress) {
-            await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant.exe', ['--quality=20-50', '--force', image, '-o', image], res));
+            if (process.platform == 'win32')
+                await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant.exe', ['--quality=20-50', '--force', image, '-o', image], res));
+            else
+                await new Promise(res => execFile('node_modules/pngquant-bin/vendor/pngquant', ['--quality=20-50', '--force', image, '-o', image], res));
             process.stdout.clearLine(0);
             process.stdout.cursorTo(0);
             process.stdout.write(`${++imageN}/${imagesToCompress.length}`);
