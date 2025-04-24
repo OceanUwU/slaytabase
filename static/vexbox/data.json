@@ -98,11 +98,18 @@
       "rarity": "Common",
       "colour": "3b8c1bff"
     },
+    "Boxton": {
+      "id": "Boxton",
+      "name": "Boxton the Helpful Box",
+      "description": "Starts the game Revealed. On Open: Reveal a random adjacent box.",
+      "rarity": "Legendary",
+      "colour": "ffffffff"
+    },
     "Brilliant": {
       "id": "Brilliant",
       "name": "Brilliant Box",
       "description": "After Opening 3 boxes that are Rare or rarer, Win.",
-      "rarity": "Common",
+      "rarity": "Token",
       "colour": "180202ff"
     },
     "Bullseye": {
@@ -136,7 +143,7 @@
     "Capsule": {
       "id": "Capsule",
       "name": "Capsule Box",
-      "description": "The next time you click another Revealed box, Transform 3 boxes into copies of it and Destroy this.",
+      "description": "On Click: Choose a Revealed box. Transform 3 boxes into copies of it and Destroy this.",
       "rarity": "Common",
       "colour": "7eb589ff"
     },
@@ -150,7 +157,7 @@
     "Cascade": {
       "id": "Cascade",
       "name": "Cascade Box",
-      "description": "After Opening all boxes adjacent to this, Destroy this and Reveal all boxes adjacent to them.",
+      "description": "If at any point all boxes adjacent to this are Open, Destroy this and Reveal all boxes within 2 spaces.",
       "rarity": "Common",
       "colour": "ffffffff"
     },
@@ -213,7 +220,7 @@
     "CloseSpender": {
       "id": "CloseSpender",
       "name": "Close-Spender Box",
-      "description": "On Click: Spend 1 Gold to Close 1 random other box.",
+      "description": "On Click: Spend 2 Gold to Close 1 random adjacent box.",
       "rarity": "Common",
       "colour": "ffffffff"
     },
@@ -241,9 +248,9 @@
     "Completionist": {
       "id": "Completionist",
       "name": "Completionist Box",
-      "description": "If at any point 3 full rows of boxes are Open, Win.",
+      "description": "If at any point 4 full rows of boxes are Open, Win.",
       "rarity": "Common",
-      "colour": "dfe1adff"
+      "colour": "bfc35cff"
     },
     "Conveyor": {
       "id": "Conveyor",
@@ -255,7 +262,7 @@
     "Copycat": {
       "id": "Copycat",
       "name": "Copycat Box",
-      "description": "The next time you click another revealed box, Transform this into it and Close this.",
+      "description": "On Click: Choose a Revealed box. Transform this into it and Close this.",
       "rarity": "Common",
       "colour": "ffb5e8ff"
     },
@@ -311,7 +318,7 @@
     "Demolition": {
       "id": "Demolition",
       "name": "Demolition Box",
-      "description": "The next time you click another Open box, Destroy it and this.",
+      "description": "On Click: Choose an Open box. Destroy it and this.",
       "rarity": "Common",
       "colour": "000000ff"
     },
@@ -378,6 +385,13 @@
       "rarity": "Token",
       "colour": "000000ff"
     },
+    "Eclipse": {
+      "id": "Eclipse",
+      "name": "Eclipse Box",
+      "description": "After 3 Opens, Destroy this and Close all boxes.",
+      "rarity": "Common",
+      "colour": "000000ff"
+    },
     "Egg": {
       "id": "Egg",
       "name": "Egg Box",
@@ -391,6 +405,13 @@
       "description": " ",
       "rarity": "Common",
       "colour": "717171ff"
+    },
+    "Ephemeral": {
+      "id": "Ephemeral",
+      "name": "Ephemeral Box",
+      "description": "Whenever you Open a box, Unreveal and Transform all Closed Revealed boxes.",
+      "rarity": "Common",
+      "colour": "dededeff"
     },
     "Espionage": {
       "id": "Espionage",
@@ -438,7 +459,7 @@
       "id": "Inferno",
       "name": "Inferno Box",
       "description": "If at any point, 6 Fire Boxes are Open, Win.",
-      "rarity": "Common",
+      "rarity": "Token",
       "colour": "ff9b41ff"
     },
     "Match": {
@@ -458,7 +479,7 @@
     "FirstAid": {
       "id": "FirstAid",
       "name": "First Aid Box",
-      "description": "The next time you click a Destroyed box, Revive it and Destroy this.",
+      "description": "On Click: Choose a Destroyed box. Revive it and Destroy this.",
       "rarity": "Common",
       "colour": "ffffffff"
     },
@@ -640,7 +661,7 @@
     "Inky": {
       "id": "Inky",
       "name": "Ink Box",
-      "description": "The next time a box is about to be Revealed, Destroy this instead.",
+      "description": "The next time a box would be Revealed, Destroy this instead.",
       "rarity": "Common",
       "colour": "000000ff"
     },
@@ -696,7 +717,7 @@
     "Lock": {
       "id": "Lock",
       "name": "Lockbox",
-      "description": "Secrets inside - if only you had a key...",
+      "description": "Secrets inside - if only you had a Key Box...",
       "rarity": "Token",
       "colour": "000000ff"
     },
@@ -817,14 +838,14 @@
       "name": "Penny Box",
       "description": "Holds 1 Gold.",
       "rarity": "Common",
-      "colour": "e7e9b9ff"
+      "colour": "faff9eff"
     },
     "OrbBlast": {
       "id": "OrbBlast",
       "name": "Orb Blast Box",
       "description": "On Open: Transform 1 random box in each direction from this into an Orb Box.",
       "rarity": "Common",
-      "colour": "ffffffff"
+      "colour": "999dc7ff"
     },
     "Orb": {
       "id": "Orb",
@@ -885,7 +906,7 @@
     "Portal": {
       "id": "Portal",
       "name": "Portal Box",
-      "description": "On Click: The next time you click a box, swap it with this. Can be used 2 times.",
+      "description": "On Click: Choose a box. This box swaps places with it. Can be used 2 times.",
       "rarity": "Common",
       "colour": "030000ff"
     },
@@ -928,7 +949,7 @@
       "id": "BoxOGold",
       "name": "Box O' Gold",
       "description": "Holds 10 Gold.",
-      "rarity": "Token",
+      "rarity": "Legendary",
       "colour": "393939ff"
     },
     "Reset": {
@@ -983,7 +1004,7 @@
     "Rowwin": {
       "id": "Rowwin",
       "name": "Rowwin Box",
-      "description": "On Open: If all boxes in this box's row are open, Win.",
+      "description": "On Open: If all boxes in this row are open, Win.",
       "rarity": "Common",
       "colour": "fefefeff"
     },
@@ -1004,7 +1025,7 @@
     "Safeguard": {
       "id": "Safeguard",
       "name": "Safeguard Box",
-      "description": "The next time you click another unrevealed box, Reveal it and Destroy this.",
+      "description": "On Click: Choose an unrevealed box. Reveal it and Destroy this.",
       "rarity": "Common",
       "colour": "5de8ffff"
     },
@@ -1046,7 +1067,7 @@
     "Sentinel": {
       "id": "Sentinel",
       "name": "Gazing Box",
-      "description": "Looks a direction every time you Open a box. You can't Open boxes it's looking at.",
+      "description": "Looks towards boxes you Open in any direction. You can't Open boxes it's looking at.",
       "rarity": "Common",
       "colour": "000000ff"
     },
@@ -1085,17 +1106,24 @@
       "rarity": "Common",
       "colour": "272f60ff"
     },
+    "Slime": {
+      "id": "Slime",
+      "name": "Slime Box",
+      "description": "After you Open a box, Destroys itself and Transforms two random adjacent boxes into Slime Boxes.",
+      "rarity": "Common",
+      "colour": "567c4fff"
+    },
     "Slots": {
       "id": "Slots",
       "name": "Slots Box",
       "description": "On Click: Spend 1 Gold to Transform 1 random unrevealed box into a Flag Box.",
       "rarity": "Common",
-      "colour": "c5d9d7ff"
+      "colour": "576665ff"
     },
     "SmartBomb": {
       "id": "SmartBomb",
       "name": "Smartbomb Box",
-      "description": "On Open: Reveal all adjacent boxes.\nAfter Opening another box, this explodes, Destroying itself and all adjacent boxes.",
+      "description": "On Open: Reveal all adjacent boxes.\nAfter Opening another box, this explodes, Destroying itself and all adjacent Closed boxes.",
       "rarity": "Common",
       "colour": "000000ff"
     },
@@ -1105,6 +1133,13 @@
       "description": "On Open: If no other boxes are Open, Win.",
       "rarity": "Common",
       "colour": "e1e93fff"
+    },
+    "Sponge": {
+      "id": "Sponge",
+      "name": "Spongebox",
+      "description": "On Reveal: 2 random adjacent boxes.\n(Opening a box counts as revealing it.)",
+      "rarity": "Common",
+      "colour": "fffc61ff"
     },
     "Stamp": {
       "id": "Stamp",
@@ -1144,7 +1179,7 @@
     "Tape": {
       "id": "Tape",
       "name": "Tape Box",
-      "description": "The next time you click another Open box, Close it and Destroy this.",
+      "description": "On Click: Choose an Open box. Close it and Destroy this.",
       "rarity": "Common",
       "colour": "b09d4dff"
     },
@@ -1158,7 +1193,7 @@
     "Tetris": {
       "id": "Tetris",
       "name": "Tetribox",
-      "description": "Whenever you Open the last Closed box in a row, Reveal a random box.",
+      "description": "Whenever you Open the last Closed box in a row, Reveal 2 random boxes in the row below it.",
       "rarity": "Common",
       "colour": "e5e500ff"
     },
@@ -1193,7 +1228,7 @@
     "Transmog": {
       "id": "Transmog",
       "name": "Transmog Box",
-      "description": "The next 2 times you click another Revealed box, Transform it.",
+      "description": "On Click: Choose a Revealed box. Transform it into a random box and Destroy this.",
       "rarity": "Common",
       "colour": "c7ffbaff"
     },
@@ -1214,7 +1249,7 @@
     "Two": {
       "id": "Two",
       "name": "Two Box",
-      "description": "If at any point Revealed boxes adjacent to this are the same, Win.",
+      "description": "If at any point 2 Revealed boxes adjacent to this are the same, Win.",
       "rarity": "Common",
       "colour": "742323ff"
     },
@@ -1305,7 +1340,7 @@
     "Winter": {
       "id": "Winter",
       "name": "Winter Box",
-      "description": "On Open: Transform 4 random boxes into Ice Boxes.",
+      "description": "On Open: Transform 4 random other boxes into Ice Boxes.",
       "rarity": "Common",
       "colour": "ffffffff"
     },
