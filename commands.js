@@ -428,9 +428,9 @@ __Commands:__
         'star compass': msg => ({title: ' ', description: 'Oops, I dropped it. Oh well.'}),
 
         'xy': msg => ({
-            title: 'Looks like a case of the good ol\' XY problem.',
+            title: 'Please explain your goal, not just your current issue',
             url: 'https://xyproblem.info/',
-            description: 'Ask about the issue, not about your attempted solution and give us some goddamn info!!',
+            description: 'What you\'re trying to accomplish is essential context for us helping you. Often people will be able to suggest alternate approaches that simplify the problem or provide a better overall solution. The more information you can provide, the better.',
             thumbnail: {url: 'https://i.imgur.com/bCmEbPU.png'},
             color: 15438388,
         })
