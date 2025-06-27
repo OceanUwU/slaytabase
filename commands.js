@@ -20,7 +20,7 @@ import optipng from 'optipng-bin';
 import owofify from 'owoifyx';
 const owoify = owofify.default;
 import petPetGif from 'pet-pet-gif';
-import canvasGif from 'canvas-gif';
+//import canvasGif from 'canvas-gif';
 import googleIt from 'google-it';
 import Perspective from './perspectivejs.js';
 import { JSDOM } from 'jsdom';
@@ -155,6 +155,7 @@ async function meme(msg, arg, options) {
 }
 
 async function gifMeme(msg, arg, bg, fn, options={}) {
+    return { title: 'disabled for now - sorry!' };
     try {
         let items = await getMemeItems(arg, {items: [0]}, msg);
         if (!Array.isArray(items))
@@ -1040,6 +1041,9 @@ __List of memes:__
         }, {fps: 12}),
 
         'megamind textno': async (msg, arg, args, oa) => {
+            return {
+                title: 'disabled for now - sorry!',
+            };
             let textCanvas = createCanvas(158, 45);
             let textCtx = textCanvas.getContext('2d');
             textCtx.fillStyle = 'white';
@@ -1737,6 +1741,7 @@ __List of memes:__
         }),
 
         ' is typing': async (msg, arg, args, oa) => {
+            return { title: 'disabled for now - sorry!' };
             let textCanvas = createCanvas(194, 48);
             let textCtx = textCanvas.getContext('2d');
             textCtx.fillStyle = 'white';
@@ -1892,6 +1897,7 @@ __List of memes:__
         [
             'image of ', ' is typing',
             async (msg, arg, args, oa) => {
+                return { title: 'disabled for now - sorry!' };
                 let items = await getMemeItems(arg, {items: [0]}, msg);
                 if (!Array.isArray(items))
                     return items;
