@@ -345,7 +345,7 @@ const emojiReactions = {
     '🐢': ['turtle'],
     '🐸': ['frog'],
     '🦦': ['otter'],
-    '🦋': ['butterfly','moth'],
+    '🦋': ['butterfly', 'moth'],
 };
 
 bot.on('messageCreate', async msg => {
