@@ -331,20 +331,20 @@ function getFilesFromEmbeds(embeds, spoiler=false) {
 const delfiles = files => files.forEach(file => fs.unlinkSync(file));
 
 const emojiReactions = {
-    '🦊': ['fox', 'silent', 'girl'],
-    '🐈': ['cat', 'kitty', 'kitten', 'meow', 'purrr'],
+    '🦊': ['fox', 'silent', 'girl', 'chomp'],
+    '🐈': ['cat', 'kitty', 'kitten', 'meow', 'purrr', 'nom'],
     '🐀': ['rat'],
     '🐃': ['buffalo'],
     '🐑': ['sheep', 'bah', 'baah', 'baaah'],
-    '🐶': ['dog', 'woof', 'bark', 'puppy'],
+    '🐶': ['dog', 'woof', 'bark', 'puppy', 'chomp'],
     '🐼': ['panda'],
     '🐻': ['bear'],
     '🐵': ['monkey', 'see_no_evil', 'hear_no_evil', 'speak_no_evil'], // monkey-containing emoji that don't contain the word "monkey"
     '🦁': ['lion'],
     '🐯': ['tiger'],
-    '🐢': ['turtle'],
-    '🐸': ['frog'],
-    '🦦': ['otter'],
+    '🐢': ['turtle', 'snap'],
+    '🐸': ['frog', 'ribbit'],
+    '🦦': ['otter', 'other', 'water'],
     '🦋': ['butterfly', 'moth'],
 };
 
