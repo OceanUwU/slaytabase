@@ -140,4 +140,10 @@ export default {
     'Ori':['Ori', 12643583, '<:colorless_energy:382625433016991745>'],
     'Lonely_yellow':['The Lonely', 11511882, '<:lonely_energy:1373860435094278174>'],
     'Vessel_gray_color':['The Vessel', 3685694, '<:colorless_energy:382625433016991745>'],
+    'Bg_ironclad_red_color': ['The Ironclad (Board Game)',  12196378, '<:red_energy:382625376838615061>'],
+    'Bg_silent_green_color': ['The Silent (Board Game)', 6078315, '<:green_energy:646206147220471808>'],
+    'Bg_defect_blue_color': ['The Defect (Board Game)', 3186687, '<:blue_energy:668151236003889184>'],
+    'Bg_watcher_purple_color': ['The Watcher (Board Game)', 11489522, '<:purple_energy:620384758068674560>']	
+    'Colorless (Board Game)': ['Colorless (Board Game)', 8026746, '<:colorless_energy:382625433016991745>'],
+    'Curses (Board Game)': ['Curse (Board Game)', 1315860, '<:colorless_energy:382625433016991745>']	
 };
