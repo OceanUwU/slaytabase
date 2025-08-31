@@ -2,1543 +2,2348 @@
   "boxes": {
     "AllSeeing": {
       "id": "AllSeeing",
-      "name": "Omniscient Box",
-      "description": "On Open: Reveal 10 random boxes.\nAfter Opening 3 boxes, Lose.",
-      "rarity": "Rare",
-      "colour": "c91616ff"
+      "name": "Prophecy",
+      "description": "On Equip: Reveal 9 random items.\nAfter Equipping 3 items, Lose.",
+      "rarity": "Epic",
+      "colour": "b478ccff"
+    },
+    "Amulet": {
+      "id": "Amulet",
+      "name": "Amulet",
+      "description": "On Equip: Win.\nIf you would Lose and this is Hidden, Reveals itself and Breaks instead.",
+      "rarity": "Exquisite",
+      "colour": "f35d54ff"
+    },
+    "Ant": {
+      "id": "Ant",
+      "name": "Ant",
+      "description": "Use: Choose an Equipped item near this. Break it, Swap this with it, and Reveal 1 random item.\nCan be Used once.",
+      "rarity": "Gift",
+      "colour": "445d9bff"
+    },
+    "Anvil": {
+      "id": "Anvil",
+      "name": "Anvil",
+      "description": "On Equip: Reveal the items below this.\nWhen you Equip one, Morph the other into an Anvil and Break this.",
+      "rarity": "Epic",
+      "colour": "adadadff"
     },
     "Armageddon": {
       "id": "Armageddon",
-      "name": "Armageddon Box",
-      "description": "After Opening 3 boxes, Destroy this and all but the outermost boxes.",
+      "name": "Nuke",
+      "description": "After Equipping 3 items, Break this and all but the outer rim of items.",
       "rarity": "Epic",
-      "colour": "bcffbcff"
+      "colour": "000000ff"
     },
     "Auto": {
       "id": "Auto",
-      "name": "Auto-Box",
-      "description": "After you Open a box, Opens a random adjacent box.",
-      "rarity": "Epic",
-      "colour": "ffffffff"
+      "name": "Bot",
+      "description": "After you Equip an item, Equips a random item near this.",
+      "rarity": "Rare",
+      "colour": "373737ff"
     },
     "Axe": {
       "id": "Axe",
-      "name": "Axebox",
-      "description": "On Click: Choose a box. Destroy it and Transform the boxes left and right of it into copies of it.\nCan be used 1 time.",
-      "rarity": "Epic",
+      "name": "Axe",
+      "description": "Use: Choose an item to Break. Morph the items to its left and right into it.\nCan be Used once.",
+      "rarity": "Legendary",
       "colour": "4a4a4aff"
     },
     "Bank": {
       "id": "Bank",
-      "name": "Bank Box",
-      "description": "Whenever you Open another box, 33% chance for this box to gain 1 Gold.",
-      "rarity": "Uncommon",
-      "colour": "139805ff"
+      "name": "Bank",
+      "description": "After you Equip an item, 33% chance for this to gain 1 Gold.",
+      "rarity": "Common",
+      "colour": "eaeae3ff"
     },
     "Bankrupt": {
       "id": "Bankrupt",
-      "name": "Bankrupt Box",
-      "description": "On Open: Lose all your Gold.",
+      "name": "Bankrupt item",
+      "description": "On Equip: Lose all your Gold.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
-    "Bedrock": {
-      "id": "Bedrock",
-      "name": "Piggy Bank Box",
-      "description": "Cannot be destroyed.\nOn Click: Transfer all Gold into this box.",
-      "rarity": "Uncommon",
-      "colour": "e06becff"
+    "Barrier": {
+      "id": "Barrier",
+      "name": "Barrier",
+      "description": "Nearby items can't be Broken.\nUse: Choose an item to Swap this with.\nCan be Used once.",
+      "rarity": "Legendary",
+      "colour": "f9ff5eff"
+    },
+    "Basket": {
+      "id": "Basket",
+      "name": "Basket",
+      "description": "Use: Morph 7 random Hidden items into Fruit and Break this.",
+      "rarity": "Gift",
+      "colour": "af9031ff"
+    },
+    "Fruit": {
+      "id": "Fruit",
+      "name": "Fruit",
+      "description": "On Equip: If 7 or more Fruit are Equipped, Win.",
+      "rarity": "Token",
+      "colour": "e5554eff"
+    },
+    "Battery": {
+      "id": "Battery",
+      "name": "Battery",
+      "description": "If you would Lose, Win and erase this Gift instead.",
+      "rarity": "Gift",
+      "colour": "a5a5a5ff"
+    },
+    "EmptyBattery": {
+      "id": "EmptyBattery",
+      "name": "Drained Battery",
+      "description": "It did all it could.",
+      "rarity": "Token",
+      "colour": "a5a5a5ff"
+    },
+    "Bed": {
+      "id": "Bed",
+      "name": "Bed",
+      "description": "After Equipping 3 items, Reveal 3 random items.",
+      "rarity": "Gift",
+      "colour": "4b60d8ff"
     },
     "BigBomb": {
       "id": "BigBomb",
-      "name": "Big Bomb Box",
-      "description": "After Opening 3 boxes, explodes, Destroying all boxes within 2 spaces.",
+      "name": "Big Bomb",
+      "description": "After Equipping 3 items, explodes, Breaking all items within 2 spaces.",
       "rarity": "Rare",
-      "colour": "000000ff"
+      "colour": "252525ff"
     },
     "BigBrain": {
       "id": "BigBrain",
-      "name": "Big Brain Box",
-      "description": "After you Open a box, Reveal a random box adjacent to this.",
+      "name": "Brain",
+      "description": "After you Equip an item, Reveal 1 random item near this.",
       "rarity": "Common",
-      "colour": "d7c461ff"
+      "colour": "ff8ae3ff"
+    },
+    "Bird": {
+      "id": "Bird",
+      "name": "Bird",
+      "description": "After you Equip an item, 25% chance to Reveal 1 random item near this.\nUse: Choose an item to Swap this with.\nCan be Used once.",
+      "rarity": "Gift",
+      "colour": "bf9242ff"
     },
     "BlackHole": {
       "id": "BlackHole",
-      "name": "Black Hole Box",
-      "description": "After you Open a box, Destroy all boxes within 1 space, then increase the range Destroyed by 1.",
+      "name": "Black Hole",
+      "description": "After you Equip an item, Break all items within 1 space of this, then increase the range Broken by 1.",
       "rarity": "Exquisite",
       "colour": "552d8dff"
     },
     "Blackjack": {
       "id": "Blackjack",
-      "name": "Blackjack Box",
-      "description": "On Open: If 21 other boxes are Open, Win. If more than 21 other boxes are Open, Lose.",
+      "name": "Blackjack Hand",
+      "description": "On Equip: If 21 other items are Equipped, Win. If more than 21 other items are Equipped, Lose.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Blind": {
       "id": "Blind",
-      "name": "Blind Box",
-      "description": "On Open: Win. If this is Revealed, it can't be Opened.",
+      "name": "Shades",
+      "description": "On Equip: Win. If this is Revealed, it can't be Equipped.",
       "rarity": "Rare",
       "colour": "ff4e4eff"
     },
     "Bomb": {
       "id": "Bomb",
-      "name": "Boombox",
-      "description": "After you Open a box, this explodes, Destroying itself and all adjacent boxes.",
+      "name": "Bomb",
+      "description": "After you Equip an item, Break this and nearby items.",
       "rarity": "Common",
-      "colour": "80756bff"
+      "colour": "000000ff"
     },
     "Book": {
       "id": "Book",
-      "name": "Book Box",
-      "description": "On Open: If at least 12 other boxes are Open, Win!",
+      "name": "Book",
+      "description": "On Equip: If at least 15 other items are Equipped, Win!",
       "rarity": "Common",
       "colour": "f9eaddff"
     },
     "Booster": {
       "id": "Booster",
-      "name": "Booster Box",
-      "description": "On Click: Transform this into a Rare or rarer box and Close it.",
+      "name": "Booster Pack",
+      "description": "Use: Unequip this and Morph it into a random a Rare or rarer item.",
       "rarity": "Token",
       "colour": "000000ff"
     },
+    "Boots": {
+      "id": "Boots",
+      "name": "Boots",
+      "description": "The next 2 times a Revealed item Breaks, Fix it.",
+      "rarity": "Gift",
+      "colour": "0f0f0eff"
+    },
     "Boss": {
       "id": "Boss",
-      "name": "Boss Box",
-      "description": "After Opening 10 boxes, Win.",
+      "name": "Boss",
+      "description": "After Equipping 12 items, Win.",
       "rarity": "Common",
-      "colour": "3b8c1bff"
+      "colour": "ffffffff"
     },
     "BoxJellyfish": {
       "id": "BoxJellyfish",
-      "name": "Box Jellyfish",
-      "description": "On Open: If 2 or more adjacent boxes are Open, Lose.",
+      "name": "Jellyfish",
+      "description": "On Equip: If 2 or more nearby items are Equipped, Lose.",
       "rarity": "Common",
       "colour": "fdb4f4ff"
     },
     "Boxton": {
       "id": "Boxton",
-      "name": "Boxton",
-      "description": "Starts the game Revealed.\nOn Open: Reveal 3 random adjacent boxes.",
+      "name": "Squeeton",
+      "description": "Reveals itself.\nOn Equip: Reveal 3 random nearby items.",
       "rarity": "Exquisite",
-      "colour": "ffffffff"
+      "colour": "73c2a0ff"
+    },
+    "Bracelet": {
+      "id": "Bracelet",
+      "name": "Bracelet",
+      "description": "When each Equipped item is near exactly 2 other Equipped items, Win.",
+      "rarity": "Legendary",
+      "colour": "58a07cff"
     },
     "Brilliant": {
       "id": "Brilliant",
-      "name": "Brilliant Box",
-      "description": "After Opening 3 boxes that are Rare or rarer, Win.",
+      "name": "To-do List",
+      "description": "After Equipping 3 Rare or rarer items, Win.",
       "rarity": "Rare",
       "colour": "180202ff"
     },
+    "Bubblegum": {
+      "id": "Bubblegum",
+      "name": "Bubblegum",
+      "description": "On Equip or Round Start: Reveal 1 random nearby item.\nMimics cause you to Win instead of Lose.",
+      "rarity": "Gift",
+      "colour": "fbb5ffff"
+    },
     "Bullseye": {
       "id": "Bullseye",
-      "name": "Bullseye Box",
-      "description": "On Open: If no adjacent boxes are Open, Reveal all adjacent boxes.",
+      "name": "Bullseye",
+      "description": "On Equip: If no nearby items are Equipped, Reveal nearby items.",
       "rarity": "Token",
       "colour": "ff3f3fff"
     },
     "Caterpillar": {
       "id": "Caterpillar",
-      "name": "Caterpillar Box",
-      "description": "If this box is Transformed, Win.",
+      "name": "Caterpillar",
+      "description": "If this Morphs while Equipped, Win.",
       "rarity": "Uncommon",
       "colour": "5a5ec9ff"
     },
     "Butterfly": {
       "id": "Butterfly",
-      "name": "Butterfly Box",
-      "description": "A metamorphosised Caterpillar Box.",
+      "name": "Butterfly",
+      "description": "A metamorphosised Caterpillar.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Button": {
       "id": "Button",
-      "name": "Button Box",
-      "description": "On Click: 95% chance to Transform and Reveal a random adjacent box. Otherwise, Lose.",
+      "name": "Button",
+      "description": "Use: 95% chance to Morph a random nearby item and Reveal it. Otherwise, Lose.",
       "rarity": "Uncommon",
       "colour": "9c13ffff"
     },
+    "Cage": {
+      "id": "Cage",
+      "name": "Bottle",
+      "description": "Use: Unequip this and Morph this into Nothing.\nAfter you Equip an item, put a random item in this Bottle.",
+      "rarity": "Gift",
+      "colour": "4151a8ff"
+    },
+    "Cage2": {
+      "id": "Cage2",
+      "name": "Cage",
+      "description": "You can only Equip items within 2 spaces of this.",
+      "rarity": "Rare",
+      "colour": "e66b31ff"
+    },
     "Cannon": {
       "id": "Cannon",
-      "name": "Cannon Box",
-      "description": "On Click: Destroy the closest boxes left and right of this.",
-      "rarity": "Common",
-      "colour": "838383ff"
+      "name": "Cannon",
+      "description": "Aims towards items you Equip.\nUse: Break the item this is aiming at.",
+      "rarity": "Uncommon",
+      "colour": "464646ff"
     },
     "Capsule": {
       "id": "Capsule",
-      "name": "Capsule Box",
-      "description": "On Click: Choose a Revealed box. Transform 4 random other boxes into copies of it.\nCan be used 1 time.",
+      "name": "Printer",
+      "description": "Use: Choose a Revealed item. Morph 5 random other items into it.\nCan be Used once.",
       "rarity": "Epic",
-      "colour": "7eb589ff"
+      "colour": "a8a8a8ff"
     },
     "Careful": {
       "id": "Careful",
-      "name": "Careful Box",
-      "description": "On Open: If 3 boxes that can make you Lose are Revealed, Win.",
+      "name": "Warning",
+      "description": "On Equip: If 3 items that can make you Lose are Revealed, Win.",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Cascade": {
       "id": "Cascade",
-      "name": "Cascade Box",
-      "description": "If at any point all boxes adjacent to this are Open, Destroy this and Reveal all boxes within 2 spaces.",
+      "name": "Dandelion",
+      "description": "When all items near this are Equipped, Break this and Reveal all items near them.",
       "rarity": "Rare",
-      "colour": "ffffffff"
+      "colour": "000000ff"
     },
     "Cataclysmic": {
       "id": "Cataclysmic",
-      "name": "Cataclysmic Box",
-      "description": "After 15 unrevealed boxes are Revealed or Destroyed, Lose.\n(Opening an unrevealed box counts as Revealing it.)",
+      "name": "Meteor",
+      "description": "After 15 Hidden items are Revealed, Equipped, or Broken, Lose.",
       "rarity": "Uncommon",
       "colour": "924d4dff"
     },
     "Catalog": {
       "id": "Catalog",
-      "name": "Catalogue Box",
-      "description": "On Open: Reveal the boxes directly left and right of this. After you Open a box, if they're Closed, Transform them into random boxes.",
-      "rarity": "Legendary",
+      "name": "Catalogue",
+      "description": "On Equip: Reveal the items to the left and right. After you Equip an item, if they're not Equipped, Morph them.",
+      "rarity": "Epic",
+      "colour": "000000ff"
+    },
+    "Cell": {
+      "id": "Cell",
+      "name": "Cell",
+      "description": "The next time you Equip an item, Morph the items left and right of it into it.",
+      "rarity": "Gift",
+      "colour": "4aa352ff"
+    },
+    "Challenge": {
+      "id": "Challenge",
+      "name": "Demon",
+      "description": "Immutable.\nYou can't Win until this is defeated.\nWin 3 times to defeat.",
+      "rarity": "Board",
       "colour": "000000ff"
     },
     "Charon": {
       "id": "Charon",
-      "name": "Charon Box",
-      "description": "Every 3 opens, Swaps with the box to its right. If it can't, Lose.",
+      "name": "Charon",
+      "description": "Every 3 Equips, Swaps with the item to its right. If it can't, Lose.",
       "rarity": "Uncommon",
       "colour": "ffffffff"
     },
     "Checkbox": {
       "id": "Checkbox",
-      "name": "Checkbox",
-      "description": "After you Open an unrevealed box, Reveal 1 random box.",
+      "name": "Candle",
+      "description": "After you Equip a Hidden item, Reveal 1 random item.",
       "rarity": "Rare",
-      "colour": "9cd984ff"
+      "colour": "5a2a6bff"
     },
     "Cherry": {
       "id": "Cherry",
-      "name": "Cherry Box",
-      "description": "After you Open a box, Transform the box to its right into a copy of it.",
+      "name": "Cherry",
+      "description": "After you Equip an item, Morph the item to its right into it.",
       "rarity": "Exquisite",
       "colour": "ff5858ff"
     },
     "Cloak": {
       "id": "Cloak",
-      "name": "Cloak Box",
-      "description": "On Open: If the Wand and Hat Boxes are Open, Win.",
-      "rarity": "Common",
-      "colour": "8b3d73ff"
+      "name": "Cloak",
+      "description": "On Equip: If a Wand and Hat are Equipped, Win.",
+      "rarity": "Uncommon",
+      "colour": "fef84cff"
     },
     "Wand": {
       "id": "Wand",
-      "name": "Wand Box",
-      "description": "On Open: If the Cloak and Hat Boxes are Open, Win.",
+      "name": "Wand",
+      "description": "On Equip: If a Cloak and Hat are Equipped, Win.",
       "rarity": "Token",
-      "colour": "2864faff"
+      "colour": "063135ff"
     },
     "Hat": {
       "id": "Hat",
-      "name": "Hat Box",
-      "description": "On Open: If the Cloak and Wand Boxes are Open, Win.",
+      "name": "Hat",
+      "description": "On Equip: If a Cloak and Wand are Equipped, Win.",
       "rarity": "Token",
-      "colour": "f4ff14ff"
+      "colour": "2733adff"
     },
     "CrystalBall": {
       "id": "CrystalBall",
-      "name": "Crystal Ballbox",
-      "description": "After you Open a box, Reveal adjacent Cloak, Wand, and Hat Boxes.",
+      "name": "Crystal Ball",
+      "description": "After you Equip an item, Reveal Cloaks, Wands, and Hats near it.",
       "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "colour": "adada9ff"
+    },
+    "Clock": {
+      "id": "Clock",
+      "name": "Clock",
+      "description": "Immutable.\nWhen you Equip an item, starts ticking.",
+      "rarity": "Board",
+      "colour": "000000ff"
+    },
+    "ClockUp": {
+      "id": "ClockUp",
+      "name": "Second Hand",
+      "description": "On Equip: Delay Clock by 4 ticks.",
+      "rarity": "Board",
+      "colour": "9bff86ff"
     },
     "Clone": {
       "id": "Clone",
-      "name": "Clone Box",
-      "description": "After you Open a box, Reveal a random adjacent unrevealed box and Transform into a Closed copy of it.",
+      "name": "Capsule",
+      "description": "Use: Reveal a random nearby item.\nUnequip this and Morph this into it.",
       "rarity": "Common",
-      "colour": "adebd4ff"
+      "colour": "3ea162ff"
     },
     "CloseSpender": {
       "id": "CloseSpender",
-      "name": "Close-Spender Box",
-      "description": "On Click: Spend 1 Gold to Close 1 random other box.",
+      "name": "Vending Machine",
+      "description": "Use: Choose a non-Gold item.\nSpend 2 Gold to Unequip it.",
       "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "colour": "797979ff"
     },
     "Clumsy": {
       "id": "Clumsy",
-      "name": "Clumsy Box",
-      "description": "After you Open a box, Destroy 1 random box adjacent to it.",
+      "name": "Mouse",
+      "description": "After you Equip an item, Equip the item to the left.",
       "rarity": "Epic",
-      "colour": "ff440dff"
+      "colour": "eaeaeaff"
     },
     "Coffee": {
       "id": "Coffee",
-      "name": "Coffee Box",
-      "description": "The next 2 times you Open a box, immediately Close it.",
+      "name": "Coffee",
+      "description": "The next 2 times you Equip an item, immediately Unequip it.",
       "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "colour": "fff9fcff"
     },
     "Collapse": {
       "id": "Collapse",
-      "name": "Collapse Box",
-      "description": "On Open: Close all adjacent boxes.",
+      "name": "Leaf",
+      "description": "On Equip: Unequip nearby items.",
       "rarity": "Common",
-      "colour": "ffffffff"
+      "colour": "317124ff"
     },
     "Compass": {
       "id": "Compass",
-      "name": "Compass Box",
-      "description": "Points roughly towards the nearest Flag Box.",
+      "name": "Compass",
+      "description": "Points roughly towards the nearest Flag.",
       "rarity": "Common",
-      "colour": "ffffffff"
+      "colour": "ccccccff"
     },
     "Completionist": {
       "id": "Completionist",
-      "name": "Completionist Box",
-      "description": "If at any point 4 full rows of boxes are Open, Win.",
+      "name": "Mountain",
+      "description": "When 4 full rows of items are Equipped, Win.",
       "rarity": "Uncommon",
-      "colour": "bfc35cff"
+      "colour": "b7b7b7ff"
     },
     "Conveyor": {
       "id": "Conveyor",
-      "name": "Conveyor-Box",
-      "description": "After you Open a box, shift all boxes in this row to the left.",
-      "rarity": "Token",
-      "colour": "eaeaeaff"
+      "name": "Conveyor",
+      "description": "Use: Shift this row to the left.",
+      "rarity": "Epic",
+      "colour": "efefefff"
+    },
+    "Cookie": {
+      "id": "Cookie",
+      "name": "Cookie",
+      "description": "On Equip: 20% chance to Win.",
+      "rarity": "Common",
+      "colour": "dbb281ff"
     },
     "Copycat": {
       "id": "Copycat",
-      "name": "Copycat Box",
-      "description": "On Click: Choose a Revealed box. Transform this into it and Close this.",
+      "name": "Copycat",
+      "description": "Use: Choose an item.\nUnequip this and Morph this into it.",
       "rarity": "Uncommon",
-      "colour": "ffb5e8ff"
+      "colour": "ffd3e9ff"
     },
     "Costly": {
       "id": "Costly",
-      "name": "Costly Box",
-      "description": "After you Open a box, pay 1 Gold. If you can't, Lose.",
+      "name": "Price Tag",
+      "description": "Holds 3 Gold.\nEquipping Revealed items costs 1 Gold.",
       "rarity": "Epic",
       "colour": "000000ff"
     },
+    "Couch": {
+      "id": "Couch",
+      "name": "Couch",
+      "description": "Use: Unequip the last item you Equipped.\nCan be Used once.",
+      "rarity": "Gift",
+      "colour": "9eb0c1ff"
+    },
+    "CreditCard": {
+      "id": "CreditCard",
+      "name": "Credit Card",
+      "description": "Immutable.\nHolds 12 Gold.\nYou must spend 1 Gold to Equip items. If this runs out of Gold, Lose.",
+      "rarity": "Board",
+      "colour": "9dffa2ff"
+    },
+    "Crossbow": {
+      "id": "Crossbow",
+      "name": "Crossbow",
+      "description": "Use 1: Break items to the right of this.\nUse 2: 15% chance to Lose.\nUse 3: Reveal 5 random items.\nUse 4: Unequip, Hide, and Morph this.",
+      "rarity": "Gift",
+      "colour": "009223ff"
+    },
     "Crown": {
       "id": "Crown",
-      "name": "Crown Box",
-      "description": "On Click: Spend 5 Gold to Win.",
+      "name": "Crown",
+      "description": "Use: Spend 5 Gold to Win.",
       "rarity": "Common",
-      "colour": "daff41ff"
+      "colour": "ce3454ff"
     },
     "Crumbling": {
       "id": "Crumbling",
-      "name": "Crumbling Box",
-      "description": "After you Open a box, Destroy the top box (left to right).",
-      "rarity": "Rare",
+      "name": "Crumbling Castle",
+      "description": "After you Equip an item, Break the top item (left to right).",
+      "rarity": "Uncommon",
       "colour": "227148ff"
     },
     "Cryptic": {
       "id": "Cryptic",
-      "name": "Cryptic Box",
-      "description": "After Opening 6 adjacent boxes, Win.",
+      "name": "Blueprint",
+      "description": "After Equipping 6 nearby items, Win.",
       "rarity": "Uncommon",
       "colour": "4c46ffff"
     },
     "Cursed": {
       "id": "Cursed",
-      "name": "Cursed Box",
-      "description": "If you would Win, Destroy this instead.",
-      "rarity": "Uncommon",
-      "colour": "121237ff"
+      "name": "Curse",
+      "description": "If you would Win, this Breaks instead.",
+      "rarity": "Rare",
+      "colour": "00001cff"
+    },
+    "CursedBlade": {
+      "id": "CursedBlade",
+      "name": "Doomed Blade",
+      "description": "Whenever an item Breaks, 25% chance to Lose.",
+      "rarity": "Epic",
+      "colour": "632d99ff"
     },
     "Dancepad": {
       "id": "Dancepad",
-      "name": "Dancepad Box",
-      "description": "Points a direction each time you Open a box. After Opening 6 boxes pointed at in a row, Win.",
-      "rarity": "Epic",
+      "name": "Dancepad",
+      "description": "Points a direction each time you Equip an item. After Equipping 6 items this points at consecutively, Win.",
+      "rarity": "Rare",
       "colour": "0b171aff"
     },
     "Daredevil": {
       "id": "Daredevil",
-      "name": "Daredevil Box",
-      "description": "On Click: 40% chance to Win.\nOtherwise, Lose.",
+      "name": "Skateboard",
+      "description": "Use: 40% chance to Win.\nOtherwise, Lose.",
       "rarity": "Uncommon",
-      "colour": "ffbdbdff"
+      "colour": "543d32ff"
     },
     "Darts": {
       "id": "Darts",
-      "name": "Dart Box",
-      "description": "If at any point the total counters on non-Dart boxes adds to 14 or more, Win.",
+      "name": "Dartboard",
+      "description": "When the total counters on Equipped non-Dartboard items adds to 14 or more, Win.",
       "rarity": "Rare",
       "colour": "ffffffff"
     },
     "Delivery": {
       "id": "Delivery",
-      "name": "Delivery Box",
-      "description": "On Click: Choose a Revealed box. Destroy it and this. At the start of the next game, replace the top box with the chosen box.",
-      "rarity": "Exquisite",
+      "name": "Package",
+      "description": "Use: Choose a Revealed item. Break it and this. Next round, Morph the top item into it.",
+      "rarity": "Legendary",
       "colour": "865d3dff"
     },
     "Demolition": {
       "id": "Demolition",
-      "name": "Demolition Box",
-      "description": "On Click: Choose a box. Destroy it.\nCan be used 1 time.",
+      "name": "Wrecking Ball",
+      "description": "Use: Choose an item to Break.\nCan be Used once.",
       "rarity": "Common",
+      "colour": "000000ff"
+    },
+    "DemolitionTri": {
+      "id": "DemolitionTri",
+      "name": "Wrecking Triangle",
+      "description": "Use: Choose 3 Equipped items in a triangle shape to Break.\nCan be Used once.",
+      "rarity": "Gift",
       "colour": "000000ff"
     },
     "Desert": {
       "id": "Desert",
-      "name": "Desert Box",
-      "description": "On Open: If at least 9 boxes are Destroyed, Win!",
+      "name": "Sand",
+      "description": "On Equip: If at least 9 items are Broken, Win!",
       "rarity": "Common",
-      "colour": "e1f1f6ff"
+      "colour": "84dee5ff"
     },
     "Dice": {
       "id": "Dice",
-      "name": "Dice Box",
-      "description": "On Click: Transform all adjacent boxes into random boxes and Reveal them.\nCan be used 1 time.",
-      "rarity": "Legendary",
+      "name": "Die",
+      "description": "Use: Unequip and Morph nearby Equipped items.\nCan be Used once.",
+      "rarity": "Epic",
       "colour": "ff3b3bff"
     },
     "Disappointed": {
       "id": "Disappointed",
-      "name": "Disappointed Box",
-      "description": "When another revealed box that can make you Win is Destroyed, Win.",
+      "name": "Disappointment",
+      "description": "When a Revealed item that can make you Win is Broken, Win.",
       "rarity": "Token",
       "colour": "8d8d8dff"
     },
     "DNA": {
       "id": "DNA",
-      "name": "DNA Box",
-      "description": "On Open: Transform all adjacent boxes into the same random box, then Reveal them.",
-      "rarity": "Rare",
-      "colour": "000000ff"
+      "name": "DNA",
+      "description": "On Equip: Morph all nearby items into the same random item.",
+      "rarity": "Uncommon",
+      "colour": "7ad3bbff"
     },
     "Dragon": {
       "id": "Dragon",
-      "name": "Dragon Box",
-      "description": "On Open: If a Sword Box is open, Win. Otherwise, Lose.",
+      "name": "Dragon",
+      "description": "On Equip: Lose.",
       "rarity": "Rare",
       "colour": "7d8affff"
     },
-    "Sword": {
-      "id": "Sword",
-      "name": "Sword Box",
-      "description": "Allows you to slay the Dragon Box.",
-      "rarity": "Token",
-      "colour": "b5b8a4ff"
-    },
     "Princess": {
       "id": "Princess",
-      "name": "Princess Box",
-      "description": "Holds 3 Gold.\nOn Open: If the Dragon Box is Revealed, Lose.",
+      "name": "Princess",
+      "description": "Holds 3 Gold.\nOn Equip: If a Dragon is Revealed, Lose.",
       "rarity": "Common",
       "colour": "adbe48ff"
     },
     "Dungeon": {
       "id": "Dungeon",
-      "name": "Dungeon Box",
-      "description": "After you Open a non-Spike Box, Transform 2 random unrevealed boxes into Spike Boxes.",
+      "name": "Dungeon",
+      "description": "After you Equip a non-Spike, Morph 2 random Hidden items into Spikes.",
       "rarity": "Legendary",
       "colour": "373238ff"
     },
     "Spike": {
       "id": "Spike",
-      "name": "Spike Box",
-      "description": "On Open: If 3 or more Spike Boxes are Open, Lose.",
+      "name": "Spike",
+      "description": "On Equip: If 3 or more Spikes are Equipped, Lose.",
       "rarity": "Token",
       "colour": "000000ff"
     },
     "Eclipse": {
       "id": "Eclipse",
-      "name": "Eclipse Box",
-      "description": "After 3 Opens, Destroy this and Close all boxes.",
-      "rarity": "Legendary",
-      "colour": "000000ff"
+      "name": "Time Machine",
+      "description": "After 3 Equips, this Breaks to Unequip all items.",
+      "rarity": "Gift",
+      "colour": "a3a15fff"
     },
     "Egg": {
       "id": "Egg",
-      "name": "Egg Box",
-      "description": "If this box is Destroyed, Win.",
-      "rarity": "Common",
+      "name": "Egg",
+      "description": "If this item is Broken while Equipped, Win.",
+      "rarity": "Rare",
       "colour": "ffffffff"
     },
     "Empty": {
       "id": "Empty",
-      "name": "Empty Box",
+      "name": "Nothing",
       "description": " ",
       "rarity": "Uncommon",
-      "colour": "717171ff"
+      "colour": "474747ff"
     },
     "Ephemeral": {
       "id": "Ephemeral",
-      "name": "Ephemeral Box",
-      "description": "After you Open a box, Unreveal and Transform all Closed Revealed boxes.",
+      "name": "Ephemeral item",
+      "description": "After you Equip an item, Unreveal and Morph all Unequipped Revealed items.",
       "rarity": "Exquisite",
       "colour": "dededeff"
     },
     "Espionage": {
       "id": "Espionage",
-      "name": "Espionage Box",
-      "description": "On Open: If at least 18 other boxes are Revealed, Win!",
+      "name": "Folder",
+      "description": "On Equip: If at least 20 other items are Revealed, Win!",
       "rarity": "Uncommon",
-      "colour": "d9d897ff"
+      "colour": "eae99fff"
     },
     "EXP": {
       "id": "EXP",
-      "name": "EXP Box",
-      "description": "After Opening 7 unrevealed boxes, Win.",
+      "name": "EXP",
+      "description": "After Equipping 7 Hidden items, Win.",
       "rarity": "Token",
       "colour": "489c8fff"
     },
     "ExtraLife": {
       "id": "ExtraLife",
-      "name": "Extra Life Box",
-      "description": "If you would Lose, Destroy this instead.",
-      "rarity": "Epic",
-      "colour": "55bf65ff"
+      "name": "Mushroom",
+      "description": "If you would Lose, this Breaks instead.",
+      "rarity": "Rare",
+      "colour": "48a055ff"
     },
     "Eye": {
       "id": "Eye",
-      "name": "Eye Box",
-      "description": "On Open: Reveal 1 random box.",
+      "name": "Magnifier",
+      "description": "On Equip: Reveal 1 random item.",
       "rarity": "Common",
-      "colour": "4cf16cff"
+      "colour": "b2e4eeff"
     },
     "Fairy": {
       "id": "Fairy",
-      "name": "Fairy Box",
-      "description": "On Open: Transform 1 random Closed box into a Fairy Box. If 4 Fairy Boxes are Open, Win.",
+      "name": "Fairy",
+      "description": "On Equip: If 4 Fairies are Equipped, Win. Otherwise, Morph 1 random Unequipped item into a Fairy. ",
       "rarity": "Common",
       "colour": "ffffffff"
     },
+    "Filmer": {
+      "id": "Filmer",
+      "name": "Cine-camera",
+      "description": "Use: Unequip the item right of this, then Swap with it.\nCan be Used 3 times.",
+      "rarity": "Gift",
+      "colour": "000000ff"
+    },
+    "FinalBoss": {
+      "id": "FinalBoss",
+      "name": "Final Boss",
+      "description": "After Equipping 18 items, Win.",
+      "rarity": "Gift",
+      "colour": "000000ff"
+    },
     "Fire": {
       "id": "Fire",
-      "name": "Fire Box",
-      "description": "On Open: Transform an adjacent box into a Fire Box.",
+      "name": "Flame",
+      "description": "On Equip: Morph a random nearby item into a Flame and Reveal it.",
       "rarity": "Uncommon",
-      "colour": "f82727ff"
+      "colour": "d83f05ff"
     },
     "Inferno": {
       "id": "Inferno",
-      "name": "Inferno Box",
-      "description": "If at any point 6 Fire Boxes are Open, Win.",
+      "name": "Bonfire",
+      "description": "When 6 Flames are Equipped, Win.",
       "rarity": "Token",
       "colour": "ff9b41ff"
     },
     "Match": {
       "id": "Match",
-      "name": "Match Box",
-      "description": "On Open: Transform 2 random other boxes into Fire Boxes.",
+      "name": "Match",
+      "description": "On Equip: Morph 2 random other items into Flames.",
       "rarity": "Uncommon",
       "colour": "513232ff"
     },
     "Firework": {
       "id": "Firework",
-      "name": "Firework Box",
-      "description": "On Open: Transform 3 random boxes into Smartbomb Boxes.",
+      "name": "Firework",
+      "description": "On Equip: Morph 3 random items into Smart Bombs.",
       "rarity": "Token",
       "colour": "322727ff"
     },
     "FirstAid": {
       "id": "FirstAid",
-      "name": "First-Aid Box",
-      "description": "On Click: Choose a Destroyed box.\nRevive it.\nCan be used 1 time.",
+      "name": "Tape",
+      "description": "Use: Choose a Broken item to Fix.\nCan be Used once.",
       "rarity": "Common",
-      "colour": "ffffffff"
+      "colour": "9f9f9eff"
     },
     "Flag": {
       "id": "Flag",
-      "name": "Flag Box",
-      "description": "On Open: Win!",
-      "rarity": "Uncommon",
+      "name": "Flag",
+      "description": "On Equip: Win!",
+      "rarity": "Rare",
       "colour": "ff7171ff"
     },
     "Flagseeker": {
       "id": "Flagseeker",
-      "name": "Flagseeker Box",
-      "description": "After you Open a box, Reveal adjacent Flag Boxes.",
+      "name": "Flagseeker",
+      "description": "After you Equip an item, Reveal nearby Flags.",
       "rarity": "Epic",
       "colour": "ffffffff"
     },
+    "Flashlight": {
+      "id": "Flashlight",
+      "name": "Flashlight",
+      "description": "The next time you Equip a nearby item, Reveal all items in that direction.",
+      "rarity": "Epic",
+      "colour": "303ea8ff"
+    },
     "Flipflop": {
       "id": "Flipflop",
-      "name": "Flipflop Box",
-      "description": "On Open: Reveal and Revive all Destroyed boxes, then Destroy all other boxes not Revived this way.",
-      "rarity": "Exquisite",
+      "name": "Snow Globe",
+      "description": "Whenever a Hidden item Breaks, Fix and Reveal it.",
+      "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Flower": {
       "id": "Flower",
-      "name": "Flower Box",
-      "description": "Whenever an unrevealed box is Transformed, Reveal it.",
+      "name": "Flower",
+      "description": "Whenever items Morph, Reveal them.",
       "rarity": "Epic",
-      "colour": "f25fddff"
+      "colour": "ffe65cff"
     },
     "Foolish": {
       "id": "Foolish",
-      "name": "Foolish Box",
-      "description": "After Opening 5 Revealed boxes, Lose.",
+      "name": "Foolish item",
+      "description": "After Equipping 5 Revealed items, Lose.",
       "rarity": "Token",
       "colour": "fffeb5ff"
     },
+    "Forest": {
+      "id": "Forest",
+      "name": "Tree",
+      "description": "Use: Unequip 1 random other item.\nCan be Used 3 times.",
+      "rarity": "Uncommon",
+      "colour": "efd871ff"
+    },
+    "Forest2": {
+      "id": "Forest2",
+      "name": "Forest",
+      "description": "After you Equip a Hidden item, immediately Unequip it.",
+      "rarity": "Exquisite",
+      "colour": "e5e2c7ff"
+    },
     "Forgetful": {
       "id": "Forgetful",
-      "name": "Forgetful Box",
-      "description": "On Open: Transform 2 random Revealed Closed boxes.",
+      "name": "Forgetfulness",
+      "description": "On Equip: Morph 2 random Revealed Unequipped items.",
       "rarity": "Uncommon",
       "colour": "7e8e7eff"
     },
+    "Fossil": {
+      "id": "Fossil",
+      "name": "Fossil",
+      "description": "After you Equip an item, 5% chance to Lose.\nOn Reveal: Equips itself.",
+      "rarity": "Legendary",
+      "colour": "9e571eff"
+    },
+    "Fox": {
+      "id": "Fox",
+      "name": "Fox",
+      "description": "Use: 15% chance to Win. Otherwise, this Breaks.",
+      "rarity": "Gift",
+      "colour": "ff9c00ff"
+    },
     "Fraidy": {
       "id": "Fraidy",
-      "name": "Fraidy Box",
-      "description": "For the next 5 Opens, you must Open Revealed boxes first.",
+      "name": "Fog",
+      "description": "For the next 5 Equips, you must Equip Revealed items first.",
       "rarity": "Rare",
-      "colour": "d54460ff"
+      "colour": "96968aff"
     },
     "Framed": {
       "id": "Framed",
-      "name": "Framed Box",
-      "description": "On Click: Choose a box. Transform it into Winseeker Box and Destroy this. Future Framed Boxes will contain that box instead.",
+      "name": "Frame",
+      "description": "Use: Choose an item.\nFuture Frames will contain it.\nMorph it into Magnifier and Break this.",
       "rarity": "Epic",
-      "colour": "00000000"
+      "colour": "ffd46fff"
     },
     "Fridge": {
       "id": "Fridge",
-      "name": "Fridge Box",
-      "description": "On Open: Reveal all adjacent boxes. For the next 3 Opens, you can't Open them.",
+      "name": "Fridge",
+      "description": "On Equip: Reveal all nearby items. For the next 3 Equips, you can't Equip them.",
       "rarity": "Rare",
-      "colour": "bfbfbfff"
+      "colour": "000000ff"
     },
     "Friendly": {
       "id": "Friendly",
-      "name": "Friendly Box",
-      "description": "You must Open boxes adjacent to this first.",
-      "rarity": "Rare",
-      "colour": "f7ff9dff"
+      "name": "Cuddle Cat",
+      "description": "You must Equip items near this first.",
+      "rarity": "Epic",
+      "colour": "ff9725ff"
+    },
+    "FutureWin": {
+      "id": "FutureWin",
+      "name": "Holo-Flag",
+      "description": "On Win: Win the next round, too.",
+      "rarity": "Exquisite",
+      "colour": "7fc2f7ff"
     },
     "Gamer": {
       "id": "Gamer",
-      "name": "Gamer Box",
-      "description": "On Open: If you won the last game, Win.",
-      "rarity": "Rare",
-      "colour": "ffbcbcff"
+      "name": "Controller",
+      "description": "For the next 1 Equip, if you would Lose, Win instead.",
+      "rarity": "Gift",
+      "colour": "d779ffff"
+    },
+    "Gavel": {
+      "id": "Gavel",
+      "name": "Gavel",
+      "description": "On Equip: If all Revealed items are Equipped, Win.",
+      "rarity": "Epic",
+      "colour": "82561aff"
     },
     "Gazing": {
       "id": "Gazing",
-      "name": "Sentinel Box",
-      "description": "After opening 2 adjacent boxes, Lose.",
+      "name": "Sentinel",
+      "description": "After opening 2 nearby items, Lose.",
       "rarity": "Token",
       "colour": "f67777ff"
     },
+    "Gear": {
+      "id": "Gear",
+      "name": "Gear",
+      "description": "Use: Unequip, Unreveal and Morph an item.\nCan be Used once.",
+      "rarity": "Gift",
+      "colour": "727272ff"
+    },
     "Ghost": {
       "id": "Ghost",
-      "name": "Ghost Box",
-      "description": "On Open: Transform 2 random boxes into Skull Boxes.",
-      "rarity": "Rare",
-      "colour": "fcbeffff"
+      "name": "Ghost",
+      "description": "On Equip: Morph 2 random items into Skulls.",
+      "rarity": "Uncommon",
+      "colour": "99c5dbff"
     },
     "Gift": {
       "id": "Gift",
-      "name": "Gift Box",
-      "description": "On Open: Reveal 3 random boxes and Close 3 random other boxes.",
+      "name": "Present",
+      "description": "Holds 3 Gold.\nOn Equip: Reveal 2 random items and Unequip 1 random other item.",
       "rarity": "Epic",
       "colour": "6d6d6dff"
     },
     "Jolly": {
       "id": "Jolly",
-      "name": "Jolly Box",
-      "description": "On Open: Close all Gift Boxes. When you Open a Gift Box, Close it and Destroy this.",
+      "name": "Jolly Hat",
+      "description": "On Equip: Unequip all Presents. When you Equip a Present, Unequip it and Break this.",
       "rarity": "Uncommon",
       "colour": "fa3131ff"
     },
     "Glip": {
       "id": "Glip",
-      "name": "glip box",
-      "description": "after you open a box, swaps with a random adjacent box.\nreveals unrevealed boxes that it swaps with.",
-      "rarity": "Legendary",
-      "colour": "c3c506ff"
+      "name": "glip",
+      "description": "after you equip an item, this swaps with a random item near this and reveals it.",
+      "rarity": "Epic",
+      "colour": "fcff00ff"
     },
     "Glitched": {
       "id": "Glitched",
-      "name": "Glitched Box",
-      "description": "Whenever another box Transforms, it Transforms into a Glitched Box. On Open: If 2 Glitched Boxes are Open, Lose.",
+      "name": "Glitch",
+      "description": "Whenever items Morph, they Morph into Glitches. On Equip: If 2 Glitches are Equipped, Lose.",
       "rarity": "Epic",
-      "colour": "aabdc3ff"
+      "colour": "6af2a6ff"
+    },
+    "Gloves": {
+      "id": "Gloves",
+      "name": "Gloves",
+      "description": "Use: Choose an Unequipped item. Morph and Equip it.",
+      "rarity": "Gift",
+      "colour": "c044feff"
     },
     "Gravity": {
       "id": "Gravity",
-      "name": "Gravity Box",
-      "description": "You can only Open boxes in the bottom row or directly above an already Open box.",
+      "name": "Gravity",
+      "description": "You can only Equip items in the bottom row or directly above another Equipped item.",
       "rarity": "Legendary",
       "colour": "66b5b1ff"
     },
     "Hacker": {
       "id": "Hacker",
-      "name": "Hackerbox",
-      "description": "After you Open a box, 20% chance to immediately Close it.",
+      "name": "Moon",
+      "description": "After you Equip an item, 20% chance to immediately Unequip it.",
       "rarity": "Epic",
-      "colour": "000000ff"
+      "colour": "356354ff"
     },
     "Halo": {
       "id": "Halo",
-      "name": "Halo Box",
-      "description": "On Open: Revive 5 random boxes.",
+      "name": "Screwdriver",
+      "description": "Use: Break this to Fix 5 random items.",
       "rarity": "Uncommon",
-      "colour": "5c0d3aff"
+      "colour": "91c087ff"
     },
     "Hammer": {
       "id": "Hammer",
-      "name": "Hammer Box",
-      "description": "Whenever a box is Destroyed, 50% chance to immediately Revive it.",
+      "name": "Hammer",
+      "description": "Whenever an item Breaks, 50% chance to immediately Fix it.",
       "rarity": "Rare",
-      "colour": "ffffffff"
+      "colour": "fea69aff"
     },
     "Hand": {
       "id": "Hand",
-      "name": "Hand Box",
-      "description": "Whenever an Open box is Transformed, Close it.",
+      "name": "Hand",
+      "description": "Whenever Equipped items Morph, Unequip them.",
       "rarity": "Rare",
       "colour": "bfbfbfff"
     },
     "Heart": {
       "id": "Heart",
-      "name": "Heart Box",
-      "description": "For the next 3 Opens, you can't Lose.",
-      "rarity": "Uncommon",
-      "colour": "ffb2fbff"
+      "name": "Helmet",
+      "description": "For the next 5 Equips, you can't Lose.",
+      "rarity": "Epic",
+      "colour": "000000ff"
     },
     "Heartbreak": {
       "id": "Heartbreak",
-      "name": "Heartbreak Box",
-      "description": "After you Open a box, 10% chance to Lose.",
+      "name": "Balloon",
+      "description": "After you Equip an item, 2% chance to Lose. Otherwise, increase this chance by 2%.",
       "rarity": "Common",
-      "colour": "410808ff"
+      "colour": "ff5757ff"
     },
     "HorizontalSight": {
       "id": "HorizontalSight",
-      "name": "Horeyezon Box",
-      "description": "On Open: Reveal all boxes in this row.",
-      "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "name": "Window",
+      "description": "On Equip: Reveal all items in this row.",
+      "rarity": "Rare",
+      "colour": "644e1eff"
     },
     "Hourglass": {
       "id": "Hourglass",
-      "name": "Hourglass Box",
-      "description": "If you would Lose while this isn't counting down, prevent the Loss and Lose in 5 opens.",
-      "rarity": "Rare",
+      "name": "Hourglass",
+      "description": "If you would Lose while this isn't counting down, prevent the Loss and Lose in 3 Equips.",
+      "rarity": "Gift",
       "colour": "ffffffff"
     },
     "Hungry": {
       "id": "Hungry",
-      "name": "Hungry Box",
-      "description": "On Open: Transform 7 random boxes into Food Boxes.\nAfter Opening 7 boxes without using a Food Box, Lose.",
-      "rarity": "Epic",
-      "colour": "e5ff00ff"
+      "name": "Mouth",
+      "description": "On Equip: Morph all other items in a random row into Nothing.",
+      "rarity": "Rare",
+      "colour": "000000ff"
     },
     "Food": {
       "id": "Food",
-      "name": "Food Box",
-      "description": "On Click: Eat this box, Destroying it.",
+      "name": "Food",
+      "description": "Use: Eat this.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Ice": {
       "id": "Ice",
-      "name": "Ice Box",
-      "description": "For the next 3 Opens, you can't Open adjacent boxes.",
+      "name": "Snowflake",
+      "description": "For the next 3 Equips, you can't Equip nearby items.",
       "rarity": "Token",
       "colour": "51fffaff"
     },
     "Impatient": {
       "id": "Impatient",
-      "name": "Impatient Box",
-      "description": "Whenever you Reveal a box in this row, Open it.",
+      "name": "Impatient item",
+      "description": "Whenever you Reveal an item in this row, Equip it.",
       "rarity": "Epic",
       "colour": "ff0000ff"
     },
     "Impossi": {
       "id": "Impossi",
-      "name": "Impossibox",
-      "description": "After you Open a box, 2% chance to Win.",
-      "rarity": "Rare",
+      "name": "Stained Glass",
+      "description": "After you Equip an item, 5% chance to Win.",
+      "rarity": "Legendary",
       "colour": "2c7b7fff"
     },
     "Inescapable": {
       "id": "Inescapable",
-      "name": "Inescapable Box",
-      "description": "On Open: Lose.\nOn Reveal: Transform 2 random unrevealed boxes into Inescapable Boxes.",
+      "name": "The Inescapable",
+      "description": "On Equip: Lose.\nOn Reveal: Morph 2 random Hidden items into The Inescapable.",
       "rarity": "Legendary",
       "colour": "000000ff"
     },
     "Info": {
       "id": "Info",
-      "name": "Info Box",
-      "description": "On Open: Reveal 2 random adjacent boxes.",
+      "name": "Newspaper",
+      "description": "On Equip: Reveal 2 random nearby items.",
       "rarity": "Common",
-      "colour": "5f1501ff"
+      "colour": "828282ff"
     },
     "Inky": {
       "id": "Inky",
-      "name": "Ink Box",
-      "description": "The next time a box would be Revealed, Destroy this instead.",
-      "rarity": "Uncommon",
-      "colour": "000000ff"
+      "name": "Ink",
+      "description": "The next time an item would be Revealed, this Breaks instead.",
+      "rarity": "Common",
+      "colour": "868194ff"
     },
     "InstaOpener": {
       "id": "InstaOpener",
-      "name": "Insta-Opener Box",
-      "description": "On Open: Open the boxes to the left and right of this.",
+      "name": "Crab",
+      "description": "On Equip: Equip the items to the left and right of this.",
       "rarity": "Common",
-      "colour": "d8d9d2ff"
+      "colour": "d76b52ff"
     },
     "Invert": {
       "id": "Invert",
-      "name": "Inverted Box",
+      "name": "Scales",
       "description": "Winning and Losing are inverted.",
       "rarity": "Rare",
-      "colour": "000000ff"
+      "colour": "332c18ff"
     },
     "Ivy": {
       "id": "Ivy",
-      "name": "Ivy Box",
-      "description": "On Open: Transform a random box directly above this into an Ivy Box.",
+      "name": "Ivy",
+      "description": "On Equip: Morph a random item directly above this into Ivy.",
       "rarity": "Token",
-      "colour": "349c38ff"
+      "colour": "253926ff"
     },
     "JackInThe": {
       "id": "JackInThe",
-      "name": "Jack-In-The-Box",
-      "description": "Every 5 Opens, Close 1 random other box.",
-      "rarity": "Rare",
-      "colour": "494d5cff"
+      "name": "Sticky Hand",
+      "description": "Every 2 Equips, Unequip 1 random other item.",
+      "rarity": "Legendary",
+      "colour": "ff7621ff"
     },
     "JellyGBox": {
       "id": "JellyGBox",
-      "name": "Jelly G.'s Box",
-      "description": "On Click: 70% chance to Reveal 1 random box. Otherwise, Destroy this.",
+      "name": "Jelly G.",
+      "description": "Use: 70% chance to Reveal 1 random item. Otherwise, Breaks.",
       "rarity": "Rare",
       "colour": "000000ff"
     },
+    "JumpRope": {
+      "id": "JumpRope",
+      "name": "Jump Rope",
+      "description": "On Equip: Reveal 1 random item, then Morph 2 random items into Jump Ropes.",
+      "rarity": "Rare",
+      "colour": "fff78cff"
+    },
     "Jumpscare": {
       "id": "Jumpscare",
-      "name": "Jumpscare Box",
-      "description": "On Open: If no other boxes are Open, Lose.",
+      "name": "Bear",
+      "description": "On Equip: If no other items are Equipped, Lose.",
       "rarity": "Rare",
       "colour": "05150bff"
     },
     "Key": {
       "id": "Key",
-      "name": "Key Box",
-      "description": "If the next box you Open is a Lockbox, Win.",
+      "name": "Key",
+      "description": "If the next item you Equip is a Lock, Win.",
       "rarity": "Common",
-      "colour": "000000ff"
+      "colour": "fff97dff"
     },
     "Lock": {
       "id": "Lock",
-      "name": "Lockbox",
-      "description": "Secrets inside - if only you had a Key Box...",
+      "name": "Lock",
+      "description": "Can be opened by a Key!",
       "rarity": "Token",
-      "colour": "000000ff"
+      "colour": "343434ff"
     },
     "Ladder": {
       "id": "Ladder",
-      "name": "Ladder Box",
-      "description": "If at any point exactly one box in each row is Open, Win.",
+      "name": "Ladder",
+      "description": "When there is exactly 1 Equipped item in each row, Win.",
       "rarity": "Common",
-      "colour": "002870ff"
+      "colour": "fff8f7ff"
+    },
+    "LandMine": {
+      "id": "LandMine",
+      "name": "Mine",
+      "description": "On Equip: Break nearby items.\nIf Broken, Reveals itself.",
+      "rarity": "Board",
+      "colour": "940000ff"
     },
     "Legacy": {
       "id": "Legacy",
-      "name": "Legacy Box",
-      "description": "On Click: Win.\n5 uses left... PERMANENTLY!",
+      "name": "Legacy item",
+      "description": "Use: Win.\n5 Uses left... PERMANENTLY!",
       "rarity": "Legendary",
       "colour": "000000ff"
     },
     "Locust": {
       "id": "Locust",
-      "name": "Locust Box",
-      "description": "After you Open a box, Destroy the leftmost box in each row.",
+      "name": "Termite",
+      "description": "After you Equip an item, Break the leftmost item in each row.",
       "rarity": "Legendary",
       "colour": "75da89ff"
     },
     "Logical": {
       "id": "Logical",
-      "name": "Logical Box",
-      "description": "Whenever a box is Destroyed, Reveal it.",
+      "name": "Clue",
+      "description": "Whenever an item is Broken, Reveal it.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Lonely": {
       "id": "Lonely",
-      "name": "Lonely Box",
-      "description": "On Open: If this is adjacent to a Destroyed box, Lose.",
+      "name": "Lonely item",
+      "description": "On Equip: If this is near a Broken item, Lose.",
       "rarity": "Common",
       "colour": "ffffffff"
     },
     "Loser": {
       "id": "Loser",
-      "name": "L Box",
-      "description": "If at any point an entire row of boxes is Open, Lose.",
+      "name": "L",
+      "description": "When an entire row of items is Equipped, Lose.",
       "rarity": "Uncommon",
       "colour": "e86effff"
     },
     "Lucky": {
       "id": "Lucky",
-      "name": "Lucky Box",
-      "description": "Double all percentage chances on boxes.",
+      "name": "Clover",
+      "description": "Double all percentage chances on items.",
       "rarity": "Epic",
-      "colour": "000000ff"
+      "colour": "693633ff"
     },
     "Lunar": {
       "id": "Lunar",
-      "name": "Lunar Box",
-      "description": "On Click: Close 5 random other boxes, then Destroy this.",
+      "name": "Tree",
+      "description": "Use: Break this to Unequip 5 random items.",
       "rarity": "Rare",
-      "colour": "356354ff"
+      "colour": "efd871ff"
     },
     "MadScientist": {
       "id": "MadScientist",
-      "name": "Mad Scientist Box",
-      "description": "After Transforming 8 boxes, Win.",
+      "name": "Mad Scientist",
+      "description": "After Morphing 8 items, Win.",
       "rarity": "Rare",
       "colour": "868983ff"
     },
     "Map": {
       "id": "Map",
-      "name": "Map Box",
-      "description": "On Open: Reveal the X Box.",
-      "rarity": "Common",
-      "colour": "dcd75eff"
+      "name": "Map",
+      "description": "On Equip: Reveal Treasure.",
+      "rarity": "Uncommon",
+      "colour": "d52522ff"
     },
     "Treasure": {
       "id": "Treasure",
-      "name": "X Box",
-      "description": "On Open: If there is an unbroken path of Open boxes to a Map Box, Win.",
+      "name": "Treasure",
+      "description": "On Equip: If there is an unbroken path of Equipped items to a Map, Win.",
       "rarity": "Token",
       "colour": "fffcadff"
     },
+    "Mask": {
+      "id": "Mask",
+      "name": "Mask",
+      "description": "Every 3 Equips, Break 1 random Equipped item.",
+      "rarity": "Uncommon",
+      "colour": "ffffffff"
+    },
+    "Microphone": {
+      "id": "Microphone",
+      "name": "Microphone",
+      "description": "When 10 other items are Equipped, Break this and Reveal 3 random nearby items.",
+      "rarity": "Gift",
+      "colour": "777777ff"
+    },
     "Microscope": {
       "id": "Microscope",
-      "name": "Microscope Box",
-      "description": "When you try to Open an unrevealed box, 15% chance to Reveal it instead.",
+      "name": "Sword",
+      "description": "When you try to Equip a Hidden item, 15% chance to Reveal it instead.",
       "rarity": "Uncommon",
-      "colour": "389da7ff"
+      "colour": "898989ff"
     },
     "Microtransaction": {
       "id": "Microtransaction",
       "name": "Shatterbox",
-      "description": "On Click: Spend 3 Orbs to Win.",
+      "description": "Use: Spend 3 Orbs to Win.",
       "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Mimic": {
       "id": "Mimic",
-      "name": "Box Mimic",
-      "description": "If Revealed, appears to be a random other box. On Open: 50% chance to Lose.",
-      "rarity": "Rare",
-      "colour": "6a5757ff"
+      "name": "Mimic",
+      "description": "Appears to be another item from the pyramid until Equipped.\nOn Equip: Lose.",
+      "rarity": "Exquisite",
+      "colour": "000000ff"
     },
     "Mine": {
       "id": "Mine",
-      "name": "Mine Box",
-      "description": "Whenever you Open an adjacent box, this box gains 1 Gold.",
-      "rarity": "Common",
-      "colour": "4c2b17ff"
+      "name": "Pickaxe",
+      "description": "After Equipping a nearby item, this gains 1 Gold.",
+      "rarity": "Uncommon",
+      "colour": "7a5b30ff"
+    },
+    "Mirror": {
+      "id": "Mirror",
+      "name": "Mirror",
+      "description": "When this is Equipped, Revealed, Morphed, Unequipped, or Broken, do the same to all nearby items.",
+      "rarity": "Epic",
+      "colour": "00ab9aff"
     },
     "Monopoly": {
       "id": "Monopoly",
-      "name": "Monopoly Box",
-      "description": "Holds 1 Gold. On Click: 50% chance to double this box's Gold. Otherwise, Destroy this.",
+      "name": "Top Hat",
+      "description": "Holds 2 Gold. Use: 50% chance to double this item's Gold. Otherwise, Breaks.",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Monster": {
       "id": "Monster",
-      "name": "Monster Box",
-      "description": "After you Open a box, Destroys a random adjacent box and Swaps with it.",
+      "name": "Devourer",
+      "description": "After you Equip an item, Breaks a random nearby item and Swaps with it.",
       "rarity": "Rare",
       "colour": "ae5b8aff"
     },
+    "MusicNote": {
+      "id": "MusicNote",
+      "name": "Music Note",
+      "description": "After you Equip an item, if all Revealed items are Equipped, Reveal 1 random item.",
+      "rarity": "Gift",
+      "colour": "ffffffff"
+    },
     "Negative": {
       "id": "Negative",
-      "name": "Negative Box",
+      "name": "Negative item",
       "description": "If you would Win, 25% chance to prevent that Win.",
       "rarity": "Token",
       "colour": "a09a9aff"
     },
+    "Nessie": {
+      "id": "Nessie",
+      "name": "Nessie",
+      "description": "On Equip: If another Nessie is Equipped, Lose. Otherwise, Morph 1 random Unequipped item into a Nessie.",
+      "rarity": "Common",
+      "colour": "ffffffff"
+    },
+    "Notepad": {
+      "id": "Notepad",
+      "name": "Notepad",
+      "description": "On Equip or Round Start: Reveal all nearby items. When you next Equip one, Break the others.",
+      "rarity": "Gift",
+      "colour": "fbffb2ff"
+    },
+    "N1": {
+      "id": "N1",
+      "name": "One",
+      "description": "On Equip: Lose.",
+      "rarity": "Board",
+      "colour": "544782ff"
+    },
+    "N2": {
+      "id": "N2",
+      "name": "Two",
+      "description": "After you Equip a number, Reveal its double.",
+      "rarity": "Board",
+      "colour": "b38436ff"
+    },
+    "N3": {
+      "id": "N3",
+      "name": "Three",
+      "description": "On Equip: Reveal 3 random odd numbers.",
+      "rarity": "Board",
+      "colour": "7fb656ff"
+    },
+    "N4": {
+      "id": "N4",
+      "name": "Four",
+      "description": "On Equip: Reveal Five.",
+      "rarity": "Board",
+      "colour": "e648baff"
+    },
+    "N5": {
+      "id": "N5",
+      "name": "Five",
+      "description": "On Equip: Break Six.",
+      "rarity": "Board",
+      "colour": "8fd548ff"
+    },
+    "N6": {
+      "id": "N6",
+      "name": "Six",
+      "description": "If this is Broken by Five while Equipped, Win. If Broken by anything else, Lose.",
+      "rarity": "Board",
+      "colour": "e8faccff"
+    },
+    "N7": {
+      "id": "N7",
+      "name": "Seven",
+      "description": "Whenever you Equip a multiple of 7, 7% chance to Win.",
+      "rarity": "Board",
+      "colour": "6eb4e6ff"
+    },
+    "N8": {
+      "id": "N8",
+      "name": "Eight",
+      "description": "Use: Choose a number less than 8. Unequip it and Square it.",
+      "rarity": "Board",
+      "colour": "6c9d3aff"
+    },
+    "N9": {
+      "id": "N9",
+      "name": "Nine",
+      "description": "On Equip: If exactly 9 other items are Equipped, Reveal 5 random items.\n(9 items currently Equipped.)",
+      "rarity": "Board",
+      "colour": "e516ecff"
+    },
+    "N10": {
+      "id": "N10",
+      "name": "Ten",
+      "description": "On Equip: Reveal a random multiple of 4.",
+      "rarity": "Board",
+      "colour": "a5fab4ff"
+    },
+    "N11": {
+      "id": "N11",
+      "name": "Eleven",
+      "description": "If you Equip a multiple of 11, Win.",
+      "rarity": "Board",
+      "colour": "d3684bff"
+    },
+    "N12": {
+      "id": "N12",
+      "name": "Twelve",
+      "description": "The next time you Equip a number, Break this. If it was less than this, Reveal that many random items.",
+      "rarity": "Board",
+      "colour": "e56900ff"
+    },
+    "N13": {
+      "id": "N13",
+      "name": "Thirteen",
+      "description": "After you Equip a number, % chance to Lose equal to it.",
+      "rarity": "Board",
+      "colour": "105b7aff"
+    },
+    "N14": {
+      "id": "N14",
+      "name": "Fourteen",
+      "description": "Use: Choose an Equipped number.\nIf it's a multiple of 4, Unequip it. Otherwise, Break it and this.",
+      "rarity": "Board",
+      "colour": "fe955eff"
+    },
+    "N15": {
+      "id": "N15",
+      "name": "Fifteen",
+      "description": "When 5 or more Equipped numbers are 10 or less, Win.\n(15 currently Equipped.)",
+      "rarity": "Board",
+      "colour": "7014abff"
+    },
+    "N16": {
+      "id": "N16",
+      "name": "Sixteen",
+      "description": "Whenever you Equip a multiple of 6, Break it.",
+      "rarity": "Board",
+      "colour": "853fb1ff"
+    },
+    "N17": {
+      "id": "N17",
+      "name": "Seventeen",
+      "description": "On Equip: 17% chance to Win.",
+      "rarity": "Board",
+      "colour": "3c304eff"
+    },
+    "N18": {
+      "id": "N18",
+      "name": "Eighteen",
+      "description": "Odd numbers cannot be Equipped. If you try to Equip one, Reveal it instead.",
+      "rarity": "Board",
+      "colour": "a08f9dff"
+    },
+    "N19": {
+      "id": "N19",
+      "name": "Nineteen",
+      "description": "If you would Equip a perfect cube, Break it and Reveal items near it instead.",
+      "rarity": "Board",
+      "colour": "fd4e97ff"
+    },
+    "N20": {
+      "id": "N20",
+      "name": "Twenty",
+      "description": "On Equip: Breaks random other Revealed numbers until at least 100 is added to the Break Total.",
+      "rarity": "Board",
+      "colour": "d813e3ff"
+    },
+    "N21": {
+      "id": "N21",
+      "name": "Twenty One",
+      "description": "Use: Break and Reveal 2 random numbers. If the difference between them was 8 or less, Reveal all numbers inbetween.",
+      "rarity": "Board",
+      "colour": "f77ca1ff"
+    },
+    "N22": {
+      "id": "N22",
+      "name": "Twenty Two",
+      "description": "If at any point, Equip Total exceeds 500, Lose.",
+      "rarity": "Board",
+      "colour": "d5b733ff"
+    },
+    "N23": {
+      "id": "N23",
+      "name": "Twenty Three",
+      "description": "Use: Break a random Equipped number. If at any point Equip Total is exactly 230, Win. ",
+      "rarity": "Board",
+      "colour": "e304d3ff"
+    },
+    "N24": {
+      "id": "N24",
+      "name": "Twenty Four",
+      "description": "If you Equip a perfect square, Lose.",
+      "rarity": "Board",
+      "colour": "b8455bff"
+    },
+    "N25": {
+      "id": "N25",
+      "name": "Twenty Five",
+      "description": "On Equip: If Five is Equipped, Reveal 5 random items.",
+      "rarity": "Board",
+      "colour": "9f583fff"
+    },
+    "N26": {
+      "id": "N26",
+      "name": "Twenty Six",
+      "description": "Use: Choose 2 numbers less than 26. Reveal their sum and Break this.",
+      "rarity": "Board",
+      "colour": "cc45f3ff"
+    },
+    "N27": {
+      "id": "N27",
+      "name": "Twenty Seven",
+      "description": "On Equip: Break and Reveal nearby prime numbers.",
+      "rarity": "Board",
+      "colour": "2b32e6ff"
+    },
+    "N28": {
+      "id": "N28",
+      "name": "Twenty Eight",
+      "description": "On Equip: Reveal 2 random non-numbers.",
+      "rarity": "Board",
+      "colour": "0afb54ff"
+    },
+    "N29": {
+      "id": "N29",
+      "name": "Twenty Nine",
+      "description": "When the Equipped numbers in this row sum to 150 or more, Win.\n(Current total: 29)",
+      "rarity": "Board",
+      "colour": "afe509ff"
+    },
+    "N30": {
+      "id": "N30",
+      "name": "Thirty",
+      "description": "On Equip: Reveal random numbers until at least 100 is added to Reveal Total.",
+      "rarity": "Board",
+      "colour": "a04f77ff"
+    },
+    "N31": {
+      "id": "N31",
+      "name": "Thirty One",
+      "description": "On Equip: Unequip all multiples of 10. If none were Equipped, Equip Ten instead.",
+      "rarity": "Board",
+      "colour": "3ef118ff"
+    },
+    "N32": {
+      "id": "N32",
+      "name": "Thirty Two",
+      "description": "On Equip: Fix random Broken numbers until Break Total is 32 or less.",
+      "rarity": "Board",
+      "colour": "d145c2ff"
+    },
+    "N33": {
+      "id": "N33",
+      "name": "Thirty Three",
+      "description": "Whenever you Equip a prime number, Reveal 1 random non-prime near it.",
+      "rarity": "Board",
+      "colour": "c9b06fff"
+    },
+    "N34": {
+      "id": "N34",
+      "name": "Thirty Four",
+      "description": "On Equip: Sort this row.",
+      "rarity": "Board",
+      "colour": "87afc6ff"
+    },
+    "N35": {
+      "id": "N35",
+      "name": "Thirty Five",
+      "description": "Use: Unequip this and Morph it into a random number between 1 and 10.",
+      "rarity": "Board",
+      "colour": "7ef9c4ff"
+    },
+    "N36": {
+      "id": "N36",
+      "name": "Thirty Six",
+      "description": "When a run of 4 numbers is Equipped (e.g. 3, 4, 5, 6), Win.",
+      "rarity": "Board",
+      "colour": "b5126aff"
+    },
+    "N37": {
+      "id": "N37",
+      "name": "Thirty Seven",
+      "description": "On Equip: If Five is Equipped, Win. Otherwise, Lose.",
+      "rarity": "Board",
+      "colour": "c6dd6fff"
+    },
+    "N38": {
+      "id": "N38",
+      "name": "Thirty Eight",
+      "description": "On Equip: Reveal all nearby numbers. If their total adds up to 150 or more, Lose.",
+      "rarity": "Board",
+      "colour": "25929bff"
+    },
+    "N39": {
+      "id": "N39",
+      "name": "Thirty Nine",
+      "description": "When Break Total exceeds 200, Lose.",
+      "rarity": "Board",
+      "colour": "1748f9ff"
+    },
+    "N40": {
+      "id": "N40",
+      "name": "Forty",
+      "description": "When a Revealed multiple of 3 is near this, Break it.",
+      "rarity": "Board",
+      "colour": "8fec4dff"
+    },
+    "N41": {
+      "id": "N41",
+      "name": "Forty One",
+      "description": "Whenever you Equip a multiple of 5, Reveal 1 random number.",
+      "rarity": "Board",
+      "colour": "c4604fff"
+    },
+    "N42": {
+      "id": "N42",
+      "name": "Forty Two",
+      "description": "Use: Choose a number. Break it and this, then Reveal a random number higher and a random number lower than it.",
+      "rarity": "Board",
+      "colour": "1ea84cff"
+    },
+    "N43": {
+      "id": "N43",
+      "name": "Forty Three",
+      "description": "Use: Reveal a random item. If it was an odd number, Break this.",
+      "rarity": "Board",
+      "colour": "f8d3e9ff"
+    },
+    "N44": {
+      "id": "N44",
+      "name": "Forty Four",
+      "description": "If you would Win and Equip Total is above 300, Break 5 random Equipped numbers instead.",
+      "rarity": "Board",
+      "colour": "4cf152ff"
+    },
+    "N45": {
+      "id": "N45",
+      "name": "Forty Five",
+      "description": "The next time you Equip a number, Break this. If it was greater than this, Win.",
+      "rarity": "Board",
+      "colour": "1e6164ff"
+    },
+    "N46": {
+      "id": "N46",
+      "name": "Forty Six",
+      "description": "Use: Choose a number. Unequip this and Morph this into it plus 1.",
+      "rarity": "Board",
+      "colour": "e3b912ff"
+    },
+    "N47": {
+      "id": "N47",
+      "name": "Forty Seven",
+      "description": "Use: Choose a number. Unequip this and Morph this into it minus 1.",
+      "rarity": "Board",
+      "colour": "a0b026ff"
+    },
+    "N48": {
+      "id": "N48",
+      "name": "Forty Eight",
+      "description": "Whenever you Equip a number, Break and Reveal a random number less than it.",
+      "rarity": "Board",
+      "colour": "4affc7ff"
+    },
+    "N49": {
+      "id": "N49",
+      "name": "Forty Nine",
+      "description": "Whenever you Equip a number, Reveal its successor.",
+      "rarity": "Board",
+      "colour": "f43cb9ff"
+    },
+    "N50": {
+      "id": "N50",
+      "name": "Fifty",
+      "description": "When Equip Total is a multiple of 50, Win.",
+      "rarity": "Board",
+      "colour": "4bc6cfff"
+    },
     "OneGold": {
       "id": "OneGold",
-      "name": "Penny Box",
+      "name": "Penny",
       "description": "Holds 1 Gold.",
       "rarity": "Common",
       "colour": "faff9eff"
     },
     "OrbBlast": {
       "id": "OrbBlast",
-      "name": "Orb Blast Box",
-      "description": "On Open: Transform 1 random box in each direction from this into an Orb Box.",
-      "rarity": "Rare",
-      "colour": "999dc7ff"
+      "name": "Basket",
+      "description": "On Equip: Morph 1 random item in each direction from this into a Fruit.",
+      "rarity": "Epic",
+      "colour": "af9031ff"
     },
     "Orb": {
       "id": "Orb",
-      "name": "Orb Box",
-      "description": "On Open: If all Orb Boxes are Open, Win.",
+      "name": "Fruit",
+      "description": "On Equip: If all Fruit are Equipped, Win.",
       "rarity": "Token",
-      "colour": "ffffffff"
+      "colour": "e5554eff"
     },
     "Otherworld": {
       "id": "Otherworld",
-      "name": "Otherworld Box",
-      "description": "On Click: Transform ALL Revealed boxes into random boxes.",
-      "rarity": "Epic",
-      "colour": "bfbfbfff"
+      "name": "Door",
+      "description": "Use: Morph ALL Revealed items.",
+      "rarity": "Legendary",
+      "colour": "ffffffff"
     },
     "Pandoras": {
       "id": "Pandoras",
-      "name": "Pandora's Box",
-      "description": "On Open: Transform all other Revealed boxes into Skull Boxes.",
+      "name": "Skeleton",
+      "description": "On Equip: Morph all other Revealed items into Skulls.",
       "rarity": "Legendary",
-      "colour": "bb8f73ff"
+      "colour": "ffffffff"
     },
     "Patterned": {
       "id": "Patterned",
-      "name": "Patterned Box",
-      "description": "On Open: For each adjacent box, Transform 1 random box into a copy of it.",
+      "name": "Scissors",
+      "description": "On Equip: For each nearby item, Morph 1 random item into it.",
       "rarity": "Rare",
-      "colour": "000000ff"
+      "colour": "b3b3b3ff"
     },
     "PayForReveals": {
       "id": "PayForReveals",
-      "name": "Telescope Box",
-      "description": "On Click: Spend 1 Gold to Reveal 1 random box.",
+      "name": "Telescope",
+      "description": "Use: Spend 1 Gold to Reveal 1 random item.",
       "rarity": "Common",
-      "colour": "ffffffff"
+      "colour": "253178ff"
+    },
+    "Petal": {
+      "id": "Petal",
+      "name": "Petal",
+      "description": "The next 2 times a Hidden item Morphs, Reveal it.",
+      "rarity": "Gift",
+      "colour": "ff6c9eff"
+    },
+    "PiggyBank": {
+      "id": "PiggyBank",
+      "name": "Piggy Bank",
+      "description": "After you Equip an item that can spend Gold, this gains 3 Gold.",
+      "rarity": "Gift",
+      "colour": "e06becff"
     },
     "Poison": {
       "id": "Poison",
-      "name": "Poison Box",
-      "description": "After Opening 8 boxes, Lose.",
+      "name": "Poison",
+      "description": "After Equipping 8 items, Lose.",
       "rarity": "Common",
-      "colour": "4cb84cff"
+      "colour": "24b530ff"
     },
     "Antidote": {
       "id": "Antidote",
-      "name": "Antidote Box",
-      "description": "On Open: Destroy all Revealed Poison Boxes and Viral Boxes.",
+      "name": "Antidote",
+      "description": "On Equip: Break all Revealed Poisons and Viruses.",
       "rarity": "Common",
       "colour": "311010ff"
     },
     "Police": {
       "id": "Police",
-      "name": "Police Box",
-      "description": "On Open: If 12 other boxes are Open, Lose.",
+      "name": "Bubble",
+      "description": "On Equip: If at least 10 other items are Equipped, Lose.",
       "rarity": "Common",
-      "colour": "285680ff"
+      "colour": "4489ccff"
     },
     "Polterbox": {
       "id": "Polterbox",
-      "name": "Polterbox",
-      "description": "On Click: Choose a box. Swap it with a random other box.\nCan be used 3 times.",
+      "name": "Poltergeist",
+      "description": "Use: Choose an item. Swap it with a random item near this.\nCan be Used 3 times.",
       "rarity": "Rare",
-      "colour": "403e75ff"
+      "colour": "736effff"
     },
     "Portal": {
       "id": "Portal",
-      "name": "Portal Box",
-      "description": "On Click: Choose a box.\nThis box Swaps with it.\nCan be used 2 times.",
+      "name": "Portal",
+      "description": "Use: Choose 2 items to Swap.\nCan be Used once.",
       "rarity": "Uncommon",
-      "colour": "030000ff"
+      "colour": "fefefeff"
+    },
+    "Potion": {
+      "id": "Potion",
+      "name": "Potion",
+      "description": "Immutable.\nUse: Give +1 Use to all non-Potion Equipped limited Use items.\nCan be Used once.",
+      "rarity": "Gift",
+      "colour": "cb3131ff"
     },
     "PriceyRowRevealer": {
       "id": "PriceyRowRevealer",
-      "name": "Psychic Box",
-      "description": "On Click: Spend 3 Gold to Reveal all boxes in a random row.",
+      "name": "Wishing Well",
+      "description": "Use: Spend 3 Gold to Reveal all items in a random row.",
       "rarity": "Uncommon",
-      "colour": "d40000ff"
+      "colour": "b2f5ffff"
     },
     "Programmed": {
       "id": "Programmed",
-      "name": "Programmed Box",
-      "description": "For the next 4 Opens, you can only Open the highest boxes.",
-      "rarity": "Rare",
+      "name": "Terminal",
+      "description": "Immutable.\nYou can only Equip items in the highest row with no Equipped items.",
+      "rarity": "Board",
       "colour": "050606ff"
     },
     "Puzzle": {
       "id": "Puzzle",
-      "name": "Puzzle Box",
-      "description": "If at any point 30 boxes or more are Destroyed, Win.\nOn Click: Destroy 6 random boxes.",
-      "rarity": "Uncommon",
-      "colour": "b09d72ff"
+      "name": "Puzzle",
+      "description": "When there are 30 Broken items, Win.\nUse: Break 6 random items.",
+      "rarity": "Rare",
+      "colour": "aa9f81ff"
     },
     "Queen": {
       "id": "Queen",
-      "name": "Queen Box",
-      "description": "After Opening 3 boxes in any direction from this, Lose.",
-      "rarity": "Token",
-      "colour": "000000ff"
+      "name": "Queen",
+      "description": "After you Equip an item in any direction, Swaps with it.\nAfter doing this 3 times, Lose.",
+      "rarity": "Rare",
+      "colour": "fff4d6ff"
     },
     "Rainbow": {
       "id": "Rainbow",
-      "name": "Rainbow Box",
+      "name": "Rainbow",
       "description": "On Win: Obtain an Orb.",
       "rarity": "Exquisite",
       "colour": "68ff4fff"
     },
     "DrainedRainbow": {
       "id": "DrainedRainbow",
-      "name": "Drained Box",
+      "name": "Drainedbow",
       "description": "Nope.",
       "rarity": "Token",
       "colour": "d2d2d2ff"
     },
     "BoxOGold": {
       "id": "BoxOGold",
-      "name": "Box O' Gold",
+      "name": "Pot O' Gold",
       "description": "Holds 10 Gold.",
       "rarity": "Legendary",
       "colour": "393939ff"
     },
     "Reset": {
       "id": "Reset",
-      "name": "Reset Box",
-      "description": "On Open: Close, Unreveal, and Transform all Open boxes within 2 spaces of this.",
+      "name": "Bin",
+      "description": "On Equip: Unequip, Hide, and Morph Equipped items within 2 spaces.",
       "rarity": "Rare",
-      "colour": "d8201fff"
+      "colour": "929292ff"
+    },
+    "Revolver": {
+      "id": "Revolver",
+      "name": "Revolver",
+      "description": "Use: Choose an item.\nSpend 1 Gold to Break it.",
+      "rarity": "Rare",
+      "colour": "999999ff"
     },
     "Ritual": {
       "id": "Ritual",
-      "name": "Ritual Box",
-      "description": "After you Open a box, gains a charge.\nOn Click: Destroy this and Reveal  random boxes equal to its charge. ",
-      "rarity": "Rare",
-      "colour": "078b53ff"
+      "name": "Scroll",
+      "description": "After you Equip an item, gains a charge.\nUse: Break this to Reveal random items equal to its charges. ",
+      "rarity": "Epic",
+      "colour": "4add7cff"
     },
     "Rocket": {
       "id": "Rocket",
-      "name": "Rocket Box",
-      "description": "On Open: Destroy 3 random other boxes.",
-      "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "name": "Rocket",
+      "description": "On Equip: Break 3 random other Revealed items.",
+      "rarity": "Rare",
+      "colour": "e8eaeaff"
     },
     "Rogue": {
       "id": "Rogue",
-      "name": "Rogue Box",
-      "description": "After you Open a box, Swaps with an adjacent box. If this box is Destroyed, Lose.",
-      "rarity": "Token",
-      "colour": "7f7f7fff"
+      "name": "@",
+      "description": "Immutable.\nYou can only Equip items near this.\nAfter you Equip an item, this Swaps with it.",
+      "rarity": "Board",
+      "colour": "000000ff"
     },
     "RowBomb": {
       "id": "RowBomb",
-      "name": "Rowbomb Box",
-      "description": "If you Open another box in the same row as this, explodes, Destroying all boxes in the row.",
+      "name": "Uranium",
+      "description": "If you Equip another item in the same row as this, Break all items in this row.",
       "rarity": "Uncommon",
-      "colour": "ff6464ff"
+      "colour": "5dff51ff"
     },
     "RowGold": {
       "id": "RowGold",
-      "name": "Rowgold Box",
-      "description": "Holds 1 Gold for each other Open box in this row.",
-      "rarity": "Common",
+      "name": "Rowgold",
+      "description": "Holds 1 Gold for each other Equipped item in this row.",
+      "rarity": "Rare",
       "colour": "000000ff"
     },
     "RowSweeper": {
       "id": "RowSweeper",
-      "name": "Row-Sweeper Box",
-      "description": "Displays the number of boxes in this row that can make you Lose.",
+      "name": "Row-Sweeper",
+      "description": "Displays the number of items in this row that can make you Lose.",
       "rarity": "Token",
-      "colour": "cfccccff"
+      "colour": "a09a9aff"
     },
     "Rowwin": {
       "id": "Rowwin",
-      "name": "Rowwin Box",
-      "description": "On Open: If all boxes in this row are open, Win.",
-      "rarity": "Uncommon",
-      "colour": "fefefeff"
+      "name": "Pancake",
+      "description": "On Equip: If all items in this row are Equipped, Win.",
+      "rarity": "Common",
+      "colour": "dd8e34ff"
     },
     "RowWinseeker": {
       "id": "RowWinseeker",
-      "name": "Row-Winseeker Box",
-      "description": "Displays the number of boxes in this row that can make you Win.",
+      "name": "Row-Winseeker",
+      "description": "Displays the number of items in this row that can make you Win.",
       "rarity": "Token",
       "colour": "ff7d7dff"
     },
     "Sacrificial": {
       "id": "Sacrificial",
-      "name": "Sacrificial Box",
-      "description": "On Click: Destroy 1 random box, then Reveal 1 random box.\nCan be used 5 times.",
+      "name": "Staff",
+      "description": "Use: Break 1 random item, then Reveal 1 random item.\nCan be Used 4 times.",
       "rarity": "Common",
-      "colour": "7f3a3aff"
+      "colour": "e25656ff"
     },
     "Safeguard": {
       "id": "Safeguard",
-      "name": "Safeguard Box",
-      "description": "On Click: Choose an unrevealed box. Reveal it.\nCan be used 1 time.",
+      "name": "Camera",
+      "description": "The next 2 times you try to Equip a Hidden item, Reveal it instead.",
       "rarity": "Common",
-      "colour": "5de8ffff"
+      "colour": "050505ff"
+    },
+    "Satellite": {
+      "id": "Satellite",
+      "name": "Satellite",
+      "description": "Whenever you Reveal an item, 2% chance to Morph it into a Flag.",
+      "rarity": "Gift",
+      "colour": "494646ff"
     },
     "School": {
       "id": "School",
-      "name": "Ocean Box",
-      "description": "On Open: Transform 3 random unrevealed boxes into Fish Boxes.",
+      "name": "Ocean",
+      "description": "On Equip: Morph 3 random Hidden items into Fish.",
       "rarity": "Uncommon",
-      "colour": "739df6ff"
+      "colour": "7296f5ff"
     },
     "Fish": {
       "id": "Fish",
-      "name": "Fish Box",
-      "description": "On Open: If 3 or more Fish Boxes are Open, Win.",
+      "name": "Fish",
+      "description": "On Equip: If 3 or more Fish are Equipped, Win.",
       "rarity": "Token",
-      "colour": "a8acffff"
+      "colour": "999de9ff"
     },
     "Scrap": {
       "id": "Scrap",
-      "name": "Scrap Box",
-      "description": "Whenever another box is Destroyed, Reveal 1 random box.",
+      "name": "Screw",
+      "description": "Whenever another item is Broken, Reveal 1 random item.",
       "rarity": "Rare",
-      "colour": "000000ff"
+      "colour": "4b4c3eff"
+    },
+    "Script": {
+      "id": "Script",
+      "name": "Script",
+      "description": "On Equip or Round Start: Morph 1 random Hidden item into a Flag.",
+      "rarity": "Gift",
+      "colour": "d1d1d1ff"
     },
     "Searchlight": {
       "id": "Searchlight",
-      "name": "Searchlight Box",
-      "description": "The next time you Open a box, Reveal all boxes adjacent to it.",
+      "name": "Spotlight",
+      "description": "The next time you Equip an item, Reveal items near it.",
       "rarity": "Rare",
-      "colour": "7f7726ff"
+      "colour": "fceb4fff"
+    },
+    "SeeingStone": {
+      "id": "SeeingStone",
+      "name": "Seeing Stone",
+      "description": "Use: Reveal 1 random item.\n25 Uses left.\nOnly regains Uses after you Lose.",
+      "rarity": "Gift",
+      "colour": "ffffffff"
     },
     "SelfDestruct": {
       "id": "SelfDestruct",
-      "name": "Self-Destruct Box",
-      "description": "After opening another box, this explodes, Destroying itself.",
+      "name": "Self-Destructor",
+      "description": "After opening another item, this explodes, Breaking itself.",
       "rarity": "Token",
       "colour": "e43333ff"
     },
     "Sentinel": {
       "id": "Sentinel",
-      "name": "Gazing Box",
-      "description": "Looks towards boxes you Open in any direction. You can't Open boxes it's looking at.",
+      "name": "Eye",
+      "description": "Looks towards items you Equip.\nYou can't Equip items this sees.",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Seven": {
       "id": "Seven",
-      "name": "Seven Box",
-      "description": "On Open: If exactly 7 boxes are Open, including this box, Win.",
+      "name": "Pin",
+      "description": "On Equip: If exactly 10 other items are Equipped, Win.",
       "rarity": "Uncommon",
-      "colour": "be88eeff"
+      "colour": "ce61ffff"
     },
     "Shadow": {
       "id": "Shadow",
-      "name": "Shadow Box",
-      "description": "On Open: Close 1 random box.",
+      "name": "Shadow",
+      "description": "On Equip: Unequip 1 random item.",
       "rarity": "Common",
-      "colour": "161513ff"
+      "colour": "000000ff"
+    },
+    "Shield": {
+      "id": "Shield",
+      "name": "Shield",
+      "description": "If you would Lose, 33% chance for this to Break instead.",
+      "rarity": "Gift",
+      "colour": "cacacaff"
     },
     "Shy": {
       "id": "Shy",
-      "name": "Shy Box",
-      "description": "After you Open a box, 33% chance to Close this box.",
+      "name": "Armadillo",
+      "description": "After you Equip an item, 33% chance to Unequip this item.",
       "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "colour": "80665eff"
     },
     "Skull": {
       "id": "Skull",
-      "name": "Skull Box",
-      "description": "On Open: Lose.",
-      "rarity": "Uncommon",
-      "colour": "000000ff"
+      "name": "Skull",
+      "description": "On Equip: Lose.",
+      "rarity": "Rare",
+      "colour": "1d1d1dff"
     },
     "Sleepy": {
       "id": "Sleepy",
-      "name": "Sleepy Box",
-      "description": "On Open: Reveal and Destroy all Flag and Skull Boxes.",
+      "name": "Sleepyhead",
+      "description": "On Equip: Reveal and Break all Flags and Skulls.",
       "rarity": "Rare",
       "colour": "272f60ff"
     },
     "Slime": {
       "id": "Slime",
-      "name": "Slime Box",
-      "description": "After you Open a box, Destroy this and Transforms two random adjacent boxes into Slime Boxes.",
+      "name": "Slime",
+      "description": "After you Equip an item, Break this and Morph 2 random nearby items into Slimes and Reveal them.",
       "rarity": "Epic",
       "colour": "567c4fff"
     },
     "Slots": {
       "id": "Slots",
-      "name": "Slots Box",
-      "description": "After you Open an adjacent box, Transform 1 random unrevealed box into a Flag Box.",
+      "name": "Slot Machine",
+      "description": "Use: Spend 1 Gold for a 15% chance to Win.",
       "rarity": "Rare",
-      "colour": "576665ff"
+      "colour": "e2e2e2ff"
     },
     "SmartBomb": {
       "id": "SmartBomb",
-      "name": "Smartbomb Box",
-      "description": "On Open: Reveal all adjacent boxes.\nAfter Opening 2 boxes, explodes, Destroying all adjacent boxes.",
+      "name": "Smart Bomb",
+      "description": "On Equip: Reveal all nearby items.\nAfter Equipping 2 items, Break this and nearby items.",
       "rarity": "Uncommon",
-      "colour": "000000ff"
+      "colour": "5b6947ff"
+    },
+    "Snail": {
+      "id": "Snail",
+      "name": "Snail",
+      "description": "When you try to Equip a Hidden item, Reveal it instead.\nEvery 2 times this happens, Equip the top leftmost Revealed item.",
+      "rarity": "Legendary",
+      "colour": "ffe8fdff"
     },
     "Sniper": {
       "id": "Sniper",
-      "name": "Sniper Box",
-      "description": "Whenever another box is Closed, Destroy it.",
+      "name": "Sniper",
+      "description": "Whenever another item would be Unequipped, Break it instead.",
       "rarity": "Epic",
       "colour": "fbfbfbff"
     },
     "Soap": {
       "id": "Soap",
-      "name": "Soap Box",
-      "description": "On Click: Choose a box. Transform it into an Empty Box and Reveal it.\nCan be used 3 times.",
-      "rarity": "Rare",
+      "name": "Soap",
+      "description": "Use: Choose an item to Morph into Nothing.\nCan be Used 3 times.",
+      "rarity": "Legendary",
       "colour": "d5dcb8ff"
     },
     "Speedrun": {
       "id": "Speedrun",
-      "name": "Speedrun Box",
-      "description": "On Open: If no other boxes are Open, Win.",
+      "name": "Speedrun item",
+      "description": "On Equip: If no other items are Equipped, Win.",
       "rarity": "Uncommon",
       "colour": "e1e93fff"
+    },
+    "Spellbook": {
+      "id": "Spellbook",
+      "name": "Spellbook",
+      "description": "Use: Reveal 5 random items, then Morph all Hidden items into Skulls.",
+      "rarity": "Gift",
+      "colour": "6831bcff"
     },
     "Sponge": {
       "id": "Sponge",
       "name": "Spongebox",
-      "description": "On Reveal: Reveal 2 random adjacent boxes.\n(Opening a box counts as Revealing it.)",
+      "description": "On Reveal: Reveal 2 random nearby items.\n(Equipping an item counts as Revealing it.)",
       "rarity": "Token",
       "colour": "fffc61ff"
     },
+    "Spreadsheet": {
+      "id": "Spreadsheet",
+      "name": "Spreadsheet",
+      "description": "On Equip or Round Start: Morph a random nearby item into a Legendary or Exquisite item and Reveal it.",
+      "rarity": "Gift",
+      "colour": "ffffffff"
+    },
+    "Spring": {
+      "id": "Spring",
+      "name": "Spring",
+      "description": "Use: Swap the @ with a random item.\nCan be Used 3 times.",
+      "rarity": "Board",
+      "colour": "a9a9a9ff"
+    },
+    "Spy": {
+      "id": "Spy",
+      "name": "Mirage",
+      "description": "On Equip: Reveal all nearby items. If this is Revealed, it can't be Equipped.",
+      "rarity": "Rare",
+      "colour": "764278ff"
+    },
+    "Squid": {
+      "id": "Squid",
+      "name": "Squid",
+      "description": "Items cannot be Revealed.",
+      "rarity": "Legendary",
+      "colour": "e2caffff"
+    },
     "Stamp": {
       "id": "Stamp",
-      "name": "Stamp Box",
-      "description": "On Open: Reveal all boxes with duplicates.",
+      "name": "Stamp",
+      "description": "On Equip: Reveal duplicate items.",
       "rarity": "Rare",
-      "colour": "932020ff"
+      "colour": "c47035ff"
     },
     "Star": {
       "id": "Star",
-      "name": "Star Box",
-      "description": "On Open: If all adjacent boxes are Open, Win!",
+      "name": "Star",
+      "description": "On Equip: If all nearby items are Equipped, Win!",
       "rarity": "Common",
-      "colour": "ced54aff"
+      "colour": "fdff5dff"
+    },
+    "StopSign": {
+      "id": "StopSign",
+      "name": "Stop Sign",
+      "description": "You can't Use items.",
+      "rarity": "Exquisite",
+      "colour": "f2f2f2ff"
     },
     "Study": {
       "id": "Study",
-      "name": "Study Box",
-      "description": "After you Open a box, 33% chance to Reveal a random box.",
-      "rarity": "Common",
-      "colour": "f3ff57ff"
+      "name": "Pencil",
+      "description": "After you Equip an item, 33% chance to Reveal a random item.",
+      "rarity": "Rare",
+      "colour": "edae10ff"
     },
     "Sus": {
       "id": "Sus",
       "name": "Imboxtor",
-      "description": "On Open: Transform a random unrevealed box into a Box Mimic of another unrevealed box, then Reveal both.",
+      "description": "On Equip: Morph a random Hidden item into a Mimic of another, then Reveal them.",
       "rarity": "Epic",
       "colour": "b32525ff"
     },
     "Sweeper": {
       "id": "Sweeper",
-      "name": "Sweeper Box",
-      "description": "Displays the number of adjacent boxes that can make you Lose.",
+      "name": "Sweeper",
+      "description": "Displays the number of nearby items that can make you Lose.",
       "rarity": "Token",
       "colour": "bdbdbdff"
     },
+    "Sword": {
+      "id": "Sword",
+      "name": "Sword",
+      "description": "When you try to Equip a Monster, Reveal it instead.\nIf you would Lose to a Monster, Win instead.",
+      "rarity": "Token",
+      "colour": "898989ff"
+    },
     "Tape": {
       "id": "Tape",
-      "name": "Tape Box",
-      "description": "On Click: Choose an Open box. Close it.\nCan be used 1 time.",
-      "rarity": "Common",
-      "colour": "b09d4dff"
+      "name": "Bag",
+      "description": "Use: Choose an item to Unequip.\nCan be Used once.",
+      "rarity": "Uncommon",
+      "colour": "968166ff"
+    },
+    "Television": {
+      "id": "Television",
+      "name": "Television",
+      "description": "Use: Break 2 random Revealed items to Reveal 1 random item.",
+      "rarity": "Rare",
+      "colour": "00c000ff"
     },
     "Temporal": {
       "id": "Temporal",
-      "name": "Temporal Box",
-      "description": "If you would Lose, Destroy this and rewind time to when it first became Open.\nYou keep what boxes were Revealed.",
+      "name": "Time Machine",
+      "description": "Use: rewind time to when this first became Equip, then Break this.\nYou keep what items were Revealed.",
       "rarity": "Exquisite",
-      "colour": "e8e695ff"
+      "colour": "f8788aff"
     },
     "Territory": {
       "id": "Territory",
-      "name": "Territory Box",
-      "description": "You can only Open boxes adjacent to another Open box.",
+      "name": "Glue",
+      "description": "You can only Equip items near Equipped items.",
       "rarity": "Uncommon",
-      "colour": "6d2121ff"
+      "colour": "f22e14ff"
     },
     "Tetris": {
       "id": "Tetris",
-      "name": "Tetribox",
-      "description": "Whenever you Open the last Closed box in a row, Reveal 2 random boxes in the row below it.",
+      "name": "Block",
+      "description": "After Equipping the last Unequipped item in a row, Reveal 2 random items in the row below it.",
       "rarity": "Rare",
-      "colour": "e5e500ff"
+      "colour": "ffff00ff"
     },
     "Three": {
       "id": "Three",
-      "name": "Three Box",
-      "description": "On Open: If this is the 3rd time you've Opened this box, Win.",
-      "rarity": "Rare",
-      "colour": "000058ff"
+      "name": "Ticket",
+      "description": "On Equip: If you've Equipped a Ticket 3 or more times this game, Win.",
+      "rarity": "Uncommon",
+      "colour": "3c2e20ff"
     },
     "ThreeD": {
       "id": "ThreeD",
-      "name": "Gogglebox",
-      "description": "On Open: Reveal 3 random boxes.",
+      "name": "Goggles",
+      "description": "On Equip: Reveal 3 random items.",
       "rarity": "Uncommon",
-      "colour": "ffffffff"
+      "colour": "87ba7cff"
     },
     "ThreeGold": {
       "id": "ThreeGold",
-      "name": "Golden Box",
+      "name": "Gold Bar",
       "description": "Holds 3 Gold.",
       "rarity": "Rare",
-      "colour": "e8ff8aff"
+      "colour": "ffef49ff"
+    },
+    "Tinfoil": {
+      "id": "Tinfoil",
+      "name": "Tinfoil",
+      "description": "You can always Equip all items.",
+      "rarity": "Gift",
+      "colour": "a5a5a5ff"
     },
     "Toolbox": {
       "id": "Toolbox",
-      "name": "Toolbox",
-      "description": "On Open: Transform the boxes above this into a Tape Box and a Demolition Box.",
+      "name": "Multi-tool",
+      "description": "On Equip: Morph the items above this into a Bag and a Wrecking Ball.",
       "rarity": "Rare",
       "colour": "c93d3dff"
     },
+    "Top": {
+      "id": "Top",
+      "name": "Top",
+      "description": "Use: 2% chance to Lose.\nOtherwise, Reveal 1 random item and double the chance to lose.",
+      "rarity": "Uncommon",
+      "colour": "ebca00ff"
+    },
     "Trading": {
       "id": "Trading",
-      "name": "Trading Box",
-      "description": "On Click: Close a random other box, then Open a random box.",
+      "name": "Roulette",
+      "description": "Use: Unequip a random other item, then Equip a random item.",
       "rarity": "Epic",
-      "colour": "183f79ff"
+      "colour": "faa300ff"
     },
     "Transmog": {
       "id": "Transmog",
-      "name": "Transmog Box",
-      "description": "On Click: Choose a Revealed box. Transform it into a random box.\nCan be used 1 time.",
-      "rarity": "Uncommon",
-      "colour": "c7ffbaff"
+      "name": "Test Tube",
+      "description": "Use: Choose a Revealed item to Morph.\nCan be Used once.",
+      "rarity": "Rare",
+      "colour": "91668aff"
+    },
+    "Trapdoor": {
+      "id": "Trapdoor",
+      "name": "Trap",
+      "description": "On Equip: 25% chance to Lose.\nAfter Equipping a nearby item, if this is Revealed, Equips itself.",
+      "rarity": "Epic",
+      "colour": "000000ff"
     },
     "Trigaze": {
       "id": "Trigaze",
-      "name": "Tri-gaze Box",
-      "description": "On Open: Reveal the corner boxes.",
+      "name": "Triangle",
+      "description": "On Equip: Reveal the corner items.",
       "rarity": "Common",
-      "colour": "7aea60ff"
+      "colour": "ffffffff"
     },
     "Turret": {
       "id": "Turret",
-      "name": "Turret Box",
-      "description": "After you Open a box, Destroy the box this is pointing at, then this rotates clockwise.",
+      "name": "Turret",
+      "description": "After you Equip an item, Break the item this is pointing at, then rotates clockwise.",
       "rarity": "Rare",
       "colour": "ffffffff"
     },
+    "Twister": {
+      "id": "Twister",
+      "name": "Twister",
+      "description": "After Equipping the last Unequipped item in a row, Reveal 1 random item in the row below it.",
+      "rarity": "Gift",
+      "colour": "e0e006ff"
+    },
     "Two": {
       "id": "Two",
-      "name": "Two Box",
-      "description": "If at any point 2 Revealed boxes adjacent to this are the same, Win.",
-      "rarity": "Rare",
-      "colour": "742323ff"
+      "name": "Sculpture",
+      "description": "When 2 Revealed items near this are the same, Win.",
+      "rarity": "Uncommon",
+      "colour": "898989ff"
     },
     "TwoGold": {
       "id": "TwoGold",
-      "name": "Coin Box",
+      "name": "Coin",
       "description": "Holds 2 Gold.",
-      "rarity": "Uncommon",
-      "colour": "444713ff"
+      "rarity": "Common",
+      "colour": "ffc400ff"
     },
     "UFB": {
       "id": "UFB",
-      "name": "UFB",
-      "description": "After you Open a box directly above this, Swaps with it.\nIf at any point this is in the top row, Win.",
+      "name": "UFO",
+      "description": "After you Equip an item directly above this, Swaps with it.\nWhen this is at the top, Win.",
       "rarity": "Uncommon",
-      "colour": "38923fff"
+      "colour": "2b7030ff"
     },
     "Underrated": {
       "id": "Underrated",
-      "name": "Underrated Box",
-      "description": "On Open: Reveal the unrevealed box you've Opened the least.",
+      "name": "Underrated item",
+      "description": "On Equip: Reveal the Hidden item you've Equipped the least.",
       "rarity": "Token",
       "colour": "ff4d4dff"
     },
     "Underworld": {
       "id": "Underworld",
-      "name": "Underworld Box",
-      "description": "On Open: Lose.\nThen, if you didn't Lose, Win.",
+      "name": "Underworld",
+      "description": "On Equip: Lose.\nThen, if you didn't Lose, Win.",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "Unrevealed": {
       "id": "Unrevealed",
-      "name": "Mystery Box",
-      "description": "Click this box to Open it!",
+      "name": "Box",
+      "description": "Contains a Hidden item.\nClick to Equip it!",
       "rarity": "Token",
       "colour": "000000ff"
     },
     "Unstable": {
       "id": "Unstable",
-      "name": "Unstable Box",
-      "description": "When you try to Open a box, 25% chance to Destroy it instead.",
+      "name": "Sun",
+      "description": "When you try to Equip an item, 25% chance to Break and Reveal it instead.",
       "rarity": "Epic",
-      "colour": "ffffffff"
+      "colour": "ff5b00ff"
     },
     "Vampire": {
       "id": "Vampire",
-      "name": "Vampire Box",
-      "description": "After you Open a box, Destroys 2 random other Revealed boxes. If it can't, Lose.",
+      "name": "Vampire",
+      "description": "After you Equip an item, Breaks 2 random other Revealed items. If it can't, Lose.",
       "rarity": "Epic",
-      "colour": "050404ff"
+      "colour": "000000ff"
+    },
+    "Violin": {
+      "id": "Violin",
+      "name": "Violin",
+      "description": "After you Equip an item, 10% chance to Lose.",
+      "rarity": "Rare",
+      "colour": "ab8660ff"
     },
     "Viral": {
       "id": "Viral",
-      "name": "Viral Box",
-      "description": "After you Open a box, Transform a random box adjacent to this into a Decayed Box, Open it, and Swap with it.",
+      "name": "Virus",
+      "description": "After you Equip an item, Morph a random item near this into Decay, Equip it, and Swap with it.",
       "rarity": "Rare",
       "colour": "f38dffff"
     },
     "Decayed": {
       "id": "Decayed",
-      "name": "Decayed Box",
-      "description": "On Open or Transform: If 5 Decayed Boxes are Open, Lose.",
+      "name": "Decay",
+      "description": "On Equip or Morph: If 5 Decays are Equipped, Lose.",
       "rarity": "Token",
       "colour": "42283bff"
     },
     "Vortex": {
       "id": "Vortex",
-      "name": "Vortex Box",
-      "description": "If at any point all boxes within 2 spaces of this are Open, Win.",
+      "name": "V(ort)ex",
+      "description": "When all items within 2 spaces of this are Equipped, Win.",
       "rarity": "Common",
       "colour": "82ffa6ff"
     },
     "Waterfall": {
       "id": "Waterfall",
-      "name": "Waterfall Box",
-      "description": "On Open: If this is in the bottom row, Win. Otherwise, Transform a random box in the row below into a Waterfall Box.",
+      "name": "Droplet",
+      "description": "On Equip: If this is in the bottom row, Win. Otherwise, Morph a random item in the row below into a Droplet.",
       "rarity": "Uncommon",
-      "colour": "33369dff"
+      "colour": "8ac2ffff"
     },
     "Wave": {
       "id": "Wave",
-      "name": "Wave Box",
-      "description": "On Open: Open all boxes to the right of this.",
+      "name": "Wave",
+      "description": "On Equip: Equip all items to the right of this.",
       "rarity": "Rare",
       "colour": "464fcaff"
     },
     "Whacka": {
       "id": "Whacka",
-      "name": "Whack-a-Box",
-      "description": "On Open: Transform a random adjacent Closed box into a Whack-a-Box.\nIf this is the third Whack-a-Box Opened consecutively, Win.",
+      "name": "Mole",
+      "description": "On Equip: Morph a random nearby Unequipped item into a Mole.\nIf this is the third Mole Equipped consecutively, Win.",
       "rarity": "Rare",
-      "colour": "1a1010ff"
+      "colour": "d8d8d8ff"
+    },
+    "Wine": {
+      "id": "Wine",
+      "name": "Wine",
+      "description": "If this item is Broken while Equipped, Reveal 5 random items.",
+      "rarity": "Gift",
+      "colour": "a81a05ff"
     },
     "WinSeeker": {
       "id": "WinSeeker",
-      "name": "Winseeker Box",
-      "description": "Displays the number of adjacent boxes that can make you Win.",
+      "name": "Winseeker",
+      "description": "Displays the number of nearby items that can make you Win.",
       "rarity": "Common",
-      "colour": "e58780ff"
+      "colour": "ff6060ff"
     },
     "Winter": {
       "id": "Winter",
-      "name": "Winter Box",
-      "description": "On Open: Transform 4 random other boxes into Ice Boxes.",
+      "name": "Snowman",
+      "description": "On Equip: Morph 4 random other items into Snowflakes.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Worldbearer": {
       "id": "Worldbearer",
-      "name": "Worldbearer Box",
-      "description": "If this box is Destroyed, Lose.",
+      "name": "Safe",
+      "description": "If this item is Broken while Equipped, Lose.",
       "rarity": "Common",
-      "colour": "10100aff"
+      "colour": "7d7d7dff"
     }
   }
 }
