@@ -5,7 +5,7 @@
       "name": "Prophecy",
       "description": "On Equip: Reveal 9 random items.\nAfter Equipping 3 items, Lose.",
       "rarity": "Epic",
-      "colour": "b478ccff"
+      "colour": "c16ce3ff"
     },
     "Amulet": {
       "id": "Amulet",
@@ -17,7 +17,7 @@
     "Ant": {
       "id": "Ant",
       "name": "Ant",
-      "description": "Use: Choose an Equipped item near this. Break it, Swap this with it, and Reveal 1 random item.\nCan be Used once.",
+      "description": "Every 2 Equips, Break the item right of this, Swap with it, and Reveal 1 random item.",
       "rarity": "Gift",
       "colour": "445d9bff"
     },
@@ -171,7 +171,7 @@
     "Boots": {
       "id": "Boots",
       "name": "Boots",
-      "description": "The next 2 times a Revealed item Breaks, Fix it.",
+      "description": "Whenever a Hidden item Breaks, Reveal it.\nUse: Choose a Broken item to Fix.\nCan be Used once.",
       "rarity": "Gift",
       "colour": "0f0f0eff"
     },
@@ -229,7 +229,7 @@
       "name": "Caterpillar",
       "description": "If this Morphs while Equipped, Win.",
       "rarity": "Uncommon",
-      "colour": "5a5ec9ff"
+      "colour": "a7abe5ff"
     },
     "Butterfly": {
       "id": "Butterfly",
@@ -258,6 +258,13 @@
       "description": "You can only Equip items within 2 spaces of this.",
       "rarity": "Rare",
       "colour": "e66b31ff"
+    },
+    "Cake": {
+      "id": "Cake",
+      "name": "Cake",
+      "description": "When each item in the bottom row is Equipped, Win.",
+      "rarity": "Gift",
+      "colour": "33211eff"
     },
     "Cannon": {
       "id": "Cannon",
@@ -374,7 +381,7 @@
     "ClockUp": {
       "id": "ClockUp",
       "name": "Second Hand",
-      "description": "On Equip: Delay Clock by 4 ticks.",
+      "description": "On Equip: Delay Clock by 3 ticks.",
       "rarity": "Board",
       "colour": "9bff86ff"
     },
@@ -453,12 +460,12 @@
       "name": "Price Tag",
       "description": "Holds 3 Gold.\nEquipping Revealed items costs 1 Gold.",
       "rarity": "Epic",
-      "colour": "000000ff"
+      "colour": "fcfffdff"
     },
     "Couch": {
       "id": "Couch",
       "name": "Couch",
-      "description": "Use: Unequip the last item you Equipped.\nCan be Used once.",
+      "description": "Immutable.\nUse: Choose an Equipped item.\nUnequip it, then Equip it.\nCan be Used once.",
       "rarity": "Gift",
       "colour": "9eb0c1ff"
     },
@@ -472,7 +479,7 @@
     "Crossbow": {
       "id": "Crossbow",
       "name": "Crossbow",
-      "description": "Use 1: Break items to the right of this.\nUse 2: 15% chance to Lose.\nUse 3: Reveal 5 random items.\nUse 4: Unequip, Hide, and Morph this.",
+      "description": "Use: Choose a nearby item. Break all items in that direction.\nCan be Used once.",
       "rarity": "Gift",
       "colour": "009223ff"
     },
@@ -488,14 +495,28 @@
       "name": "Crumbling Castle",
       "description": "After you Equip an item, Break the top item (left to right).",
       "rarity": "Uncommon",
-      "colour": "227148ff"
+      "colour": "40b377ff"
+    },
+    "CryoChamber": {
+      "id": "CryoChamber",
+      "name": "Chamber",
+      "description": "Immutable.\nUse: Choose an item to Freeze.\nStart the next round with a copy of it.",
+      "rarity": "Board",
+      "colour": "687c83ff"
     },
     "Cryptic": {
       "id": "Cryptic",
       "name": "Blueprint",
       "description": "After Equipping 6 nearby items, Win.",
       "rarity": "Uncommon",
-      "colour": "4c46ffff"
+      "colour": "5954f1ff"
+    },
+    "Cuffs": {
+      "id": "Cuffs",
+      "name": "Handcuffs",
+      "description": "After you Equip an item, Lock 1 random Unequipped item.",
+      "rarity": "Rare",
+      "colour": "390d0dff"
     },
     "Cursed": {
       "id": "Cursed",
@@ -507,7 +528,7 @@
     "CursedBlade": {
       "id": "CursedBlade",
       "name": "Doomed Blade",
-      "description": "Whenever an item Breaks, 25% chance to Lose.",
+      "description": "On Equip: Morph all Hidden items into Skulls.",
       "rarity": "Epic",
       "colour": "632d99ff"
     },
@@ -516,7 +537,7 @@
       "name": "Dancepad",
       "description": "Points a direction each time you Equip an item. After Equipping 6 items this points at consecutively, Win.",
       "rarity": "Rare",
-      "colour": "0b171aff"
+      "colour": "000000ff"
     },
     "Daredevil": {
       "id": "Daredevil",
@@ -565,7 +586,7 @@
       "name": "Die",
       "description": "Use: Unequip and Morph nearby Equipped items.\nCan be Used once.",
       "rarity": "Epic",
-      "colour": "ff3b3bff"
+      "colour": "f26659ff"
     },
     "Disappointed": {
       "id": "Disappointed",
@@ -584,7 +605,7 @@
     "Dragon": {
       "id": "Dragon",
       "name": "Dragon",
-      "description": "On Equip: Lose.",
+      "description": "Use: Morph 10 random other items into Skulls. Then, after Equipping 5 more items, Win.",
       "rarity": "Rare",
       "colour": "7d8affff"
     },
@@ -595,10 +616,17 @@
       "rarity": "Common",
       "colour": "adbe48ff"
     },
+    "DraughtsPiece": {
+      "id": "DraughtsPiece",
+      "name": "King",
+      "description": "Jumps over items you Equip nearby.\nReveals items it Swaps with.",
+      "rarity": "Legendary",
+      "colour": "ff6262ff"
+    },
     "Dungeon": {
       "id": "Dungeon",
       "name": "Dungeon",
-      "description": "After you Equip a non-Spike, Morph 2 random Hidden items into Spikes.",
+      "description": "On Equip: Morph a random item in each row into a Spike.",
       "rarity": "Legendary",
       "colour": "373238ff"
     },
@@ -612,7 +640,7 @@
     "Eclipse": {
       "id": "Eclipse",
       "name": "Time Machine",
-      "description": "After 3 Equips, this Breaks to Unequip all items.",
+      "description": "After 3 Equips, this Breaks to Unequip all non-Gift items.",
       "rarity": "Gift",
       "colour": "a3a15fff"
     },
@@ -836,8 +864,8 @@
     "Gamer": {
       "id": "Gamer",
       "name": "Controller",
-      "description": "For the next 1 Equip, if you would Lose, Win instead.",
-      "rarity": "Gift",
+      "description": "Use 1: Break items directly above this.\nUse 2: Unequip the item left of this.\nUse 3: Morph the item right of this.\nUse 4: Unequip, Hide, and Morph this.",
+      "rarity": "Rare",
       "colour": "d779ffff"
     },
     "Gavel": {
@@ -857,7 +885,7 @@
     "Gear": {
       "id": "Gear",
       "name": "Gear",
-      "description": "Use: Unequip, Unreveal and Morph an item.\nCan be Used once.",
+      "description": "Use: Choose an Equipped item.\nUnequip, Unreveal, and Morph it.\nCan be Used once.",
       "rarity": "Gift",
       "colour": "727272ff"
     },
@@ -871,9 +899,9 @@
     "Gift": {
       "id": "Gift",
       "name": "Present",
-      "description": "Holds 3 Gold.\nOn Equip: Reveal 2 random items and Unequip 1 random other item.",
+      "description": "Holds 5 Gold.",
       "rarity": "Epic",
-      "colour": "6d6d6dff"
+      "colour": "dadadaff"
     },
     "Jolly": {
       "id": "Jolly",
@@ -887,7 +915,7 @@
       "name": "glip",
       "description": "after you equip an item, this swaps with a random item near this and reveals it.",
       "rarity": "Epic",
-      "colour": "fcff00ff"
+      "colour": "ffff00ff"
     },
     "Glitched": {
       "id": "Glitched",
@@ -899,9 +927,23 @@
     "Gloves": {
       "id": "Gloves",
       "name": "Gloves",
-      "description": "Use: Choose an Unequipped item. Morph and Equip it.",
+      "description": "Use: Choose an Unequipped Revealed item. Morph it.\nCan be Used 2 times.",
       "rarity": "Gift",
       "colour": "c044feff"
+    },
+    "Goggles": {
+      "id": "Goggles",
+      "name": "Goggles",
+      "description": "On Equip or Round Start: Reveal 4 random items.\nPrevent the next 3 times you would Reveal an item.",
+      "rarity": "Gift",
+      "colour": "87ba7cff"
+    },
+    "GrapplingHook": {
+      "id": "GrapplingHook",
+      "name": "Grappling Hook",
+      "description": "After you Equip the leftmost item in a row, Reveal the rightmost item in that row.",
+      "rarity": "Gift",
+      "colour": "1d4451ff"
     },
     "Gravity": {
       "id": "Gravity",
@@ -920,7 +962,7 @@
     "Halo": {
       "id": "Halo",
       "name": "Screwdriver",
-      "description": "Use: Break this to Fix 5 random items.",
+      "description": "On Equip: Fix 5 random Broken items.",
       "rarity": "Uncommon",
       "colour": "91c087ff"
     },
@@ -964,12 +1006,12 @@
       "name": "Hourglass",
       "description": "If you would Lose while this isn't counting down, prevent the Loss and Lose in 3 Equips.",
       "rarity": "Gift",
-      "colour": "ffffffff"
+      "colour": "f1ef6fff"
     },
     "Hungry": {
       "id": "Hungry",
       "name": "Mouth",
-      "description": "On Equip: Morph all other items in a random row into Nothing.",
+      "description": "On Equip: Morph all items in a random row into Nothing.",
       "rarity": "Rare",
       "colour": "000000ff"
     },
@@ -983,9 +1025,9 @@
     "Ice": {
       "id": "Ice",
       "name": "Snowflake",
-      "description": "For the next 3 Equips, you can't Equip nearby items.",
-      "rarity": "Token",
-      "colour": "51fffaff"
+      "description": "You can't Equip items near this.",
+      "rarity": "Epic",
+      "colour": "e5feffff"
     },
     "Impatient": {
       "id": "Impatient",
@@ -999,7 +1041,7 @@
       "name": "Stained Glass",
       "description": "After you Equip an item, 5% chance to Win.",
       "rarity": "Legendary",
-      "colour": "2c7b7fff"
+      "colour": "de7bffff"
     },
     "Inescapable": {
       "id": "Inescapable",
@@ -1034,7 +1076,7 @@
       "name": "Scales",
       "description": "Winning and Losing are inverted.",
       "rarity": "Rare",
-      "colour": "332c18ff"
+      "colour": "dededeff"
     },
     "Ivy": {
       "id": "Ivy",
@@ -1111,7 +1153,7 @@
       "name": "Termite",
       "description": "After you Equip an item, Break the leftmost item in each row.",
       "rarity": "Legendary",
-      "colour": "75da89ff"
+      "colour": "00bc32ff"
     },
     "Logical": {
       "id": "Logical",
@@ -1179,7 +1221,7 @@
     "Microphone": {
       "id": "Microphone",
       "name": "Microphone",
-      "description": "When 10 other items are Equipped, Break this and Reveal 3 random nearby items.",
+      "description": "When 10 other items are Equipped, Break this and Reveal 3 random items.",
       "rarity": "Gift",
       "colour": "777777ff"
     },
@@ -1214,7 +1256,7 @@
     "Mirror": {
       "id": "Mirror",
       "name": "Mirror",
-      "description": "When this is Equipped, Revealed, Morphed, Unequipped, or Broken, do the same to all nearby items.",
+      "description": "When this is Equipped, Morphed, Unequipped, or Broken, do the same to all nearby items.",
       "rarity": "Epic",
       "colour": "00ab9aff"
     },
@@ -1230,7 +1272,7 @@
       "name": "Devourer",
       "description": "After you Equip an item, Breaks a random nearby item and Swaps with it.",
       "rarity": "Rare",
-      "colour": "ae5b8aff"
+      "colour": "440802ff"
     },
     "MusicNote": {
       "id": "MusicNote",
@@ -1669,9 +1711,23 @@
     "PiggyBank": {
       "id": "PiggyBank",
       "name": "Piggy Bank",
-      "description": "After you Equip an item that can spend Gold, this gains 3 Gold.",
+      "description": "After you Equip an item that can spend Gold, this gains 2 Gold.",
       "rarity": "Gift",
       "colour": "e06becff"
+    },
+    "Placeholder": {
+      "id": "Placeholder",
+      "name": "Placeholder",
+      "description": "This item is a placeholder!",
+      "rarity": "Token",
+      "colour": "60caceff"
+    },
+    "PlayingCard": {
+      "id": "PlayingCard",
+      "name": "Ace",
+      "description": "On Equip: Reveal 2 items near each other. You must Equip one of them next.",
+      "rarity": "Uncommon",
+      "colour": "000000ff"
     },
     "Poison": {
       "id": "Poison",
@@ -1729,12 +1785,26 @@
       "rarity": "Board",
       "colour": "050606ff"
     },
+    "Puppet": {
+      "id": "Puppet",
+      "name": "Puppet",
+      "description": "On Equip or Round Start: Reveal 4 random nearby items.\nAfter Equipping 10 items, Lose.",
+      "rarity": "Gift",
+      "colour": "777777ff"
+    },
     "Puzzle": {
       "id": "Puzzle",
-      "name": "Puzzle",
+      "name": "Vexbox",
       "description": "When there are 30 Broken items, Win.\nUse: Break 6 random items.",
       "rarity": "Rare",
       "colour": "aa9f81ff"
+    },
+    "PuzzlePiece": {
+      "id": "PuzzlePiece",
+      "name": "Puzzle Piece",
+      "description": "On Equip or Round Start: Morph 2 random Unequipped items into Puzzle Pieces.\nWhen this is near another Equipped Puzzle Piece, Win.",
+      "rarity": "Gift",
+      "colour": "033299ff"
     },
     "Queen": {
       "id": "Queen",
@@ -1742,6 +1812,13 @@
       "description": "After you Equip an item in any direction, Swaps with it.\nAfter doing this 3 times, Lose.",
       "rarity": "Rare",
       "colour": "fff4d6ff"
+    },
+    "Radar": {
+      "id": "Radar",
+      "name": "Radar",
+      "description": "Every 3 Equips, Reveal the nearest Hidden item.",
+      "rarity": "Gift",
+      "colour": "045b03ff"
     },
     "Rainbow": {
       "id": "Rainbow",
@@ -1762,13 +1839,13 @@
       "name": "Pot O' Gold",
       "description": "Holds 10 Gold.",
       "rarity": "Legendary",
-      "colour": "393939ff"
+      "colour": "a7a8a4ff"
     },
     "Reset": {
       "id": "Reset",
       "name": "Bin",
       "description": "On Equip: Unequip, Hide, and Morph Equipped items within 2 spaces.",
-      "rarity": "Rare",
+      "rarity": "Epic",
       "colour": "929292ff"
     },
     "Revolver": {
@@ -1788,13 +1865,13 @@
     "Rocket": {
       "id": "Rocket",
       "name": "Rocket",
-      "description": "On Equip: Break 3 random other Revealed items.",
+      "description": "On Equip: Break 3 random Unequipped Revealed items.",
       "rarity": "Rare",
       "colour": "e8eaeaff"
     },
     "Rogue": {
       "id": "Rogue",
-      "name": "@",
+      "name": "Hero",
       "description": "Immutable.\nYou can only Equip items near this.\nAfter you Equip an item, this Swaps with it.",
       "rarity": "Board",
       "colour": "000000ff"
@@ -1851,7 +1928,7 @@
     "Satellite": {
       "id": "Satellite",
       "name": "Satellite",
-      "description": "Whenever you Reveal an item, 2% chance to Morph it into a Flag.",
+      "description": "Whenever you Reveal an item, 10% chance to Reveal 1 additional random item.",
       "rarity": "Gift",
       "colour": "494646ff"
     },
@@ -1928,7 +2005,7 @@
     "Shield": {
       "id": "Shield",
       "name": "Shield",
-      "description": "If you would Lose, 33% chance for this to Break instead.",
+      "description": "If you would Lose, 50% chance for this to Break instead.",
       "rarity": "Gift",
       "colour": "cacacaff"
     },
@@ -1958,7 +2035,7 @@
       "name": "Slime",
       "description": "After you Equip an item, Break this and Morph 2 random nearby items into Slimes and Reveal them.",
       "rarity": "Epic",
-      "colour": "567c4fff"
+      "colour": "16442fff"
     },
     "Slots": {
       "id": "Slots",
@@ -1978,22 +2055,22 @@
       "id": "Snail",
       "name": "Snail",
       "description": "When you try to Equip a Hidden item, Reveal it instead.\nEvery 2 times this happens, Equip the top leftmost Revealed item.",
-      "rarity": "Legendary",
+      "rarity": "Exquisite",
       "colour": "ffe8fdff"
     },
     "Sniper": {
       "id": "Sniper",
-      "name": "Sniper",
+      "name": "Acid",
       "description": "Whenever another item would be Unequipped, Break it instead.",
       "rarity": "Epic",
-      "colour": "fbfbfbff"
+      "colour": "325400ff"
     },
     "Soap": {
       "id": "Soap",
       "name": "Soap",
       "description": "Use: Choose an item to Morph into Nothing.\nCan be Used 3 times.",
       "rarity": "Legendary",
-      "colour": "d5dcb8ff"
+      "colour": "dbe2bcff"
     },
     "Speedrun": {
       "id": "Speedrun",
@@ -2019,21 +2096,21 @@
     "Spreadsheet": {
       "id": "Spreadsheet",
       "name": "Spreadsheet",
-      "description": "On Equip or Round Start: Morph a random nearby item into a Legendary or Exquisite item and Reveal it.",
+      "description": "On Equip or Round Start: Reveal a random item that can Win.",
       "rarity": "Gift",
       "colour": "ffffffff"
     },
     "Spring": {
       "id": "Spring",
       "name": "Spring",
-      "description": "Use: Swap the @ with a random item.\nCan be Used 3 times.",
+      "description": "Use: Swap the Hero with a random item.\nCan be Used 3 times.",
       "rarity": "Board",
       "colour": "a9a9a9ff"
     },
     "Spy": {
       "id": "Spy",
       "name": "Mirage",
-      "description": "On Equip: Reveal all nearby items. If this is Revealed, it can't be Equipped.",
+      "description": "On Equip: Reveal all nearby items.\nIf this is Revealed, it can't be Equipped.",
       "rarity": "Rare",
       "colour": "764278ff"
     },
@@ -2084,6 +2161,13 @@
       "name": "Sweeper",
       "description": "Displays the number of nearby items that can make you Lose.",
       "rarity": "Token",
+      "colour": "bdbdbdff"
+    },
+    "Sweeper2": {
+      "id": "Sweeper2",
+      "name": "Sweeper",
+      "description": "Counts nearby Hidden Skulls.\nUse: Choose an item to Reveal.\nIf it wasn't a Skull, Lose.",
+      "rarity": "Board",
       "colour": "bdbdbdff"
     },
     "Sword": {
@@ -2137,10 +2221,10 @@
     },
     "ThreeD": {
       "id": "ThreeD",
-      "name": "Goggles",
+      "name": "Prism",
       "description": "On Equip: Reveal 3 random items.",
       "rarity": "Uncommon",
-      "colour": "87ba7cff"
+      "colour": "759cffff"
     },
     "ThreeGold": {
       "id": "ThreeGold",
@@ -2208,7 +2292,7 @@
     "Twister": {
       "id": "Twister",
       "name": "Twister",
-      "description": "After Equipping the last Unequipped item in a row, Reveal 1 random item in the row below it.",
+      "description": "On Equip or Round Start: Reveal the top item.\nWhen you Equip it, Reveal the second row.",
       "rarity": "Gift",
       "colour": "e0e006ff"
     },
@@ -2225,6 +2309,13 @@
       "description": "Holds 2 Gold.",
       "rarity": "Common",
       "colour": "ffc400ff"
+    },
+    "Tyre": {
+      "id": "Tyre",
+      "name": "Tyre",
+      "description": "If you Win in the first 10 Equips, Reveal 3 random items in the next round.",
+      "rarity": "Gift",
+      "colour": "518e96ff"
     },
     "UFB": {
       "id": "UFB",
@@ -2291,7 +2382,7 @@
     },
     "Vortex": {
       "id": "Vortex",
-      "name": "V(ort)ex",
+      "name": "Vortex",
       "description": "When all items within 2 spaces of this are Equipped, Win.",
       "rarity": "Common",
       "colour": "82ffa6ff"
