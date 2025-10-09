@@ -1,93 +1,128 @@
 {
   "boxes": {
+    "Alley": {
+      "id": "Alley",
+      "name": "Alley",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 1 random [[Revealing|<span class='reveal'>Hidden</span>]] item into a {{B|Skull}}.",
+      "rarity": "Burden",
+      "colour": "bcbcbcff"
+    },
     "AllSeeing": {
       "id": "AllSeeing",
       "name": "Prophecy",
-      "description": "On Equip: Reveal 9 random items.\nAfter Equipping 3 items, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 9 random items.<br>After [[Equipping|<span class='equip'>Equipping</span>]] 3 items, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Epic",
       "colour": "c16ce3ff"
     },
     "Amulet": {
       "id": "Amulet",
       "name": "Amulet",
-      "description": "On Equip: Win.\nIf you would Lose and this is Hidden, Reveals itself and Breaks instead.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Winning|<span class='win'>Win</span>]].<br>If you would [[Losing|<span class='lose'>Lose</span>]] and this is [[Revealing|<span class='reveal'>Hidden</span>]], [[Revealing|<span class='reveal'>Reveals</span>]] itself and [[Breaking|<span class='break'>Breaks</span>]] instead.",
       "rarity": "Exquisite",
       "colour": "f35d54ff"
+    },
+    "AnotherWorld": {
+      "id": "AnotherWorld",
+      "name": "Yarn",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 12 items, [[Morphing|<span class='morph'>Morph</span>]] all [[Revealing|<span class='reveal'>Hidden</span>]] items into {{B|Skull|Skulls}}.",
+      "rarity": "Burden",
+      "colour": "d276c2ff"
     },
     "Ant": {
       "id": "Ant",
       "name": "Ant",
-      "description": "Every 2 Equips, Break the item right of this, Swap with it, and Reveal 1 random item.",
+      "description": "Every 2 [[Equipping|<span class='equip'>Equips</span>]], [[Breaking|<span class='break'>Break</span>]] the item right of this, [[Swapping|<span class='swap'>Swap</span>]] with it, and [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Gift",
       "colour": "445d9bff"
     },
     "Anvil": {
       "id": "Anvil",
       "name": "Anvil",
-      "description": "On Equip: Reveal the items below this.\nWhen you Equip one, Morph the other into an Anvil and Break this.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] the items below this.<br>When you [[Equipping|<span class='equip'>Equip</span>]] one, [[Morphing|<span class='morph'>Morph</span>]] the other into an {{B|Anvil}} and [[Breaking|<span class='break'>Break</span>]] this.",
       "rarity": "Epic",
       "colour": "adadadff"
     },
     "Armageddon": {
       "id": "Armageddon",
       "name": "Nuke",
-      "description": "After Equipping 3 items, Break this and all but the outer rim of items.",
-      "rarity": "Epic",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 3 items, [[Breaking|<span class='break'>Break</span>]] this and all but the outer rim of items.",
+      "rarity": "Legendary",
       "colour": "000000ff"
+    },
+    "Ash": {
+      "id": "Ash",
+      "name": "Ash",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Modifier|<span class='modifier'>Lock</span>]] 12 random items.<br>[[Using|<span class='use'>Use</span>]]: Choose an item to [[Modifier|<span class='modifier'>Unlock</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
+      "rarity": "Burden",
+      "colour": "d35d2aff"
     },
     "Auto": {
       "id": "Auto",
       "name": "Bot",
-      "description": "After you Equip an item, Equips a random item near this.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Equipping|<span class='equip'>Equips</span>]] a random item near this.",
       "rarity": "Rare",
       "colour": "373737ff"
     },
     "Axe": {
       "id": "Axe",
       "name": "Axe",
-      "description": "Use: Choose an item to Break. Morph the items to its left and right into it.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item to [[Breaking|<span class='break'>Break</span>]]. [[Morphing|<span class='morph'>Morph</span>]] the items to its left and right into it.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Legendary",
       "colour": "4a4a4aff"
+    },
+    "Backpack": {
+      "id": "Backpack",
+      "name": "Backpack",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, this performs its \"On [[Equipping|<span class='equip'>Equip</span>]]:\" effect.",
+      "rarity": "Mythical",
+      "colour": "182127ff"
+    },
+    "Ballot": {
+      "id": "Ballot",
+      "name": "Ballot",
+      "description": "You can only [[Equipping|<span class='equip'>Equip</span>]] 9 [[Revealing|<span class='reveal'>Revealed</span>]] items.",
+      "rarity": "Burden",
+      "colour": "6b97ffff"
     },
     "Bank": {
       "id": "Bank",
       "name": "Bank",
-      "description": "After you Equip an item, 33% chance for this to gain 1 Gold.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 33% chance for this to gain [[Gold|<span class='gold'>1 Gold</span>]].",
       "rarity": "Common",
       "colour": "eaeae3ff"
     },
     "Bankrupt": {
       "id": "Bankrupt",
-      "name": "Bankrupt item",
-      "description": "On Equip: Lose all your Gold.",
+      "name": "Sinkhole",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: Lose all your [[Gold|<span class='gold'>Gold</span>]].",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Barrier": {
       "id": "Barrier",
       "name": "Barrier",
-      "description": "Nearby items can't be Broken.\nUse: Choose an item to Swap this with.\nCan be Used once.",
+      "description": "Nearby items can't be [[Breaking|<span class='break'>Broken</span>]].<br>[[Using|<span class='use'>Use</span>]]: Choose an item to [[Swapping|<span class='swap'>Swap</span>]] this with.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Legendary",
       "colour": "f9ff5eff"
     },
     "Basket": {
       "id": "Basket",
-      "name": "Basket",
-      "description": "Use: Morph 7 random Hidden items into Fruit and Break this.",
+      "name": "Basket (OLD)",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 7 random [[Revealing|<span class='reveal'>Hidden</span>]] items into {{B|Fruit}} and [[Breaking|<span class='break'>Break</span>]] this.",
       "rarity": "Gift",
       "colour": "af9031ff"
     },
     "Fruit": {
       "id": "Fruit",
-      "name": "Fruit",
-      "description": "On Equip: If 7 or more Fruit are Equipped, Win.",
+      "name": "Fruit (OLD)",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 7 or more {{B|Fruit}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "e5554eff"
     },
     "Battery": {
       "id": "Battery",
       "name": "Battery",
-      "description": "If you would Lose, Win and erase this Gift instead.",
+      "description": "If you would [[Losing|<span class='lose'>Lose</span>]], [[Winning|<span class='win'>Win</span>]] and erase this <span class='r-gift'>Gift</span> instead.",
       "rarity": "Gift",
       "colour": "a5a5a5ff"
     },
@@ -101,1078 +136,1302 @@
     "Bed": {
       "id": "Bed",
       "name": "Bed",
-      "description": "After Equipping 3 items, Reveal 3 random items.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 3 items, [[Revealing|<span class='reveal'>Reveal</span>]] 3 random items.",
       "rarity": "Gift",
       "colour": "4b60d8ff"
+    },
+    "Bell": {
+      "id": "Bell",
+      "name": "Bell",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If at least 8 items are [[Breaking|<span class='break'>Broken</span>]], [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Uncommon",
+      "colour": "18bccfff"
+    },
+    "Bench": {
+      "id": "Bench",
+      "name": "Bench",
+      "description": "Immediately [[Unequipping|<span class='unequip'>Unequip</span>]] every 7th item you [[Equipping|<span class='equip'>Equip</span>]].",
+      "rarity": "Gift",
+      "colour": "282828ff"
     },
     "BigBomb": {
       "id": "BigBomb",
       "name": "Big Bomb",
-      "description": "After Equipping 3 items, explodes, Breaking all items within 2 spaces.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 3 items, explodes, [[Breaking|<span class='break'>Breaking</span>]] all items within 2 spaces.",
       "rarity": "Rare",
       "colour": "252525ff"
     },
     "BigBrain": {
       "id": "BigBrain",
       "name": "Brain",
-      "description": "After you Equip an item, Reveal 1 random item near this.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item near this.",
       "rarity": "Common",
       "colour": "ff8ae3ff"
+    },
+    "Bill": {
+      "id": "Bill",
+      "name": "Bill",
+      "description": "Every 10 [[Equipping|<span class='equip'>Equips</span>]], Spend [[Gold|<span class='gold'>1 Gold</span>]]. If you can't, [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Burden",
+      "colour": "ffffffff"
     },
     "Bird": {
       "id": "Bird",
       "name": "Bird",
-      "description": "After you Equip an item, 25% chance to Reveal 1 random item near this.\nUse: Choose an item to Swap this with.\nCan be Used once.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 25% chance to [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item near this.<br>[[Using|<span class='use'>Use</span>]]: Choose an item to [[Swapping|<span class='swap'>Swap</span>]] this with.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "bf9242ff"
     },
     "BlackHole": {
       "id": "BlackHole",
       "name": "Black Hole",
-      "description": "After you Equip an item, Break all items within 1 space of this, then increase the range Broken by 1.",
-      "rarity": "Exquisite",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] all items that are exactly 1 space away from this, then increase the range by 1.",
+      "rarity": "Mythical",
       "colour": "552d8dff"
     },
     "Blackjack": {
       "id": "Blackjack",
       "name": "Blackjack Hand",
-      "description": "On Equip: If 21 other items are Equipped, Win. If more than 21 other items are Equipped, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 21 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]]. If more than 21 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Blind": {
       "id": "Blind",
       "name": "Shades",
-      "description": "On Equip: Win. If this is Revealed, it can't be Equipped.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Winning|<span class='win'>Win</span>]]. If this is [[Revealing|<span class='reveal'>Revealed</span>]], it can't be [[Equipping|<span class='equip'>Equipped</span>]].",
       "rarity": "Rare",
       "colour": "ff4e4eff"
+    },
+    "Bobblehead": {
+      "id": "Bobblehead",
+      "name": "Bobblehead",
+      "description": "You can only [[Using|<span class='use'>Use</span>]] items 4 times.",
+      "rarity": "Burden",
+      "colour": "ffffffff"
     },
     "Bomb": {
       "id": "Bomb",
       "name": "Bomb",
-      "description": "After you Equip an item, Break this and nearby items.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] this and nearby items.",
       "rarity": "Common",
       "colour": "000000ff"
     },
     "Book": {
       "id": "Book",
       "name": "Book",
-      "description": "On Equip: If at least 15 other items are Equipped, Win!",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If at least 15 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]]!",
       "rarity": "Common",
       "colour": "f9eaddff"
     },
     "Booster": {
       "id": "Booster",
       "name": "Booster Pack",
-      "description": "Use: Unequip this and Morph it into a random a Rare or rarer item.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] it into a random a Rare or rarer item.",
       "rarity": "Token",
       "colour": "000000ff"
     },
     "Boots": {
       "id": "Boots",
       "name": "Boots",
-      "description": "Whenever a Hidden item Breaks, Reveal it.\nUse: Choose a Broken item to Fix.\nCan be Used once.",
+      "description": "Whenever a [[Revealing|<span class='reveal'>Hidden</span>]] item [[Breaking|<span class='break'>Breaks</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] it.<br>[[Using|<span class='use'>Use</span>]]: Choose a [[Breaking|<span class='break'>Broken</span>]] item to [[Fixing|<span class='fix'>Fix</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "0f0f0eff"
     },
     "Boss": {
       "id": "Boss",
       "name": "Boss",
-      "description": "After Equipping 12 items, Win.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 12 items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
       "colour": "ffffffff"
+    },
+    "Bow": {
+      "id": "Bow",
+      "name": "Bow",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Revealing|<span class='reveal'>Revealed</span>]] non-{{B|Bow}} item. [[Breaking|<span class='break'>Break</span>]] this. The next time you're offered a <span class='r-gift'>Gift</span>, that item will be the first option.",
+      "rarity": "Exquisite",
+      "colour": "000a06ff"
     },
     "BoxJellyfish": {
       "id": "BoxJellyfish",
       "name": "Jellyfish",
-      "description": "On Equip: If 2 or more nearby items are Equipped, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 2 or more nearby items are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Common",
       "colour": "fdb4f4ff"
     },
     "Boxton": {
       "id": "Boxton",
       "name": "Squeeton",
-      "description": "Reveals itself.\nOn Equip: Reveal 3 random nearby items.",
+      "description": "[[Revealing|<span class='reveal'>Reveals</span>]] itself.<br>On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 3 random nearby items.",
       "rarity": "Exquisite",
       "colour": "73c2a0ff"
     },
     "Bracelet": {
       "id": "Bracelet",
       "name": "Bracelet",
-      "description": "When each Equipped item is near exactly 2 other Equipped items, Win.",
+      "description": "When each [[Equipping|<span class='equip'>Equipped</span>]] item is near exactly 2 other [[Equipping|<span class='equip'>Equipped</span>]] items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Legendary",
       "colour": "58a07cff"
     },
     "Brilliant": {
       "id": "Brilliant",
       "name": "To-do List",
-      "description": "After Equipping 3 Rare or rarer items, Win.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 3 Rare or rarer items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "180202ff"
     },
     "Bubblegum": {
       "id": "Bubblegum",
       "name": "Bubblegum",
-      "description": "On Equip or Round Start: Reveal 1 random nearby item.\nMimics cause you to Win instead of Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 1 random nearby item.<br>{{B|Mimic|Mimics}} cause you to [[Winning|<span class='win'>Win</span>]] instead of [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Gift",
       "colour": "fbb5ffff"
     },
     "Bullseye": {
       "id": "Bullseye",
       "name": "Bullseye",
-      "description": "On Equip: If no nearby items are Equipped, Reveal nearby items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If no nearby items are [[Equipping|<span class='equip'>Equipped</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] nearby items.",
       "rarity": "Token",
       "colour": "ff3f3fff"
     },
     "Caterpillar": {
       "id": "Caterpillar",
       "name": "Caterpillar",
-      "description": "If this Morphs while Equipped, Win.",
+      "description": "If this [[Morphing|<span class='morph'>Morphs</span>]] while [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "a7abe5ff"
     },
     "Butterfly": {
       "id": "Butterfly",
       "name": "Butterfly",
-      "description": "A metamorphosised Caterpillar.",
+      "description": "If this [[Morphing|<span class='morph'>Morphs</span>]] while [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Button": {
       "id": "Button",
       "name": "Button",
-      "description": "Use: 95% chance to Morph a random nearby item and Reveal it. Otherwise, Lose.",
+      "description": "[[Using|<span class='use'>Use</span>]]: 95% chance to [[Morphing|<span class='morph'>Morph</span>]] a random nearby item and [[Revealing|<span class='reveal'>Reveal</span>]] it. Otherwise, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Uncommon",
       "colour": "9c13ffff"
     },
     "Cage": {
       "id": "Cage",
       "name": "Bottle",
-      "description": "Use: Unequip this and Morph this into Nothing.\nAfter you Equip an item, put a random item in this Bottle.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] this into {{B|Empty}}.<br>After you [[Equipping|<span class='equip'>Equip</span>]] an item, put a random item in this Bottle.",
       "rarity": "Gift",
       "colour": "4151a8ff"
     },
     "Cage2": {
       "id": "Cage2",
       "name": "Cage",
-      "description": "You can only Equip items within 2 spaces of this.",
-      "rarity": "Rare",
+      "description": "You can only [[Equipping|<span class='equip'>Equip</span>]] items within 2 spaces of this.",
+      "rarity": "Epic",
       "colour": "e66b31ff"
     },
     "Cake": {
       "id": "Cake",
       "name": "Cake",
-      "description": "When each item in the bottom row is Equipped, Win.",
-      "rarity": "Gift",
+      "description": "When each item in the bottom row is [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
+      "rarity": "Epic",
       "colour": "33211eff"
+    },
+    "Cane": {
+      "id": "Cane",
+      "name": "Cane",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item in the top or bottom 2 rows, 15% chance to [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Burden",
+      "colour": "874b75ff"
     },
     "Cannon": {
       "id": "Cannon",
       "name": "Cannon",
-      "description": "Aims towards items you Equip.\nUse: Break the item this is aiming at.",
+      "description": "Aims towards items you [[Equipping|<span class='equip'>Equip</span>]].<br>[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] the item this is aiming at.",
       "rarity": "Uncommon",
       "colour": "464646ff"
     },
     "Capsule": {
       "id": "Capsule",
       "name": "Printer",
-      "description": "Use: Choose a Revealed item. Morph 5 random other items into it.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Revealing|<span class='reveal'>Revealed</span>]] item.<br>[[Morphing|<span class='morph'>Morph</span>]] 5 random other items into it.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Epic",
       "colour": "a8a8a8ff"
     },
     "Careful": {
       "id": "Careful",
       "name": "Warning",
-      "description": "On Equip: If 3 items that can make you Lose are Revealed, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 3 items that can make you [[Losing|<span class='lose'>Lose</span>]] are [[Revealing|<span class='reveal'>Revealed</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Cascade": {
       "id": "Cascade",
       "name": "Dandelion",
-      "description": "When all items near this are Equipped, Break this and Reveal all items near them.",
+      "description": "When all items near this are [[Equipping|<span class='equip'>Equipped</span>]], [[Breaking|<span class='break'>Break</span>]] this and [[Revealing|<span class='reveal'>Reveal</span>]] all items near them.",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "Cataclysmic": {
       "id": "Cataclysmic",
       "name": "Meteor",
-      "description": "After 15 Hidden items are Revealed, Equipped, or Broken, Lose.",
+      "description": "After 15 [[Revealing|<span class='reveal'>Hidden</span>]] items are [[Revealing|<span class='reveal'>Revealed</span>]], [[Equipping|<span class='equip'>Equipped</span>]], or [[Breaking|<span class='break'>Broken</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Uncommon",
-      "colour": "924d4dff"
+      "colour": "cd443dff"
     },
     "Catalog": {
       "id": "Catalog",
       "name": "Catalogue",
-      "description": "On Equip: Reveal the items to the left and right. After you Equip an item, if they're not Equipped, Morph them.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] the items to the left and right. After you [[Equipping|<span class='equip'>Equip</span>]] an item, if they're not [[Equipping|<span class='equip'>Equipped</span>]], [[Morphing|<span class='morph'>Morph</span>]] them.",
       "rarity": "Epic",
       "colour": "000000ff"
     },
     "Cell": {
       "id": "Cell",
       "name": "Cell",
-      "description": "The next time you Equip an item, Morph the items left and right of it into it.",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Morphing|<span class='morph'>Morph</span>]] the items left and right of it into it.",
       "rarity": "Gift",
       "colour": "4aa352ff"
+    },
+    "Chain": {
+      "id": "Chain",
+      "name": "Chain",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Modifier|<span class='modifier'>Lock</span>]] 1 random [[Revealing|<span class='reveal'>Revealed</span>]] [[Unequipping|<span class='unequip'>Unequipped</span>]] item.",
+      "rarity": "Rare",
+      "colour": "c44f46ff"
+    },
+    "Chalk": {
+      "id": "Chalk",
+      "name": "Chalk",
+      "description": "If this item is [[Morphing|<span class='morph'>Morphed</span>]], [[Unequipping|<span class='unequip'>Unequipped</span>]], or [[Breaking|<span class='break'>Broken</span>]], [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Burden",
+      "colour": "074103ff"
+    },
+    "MorphedChalk": {
+      "id": "MorphedChalk",
+      "name": "Chalk Chunks",
+      "description": "Chalk that was unfortunately [[Morphing|<span class='morph'>Morphed</span>]].",
+      "rarity": "Token",
+      "colour": "072e05ff"
     },
     "Challenge": {
       "id": "Challenge",
       "name": "Demon",
-      "description": "Immutable.\nYou can't Win until this is defeated.\nWin 3 times to defeat.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>You can't [[Winning|<span class='win'>Win</span>]] until this is defeated.<br>[[Winning|<span class='win'>Win</span>]] 3 times to defeat.",
       "rarity": "Board",
       "colour": "000000ff"
     },
     "Charon": {
       "id": "Charon",
       "name": "Charon",
-      "description": "Every 3 Equips, Swaps with the item to its right. If it can't, Lose.",
-      "rarity": "Uncommon",
+      "description": "Every 3 [[Equipping|<span class='equip'>Equips</span>]], [[Swapping|<span class='swap'>Swaps</span>]] with the item to its right. If it can't, [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Rare",
       "colour": "ffffffff"
     },
     "Checkbox": {
       "id": "Checkbox",
       "name": "Candle",
-      "description": "After you Equip a Hidden item, Reveal 1 random item.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Hidden</span>]] item, [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Rare",
       "colour": "5a2a6bff"
     },
     "Cherry": {
       "id": "Cherry",
       "name": "Cherry",
-      "description": "After you Equip an item, Morph the item to its right into it.",
-      "rarity": "Exquisite",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Morphing|<span class='morph'>Morph</span>]] the item to its right into it.",
+      "rarity": "Mythical",
       "colour": "ff5858ff"
+    },
+    "Cigarettes": {
+      "id": "Cigarettes",
+      "name": "Cigarettes",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 2 random items, then [[Morphing|<span class='morph'>Morph</span>]] 1 random item in the next round into a {{B|Skull}}.",
+      "rarity": "Legendary",
+      "colour": "994041ff"
+    },
+    "City": {
+      "id": "City",
+      "name": "City",
+      "description": "The next 5 times you [[Equipping|<span class='equip'>Equip</span>]] a nearby item, [[Unequipping|<span class='unequip'>Unequip</span>]] the item on the other side of this.",
+      "rarity": "Epic",
+      "colour": "969696ff"
+    },
+    "Clipboard": {
+      "id": "Clipboard",
+      "name": "Clipboard",
+      "description": "When 3 of the same type of item are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Burden",
+      "colour": "b67436ff"
     },
     "Cloak": {
       "id": "Cloak",
       "name": "Cloak",
-      "description": "On Equip: If a Wand and Hat are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If a {{B|Wand}} and {{B|Hat}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "fef84cff"
     },
     "Wand": {
       "id": "Wand",
       "name": "Wand",
-      "description": "On Equip: If a Cloak and Hat are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If a {{B|Cloak}} and {{B|Hat}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "063135ff"
     },
     "Hat": {
       "id": "Hat",
       "name": "Hat",
-      "description": "On Equip: If a Cloak and Wand are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If a {{B|Cloak}} and {{B|Wand}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "2733adff"
     },
     "CrystalBall": {
       "id": "CrystalBall",
       "name": "Crystal Ball",
-      "description": "After you Equip an item, Reveal Cloaks, Wands, and Hats near it.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Revealing|<span class='reveal'>Reveal</span>]] {{B|Cloak|Cloaks}}, {{B|Wand|Wands}}, and {{B|Hat|Hats}} near it.",
       "rarity": "Uncommon",
       "colour": "adada9ff"
     },
     "Clock": {
       "id": "Clock",
       "name": "Clock",
-      "description": "Immutable.\nWhen you Equip an item, starts ticking.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>When you [[Equipping|<span class='equip'>Equip</span>]] an item, starts [[Losing|<span class='lose'>ticking</span>]].",
       "rarity": "Board",
       "colour": "000000ff"
     },
     "ClockUp": {
       "id": "ClockUp",
       "name": "Second Hand",
-      "description": "On Equip: Delay Clock by 3 ticks.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: Delay {{B|Clock}} by 3 ticks.",
       "rarity": "Board",
       "colour": "9bff86ff"
     },
     "Clone": {
       "id": "Clone",
       "name": "Capsule",
-      "description": "Use: Reveal a random nearby item.\nUnequip this and Morph this into it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] a random nearby item.<br>[[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] this into it.",
       "rarity": "Common",
       "colour": "3ea162ff"
     },
     "CloseSpender": {
       "id": "CloseSpender",
       "name": "Vending Machine",
-      "description": "Use: Choose a non-Gold item.\nSpend 2 Gold to Unequip it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a non-[[Gold|<span class='gold'>Gold</span>]] item.<br>Spend [[Gold|<span class='gold'>2 Gold</span>]] to [[Unequipping|<span class='unequip'>Unequip</span>]] it.",
       "rarity": "Uncommon",
       "colour": "797979ff"
     },
     "Clumsy": {
       "id": "Clumsy",
       "name": "Mouse",
-      "description": "After you Equip an item, Equip the item to the left.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Equipping|<span class='equip'>Equip</span>]] the item to the left.",
       "rarity": "Epic",
       "colour": "eaeaeaff"
     },
     "Coffee": {
       "id": "Coffee",
       "name": "Coffee",
-      "description": "The next 2 times you Equip an item, immediately Unequip it.",
+      "description": "The next 2 times you [[Equipping|<span class='equip'>Equip</span>]] an item, immediately [[Unequipping|<span class='unequip'>Unequip</span>]] it.",
       "rarity": "Uncommon",
       "colour": "fff9fcff"
     },
     "Collapse": {
       "id": "Collapse",
       "name": "Leaf",
-      "description": "On Equip: Unequip nearby items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] nearby items.",
       "rarity": "Common",
       "colour": "317124ff"
     },
     "Compass": {
       "id": "Compass",
       "name": "Compass",
-      "description": "Points roughly towards the nearest Flag.",
+      "description": "Points roughly towards the nearest {{B|Flag}}.",
       "rarity": "Common",
       "colour": "ccccccff"
     },
     "Completionist": {
       "id": "Completionist",
       "name": "Mountain",
-      "description": "When 4 full rows of items are Equipped, Win.",
+      "description": "When 4 full rows of items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "b7b7b7ff"
     },
     "Conveyor": {
       "id": "Conveyor",
       "name": "Conveyor",
-      "description": "Use: Shift this row to the left.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Swapping|<span class='swap'>Shift</span>]] this row to the left.",
       "rarity": "Epic",
       "colour": "efefefff"
     },
     "Cookie": {
       "id": "Cookie",
       "name": "Cookie",
-      "description": "On Equip: 20% chance to Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: 20% chance to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
       "colour": "dbb281ff"
     },
     "Copycat": {
       "id": "Copycat",
       "name": "Copycat",
-      "description": "Use: Choose an item.\nUnequip this and Morph this into it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item.<br>[[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] this into it.",
       "rarity": "Uncommon",
       "colour": "ffd3e9ff"
     },
     "Costly": {
       "id": "Costly",
       "name": "Price Tag",
-      "description": "Holds 3 Gold.\nEquipping Revealed items costs 1 Gold.",
+      "description": "Holds [[Gold|<span class='gold'>3 Gold</span>]].<br>[[Equipping|<span class='equip'>Equipping</span>]] [[Revealing|<span class='reveal'>Revealed</span>]] items costs [[Gold|<span class='gold'>1 Gold</span>]].",
       "rarity": "Epic",
       "colour": "fcfffdff"
+    },
+    "Costume": {
+      "id": "Costume",
+      "name": "Fedora",
+      "description": "'''Before''' you [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Revealed</span>]] item, 5% chance to [[Morphing|<span class='morph'>Morph</span>]] it.",
+      "rarity": "Burden",
+      "colour": "565656ff"
     },
     "Couch": {
       "id": "Couch",
       "name": "Couch",
-      "description": "Immutable.\nUse: Choose an Equipped item.\nUnequip it, then Equip it.\nCan be Used once.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>[[Using|<span class='use'>Use</span>]]: Choose an [[Equipping|<span class='equip'>Equipped</span>]] item.<br>[[Unequipping|<span class='unequip'>Unequip</span>]] it, then [[Equipping|<span class='equip'>Equip</span>]] it.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "9eb0c1ff"
     },
     "CreditCard": {
       "id": "CreditCard",
       "name": "Credit Card",
-      "description": "Immutable.\nHolds 12 Gold.\nYou must spend 1 Gold to Equip items. If this runs out of Gold, Lose.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>Holds [[Gold|<span class='gold'>15 Gold</span>]].<br>You must spend 1 [[Gold|<span class='gold'>Gold</span>]] to [[Equipping|<span class='equip'>Equip</span>]] items. If you run out of [[Gold|<span class='gold'>Gold</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "9dffa2ff"
     },
     "Crossbow": {
       "id": "Crossbow",
       "name": "Crossbow",
-      "description": "Use: Choose a nearby item. Break all items in that direction.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a nearby item. [[Breaking|<span class='break'>Break</span>]] all items in that direction.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "009223ff"
     },
     "Crown": {
       "id": "Crown",
       "name": "Crown",
-      "description": "Use: Spend 5 Gold to Win.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend [[Gold|<span class='gold'>5 Gold</span>]] to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
       "colour": "ce3454ff"
     },
     "Crumbling": {
       "id": "Crumbling",
       "name": "Crumbling Castle",
-      "description": "After you Equip an item, Break the top item (left to right).",
-      "rarity": "Uncommon",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] the top item (left to right).",
+      "rarity": "Rare",
       "colour": "40b377ff"
     },
     "CryoChamber": {
       "id": "CryoChamber",
       "name": "Chamber",
-      "description": "Immutable.\nUse: Choose an item to Freeze.\nStart the next round with a copy of it.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>[[Using|<span class='use'>Use</span>]]: Choose an item to [[Modifier|<span class='modifier'>Freeze</span>]].<br>Start the next round with a copy of it.",
       "rarity": "Board",
       "colour": "687c83ff"
     },
     "Cryptic": {
       "id": "Cryptic",
       "name": "Blueprint",
-      "description": "After Equipping 6 nearby items, Win.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 6 nearby items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "5954f1ff"
     },
     "Cuffs": {
       "id": "Cuffs",
       "name": "Handcuffs",
-      "description": "After you Equip an item, Lock 1 random Unequipped item.",
-      "rarity": "Rare",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Modifier|<span class='modifier'>Lock</span>]] 2 random [[Unequipping|<span class='unequip'>Unequipped</span>]] items.",
+      "rarity": "Legendary",
       "colour": "390d0dff"
     },
     "Cursed": {
       "id": "Cursed",
       "name": "Curse",
-      "description": "If you would Win, this Breaks instead.",
+      "description": "If you would [[Winning|<span class='win'>Win</span>]], this [[Breaking|<span class='break'>Breaks</span>]] instead.",
       "rarity": "Rare",
       "colour": "00001cff"
     },
     "CursedBlade": {
       "id": "CursedBlade",
       "name": "Doomed Blade",
-      "description": "On Equip: Morph all Hidden items into Skulls.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] all [[Revealing|<span class='reveal'>Hidden</span>]] items into {{B|Skull|Skulls}}.",
       "rarity": "Epic",
       "colour": "632d99ff"
+    },
+    "Daisy": {
+      "id": "Daisy",
+      "name": "Daisy",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 20% chance to give it [[Modifier|<span class='modifier'>Fragile</span>]].<br>Every 6 [[Equipping|<span class='equip'>Equips</span>]], [[Breaking|<span class='break'>Break</span>]] all [[Modifier|<span class='modifier'>Fragile</span>]] items.",
+      "rarity": "Burden",
+      "colour": "ffd800ff"
     },
     "Dancepad": {
       "id": "Dancepad",
       "name": "Dancepad",
-      "description": "Points a direction each time you Equip an item. After Equipping 6 items this points at consecutively, Win.",
+      "description": "Points a direction each time you [[Equipping|<span class='equip'>Equip</span>]] an item. After [[Equipping|<span class='equip'>Equipping</span>]] 6 items this points at consecutively, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "Daredevil": {
       "id": "Daredevil",
       "name": "Skateboard",
-      "description": "Use: 40% chance to Win.\nOtherwise, Lose.",
+      "description": "[[Using|<span class='use'>Use</span>]]: 40% chance to [[Winning|<span class='win'>Win</span>]].<br>Otherwise, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Uncommon",
       "colour": "543d32ff"
     },
     "Darts": {
       "id": "Darts",
       "name": "Dartboard",
-      "description": "When the total counters on Equipped non-Dartboard items adds to 14 or more, Win.",
+      "description": "When the total counters on [[Equipping|<span class='equip'>Equipped</span>]] non-{{B|Darts}} items adds to 14 or more, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "ffffffff"
     },
     "Delivery": {
       "id": "Delivery",
       "name": "Package",
-      "description": "Use: Choose a Revealed item. Break it and this. Next round, Morph the top item into it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Revealing|<span class='reveal'>Revealed</span>]] item. [[Breaking|<span class='break'>Break</span>]] it and this. Next round, [[Morphing|<span class='morph'>Morph</span>]] the top item into it.",
       "rarity": "Legendary",
       "colour": "865d3dff"
     },
     "Demolition": {
       "id": "Demolition",
       "name": "Wrecking Ball",
-      "description": "Use: Choose an item to Break.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item to [[Breaking|<span class='break'>Break</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Common",
       "colour": "000000ff"
     },
     "DemolitionTri": {
       "id": "DemolitionTri",
       "name": "Wrecking Triangle",
-      "description": "Use: Choose 3 Equipped items in a triangle shape to Break.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose 3 [[Equipping|<span class='equip'>Equipped</span>]] items in a triangle shape to [[Breaking|<span class='break'>Break</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "000000ff"
     },
     "Desert": {
       "id": "Desert",
       "name": "Sand",
-      "description": "On Equip: If at least 9 items are Broken, Win!",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If at least 9 items are [[Breaking|<span class='break'>Broken</span>]], [[Winning|<span class='win'>Win</span>]]!",
       "rarity": "Common",
       "colour": "84dee5ff"
+    },
+    "Diamond": {
+      "id": "Diamond",
+      "name": "Diamond",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 10 random items.",
+      "rarity": "Mythical",
+      "colour": "4decffff"
     },
     "Dice": {
       "id": "Dice",
       "name": "Die",
-      "description": "Use: Unequip and Morph nearby Equipped items.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] and [[Morphing|<span class='morph'>Morph</span>]] nearby [[Equipping|<span class='equip'>Equipped</span>]] items.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Epic",
       "colour": "f26659ff"
     },
     "Disappointed": {
       "id": "Disappointed",
       "name": "Disappointment",
-      "description": "When a Revealed item that can make you Win is Broken, Win.",
+      "description": "When a [[Revealing|<span class='reveal'>Revealed</span>]] item that can make you [[Winning|<span class='win'>Win</span>]] is [[Breaking|<span class='break'>Broken</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "8d8d8dff"
     },
     "DNA": {
       "id": "DNA",
       "name": "DNA",
-      "description": "On Equip: Morph all nearby items into the same random item.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] all nearby items into the same random item.",
       "rarity": "Uncommon",
       "colour": "7ad3bbff"
     },
     "Dragon": {
       "id": "Dragon",
       "name": "Dragon",
-      "description": "Use: Morph 10 random other items into Skulls. Then, after Equipping 5 more items, Win.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 10 random other items into {{B|Skull|Skulls}}. Then, after [[Equipping|<span class='equip'>Equipping</span>]] 5 more items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "7d8affff"
     },
     "Princess": {
       "id": "Princess",
       "name": "Princess",
-      "description": "Holds 3 Gold.\nOn Equip: If a Dragon is Revealed, Lose.",
+      "description": "Holds [[Gold|<span class='gold'>3 Gold</span>]].<br>On [[Equipping|<span class='equip'>Equip</span>]]: If a {{B|Dragon}} is [[Revealing|<span class='reveal'>Revealed</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Common",
       "colour": "adbe48ff"
     },
     "DraughtsPiece": {
       "id": "DraughtsPiece",
       "name": "King",
-      "description": "Jumps over items you Equip nearby.\nReveals items it Swaps with.",
+      "description": "[[Swapping|<span class='swap'>Jumps</span>]] over items you [[Equipping|<span class='equip'>Equip</span>]] nearby.<br>[[Revealing|<span class='reveal'>Reveals</span>]] items it [[Swapping|<span class='swap'>Swaps</span>]] with.",
       "rarity": "Legendary",
       "colour": "ff6262ff"
     },
     "Dungeon": {
       "id": "Dungeon",
       "name": "Dungeon",
-      "description": "On Equip: Morph a random item in each row into a Spike.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] a random item in each row into a {{B|Spike}}.",
       "rarity": "Legendary",
       "colour": "373238ff"
     },
     "Spike": {
       "id": "Spike",
       "name": "Spike",
-      "description": "On Equip: If 3 or more Spikes are Equipped, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 3 or more {{B|Spike|Spikes}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Token",
-      "colour": "000000ff"
+      "colour": "f2e8eeff"
     },
     "Eclipse": {
       "id": "Eclipse",
       "name": "Time Machine",
-      "description": "After 3 Equips, this Breaks to Unequip all non-Gift items.",
+      "description": "After 3 [[Equipping|<span class='equip'>Equips</span>]], this [[Breaking|<span class='break'>Breaks</span>]] to [[Unequipping|<span class='unequip'>Unequip</span>]] all non-<span class='r-gift'>Gift</span> items.",
       "rarity": "Gift",
       "colour": "a3a15fff"
     },
     "Egg": {
       "id": "Egg",
       "name": "Egg",
-      "description": "If this item is Broken while Equipped, Win.",
+      "description": "If this item is [[Breaking|<span class='break'>Broken</span>]] while [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "ffffffff"
+    },
+    "Elephant": {
+      "id": "Elephant",
+      "name": "Elephant",
+      "description": "You can't [[Equipping|<span class='equip'>Equip</span>]] items anywhere above this.<br>After you [[Equipping|<span class='equip'>Equip</span>]] an item anywhere below this, [[Swapping|<span class='swap'>Swaps</span>]] with it.",
+      "rarity": "Legendary",
+      "colour": "424863ff"
     },
     "Empty": {
       "id": "Empty",
       "name": "Nothing",
       "description": " ",
       "rarity": "Uncommon",
-      "colour": "474747ff"
+      "colour": "474847ff"
     },
     "Ephemeral": {
       "id": "Ephemeral",
-      "name": "Ephemeral item",
-      "description": "After you Equip an item, Unreveal and Morph all Unequipped Revealed items.",
-      "rarity": "Exquisite",
-      "colour": "dededeff"
+      "name": "Petal",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 5% chance to [[Revealing|<span class='reveal'>Hide</span>]] and [[Morphing|<span class='morph'>Morph</span>]] all [[Unequipping|<span class='unequip'>Unequipped</span>]] [[Revealing|<span class='reveal'>Revealed</span>]] items.",
+      "rarity": "Burden",
+      "colour": "ff6c9eff"
     },
     "Espionage": {
       "id": "Espionage",
       "name": "Folder",
-      "description": "On Equip: If at least 20 other items are Revealed, Win!",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If at least 20 other items are [[Revealing|<span class='reveal'>Revealed</span>]], [[Winning|<span class='win'>Win</span>]]!",
       "rarity": "Uncommon",
       "colour": "eae99fff"
     },
     "EXP": {
       "id": "EXP",
       "name": "EXP",
-      "description": "After Equipping 7 Hidden items, Win.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 7 [[Revealing|<span class='reveal'>Hidden</span>]] items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "489c8fff"
     },
     "ExtraLife": {
       "id": "ExtraLife",
       "name": "Mushroom",
-      "description": "If you would Lose, this Breaks instead.",
+      "description": "If you would [[Losing|<span class='lose'>Lose</span>]], this [[Breaking|<span class='break'>Breaks</span>]] instead.",
       "rarity": "Rare",
       "colour": "48a055ff"
     },
     "Eye": {
       "id": "Eye",
       "name": "Magnifier",
-      "description": "On Equip: Reveal 1 random item.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Common",
       "colour": "b2e4eeff"
+    },
+    "EyeDropper": {
+      "id": "EyeDropper",
+      "name": "Eye Dropper",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item.<br>[[Morphing|<span class='morph'>Morph</span>]] items near it into it.<br>Can be [[Using|<span class='use'>Used</span>]] 2 times.",
+      "rarity": "Mythical",
+      "colour": "ffffffff"
+    },
+    "Factory": {
+      "id": "Factory",
+      "name": "Factory",
+      "description": "Whenever an item [[Morphing|<span class='morph'>Morphs</span>]], 25% chance to [[Breaking|<span class='break'>Break</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]] it.",
+      "rarity": "Burden",
+      "colour": "ffffffff"
     },
     "Fairy": {
       "id": "Fairy",
       "name": "Fairy",
-      "description": "On Equip: If 4 Fairies are Equipped, Win. Otherwise, Morph 1 random Unequipped item into a Fairy. ",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 4 {{B|Fairy|Fairies}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]]. Otherwise, [[Morphing|<span class='morph'>Morph</span>]] 1 random [[Unequipping|<span class='unequip'>Unequipped</span>]] item into a {{B|Fairy}}.",
       "rarity": "Common",
       "colour": "ffffffff"
+    },
+    "Figurine": {
+      "id": "Figurine",
+      "name": "Figurine",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose 2 [[Revealing|<span class='reveal'>Revealed</span>]] items.<br>[[Morphing|<span class='morph'>Morph</span>]] one into the other at random.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
+      "rarity": "Gift",
+      "colour": "dbdbdbff"
     },
     "Filmer": {
       "id": "Filmer",
       "name": "Cine-camera",
-      "description": "Use: Unequip the item right of this, then Swap with it.\nCan be Used 3 times.",
+      "description": "[[Round|<span class='roundstart'>Round Start</span>]]: [[Swapping|<span class='swap'>Moves</span>]] all the way left.<br>[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] the item right of this, then [[Swapping|<span class='swap'>Swap</span>]] with it.<br>Can be [[Using|<span class='use'>Used</span>]] 5 times.",
       "rarity": "Gift",
       "colour": "000000ff"
     },
     "FinalBoss": {
       "id": "FinalBoss",
       "name": "Final Boss",
-      "description": "After Equipping 18 items, Win.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 18 items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Gift",
       "colour": "000000ff"
     },
     "Fire": {
       "id": "Fire",
       "name": "Flame",
-      "description": "On Equip: Morph a random nearby item into a Flame and Reveal it.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] a random nearby item into a {{B|Fire}} and [[Revealing|<span class='reveal'>Reveal</span>]] it.",
       "rarity": "Uncommon",
       "colour": "d83f05ff"
     },
     "Inferno": {
       "id": "Inferno",
       "name": "Bonfire",
-      "description": "When 6 Flames are Equipped, Win.",
+      "description": "When 6 {{B|Fire|Flames}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "ff9b41ff"
     },
     "Match": {
       "id": "Match",
       "name": "Match",
-      "description": "On Equip: Morph 2 random other items into Flames.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 2 random other items into {{B|Fire|Flames}}.",
       "rarity": "Uncommon",
       "colour": "513232ff"
     },
     "Firework": {
       "id": "Firework",
       "name": "Firework",
-      "description": "On Equip: Morph 3 random items into Smart Bombs.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 3 random items into {{B|SmartBomb|Smart Bombs}}.",
       "rarity": "Token",
       "colour": "322727ff"
     },
     "FirstAid": {
       "id": "FirstAid",
       "name": "Tape",
-      "description": "Use: Choose a Broken item to Fix.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Breaking|<span class='break'>Broken</span>]] item to [[Fixing|<span class='fix'>Fix</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Common",
       "colour": "9f9f9eff"
     },
     "Flag": {
       "id": "Flag",
       "name": "Flag",
-      "description": "On Equip: Win!",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Winning|<span class='win'>Win</span>]]!",
       "rarity": "Rare",
       "colour": "ff7171ff"
     },
     "Flagseeker": {
       "id": "Flagseeker",
       "name": "Flagseeker",
-      "description": "After you Equip an item, Reveal nearby Flags.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Revealing|<span class='reveal'>Reveal</span>]] nearby {{B|Flag|Flags}}.",
       "rarity": "Epic",
       "colour": "ffffffff"
     },
     "Flashlight": {
       "id": "Flashlight",
       "name": "Flashlight",
-      "description": "The next time you Equip a nearby item, Reveal all items in that direction.",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] a nearby item, [[Revealing|<span class='reveal'>Reveal</span>]] all items in that direction.",
       "rarity": "Epic",
       "colour": "303ea8ff"
     },
     "Flipflop": {
       "id": "Flipflop",
       "name": "Snow Globe",
-      "description": "Whenever a Hidden item Breaks, Fix and Reveal it.",
+      "description": "Whenever a [[Revealing|<span class='reveal'>Hidden</span>]] item [[Breaking|<span class='break'>Breaks</span>]], [[Fixing|<span class='fix'>Fix</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]] it.",
       "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Flower": {
       "id": "Flower",
       "name": "Flower",
-      "description": "Whenever items Morph, Reveal them.",
+      "description": "Whenever items [[Morphing|<span class='morph'>Morph</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] them.",
       "rarity": "Epic",
       "colour": "ffe65cff"
     },
     "Foolish": {
       "id": "Foolish",
-      "name": "Foolish item",
-      "description": "After Equipping 5 Revealed items, Lose.",
+      "name": "Foolishness",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 5 [[Revealing|<span class='reveal'>Revealed</span>]] items, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Token",
       "colour": "fffeb5ff"
     },
     "Forest": {
       "id": "Forest",
-      "name": "Tree",
-      "description": "Use: Unequip 1 random other item.\nCan be Used 3 times.",
+      "name": "Tree (OLD)",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] 1 random other item.<br>Can be [[Using|<span class='use'>Used</span>]] 3 times.",
       "rarity": "Uncommon",
       "colour": "efd871ff"
     },
     "Forest2": {
       "id": "Forest2",
       "name": "Forest",
-      "description": "After you Equip a Hidden item, immediately Unequip it.",
-      "rarity": "Exquisite",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Hidden</span>]] item, immediately [[Unequipping|<span class='unequip'>Unequip</span>]] it.",
+      "rarity": "Mythical",
       "colour": "e5e2c7ff"
     },
     "Forgetful": {
       "id": "Forgetful",
       "name": "Forgetfulness",
-      "description": "On Equip: Morph 2 random Revealed Unequipped items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 2 random [[Revealing|<span class='reveal'>Revealed</span>]] [[Unequipping|<span class='unequip'>Unequipped</span>]] items.",
       "rarity": "Uncommon",
       "colour": "7e8e7eff"
     },
     "Fossil": {
       "id": "Fossil",
       "name": "Fossil",
-      "description": "After you Equip an item, 5% chance to Lose.\nOn Reveal: Equips itself.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 5% chance to [[Losing|<span class='lose'>Lose</span>]].<br>On [[Revealing|<span class='reveal'>Reveal</span>]]: [[Equipping|<span class='equip'>Equips</span>]] itself.",
       "rarity": "Legendary",
       "colour": "9e571eff"
     },
     "Fox": {
       "id": "Fox",
       "name": "Fox",
-      "description": "Use: 15% chance to Win. Otherwise, this Breaks.",
+      "description": "[[Using|<span class='use'>Use</span>]]: 15% chance to [[Winning|<span class='win'>Win</span>]]. Otherwise, this [[Breaking|<span class='break'>Breaks</span>]].",
       "rarity": "Gift",
       "colour": "ff9c00ff"
     },
     "Fraidy": {
       "id": "Fraidy",
       "name": "Fog",
-      "description": "For the next 5 Equips, you must Equip Revealed items first.",
+      "description": "For the next 5 [[Equipping|<span class='equip'>Equips</span>]], you must [[Equipping|<span class='equip'>Equip</span>]] [[Revealing|<span class='reveal'>Revealed</span>]] items first.",
       "rarity": "Rare",
       "colour": "96968aff"
     },
     "Framed": {
       "id": "Framed",
       "name": "Frame",
-      "description": "Use: Choose an item.\nFuture Frames will contain it.\nMorph it into Magnifier and Break this.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item.<br>Future {{B|Framed|Frames}} will contain it.<br>[[Morphing|<span class='morph'>Morph</span>]] it into {{B|Eye}} and [[Breaking|<span class='break'>Break</span>]] this.",
       "rarity": "Epic",
       "colour": "ffd46fff"
     },
     "Fridge": {
       "id": "Fridge",
       "name": "Fridge",
-      "description": "On Equip: Reveal all nearby items. For the next 3 Equips, you can't Equip them.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] all nearby items. For the next 3 [[Equipping|<span class='equip'>Equips</span>]], you can't [[Equipping|<span class='equip'>Equip</span>]] them.",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "Friendly": {
       "id": "Friendly",
       "name": "Cuddle Cat",
-      "description": "You must Equip items near this first.",
+      "description": "You must [[Equipping|<span class='equip'>Equip</span>]] items near this first.",
       "rarity": "Epic",
       "colour": "ff9725ff"
     },
     "FutureWin": {
       "id": "FutureWin",
       "name": "Holo-Flag",
-      "description": "On Win: Win the next round, too.",
+      "description": "On [[Winning|<span class='win'>Win</span>]]: [[Winning|<span class='win'>Win</span>]] the next round, too.",
       "rarity": "Exquisite",
       "colour": "7fc2f7ff"
     },
     "Gamer": {
       "id": "Gamer",
       "name": "Controller",
-      "description": "Use 1: Break items directly above this.\nUse 2: Unequip the item left of this.\nUse 3: Morph the item right of this.\nUse 4: Unequip, Hide, and Morph this.",
+      "description": "[[Using|<span class='use'>Use</span>]] 1: [[Breaking|<span class='break'>Break</span>]] items directly above this.<br>[[Using|<span class='use'>Use</span>]] 2: [[Unequipping|<span class='unequip'>Unequip</span>]] the item left of this.<br>[[Using|<span class='use'>Use</span>]] 3: [[Morphing|<span class='morph'>Morph</span>]] the item right of this.<br>[[Using|<span class='use'>Use</span>]] 4: [[Unequipping|<span class='unequip'>Unequip</span>]], [[Revealing|<span class='reveal'>Hide</span>]], and [[Morphing|<span class='morph'>Morph</span>]] this.",
       "rarity": "Rare",
       "colour": "d779ffff"
     },
     "Gavel": {
       "id": "Gavel",
       "name": "Gavel",
-      "description": "On Equip: If all Revealed items are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If all [[Revealing|<span class='reveal'>Revealed</span>]] items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Epic",
       "colour": "82561aff"
     },
     "Gazing": {
       "id": "Gazing",
       "name": "Sentinel",
-      "description": "After opening 2 nearby items, Lose.",
-      "rarity": "Token",
-      "colour": "f67777ff"
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 2 nearby items, [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Rare",
+      "colour": "f57e7eff"
     },
     "Gear": {
       "id": "Gear",
       "name": "Gear",
-      "description": "Use: Choose an Equipped item.\nUnequip, Unreveal, and Morph it.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an [[Equipping|<span class='equip'>Equipped</span>]] item.<br>[[Unequipping|<span class='unequip'>Unequip</span>]], [[Revealing|<span class='reveal'>Hide</span>]], and [[Morphing|<span class='morph'>Morph</span>]] it.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "727272ff"
+    },
+    "Geode": {
+      "id": "Geode",
+      "name": "Geode",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend [[Gold|<span class='gold'>3 Gold</span>]] to [[Morphing|<span class='morph'>Morph</span>]] this into a random mineral.",
+      "rarity": "Epic",
+      "colour": "8d8d8dff"
+    },
+    "Pyrite": {
+      "id": "Pyrite",
+      "name": "Pyrite",
+      "description": "[[Using|<span class='use'>Use</span>]]: 5% chance to [[Revealing|<span class='reveal'>Reveal</span>]] 5 random items,<br>20% chance to [[Breaking|<span class='break'>Break</span>]],<br>otherwise, gains 2 [[Gold|<span class='gold'>Gold</span>]].",
+      "rarity": "Token",
+      "colour": "f9f17aff"
+    },
+    "RoseQuartz": {
+      "id": "RoseQuartz",
+      "name": "Rose Quartz",
+      "description": "[[Using|<span class='use'>Use</span>]]: 85% chance to [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item. Otherwise, [[Breaking|<span class='break'>Breaks</span>]].",
+      "rarity": "Token",
+      "colour": "caa1ccff"
+    },
+    "Amethyst": {
+      "id": "Amethyst",
+      "name": "Amethyst",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Revealing|<span class='reveal'>Revealed</span>]] item.<br>[[Morphing|<span class='morph'>Morph</span>]] 3 random other items into it.<br>Can't choose the same type of item twice.",
+      "rarity": "Token",
+      "colour": "69277fff"
+    },
+    "Chalcedony": {
+      "id": "Chalcedony",
+      "name": "Chalcedony",
+      "description": "When this exists, [[Winning|<span class='win'>Win</span>]].",
+      "rarity": "Token",
+      "colour": "28325bff"
+    },
+    "Carnelian": {
+      "id": "Carnelian",
+      "name": "Carnelian",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend [[Gold|<span class='gold'>1 Gold</span>]] to [[Fixing|<span class='fix'>Fix</span>]] all [[Breaking|<span class='break'>Broken</span>]] items.",
+      "rarity": "Token",
+      "colour": "ffa94fff"
+    },
+    "Ametrine": {
+      "id": "Ametrine",
+      "name": "Ametrine",
+      "description": "If this item is [[Breaking|<span class='break'>Broken</span>]] while [[Equipping|<span class='equip'>Equipped</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 8 random items.",
+      "rarity": "Token",
+      "colour": "ffbe70ff"
+    },
+    "Agate": {
+      "id": "Agate",
+      "name": "Agate",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose 2 items to [[Swapping|<span class='swap'>Swap</span>]].",
+      "rarity": "Token",
+      "colour": "274154ff"
+    },
+    "Jasper": {
+      "id": "Jasper",
+      "name": "Jasper",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item to [[Unequipping|<span class='unequip'>Unequip</span>]].<br>Can't choose the same item twice.",
+      "rarity": "Token",
+      "colour": "0f3317ff"
+    },
+    "Onyx": {
+      "id": "Onyx",
+      "name": "Onyx",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 5 items, [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Token",
+      "colour": "380056ff"
     },
     "Ghost": {
       "id": "Ghost",
       "name": "Ghost",
-      "description": "On Equip: Morph 2 random items into Skulls.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 2 random items into {{B|Skull|Skulls}}.",
       "rarity": "Uncommon",
       "colour": "99c5dbff"
     },
     "Gift": {
       "id": "Gift",
       "name": "Present",
-      "description": "Holds 5 Gold.",
+      "description": "Holds [[Gold|<span class='gold'>5 Gold</span>]].",
       "rarity": "Epic",
       "colour": "dadadaff"
     },
     "Jolly": {
       "id": "Jolly",
       "name": "Jolly Hat",
-      "description": "On Equip: Unequip all Presents. When you Equip a Present, Unequip it and Break this.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] all Presents. When you [[Equipping|<span class='equip'>Equip</span>]] a Present, [[Unequipping|<span class='unequip'>Unequip</span>]] it and [[Breaking|<span class='break'>Break</span>]] this.",
       "rarity": "Uncommon",
       "colour": "fa3131ff"
     },
     "Glip": {
       "id": "Glip",
       "name": "glip",
-      "description": "after you equip an item, this swaps with a random item near this and reveals it.",
+      "description": "after you [[Equipping|<span class='equip'>equip</span>]] an item, this [[Swapping|<span class='swap'>swaps</span>]] with a random item near this and [[Revealing|<span class='reveal'>reveals</span>]] it.",
       "rarity": "Epic",
       "colour": "ffff00ff"
     },
     "Glitched": {
       "id": "Glitched",
       "name": "Glitch",
-      "description": "Whenever items Morph, they Morph into Glitches. On Equip: If 2 Glitches are Equipped, Lose.",
+      "description": "Whenever items [[Morphing|<span class='morph'>Morph</span>]], they [[Morphing|<span class='morph'>Morph</span>]] into {{B|Glitched|Glitches}}. On [[Equipping|<span class='equip'>Equip</span>]]: If 2 {{B|Glitched|Glitches}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Epic",
       "colour": "6af2a6ff"
     },
     "Gloves": {
       "id": "Gloves",
       "name": "Gloves",
-      "description": "Use: Choose an Unequipped Revealed item. Morph it.\nCan be Used 2 times.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item to [[Morphing|<span class='morph'>Morph</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]].<br>[[Using|<span class='use'>Uses</span>]] past the first [[Morphing|<span class='morph'>Morph</span>]] the same item again.<br>Can be [[Using|<span class='use'>Used</span>]] 5 times.",
       "rarity": "Gift",
       "colour": "c044feff"
+    },
+    "Gnat": {
+      "id": "Gnat",
+      "name": "Gnat",
+      "description": "'''Before''' you [[Equipping|<span class='equip'>Equip</span>]] an item, 5% chance to [[Morphing|<span class='morph'>Morph</span>]] it into a {{B|Gnat}}.",
+      "rarity": "Burden",
+      "colour": "ffffffff"
     },
     "Goggles": {
       "id": "Goggles",
       "name": "Goggles",
-      "description": "On Equip or Round Start: Reveal 4 random items.\nPrevent the next 3 times you would Reveal an item.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 4 random items. Then, prevent the next 3 times you would [[Revealing|<span class='reveal'>Reveal</span>]] an item.",
       "rarity": "Gift",
       "colour": "87ba7cff"
     },
     "GrapplingHook": {
       "id": "GrapplingHook",
       "name": "Grappling Hook",
-      "description": "After you Equip the leftmost item in a row, Reveal the rightmost item in that row.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] the leftmost item in a row, [[Revealing|<span class='reveal'>Reveal</span>]] the rightmost item in that row.",
       "rarity": "Gift",
       "colour": "1d4451ff"
     },
     "Gravity": {
       "id": "Gravity",
       "name": "Gravity",
-      "description": "You can only Equip items in the bottom row or directly above another Equipped item.",
+      "description": "You can only [[Equipping|<span class='equip'>Equip</span>]] items in the bottom row or directly above another [[Equipping|<span class='equip'>Equipped</span>]] item.",
       "rarity": "Legendary",
       "colour": "66b5b1ff"
     },
     "Hacker": {
       "id": "Hacker",
       "name": "Moon",
-      "description": "After you Equip an item, 20% chance to immediately Unequip it.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 20% chance to immediately [[Unequipping|<span class='unequip'>Unequip</span>]] it.",
       "rarity": "Epic",
-      "colour": "356354ff"
+      "colour": "6a6a6aff"
     },
     "Halo": {
       "id": "Halo",
       "name": "Screwdriver",
-      "description": "On Equip: Fix 5 random Broken items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Fixing|<span class='fix'>Fix</span>]] 5 random [[Breaking|<span class='break'>Broken</span>]] items.",
       "rarity": "Uncommon",
       "colour": "91c087ff"
     },
     "Hammer": {
       "id": "Hammer",
       "name": "Hammer",
-      "description": "Whenever an item Breaks, 50% chance to immediately Fix it.",
+      "description": "Whenever an item [[Breaking|<span class='break'>Breaks</span>]], 50% chance to immediately [[Fixing|<span class='fix'>Fix</span>]] it.",
       "rarity": "Rare",
       "colour": "fea69aff"
     },
     "Hand": {
       "id": "Hand",
       "name": "Hand",
-      "description": "Whenever Equipped items Morph, Unequip them.",
+      "description": "Whenever [[Equipping|<span class='equip'>Equipped</span>]] items [[Morphing|<span class='morph'>Morph</span>]], [[Unequipping|<span class='unequip'>Unequip</span>]] them.",
       "rarity": "Rare",
       "colour": "bfbfbfff"
     },
     "Heart": {
       "id": "Heart",
       "name": "Helmet",
-      "description": "For the next 5 Equips, you can't Lose.",
+      "description": "For the next 5 [[Equipping|<span class='equip'>Equips</span>]], you can't [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Epic",
       "colour": "000000ff"
     },
     "Heartbreak": {
       "id": "Heartbreak",
       "name": "Balloon",
-      "description": "After you Equip an item, 2% chance to Lose. Otherwise, increase this chance by 2%.",
-      "rarity": "Common",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 0% chance to [[Losing|<span class='lose'>Lose</span>]]. Otherwise, increase this chance by 2%.",
+      "rarity": "Uncommon",
       "colour": "ff5757ff"
     },
     "HorizontalSight": {
       "id": "HorizontalSight",
       "name": "Window",
-      "description": "On Equip: Reveal all items in this row.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] all items in this row.",
       "rarity": "Rare",
       "colour": "644e1eff"
+    },
+    "Horse": {
+      "id": "Horse",
+      "name": "Horse",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] and [[Modifier|<span class='modifier'>Roughen</span>]] 3 random items.<br>[[Modifier|<span class='modifier'>Rough</span>]] - Can only be [[Equipping|<span class='equip'>Equipped</span>]] if 2 nearby items are [[Equipping|<span class='equip'>Equipped</span>]].",
+      "rarity": "Gift",
+      "colour": "8f563bff"
     },
     "Hourglass": {
       "id": "Hourglass",
       "name": "Hourglass",
-      "description": "If you would Lose while this isn't counting down, prevent the Loss and Lose in 3 Equips.",
+      "description": "If you would [[Losing|<span class='lose'>Lose</span>]] while this isn't counting down, prevent the [[Losing|<span class='lose'>Loss</span>]] and [[Losing|<span class='lose'>Lose</span>]] in 3 [[Equipping|<span class='equip'>Equips</span>]].",
       "rarity": "Gift",
       "colour": "f1ef6fff"
     },
     "Hungry": {
       "id": "Hungry",
-      "name": "Mouth",
-      "description": "On Equip: Morph all items in a random row into Nothing.",
+      "name": "Vacuum",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] all items in a random row into {{B|Empty}}.",
       "rarity": "Rare",
-      "colour": "000000ff"
+      "colour": "41478eff"
     },
     "Food": {
       "id": "Food",
       "name": "Food",
-      "description": "Use: Eat this.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Eat this.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Ice": {
       "id": "Ice",
       "name": "Snowflake",
-      "description": "You can't Equip items near this.",
+      "description": "You can't [[Equipping|<span class='equip'>Equip</span>]] items near this.",
       "rarity": "Epic",
       "colour": "e5feffff"
     },
     "Impatient": {
       "id": "Impatient",
-      "name": "Impatient item",
-      "description": "Whenever you Reveal an item in this row, Equip it.",
+      "name": "Impatience",
+      "description": "Whenever you [[Revealing|<span class='reveal'>Reveal</span>]] an item in this row, [[Equipping|<span class='equip'>Equip</span>]] it.",
       "rarity": "Epic",
       "colour": "ff0000ff"
     },
     "Impossi": {
       "id": "Impossi",
       "name": "Stained Glass",
-      "description": "After you Equip an item, 5% chance to Win.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 5% chance to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Legendary",
       "colour": "de7bffff"
     },
     "Inescapable": {
       "id": "Inescapable",
       "name": "The Inescapable",
-      "description": "On Equip: Lose.\nOn Reveal: Morph 2 random Hidden items into The Inescapable.",
-      "rarity": "Legendary",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Losing|<span class='lose'>Lose</span>]].<br>On [[Revealing|<span class='reveal'>Reveal</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 2 random [[Revealing|<span class='reveal'>Hidden</span>]] items into {{B|Inescapable}}.",
+      "rarity": "Mythical",
       "colour": "000000ff"
     },
     "Info": {
       "id": "Info",
       "name": "Newspaper",
-      "description": "On Equip: Reveal 2 random nearby items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 2 random nearby items.",
       "rarity": "Common",
       "colour": "828282ff"
     },
     "Inky": {
       "id": "Inky",
       "name": "Ink",
-      "description": "The next time an item would be Revealed, this Breaks instead.",
+      "description": "The next time an item would be [[Revealing|<span class='reveal'>Revealed</span>]], this [[Breaking|<span class='break'>Breaks</span>]] instead.",
       "rarity": "Common",
       "colour": "868194ff"
     },
     "InstaOpener": {
       "id": "InstaOpener",
       "name": "Crab",
-      "description": "On Equip: Equip the items to the left and right of this.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Equipping|<span class='equip'>Equip</span>]] the items to the left and right of this.",
       "rarity": "Common",
       "colour": "d76b52ff"
     },
     "Invert": {
       "id": "Invert",
       "name": "Scales",
-      "description": "Winning and Losing are inverted.",
+      "description": "[[Winning|<span class='win'>Winning</span>]] and [[Losing|<span class='lose'>Losing</span>]] are inverted.",
       "rarity": "Rare",
       "colour": "dededeff"
     },
     "Ivy": {
       "id": "Ivy",
       "name": "Ivy",
-      "description": "On Equip: Morph a random item directly above this into Ivy.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] a random item directly above this into {{B|Ivy}}.",
       "rarity": "Token",
       "colour": "253926ff"
     },
     "JackInThe": {
       "id": "JackInThe",
       "name": "Sticky Hand",
-      "description": "Every 2 Equips, Unequip 1 random other item.",
+      "description": "Every 2 [[Equipping|<span class='equip'>Equips</span>]], [[Unequipping|<span class='unequip'>Unequip</span>]] 1 random other item.",
       "rarity": "Legendary",
       "colour": "ff7621ff"
     },
     "JellyGBox": {
       "id": "JellyGBox",
       "name": "Jelly G.",
-      "description": "Use: 70% chance to Reveal 1 random item. Otherwise, Breaks.",
+      "description": "[[Using|<span class='use'>Use</span>]]: 70% chance to [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item. Otherwise, [[Breaking|<span class='break'>Breaks</span>]].",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "JumpRope": {
       "id": "JumpRope",
       "name": "Jump Rope",
-      "description": "On Equip: Reveal 1 random item, then Morph 2 random items into Jump Ropes.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item, then [[Morphing|<span class='morph'>Morph</span>]] 2 random items into {{B|JumpRope|Jump Ropes}}.",
       "rarity": "Rare",
       "colour": "fff78cff"
     },
     "Jumpscare": {
       "id": "Jumpscare",
       "name": "Bear",
-      "description": "On Equip: If no other items are Equipped, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If no other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Rare",
       "colour": "05150bff"
     },
     "Key": {
       "id": "Key",
-      "name": "Key",
-      "description": "If the next item you Equip is a Lock, Win.",
+      "name": "Plug",
+      "description": "If the next item you [[Equipping|<span class='equip'>Equip</span>]] is a {{B|Lock}}, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
-      "colour": "fff97dff"
+      "colour": "292929ff"
     },
     "Lock": {
       "id": "Lock",
-      "name": "Lock",
-      "description": "Can be opened by a Key!",
+      "name": "Socket",
+      "description": "Powers {{B|Key|Plugs}}.",
       "rarity": "Token",
-      "colour": "343434ff"
+      "colour": "807f6bff"
     },
     "Ladder": {
       "id": "Ladder",
       "name": "Ladder",
-      "description": "When there is exactly 1 Equipped item in each row, Win.",
+      "description": "When there is exactly 1 [[Equipping|<span class='equip'>Equipped</span>]] item in each row, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
       "colour": "fff8f7ff"
+    },
+    "Lamp": {
+      "id": "Lamp",
+      "name": "Lamp",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item with a percentage chance. Give it [[Modifier|<span class='modifier'>Lucky</span>]] - Twice as likely to trigger.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
+      "rarity": "Gift",
+      "colour": "d4e1ffff"
     },
     "LandMine": {
       "id": "LandMine",
       "name": "Mine",
-      "description": "On Equip: Break nearby items.\nIf Broken, Reveals itself.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Breaking|<span class='break'>Break</span>]] nearby items.<br>If [[Breaking|<span class='break'>Broken</span>]], [[Revealing|<span class='reveal'>Reveals</span>]] itself.",
       "rarity": "Board",
       "colour": "940000ff"
     },
     "Legacy": {
       "id": "Legacy",
-      "name": "Legacy item",
-      "description": "Use: Win.\n5 Uses left... PERMANENTLY!",
+      "name": "Legacy",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Winning|<span class='win'>Win</span>]].<br>5 [[Using|<span class='use'>Uses</span>]] left... PERMANENTLY!",
       "rarity": "Legendary",
       "colour": "000000ff"
     },
     "Locust": {
       "id": "Locust",
       "name": "Termite",
-      "description": "After you Equip an item, Break the leftmost item in each row.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] the leftmost item in each row.",
       "rarity": "Legendary",
       "colour": "00bc32ff"
     },
     "Logical": {
       "id": "Logical",
       "name": "Clue",
-      "description": "Whenever an item is Broken, Reveal it.",
+      "description": "Whenever an item is [[Breaking|<span class='break'>Broken</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] it.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Lonely": {
       "id": "Lonely",
-      "name": "Lonely item",
-      "description": "On Equip: If this is near a Broken item, Lose.",
+      "name": "Loneliness",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If this is near a [[Breaking|<span class='break'>Broken</span>]] item, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Common",
       "colour": "ffffffff"
     },
     "Loser": {
       "id": "Loser",
       "name": "L",
-      "description": "When an entire row of items is Equipped, Lose.",
+      "description": "When an entire row of items is [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Uncommon",
       "colour": "e86effff"
     },
@@ -1186,534 +1445,583 @@
     "Lunar": {
       "id": "Lunar",
       "name": "Tree",
-      "description": "Use: Break this to Unequip 5 random items.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] this to [[Unequipping|<span class='unequip'>Unequip</span>]] 5 random items.",
       "rarity": "Rare",
       "colour": "efd871ff"
     },
     "MadScientist": {
       "id": "MadScientist",
       "name": "Mad Scientist",
-      "description": "After Morphing 8 items, Win.",
+      "description": "After [[Morphing|<span class='morph'>Morphing</span>]] 8 items, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "868983ff"
     },
     "Map": {
       "id": "Map",
       "name": "Map",
-      "description": "On Equip: Reveal Treasure.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] {{B|Treasure}}.",
       "rarity": "Uncommon",
       "colour": "d52522ff"
     },
     "Treasure": {
       "id": "Treasure",
       "name": "Treasure",
-      "description": "On Equip: If there is an unbroken path of Equipped items to a Map, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If there is an unbroken path of [[Equipping|<span class='equip'>Equipped</span>]] items to a {{B|Map}}, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "fffcadff"
     },
     "Mask": {
       "id": "Mask",
       "name": "Mask",
-      "description": "Every 3 Equips, Break 1 random Equipped item.",
+      "description": "Every 3 [[Equipping|<span class='equip'>Equips</span>]], [[Breaking|<span class='break'>Break</span>]] 1 random [[Equipping|<span class='equip'>Equipped</span>]] item.",
       "rarity": "Uncommon",
+      "colour": "ffffffff"
+    },
+    "MasterKey": {
+      "id": "MasterKey",
+      "name": "Key",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] and [[Modifier|<span class='modifier'>Lock</span>]] all items that are 2 spaces away.<br>[[Using|<span class='use'>Use</span>]]: Choose an item.<br>Spend [[Gold|<span class='gold'>1 Gold</span>]] to [[Modifier|<span class='modifier'>Unlock</span>]] it.",
+      "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Microphone": {
       "id": "Microphone",
       "name": "Microphone",
-      "description": "When 10 other items are Equipped, Break this and Reveal 3 random items.",
+      "description": "When 10 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Breaking|<span class='break'>Break</span>]] this and [[Revealing|<span class='reveal'>Reveal</span>]] 3 random items.",
       "rarity": "Gift",
       "colour": "777777ff"
     },
     "Microscope": {
       "id": "Microscope",
       "name": "Sword",
-      "description": "When you try to Equip a Hidden item, 15% chance to Reveal it instead.",
+      "description": "When you try to [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Hidden</span>]] item, 15% chance to [[Revealing|<span class='reveal'>Reveal</span>]] it instead.",
       "rarity": "Uncommon",
       "colour": "898989ff"
     },
     "Microtransaction": {
       "id": "Microtransaction",
       "name": "Shatterbox",
-      "description": "Use: Spend 3 Orbs to Win.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend 3 Orbs to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Mimic": {
       "id": "Mimic",
       "name": "Mimic",
-      "description": "Appears to be another item from the pyramid until Equipped.\nOn Equip: Lose.",
+      "description": "Appears to be another item from the pyramid until [[Equipping|<span class='equip'>Equipped</span>]].<br>On [[Equipping|<span class='equip'>Equip</span>]]: [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Exquisite",
       "colour": "000000ff"
     },
     "Mine": {
       "id": "Mine",
       "name": "Pickaxe",
-      "description": "After Equipping a nearby item, this gains 1 Gold.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] a nearby item, this gains [[Gold|<span class='gold'>1 Gold</span>]].",
       "rarity": "Uncommon",
       "colour": "7a5b30ff"
     },
     "Mirror": {
       "id": "Mirror",
-      "name": "Mirror",
-      "description": "When this is Equipped, Morphed, Unequipped, or Broken, do the same to all nearby items.",
+      "name": "Mirror (OLD)",
+      "description": "When this is [[Equipping|<span class='equip'>Equipped</span>]], [[Morphing|<span class='morph'>Morphed</span>]], [[Unequipping|<span class='unequip'>Unequipped</span>]], or [[Breaking|<span class='break'>Broken</span>]], do the same to all nearby items.",
       "rarity": "Epic",
+      "colour": "00ab9aff"
+    },
+    "Mirror2": {
+      "id": "Mirror2",
+      "name": "Mirror",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item.<br>Spend [[Gold|<span class='gold'>1 Gold</span>]] to [[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] this into it.",
+      "rarity": "Gift",
       "colour": "00ab9aff"
     },
     "Monopoly": {
       "id": "Monopoly",
       "name": "Top Hat",
-      "description": "Holds 2 Gold. Use: 50% chance to double this item's Gold. Otherwise, Breaks.",
+      "description": "Holds [[Gold|<span class='gold'>2 Gold</span>]]. [[Using|<span class='use'>Use</span>]]: 50% chance to double this item's [[Gold|<span class='gold'>Gold</span>]]. Otherwise, [[Breaking|<span class='break'>Breaks</span>]].",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Monster": {
       "id": "Monster",
       "name": "Devourer",
-      "description": "After you Equip an item, Breaks a random nearby item and Swaps with it.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Breaks</span>]] a random nearby item and [[Swapping|<span class='swap'>Swaps</span>]] with it.",
       "rarity": "Rare",
       "colour": "440802ff"
+    },
+    "Mud": {
+      "id": "Mud",
+      "name": "Mud",
+      "description": "Whenever you [[Revealing|<span class='reveal'>Reveal</span>]] an item, 15% chance to [[Modifier|<span class='modifier'>Lock</span>]] it.",
+      "rarity": "Burden",
+      "colour": "ad5e26ff"
     },
     "MusicNote": {
       "id": "MusicNote",
       "name": "Music Note",
-      "description": "After you Equip an item, if all Revealed items are Equipped, Reveal 1 random item.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, if all [[Revealing|<span class='reveal'>Revealed</span>]] items are [[Equipping|<span class='equip'>Equipped</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Gift",
       "colour": "ffffffff"
     },
     "Negative": {
       "id": "Negative",
-      "name": "Negative item",
-      "description": "If you would Win, 25% chance to prevent that Win.",
+      "name": "Negativity",
+      "description": "If you would [[Winning|<span class='win'>Win</span>]], 25% chance to prevent that [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "a09a9aff"
     },
     "Nessie": {
       "id": "Nessie",
       "name": "Nessie",
-      "description": "On Equip: If another Nessie is Equipped, Lose. Otherwise, Morph 1 random Unequipped item into a Nessie.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If another {{B|Nessie}} is [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]]. Otherwise, [[Morphing|<span class='morph'>Morph</span>]] 1 random [[Unequipping|<span class='unequip'>Unequipped</span>]] item into a {{B|Nessie}}.",
       "rarity": "Common",
       "colour": "ffffffff"
+    },
+    "Note": {
+      "id": "Note",
+      "name": "Note",
+      "description": "When 10 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Breaking|<span class='break'>Break</span>]] this and [[Modifier|<span class='modifier'>Lock</span>]] all [[Revealing|<span class='reveal'>Revealed</span>]] items.",
+      "rarity": "Burden",
+      "colour": "fff7e5ff"
     },
     "Notepad": {
       "id": "Notepad",
       "name": "Notepad",
-      "description": "On Equip or Round Start: Reveal all nearby items. When you next Equip one, Break the others.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] all nearby items. When you next [[Equipping|<span class='equip'>Equip</span>]] one, [[Breaking|<span class='break'>Break</span>]] the others.",
       "rarity": "Gift",
       "colour": "fbffb2ff"
     },
     "N1": {
       "id": "N1",
       "name": "One",
-      "description": "On Equip: Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "544782ff"
     },
     "N2": {
       "id": "N2",
       "name": "Two",
-      "description": "After you Equip a number, Reveal its double.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] a number, [[Revealing|<span class='reveal'>Reveal</span>]] its double.",
       "rarity": "Board",
       "colour": "b38436ff"
     },
     "N3": {
       "id": "N3",
       "name": "Three",
-      "description": "On Equip: Reveal 3 random odd numbers.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 3 random odd numbers.",
       "rarity": "Board",
       "colour": "7fb656ff"
     },
     "N4": {
       "id": "N4",
       "name": "Four",
-      "description": "On Equip: Reveal Five.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] {{B|N5}}.",
       "rarity": "Board",
       "colour": "e648baff"
     },
     "N5": {
       "id": "N5",
       "name": "Five",
-      "description": "On Equip: Break Six.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Breaking|<span class='break'>Break</span>]] {{B|N6}}.",
       "rarity": "Board",
       "colour": "8fd548ff"
     },
     "N6": {
       "id": "N6",
       "name": "Six",
-      "description": "If this is Broken by Five while Equipped, Win. If Broken by anything else, Lose.",
+      "description": "If this is [[Breaking|<span class='break'>Broken</span>]] by {{B|N5}} while [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]]. If [[Breaking|<span class='break'>Broken</span>]] by anything else, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "e8faccff"
     },
     "N7": {
       "id": "N7",
       "name": "Seven",
-      "description": "Whenever you Equip a multiple of 7, 7% chance to Win.",
+      "description": "Whenever you [[Equipping|<span class='equip'>Equip</span>]] a multiple of 7, 7% chance to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "6eb4e6ff"
     },
     "N8": {
       "id": "N8",
       "name": "Eight",
-      "description": "Use: Choose a number less than 8. Unequip it and Square it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a number less than 8. [[Unequipping|<span class='unequip'>Unequip</span>]] it and [[Morphing|<span class='morph'>Square</span>]] it.",
       "rarity": "Board",
       "colour": "6c9d3aff"
     },
     "N9": {
       "id": "N9",
       "name": "Nine",
-      "description": "On Equip: If exactly 9 other items are Equipped, Reveal 5 random items.\n(9 items currently Equipped.)",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If exactly 9 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 5 random items.<br>(9 items currently [[Equipping|<span class='equip'>Equipped</span>]].)",
       "rarity": "Board",
       "colour": "e516ecff"
     },
     "N10": {
       "id": "N10",
       "name": "Ten",
-      "description": "On Equip: Reveal a random multiple of 4.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] a random multiple of 4.",
       "rarity": "Board",
       "colour": "a5fab4ff"
     },
     "N11": {
       "id": "N11",
       "name": "Eleven",
-      "description": "If you Equip a multiple of 11, Win.",
+      "description": "If you [[Equipping|<span class='equip'>Equip</span>]] a multiple of 11, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "d3684bff"
     },
     "N12": {
       "id": "N12",
       "name": "Twelve",
-      "description": "The next time you Equip a number, Break this. If it was less than this, Reveal that many random items.",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] a number, [[Breaking|<span class='break'>Break</span>]] this. If it was less than this, [[Revealing|<span class='reveal'>Reveal</span>]] that many random items.",
       "rarity": "Board",
       "colour": "e56900ff"
     },
     "N13": {
       "id": "N13",
       "name": "Thirteen",
-      "description": "After you Equip a number, % chance to Lose equal to it.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] a number, % chance to [[Losing|<span class='lose'>Lose</span>]] equal to it.",
       "rarity": "Board",
       "colour": "105b7aff"
     },
     "N14": {
       "id": "N14",
       "name": "Fourteen",
-      "description": "Use: Choose an Equipped number.\nIf it's a multiple of 4, Unequip it. Otherwise, Break it and this.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an [[Equipping|<span class='equip'>Equipped</span>]] number.<br>If it's a multiple of 4, [[Unequipping|<span class='unequip'>Unequip</span>]] it. Otherwise, [[Breaking|<span class='break'>Break</span>]] it and this.",
       "rarity": "Board",
       "colour": "fe955eff"
     },
     "N15": {
       "id": "N15",
       "name": "Fifteen",
-      "description": "When 5 or more Equipped numbers are 10 or less, Win.\n(15 currently Equipped.)",
+      "description": "When 5 or more [[Equipping|<span class='equip'>Equipped</span>]] numbers are 10 or less, [[Winning|<span class='win'>Win</span>]].<br>(15 currently [[Equipping|<span class='equip'>Equipped</span>]].)",
       "rarity": "Board",
       "colour": "7014abff"
     },
     "N16": {
       "id": "N16",
       "name": "Sixteen",
-      "description": "Whenever you Equip a multiple of 6, Break it.",
+      "description": "Whenever you [[Equipping|<span class='equip'>Equip</span>]] a multiple of 6, [[Breaking|<span class='break'>Break</span>]] it.",
       "rarity": "Board",
       "colour": "853fb1ff"
     },
     "N17": {
       "id": "N17",
       "name": "Seventeen",
-      "description": "On Equip: 17% chance to Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: 17% chance to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "3c304eff"
     },
     "N18": {
       "id": "N18",
       "name": "Eighteen",
-      "description": "Odd numbers cannot be Equipped. If you try to Equip one, Reveal it instead.",
+      "description": "Odd numbers cannot be [[Equipping|<span class='equip'>Equipped</span>]]. If you try to [[Equipping|<span class='equip'>Equip</span>]] one, [[Revealing|<span class='reveal'>Reveal</span>]] it instead.",
       "rarity": "Board",
       "colour": "a08f9dff"
     },
     "N19": {
       "id": "N19",
       "name": "Nineteen",
-      "description": "If you would Equip a perfect cube, Break it and Reveal items near it instead.",
+      "description": "If you would [[Equipping|<span class='equip'>Equip</span>]] a perfect cube, [[Breaking|<span class='break'>Break</span>]] it and [[Revealing|<span class='reveal'>Reveal</span>]] items near it instead.",
       "rarity": "Board",
       "colour": "fd4e97ff"
     },
     "N20": {
       "id": "N20",
       "name": "Twenty",
-      "description": "On Equip: Breaks random other Revealed numbers until at least 100 is added to the Break Total.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Breaking|<span class='break'>Breaks</span>]] random other [[Revealing|<span class='reveal'>Revealed</span>]] numbers until at least 100 is added to the [[Breaking|<span class='break'>Break</span>]] Total.",
       "rarity": "Board",
       "colour": "d813e3ff"
     },
     "N21": {
       "id": "N21",
       "name": "Twenty One",
-      "description": "Use: Break and Reveal 2 random numbers. If the difference between them was 8 or less, Reveal all numbers inbetween.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]] 2 random numbers. If the difference between them was 8 or less, [[Revealing|<span class='reveal'>Reveal</span>]] all numbers inbetween.",
       "rarity": "Board",
       "colour": "f77ca1ff"
     },
     "N22": {
       "id": "N22",
       "name": "Twenty Two",
-      "description": "If at any point, Equip Total exceeds 500, Lose.",
+      "description": "If at any point, [[Equipping|<span class='equip'>Equip</span>]] Total exceeds 500, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "d5b733ff"
     },
     "N23": {
       "id": "N23",
       "name": "Twenty Three",
-      "description": "Use: Break a random Equipped number. If at any point Equip Total is exactly 230, Win. ",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] a random [[Equipping|<span class='equip'>Equipped</span>]] number. If at any point [[Equipping|<span class='equip'>Equip</span>]] Total is exactly 230, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "e304d3ff"
     },
     "N24": {
       "id": "N24",
       "name": "Twenty Four",
-      "description": "If you Equip a perfect square, Lose.",
+      "description": "If you [[Equipping|<span class='equip'>Equip</span>]] a perfect square, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "b8455bff"
     },
     "N25": {
       "id": "N25",
       "name": "Twenty Five",
-      "description": "On Equip: If Five is Equipped, Reveal 5 random items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If {{B|N5}} is [[Equipping|<span class='equip'>Equipped</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 5 random items.",
       "rarity": "Board",
       "colour": "9f583fff"
     },
     "N26": {
       "id": "N26",
       "name": "Twenty Six",
-      "description": "Use: Choose 2 numbers less than 26. Reveal their sum and Break this.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose 2 numbers less than 26. [[Revealing|<span class='reveal'>Reveal</span>]] their sum and [[Breaking|<span class='break'>Break</span>]] this.",
       "rarity": "Board",
       "colour": "cc45f3ff"
     },
     "N27": {
       "id": "N27",
       "name": "Twenty Seven",
-      "description": "On Equip: Break and Reveal nearby prime numbers.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Breaking|<span class='break'>Break</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]] nearby prime numbers.",
       "rarity": "Board",
       "colour": "2b32e6ff"
     },
     "N28": {
       "id": "N28",
       "name": "Twenty Eight",
-      "description": "On Equip: Reveal 2 random non-numbers.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 2 random non-numbers.",
       "rarity": "Board",
       "colour": "0afb54ff"
     },
     "N29": {
       "id": "N29",
       "name": "Twenty Nine",
-      "description": "When the Equipped numbers in this row sum to 150 or more, Win.\n(Current total: 29)",
+      "description": "When the [[Equipping|<span class='equip'>Equipped</span>]] numbers in this row sum to 150 or more, [[Winning|<span class='win'>Win</span>]].<br>(Current total: 29)",
       "rarity": "Board",
       "colour": "afe509ff"
     },
     "N30": {
       "id": "N30",
       "name": "Thirty",
-      "description": "On Equip: Reveal random numbers until at least 100 is added to Reveal Total.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] random numbers until at least 100 is added to [[Revealing|<span class='reveal'>Reveal</span>]] Total.",
       "rarity": "Board",
       "colour": "a04f77ff"
     },
     "N31": {
       "id": "N31",
       "name": "Thirty One",
-      "description": "On Equip: Unequip all multiples of 10. If none were Equipped, Equip Ten instead.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] all multiples of 10. If none were [[Equipping|<span class='equip'>Equipped</span>]], [[Equipping|<span class='equip'>Equip</span>]] {{B|N10}} instead.",
       "rarity": "Board",
       "colour": "3ef118ff"
     },
     "N32": {
       "id": "N32",
       "name": "Thirty Two",
-      "description": "On Equip: Fix random Broken numbers until Break Total is 32 or less.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Fixing|<span class='fix'>Fix</span>]] random [[Breaking|<span class='break'>Broken</span>]] numbers until [[Breaking|<span class='break'>Break</span>]] Total is 32 or less.",
       "rarity": "Board",
       "colour": "d145c2ff"
     },
     "N33": {
       "id": "N33",
       "name": "Thirty Three",
-      "description": "Whenever you Equip a prime number, Reveal 1 random non-prime near it.",
+      "description": "Whenever you [[Equipping|<span class='equip'>Equip</span>]] a prime number, [[Revealing|<span class='reveal'>Reveal</span>]] 1 random non-prime near it.",
       "rarity": "Board",
       "colour": "c9b06fff"
     },
     "N34": {
       "id": "N34",
       "name": "Thirty Four",
-      "description": "On Equip: Sort this row.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Swapping|<span class='swap'>Sort</span>]] this row.",
       "rarity": "Board",
       "colour": "87afc6ff"
     },
     "N35": {
       "id": "N35",
       "name": "Thirty Five",
-      "description": "Use: Unequip this and Morph it into a random number between 1 and 10.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] it into a random number between 1 and 10.",
       "rarity": "Board",
       "colour": "7ef9c4ff"
     },
     "N36": {
       "id": "N36",
       "name": "Thirty Six",
-      "description": "When a run of 4 numbers is Equipped (e.g. 3, 4, 5, 6), Win.",
+      "description": "When a run of 4 numbers is [[Equipping|<span class='equip'>Equipped</span>]] (e.g. 3, 4, 5, 6), [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "b5126aff"
     },
     "N37": {
       "id": "N37",
       "name": "Thirty Seven",
-      "description": "On Equip: If Five is Equipped, Win. Otherwise, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If {{B|N5}} is [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]]. Otherwise, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "c6dd6fff"
     },
     "N38": {
       "id": "N38",
       "name": "Thirty Eight",
-      "description": "On Equip: Reveal all nearby numbers. If their total adds up to 150 or more, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] all nearby numbers. If their total adds up to 150 or more, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "25929bff"
     },
     "N39": {
       "id": "N39",
       "name": "Thirty Nine",
-      "description": "When Break Total exceeds 200, Lose.",
+      "description": "When [[Breaking|<span class='break'>Break</span>]] Total exceeds 200, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "1748f9ff"
     },
     "N40": {
       "id": "N40",
       "name": "Forty",
-      "description": "When a Revealed multiple of 3 is near this, Break it.",
+      "description": "When a [[Revealing|<span class='reveal'>Revealed</span>]] multiple of 3 is near this, [[Breaking|<span class='break'>Break</span>]] it.",
       "rarity": "Board",
       "colour": "8fec4dff"
     },
     "N41": {
       "id": "N41",
       "name": "Forty One",
-      "description": "Whenever you Equip a multiple of 5, Reveal 1 random number.",
+      "description": "Whenever you [[Equipping|<span class='equip'>Equip</span>]] a multiple of 5, [[Revealing|<span class='reveal'>Reveal</span>]] 1 random number.",
       "rarity": "Board",
       "colour": "c4604fff"
     },
     "N42": {
       "id": "N42",
       "name": "Forty Two",
-      "description": "Use: Choose a number. Break it and this, then Reveal a random number higher and a random number lower than it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a number. [[Breaking|<span class='break'>Break</span>]] it and this, then [[Revealing|<span class='reveal'>Reveal</span>]] a random number higher and a random number lower than it.",
       "rarity": "Board",
       "colour": "1ea84cff"
     },
     "N43": {
       "id": "N43",
       "name": "Forty Three",
-      "description": "Use: Reveal a random item. If it was an odd number, Break this.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] a random item. If it was an odd number, [[Breaking|<span class='break'>Break</span>]] this.",
       "rarity": "Board",
       "colour": "f8d3e9ff"
     },
     "N44": {
       "id": "N44",
       "name": "Forty Four",
-      "description": "If you would Win and Equip Total is above 300, Break 5 random Equipped numbers instead.",
+      "description": "If you would [[Winning|<span class='win'>Win</span>]] and [[Equipping|<span class='equip'>Equip</span>]] Total is above 300, [[Breaking|<span class='break'>Break</span>]] 5 random [[Equipping|<span class='equip'>Equipped</span>]] numbers instead.",
       "rarity": "Board",
       "colour": "4cf152ff"
     },
     "N45": {
       "id": "N45",
       "name": "Forty Five",
-      "description": "The next time you Equip a number, Break this. If it was greater than this, Win.",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] a number, [[Breaking|<span class='break'>Break</span>]] this. If it was greater than this, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "1e6164ff"
     },
     "N46": {
       "id": "N46",
       "name": "Forty Six",
-      "description": "Use: Choose a number. Unequip this and Morph this into it plus 1.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a number. [[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] this into it plus 1.",
       "rarity": "Board",
       "colour": "e3b912ff"
     },
     "N47": {
       "id": "N47",
       "name": "Forty Seven",
-      "description": "Use: Choose a number. Unequip this and Morph this into it minus 1.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a number. [[Unequipping|<span class='unequip'>Unequip</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] this into it minus 1.",
       "rarity": "Board",
       "colour": "a0b026ff"
     },
     "N48": {
       "id": "N48",
       "name": "Forty Eight",
-      "description": "Whenever you Equip a number, Break and Reveal a random number less than it.",
+      "description": "Whenever you [[Equipping|<span class='equip'>Equip</span>]] a number, [[Breaking|<span class='break'>Break</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]] a random number less than it.",
       "rarity": "Board",
       "colour": "4affc7ff"
     },
     "N49": {
       "id": "N49",
       "name": "Forty Nine",
-      "description": "Whenever you Equip a number, Reveal its successor.",
+      "description": "Whenever you [[Equipping|<span class='equip'>Equip</span>]] a number, [[Revealing|<span class='reveal'>Reveal</span>]] its successor.",
       "rarity": "Board",
       "colour": "f43cb9ff"
     },
     "N50": {
       "id": "N50",
       "name": "Fifty",
-      "description": "When Equip Total is a multiple of 50, Win.",
+      "description": "When [[Equipping|<span class='equip'>Equip</span>]] Total is a multiple of 50, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Board",
       "colour": "4bc6cfff"
     },
     "OneGold": {
       "id": "OneGold",
       "name": "Penny",
-      "description": "Holds 1 Gold.",
+      "description": "Holds [[Gold|<span class='gold'>1 Gold</span>]].",
       "rarity": "Common",
       "colour": "faff9eff"
     },
     "OrbBlast": {
       "id": "OrbBlast",
       "name": "Basket",
-      "description": "On Equip: Morph 1 random item in each direction from this into a Fruit.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 1 random item in each direction from this into a {{B|Orb}}.",
       "rarity": "Epic",
       "colour": "af9031ff"
     },
     "Orb": {
       "id": "Orb",
       "name": "Fruit",
-      "description": "On Equip: If all Fruit are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If '''all''' {{B|Orb}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "e5554eff"
     },
     "Otherworld": {
       "id": "Otherworld",
       "name": "Door",
-      "description": "Use: Morph ALL Revealed items.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Morphing|<span class='morph'>Morph</span>]] all [[Revealing|<span class='reveal'>Revealed</span>]] items.",
       "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Pandoras": {
       "id": "Pandoras",
       "name": "Skeleton",
-      "description": "On Equip: Morph all other Revealed items into Skulls.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] all other [[Revealing|<span class='reveal'>Revealed</span>]] items into {{B|Skull|Skulls}}.",
       "rarity": "Legendary",
       "colour": "ffffffff"
     },
     "Patterned": {
       "id": "Patterned",
       "name": "Scissors",
-      "description": "On Equip: For each nearby item, Morph 1 random item into it.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: For each nearby item, [[Morphing|<span class='morph'>Morph</span>]] 1 random item into it.",
       "rarity": "Rare",
       "colour": "b3b3b3ff"
     },
     "PayForReveals": {
       "id": "PayForReveals",
       "name": "Telescope",
-      "description": "Use: Spend 1 Gold to Reveal 1 random item.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend [[Gold|<span class='gold'>1 Gold</span>]] to [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Common",
       "colour": "253178ff"
     },
     "Petal": {
       "id": "Petal",
-      "name": "Petal",
-      "description": "The next 2 times a Hidden item Morphs, Reveal it.",
+      "name": "Petal (OLD)",
+      "description": "The next 2 times a [[Revealing|<span class='reveal'>Hidden</span>]] item [[Morphing|<span class='morph'>Morphs</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] it.",
       "rarity": "Gift",
       "colour": "ff6c9eff"
+    },
+    "Phone": {
+      "id": "Phone",
+      "name": "Telephone",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Modifier|<span class='modifier'>Connect</span>]] 1 random [[Equipping|<span class='equip'>Equipped</span>]] item.<br>Every 3 [[Equipping|<span class='equip'>Equips</span>]], [[Unequipping|<span class='unequip'>Unequip</span>]] [[Modifier|<span class='modifier'>Connected</span>]] items.",
+      "rarity": "Uncommon",
+      "colour": "7e82bcff"
     },
     "PiggyBank": {
       "id": "PiggyBank",
       "name": "Piggy Bank",
-      "description": "After you Equip an item that can spend Gold, this gains 2 Gold.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item that can spend [[Gold|<span class='gold'>Gold</span>]], this gains 2 [[Gold|<span class='gold'>Gold</span>]].",
       "rarity": "Gift",
       "colour": "e06becff"
+    },
+    "Pinwheel": {
+      "id": "Pinwheel",
+      "name": "Pinwheel",
+      "description": "If you would [[Winning|<span class='win'>Win</span>]], 50% chance for this to [[Breaking|<span class='break'>Break</span>]] instead.",
+      "rarity": "Burden",
+      "colour": "000000ff"
+    },
+    "Pit": {
+      "id": "Pit",
+      "name": "Pit",
+      "description": "For the next 10 [[Equipping|<span class='equip'>Equips</span>]], you can't [[Winning|<span class='win'>Win</span>]].",
+      "rarity": "Burden",
+      "colour": "ffffffff"
     },
     "Placeholder": {
       "id": "Placeholder",
@@ -1725,105 +2033,119 @@
     "PlayingCard": {
       "id": "PlayingCard",
       "name": "Ace",
-      "description": "On Equip: Reveal 2 items near each other. You must Equip one of them next.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 2 items near each other. You must [[Equipping|<span class='equip'>Equip</span>]] one of them next.",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Poison": {
       "id": "Poison",
       "name": "Poison",
-      "description": "After Equipping 8 items, Lose.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 8 items, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Common",
       "colour": "24b530ff"
     },
     "Antidote": {
       "id": "Antidote",
       "name": "Antidote",
-      "description": "On Equip: Break all Revealed Poisons and Viruses.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Breaking|<span class='break'>Break</span>]] all [[Revealing|<span class='reveal'>Revealed</span>]] {{B|Poison|Poisons}} and {{B|Viral|Viruses}}.",
       "rarity": "Common",
       "colour": "311010ff"
     },
     "Police": {
       "id": "Police",
       "name": "Bubble",
-      "description": "On Equip: If at least 10 other items are Equipped, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If at least 10 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Common",
       "colour": "4489ccff"
     },
     "Polterbox": {
       "id": "Polterbox",
       "name": "Poltergeist",
-      "description": "Use: Choose an item. Swap it with a random item near this.\nCan be Used 3 times.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item. [[Swapping|<span class='swap'>Swap</span>]] it with a random item near this.<br>Can be [[Using|<span class='use'>Used</span>]] 3 times.",
       "rarity": "Rare",
       "colour": "736effff"
     },
     "Portal": {
       "id": "Portal",
       "name": "Portal",
-      "description": "Use: Choose 2 items to Swap.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose 2 items to [[Swapping|<span class='swap'>Swap</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Uncommon",
       "colour": "fefefeff"
+    },
+    "Poster": {
+      "id": "Poster",
+      "name": "Poster",
+      "description": "While there are at least 5 [[Unequipping|<span class='unequip'>Unequipped</span>]] [[Revealing|<span class='reveal'>Revealed</span>]] items, you must [[Equipping|<span class='equip'>Equip</span>]] [[Revealing|<span class='reveal'>Revealed</span>]] items first.",
+      "rarity": "Burden",
+      "colour": "000000ff"
+    },
+    "Pot": {
+      "id": "Pot",
+      "name": "Pot",
+      "description": "When you [[Unequipping|<span class='unequip'>Unequip</span>]] an item, 30% chance to [[Breaking|<span class='break'>Break</span>]] it.",
+      "rarity": "Burden",
+      "colour": "628182ff"
     },
     "Potion": {
       "id": "Potion",
       "name": "Potion",
-      "description": "Immutable.\nUse: Give +1 Use to all non-Potion Equipped limited Use items.\nCan be Used once.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>[[Using|<span class='use'>Use</span>]]: Give +1 [[Using|<span class='use'>Use</span>]] to all non-{{B|Potion}} [[Equipping|<span class='equip'>Equipped</span>]] limited [[Using|<span class='use'>Use</span>]] items.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "cb3131ff"
     },
     "PriceyRowRevealer": {
       "id": "PriceyRowRevealer",
       "name": "Wishing Well",
-      "description": "Use: Spend 3 Gold to Reveal all items in a random row.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend [[Gold|<span class='gold'>3 Gold</span>]] to [[Revealing|<span class='reveal'>Reveal</span>]] all items in a random row.",
       "rarity": "Uncommon",
       "colour": "b2f5ffff"
     },
     "Programmed": {
       "id": "Programmed",
       "name": "Terminal",
-      "description": "Immutable.\nYou can only Equip items in the highest row with no Equipped items.",
-      "rarity": "Board",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>You can only [[Equipping|<span class='equip'>Equip</span>]] items in the highest row with no [[Equipping|<span class='equip'>Equipped</span>]] items.",
+      "rarity": "Epic",
       "colour": "050606ff"
     },
     "Puppet": {
       "id": "Puppet",
       "name": "Puppet",
-      "description": "On Equip or Round Start: Reveal 4 random nearby items.\nAfter Equipping 10 items, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 4 random nearby items.<br>After [[Equipping|<span class='equip'>Equipping</span>]] 10 items, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Gift",
       "colour": "777777ff"
     },
     "Puzzle": {
       "id": "Puzzle",
       "name": "Vexbox",
-      "description": "When there are 30 Broken items, Win.\nUse: Break 6 random items.",
+      "description": "When there are 30 [[Breaking|<span class='break'>Broken</span>]] items, [[Winning|<span class='win'>Win</span>]].<br>[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] 6 random items.",
       "rarity": "Rare",
       "colour": "aa9f81ff"
     },
     "PuzzlePiece": {
       "id": "PuzzlePiece",
       "name": "Puzzle Piece",
-      "description": "On Equip or Round Start: Morph 2 random Unequipped items into Puzzle Pieces.\nWhen this is near another Equipped Puzzle Piece, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 1 random item into a {{B|PuzzlePiece}}.<br>When this is near another [[Equipping|<span class='equip'>Equipped</span>]] {{B|PuzzlePiece}}, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Gift",
       "colour": "033299ff"
     },
     "Queen": {
       "id": "Queen",
       "name": "Queen",
-      "description": "After you Equip an item in any direction, Swaps with it.\nAfter doing this 3 times, Lose.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item in any direction, [[Swapping|<span class='swap'>Swaps</span>]] with it.<br>After doing this 3 times, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Rare",
       "colour": "fff4d6ff"
     },
     "Radar": {
       "id": "Radar",
       "name": "Radar",
-      "description": "Every 3 Equips, Reveal the nearest Hidden item.",
+      "description": "Every 3 [[Equipping|<span class='equip'>Equips</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] the nearest [[Revealing|<span class='reveal'>Hidden</span>]] item.",
       "rarity": "Gift",
       "colour": "045b03ff"
     },
     "Rainbow": {
       "id": "Rainbow",
       "name": "Rainbow",
-      "description": "On Win: Obtain an Orb.",
+      "description": "On [[Winning|<span class='win'>Win</span>]]: Obtain an Orb.",
       "rarity": "Exquisite",
       "colour": "68ff4fff"
     },
@@ -1837,602 +2159,742 @@
     "BoxOGold": {
       "id": "BoxOGold",
       "name": "Pot O' Gold",
-      "description": "Holds 10 Gold.",
+      "description": "Holds [[Gold|<span class='gold'>10 Gold</span>]].",
       "rarity": "Legendary",
       "colour": "a7a8a4ff"
+    },
+    "Remote": {
+      "id": "Remote",
+      "name": "Remote",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] items near it.",
+      "rarity": "Rare",
+      "colour": "da3725ff"
     },
     "Reset": {
       "id": "Reset",
       "name": "Bin",
-      "description": "On Equip: Unequip, Hide, and Morph Equipped items within 2 spaces.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]], [[Revealing|<span class='reveal'>Hide</span>]], and [[Morphing|<span class='morph'>Morph</span>]] [[Equipping|<span class='equip'>Equipped</span>]] items within 2 spaces.",
       "rarity": "Epic",
       "colour": "929292ff"
+    },
+    "ReverseArmageddon": {
+      "id": "ReverseArmageddon",
+      "name": "Lemon",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 3 items, [[Breaking|<span class='break'>Break</span>]] this and the outer rim of items.",
+      "rarity": "Legendary",
+      "colour": "ffeb00ff"
     },
     "Revolver": {
       "id": "Revolver",
       "name": "Revolver",
-      "description": "Use: Choose an item.\nSpend 1 Gold to Break it.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item.<br>Spend [[Gold|<span class='gold'>1 Gold</span>]] to [[Breaking|<span class='break'>Break</span>]] it.",
       "rarity": "Rare",
       "colour": "999999ff"
     },
     "Ritual": {
       "id": "Ritual",
       "name": "Scroll",
-      "description": "After you Equip an item, gains a charge.\nUse: Break this to Reveal random items equal to its charges. ",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, gains a charge.<br>[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] this to [[Revealing|<span class='reveal'>Reveal</span>]] random items equal to its charges.",
       "rarity": "Epic",
       "colour": "4add7cff"
     },
     "Rocket": {
       "id": "Rocket",
       "name": "Rocket",
-      "description": "On Equip: Break 3 random Unequipped Revealed items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Breaking|<span class='break'>Break</span>]] 3 random other [[Revealing|<span class='reveal'>Revealed</span>]] items.",
       "rarity": "Rare",
       "colour": "e8eaeaff"
     },
     "Rogue": {
       "id": "Rogue",
       "name": "Hero",
-      "description": "Immutable.\nYou can only Equip items near this.\nAfter you Equip an item, this Swaps with it.",
+      "description": "[[Immutable|<span class='immutable'>Immutable</span>]].<br>You can only [[Equipping|<span class='equip'>Equip</span>]] items near this.<br>After you [[Equipping|<span class='equip'>Equip</span>]] an item, this [[Swapping|<span class='swap'>Swaps</span>]] with it.",
       "rarity": "Board",
       "colour": "000000ff"
     },
     "RowBomb": {
       "id": "RowBomb",
       "name": "Uranium",
-      "description": "If you Equip another item in the same row as this, Break all items in this row.",
+      "description": "If you [[Equipping|<span class='equip'>Equip</span>]] another item in the same row as this, [[Breaking|<span class='break'>Break</span>]] all items in this row.",
       "rarity": "Uncommon",
       "colour": "5dff51ff"
     },
     "RowGold": {
       "id": "RowGold",
       "name": "Rowgold",
-      "description": "Holds 1 Gold for each other Equipped item in this row.",
+      "description": "Holds [[Gold|<span class='gold'>1 Gold</span>]] for each other [[Equipping|<span class='equip'>Equipped</span>]] item in this row.",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "RowSweeper": {
       "id": "RowSweeper",
       "name": "Row-Sweeper",
-      "description": "Displays the number of items in this row that can make you Lose.",
+      "description": "Displays the number of items in this row that can make you [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Token",
       "colour": "a09a9aff"
     },
     "Rowwin": {
       "id": "Rowwin",
       "name": "Pancake",
-      "description": "On Equip: If all items in this row are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If all items in this row are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
       "colour": "dd8e34ff"
     },
     "RowWinseeker": {
       "id": "RowWinseeker",
       "name": "Row-Winseeker",
-      "description": "Displays the number of items in this row that can make you Win.",
+      "description": "Displays the number of items in this row that can make you [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "ff7d7dff"
+    },
+    "Rubble": {
+      "id": "Rubble",
+      "name": "Rubble",
+      "description": "When 15 or more items are [[Breaking|<span class='break'>Broken</span>]], [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Burden",
+      "colour": "919191ff"
     },
     "Sacrificial": {
       "id": "Sacrificial",
       "name": "Staff",
-      "description": "Use: Break 1 random item, then Reveal 1 random item.\nCan be Used 4 times.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] 1 random item, then [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.<br>Can be [[Using|<span class='use'>Used</span>]] 4 times.",
       "rarity": "Common",
       "colour": "e25656ff"
     },
     "Safeguard": {
       "id": "Safeguard",
       "name": "Camera",
-      "description": "The next 2 times you try to Equip a Hidden item, Reveal it instead.",
+      "description": "The next 2 times you try to [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Hidden</span>]] item, [[Revealing|<span class='reveal'>Reveal</span>]] it instead.",
       "rarity": "Common",
       "colour": "050505ff"
+    },
+    "Sandbox": {
+      "id": "Sandbox",
+      "name": "Sandbox",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] 5 items, [[Breaking|<span class='break'>Break</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] 2 random items into {{B|Inescapable}}.",
+      "rarity": "Burden",
+      "colour": "fdf9ffff"
     },
     "Satellite": {
       "id": "Satellite",
       "name": "Satellite",
-      "description": "Whenever you Reveal an item, 10% chance to Reveal 1 additional random item.",
+      "description": "Whenever you [[Revealing|<span class='reveal'>Reveal</span>]] an item, 10% chance to [[Revealing|<span class='reveal'>Reveal</span>]] 1 additional random item.",
       "rarity": "Gift",
       "colour": "494646ff"
     },
     "School": {
       "id": "School",
       "name": "Ocean",
-      "description": "On Equip: Morph 3 random Hidden items into Fish.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 3 random [[Revealing|<span class='reveal'>Hidden</span>]] items into {{B|Fish}}.",
       "rarity": "Uncommon",
       "colour": "7296f5ff"
     },
     "Fish": {
       "id": "Fish",
       "name": "Fish",
-      "description": "On Equip: If 3 or more Fish are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If 3 or more {{B|Fish}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Token",
       "colour": "999de9ff"
     },
     "Scrap": {
       "id": "Scrap",
       "name": "Screw",
-      "description": "Whenever another item is Broken, Reveal 1 random item.",
+      "description": "Whenever another item is [[Breaking|<span class='break'>Broken</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Rare",
       "colour": "4b4c3eff"
     },
     "Script": {
       "id": "Script",
       "name": "Script",
-      "description": "On Equip or Round Start: Morph 1 random Hidden item into a Flag.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 1 random [[Revealing|<span class='reveal'>Hidden</span>]] item into a {{B|Flag}}.",
       "rarity": "Gift",
       "colour": "d1d1d1ff"
     },
     "Searchlight": {
       "id": "Searchlight",
       "name": "Spotlight",
-      "description": "The next time you Equip an item, Reveal items near it.",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Revealing|<span class='reveal'>Reveal</span>]] items near it.",
       "rarity": "Rare",
       "colour": "fceb4fff"
     },
     "SeeingStone": {
       "id": "SeeingStone",
       "name": "Seeing Stone",
-      "description": "Use: Reveal 1 random item.\n25 Uses left.\nOnly regains Uses after you Lose.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.<br>25 [[Using|<span class='use'>Uses</span>]] left.<br>Does not regain [[Using|<span class='use'>Uses</span>]] between rounds.<br>Regains uses when picked as a <span class='r-gift'>Gift</span>.",
       "rarity": "Gift",
       "colour": "ffffffff"
     },
     "SelfDestruct": {
       "id": "SelfDestruct",
       "name": "Self-Destructor",
-      "description": "After opening another item, this explodes, Breaking itself.",
+      "description": "After opening another item, this explodes, [[Breaking|<span class='break'>Breaking</span>]] itself.",
       "rarity": "Token",
       "colour": "e43333ff"
     },
     "Sentinel": {
       "id": "Sentinel",
       "name": "Eye",
-      "description": "Looks towards items you Equip.\nYou can't Equip items this sees.",
+      "description": "Looks towards items you [[Equipping|<span class='equip'>Equip</span>]].<br>You can't [[Equipping|<span class='equip'>Equip</span>]] items this sees.",
       "rarity": "Uncommon",
       "colour": "000000ff"
     },
     "Seven": {
       "id": "Seven",
       "name": "Pin",
-      "description": "On Equip: If exactly 10 other items are Equipped, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If exactly 10 other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "ce61ffff"
     },
     "Shadow": {
       "id": "Shadow",
       "name": "Shadow",
-      "description": "On Equip: Unequip 1 random item.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] 1 random item.",
       "rarity": "Common",
       "colour": "000000ff"
     },
     "Shield": {
       "id": "Shield",
       "name": "Shield",
-      "description": "If you would Lose, 50% chance for this to Break instead.",
+      "description": "If you would [[Losing|<span class='lose'>Lose</span>]], 50% chance for this to [[Breaking|<span class='break'>Break</span>]] instead.",
       "rarity": "Gift",
       "colour": "cacacaff"
+    },
+    "Shoeprint": {
+      "id": "Shoeprint",
+      "name": "Shoeprint",
+      "description": "On [[Winning|<span class='win'>Win</span>]]: Keep 2 random [[Equipping|<span class='equip'>Equipped</span>]] items.",
+      "rarity": "Legendary",
+      "colour": "000000ff"
     },
     "Shy": {
       "id": "Shy",
       "name": "Armadillo",
-      "description": "After you Equip an item, 33% chance to Unequip this item.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 33% chance to [[Unequipping|<span class='unequip'>Unequip</span>]] this item.",
       "rarity": "Uncommon",
       "colour": "80665eff"
+    },
+    "SilverShip": {
+      "id": "SilverShip",
+      "name": "Another World",
+      "description": "If you would [[Winning|<span class='win'>Win</span>]], [[Breaking|<span class='break'>Break</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] all [[Revealing|<span class='reveal'>Revealed</span>]] items instead.",
+      "rarity": "Burden",
+      "colour": "000000ff"
     },
     "Skull": {
       "id": "Skull",
       "name": "Skull",
-      "description": "On Equip: Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Rare",
       "colour": "1d1d1dff"
+    },
+    "SleepingBag": {
+      "id": "SleepingBag",
+      "name": "Moment of Truth",
+      "description": "Every 4 [[Equipping|<span class='equip'>Equips</span>]], [[Equipping|<span class='equip'>Equip</span>]] 1 random item.",
+      "rarity": "Burden",
+      "colour": "000000ff"
     },
     "Sleepy": {
       "id": "Sleepy",
       "name": "Sleepyhead",
-      "description": "On Equip: Reveal and Break all Flags and Skulls.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] and [[Breaking|<span class='break'>Break</span>]] all {{B|Flag|Flags}} and {{B|Skull|Skulls}}.",
       "rarity": "Rare",
       "colour": "272f60ff"
     },
     "Slime": {
       "id": "Slime",
       "name": "Slime",
-      "description": "After you Equip an item, Break this and Morph 2 random nearby items into Slimes and Reveal them.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] this and [[Morphing|<span class='morph'>Morph</span>]] 2 random nearby items into {{B|Slime|Slimes}} and [[Revealing|<span class='reveal'>Reveal</span>]] them.",
       "rarity": "Epic",
       "colour": "16442fff"
     },
     "Slots": {
       "id": "Slots",
       "name": "Slot Machine",
-      "description": "Use: Spend 1 Gold for a 15% chance to Win.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Spend [[Gold|<span class='gold'>1 Gold</span>]] for a 15% chance to [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "e2e2e2ff"
     },
     "SmartBomb": {
       "id": "SmartBomb",
       "name": "Smart Bomb",
-      "description": "On Equip: Reveal all nearby items.\nAfter Equipping 2 items, Break this and nearby items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] all nearby items.<br>After [[Equipping|<span class='equip'>Equipping</span>]] 2 items, [[Breaking|<span class='break'>Break</span>]] this and nearby items.",
       "rarity": "Uncommon",
       "colour": "5b6947ff"
+    },
+    "Smile": {
+      "id": "Smile",
+      "name": "Smile",
+      "description": "You can't [[Winning|<span class='win'>Win</span>]] until this is defeated.<br>[[Winning|<span class='win'>Win</span>]] 5 times to defeat.<br>On [[Winning|<span class='win'>Win</span>]]: Erase this <span class='r-burden'>Burden</span>.",
+      "rarity": "Burden",
+      "colour": "000000ff"
+    },
+    "Frown": {
+      "id": "Frown",
+      "name": "Frown",
+      "description": "Evaded fate... for now.",
+      "rarity": "Token",
+      "colour": "000000ff"
     },
     "Snail": {
       "id": "Snail",
       "name": "Snail",
-      "description": "When you try to Equip a Hidden item, Reveal it instead.\nEvery 2 times this happens, Equip the top leftmost Revealed item.",
-      "rarity": "Exquisite",
+      "description": "When you try to [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Hidden</span>]] item, [[Revealing|<span class='reveal'>Reveal</span>]] it instead.<br>Every 2 times this happens, [[Equipping|<span class='equip'>Equip</span>]] the top leftmost [[Revealing|<span class='reveal'>Revealed</span>]] item.",
+      "rarity": "Mythical",
       "colour": "ffe8fdff"
     },
     "Sniper": {
       "id": "Sniper",
       "name": "Acid",
-      "description": "Whenever another item would be Unequipped, Break it instead.",
+      "description": "Whenever another item would be [[Unequipping|<span class='unequip'>Unequipped</span>]], [[Breaking|<span class='break'>Break</span>]] it instead.",
       "rarity": "Epic",
       "colour": "325400ff"
     },
     "Soap": {
       "id": "Soap",
       "name": "Soap",
-      "description": "Use: Choose an item to Morph into Nothing.\nCan be Used 3 times.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item to [[Morphing|<span class='morph'>Morph</span>]] into {{B|Empty}}.<br>Can be [[Using|<span class='use'>Used</span>]] 3 times.",
       "rarity": "Legendary",
       "colour": "dbe2bcff"
     },
+    "Sparkle": {
+      "id": "Sparkle",
+      "name": "Sparkle",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Modifier|<span class='modifier'>Shine</span>]] 2 random [[Unequipping|<span class='unequip'>Unequipped</span>]] items.",
+      "rarity": "Common",
+      "colour": "fbff23ff"
+    },
     "Speedrun": {
       "id": "Speedrun",
-      "name": "Speedrun item",
-      "description": "On Equip: If no other items are Equipped, Win.",
+      "name": "Speedrunner",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If no other items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "e1e93fff"
     },
     "Spellbook": {
       "id": "Spellbook",
       "name": "Spellbook",
-      "description": "Use: Reveal 5 random items, then Morph all Hidden items into Skulls.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Revealing|<span class='reveal'>Revealed</span>]] non-<span class='r-gift'>Gift</span> item to give [[Modifier|<span class='modifier'>Magic</span>]] - '''Before''' you [[Equipping|<span class='equip'>Equip</span>]] an item, 15% chance to [[Morphing|<span class='morph'>Morph</span>]] it into this.<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Gift",
       "colour": "6831bcff"
     },
     "Sponge": {
       "id": "Sponge",
       "name": "Spongebox",
-      "description": "On Reveal: Reveal 2 random nearby items.\n(Equipping an item counts as Revealing it.)",
+      "description": "On [[Revealing|<span class='reveal'>Reveal</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 2 random nearby items.<br>''([[Equipping|<span class='equip'>Equipping</span>]] an item counts as [[Revealing|<span class='reveal'>Revealing</span>]] it.)''",
       "rarity": "Token",
       "colour": "fffc61ff"
     },
     "Spreadsheet": {
       "id": "Spreadsheet",
       "name": "Spreadsheet",
-      "description": "On Equip or Round Start: Reveal a random item that can Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] a random item that can [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Gift",
       "colour": "ffffffff"
     },
     "Spring": {
       "id": "Spring",
       "name": "Spring",
-      "description": "Use: Swap the Hero with a random item.\nCan be Used 3 times.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Swapping|<span class='swap'>Swap</span>]] the {{B|Rogue}} with a random item.<br>Can be [[Using|<span class='use'>Used</span>]] 3 times.",
       "rarity": "Board",
       "colour": "a9a9a9ff"
     },
     "Spy": {
       "id": "Spy",
       "name": "Mirage",
-      "description": "On Equip: Reveal all nearby items.\nIf this is Revealed, it can't be Equipped.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] all nearby items.<br>If this is [[Revealing|<span class='reveal'>Revealed</span>]], it can't be [[Equipping|<span class='equip'>Equipped</span>]].",
       "rarity": "Rare",
       "colour": "764278ff"
     },
     "Squid": {
       "id": "Squid",
       "name": "Squid",
-      "description": "Items cannot be Revealed.",
+      "description": "Items cannot be [[Revealing|<span class='reveal'>Revealed</span>]].",
       "rarity": "Legendary",
       "colour": "e2caffff"
+    },
+    "Stall": {
+      "id": "Stall",
+      "name": "Stall",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item.<br>Spend [[Gold|<span class='gold'>2 Gold</span>]]. If it was [[Revealing|<span class='reveal'>Revealed</span>]], [[Morphing|<span class='morph'>Morph</span>]] it.<br>Otherwise, [[Revealing|<span class='reveal'>Reveal</span>]] it.",
+      "rarity": "Gift",
+      "colour": "2b2244ff"
     },
     "Stamp": {
       "id": "Stamp",
       "name": "Stamp",
-      "description": "On Equip: Reveal duplicate items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] duplicate items.",
       "rarity": "Rare",
       "colour": "c47035ff"
     },
     "Star": {
       "id": "Star",
       "name": "Star",
-      "description": "On Equip: If all nearby items are Equipped, Win!",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If all nearby items are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]]!",
       "rarity": "Common",
       "colour": "fdff5dff"
     },
     "StopSign": {
       "id": "StopSign",
       "name": "Stop Sign",
-      "description": "You can't Use items.",
-      "rarity": "Exquisite",
+      "description": "You can't [[Using|<span class='use'>Use</span>]] items.",
+      "rarity": "Mythical",
       "colour": "f2f2f2ff"
     },
     "Study": {
       "id": "Study",
       "name": "Pencil",
-      "description": "After you Equip an item, 33% chance to Reveal a random item.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 33% chance to [[Revealing|<span class='reveal'>Reveal</span>]] a random item.",
       "rarity": "Rare",
       "colour": "edae10ff"
+    },
+    "Suit": {
+      "id": "Suit",
+      "name": "Suit",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Modifier|<span class='modifier'>Shine</span>]] 3 random [[Unequipping|<span class='unequip'>Unequipped</span>]] items.<br>After you [[Equipping|<span class='equip'>Equip</span>]] a [[Modifier|<span class='modifier'>Modified</span>]] item, 10% chance to [[Winning|<span class='win'>Win</span>]].",
+      "rarity": "Rare",
+      "colour": "000000ff"
+    },
+    "Sunflower": {
+      "id": "Sunflower",
+      "name": "Sunflower",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] and [[Modifier|<span class='modifier'>Lock</span>]] 2 items that can [[Winning|<span class='win'>Win</span>]].",
+      "rarity": "Burden",
+      "colour": "000000ff"
     },
     "Sus": {
       "id": "Sus",
       "name": "Imboxtor",
-      "description": "On Equip: Morph a random Hidden item into a Mimic of another, then Reveal them.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] a random [[Revealing|<span class='reveal'>Hidden</span>]] item into a {{B|Mimic}} of another, then [[Revealing|<span class='reveal'>Reveal</span>]] them.",
       "rarity": "Epic",
       "colour": "b32525ff"
     },
     "Sweeper": {
       "id": "Sweeper",
-      "name": "Sweeper",
-      "description": "Displays the number of nearby items that can make you Lose.",
+      "name": "Sweeper (OLD)",
+      "description": "Displays the number of nearby items that can make you [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Token",
       "colour": "bdbdbdff"
     },
     "Sweeper2": {
       "id": "Sweeper2",
       "name": "Sweeper",
-      "description": "Counts nearby Hidden Skulls.\nUse: Choose an item to Reveal.\nIf it wasn't a Skull, Lose.",
+      "description": "Counts nearby [[Revealing|<span class='reveal'>Hidden</span>]] Skulls.<br>[[Using|<span class='use'>Use</span>]]: Choose an item to [[Revealing|<span class='reveal'>Reveal</span>]].<br>If it wasn't a {{B|Skull}}, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Board",
       "colour": "bdbdbdff"
     },
     "Sword": {
       "id": "Sword",
-      "name": "Sword",
-      "description": "When you try to Equip a Monster, Reveal it instead.\nIf you would Lose to a Monster, Win instead.",
+      "name": "Sword (OLD)",
+      "description": "When you try to [[Equipping|<span class='equip'>Equip</span>]] a [color=#914d69]Monster[/color], [[Revealing|<span class='reveal'>Reveal</span>]] it instead.<br>If you would [[Losing|<span class='lose'>Lose</span>]] to a [color=#914d69]Monster[/color], [[Winning|<span class='win'>Win</span>]] instead.",
       "rarity": "Token",
       "colour": "898989ff"
     },
     "Tape": {
       "id": "Tape",
       "name": "Bag",
-      "description": "Use: Choose an item to Unequip.\nCan be Used once.",
-      "rarity": "Uncommon",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose an item to [[Unequipping|<span class='unequip'>Unequip</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
+      "rarity": "Common",
       "colour": "968166ff"
     },
     "Television": {
       "id": "Television",
       "name": "Television",
-      "description": "Use: Break 2 random Revealed items to Reveal 1 random item.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Breaking|<span class='break'>Break</span>]] 2 random [[Revealing|<span class='reveal'>Revealed</span>]] items to [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item.",
       "rarity": "Rare",
       "colour": "00c000ff"
     },
     "Temporal": {
       "id": "Temporal",
-      "name": "Time Machine",
-      "description": "Use: rewind time to when this first became Equip, then Break this.\nYou keep what items were Revealed.",
+      "name": "Time Machine (OLD)",
+      "description": "[[Using|<span class='use'>Use</span>]]: rewind time to when this first became [[Equipping|<span class='equip'>Equipped</span>]], then [[Breaking|<span class='break'>Break</span>]] this.<br>''You keep what items were [[Revealing|<span class='reveal'>Revealed</span>]].''",
       "rarity": "Exquisite",
-      "colour": "f8788aff"
+      "colour": "a3a15fff"
     },
     "Territory": {
       "id": "Territory",
       "name": "Glue",
-      "description": "You can only Equip items near Equipped items.",
+      "description": "You can only [[Equipping|<span class='equip'>Equip</span>]] items near [[Equipping|<span class='equip'>Equipped</span>]] items.",
       "rarity": "Uncommon",
       "colour": "f22e14ff"
     },
     "Tetris": {
       "id": "Tetris",
       "name": "Block",
-      "description": "After Equipping the last Unequipped item in a row, Reveal 2 random items in the row below it.",
+      "description": "After [[Equipping|<span class='equip'>Equipping</span>]] the last [[Unequipping|<span class='unequip'>Unequipped</span>]] item in a row, [[Revealing|<span class='reveal'>Reveal</span>]] 2 random items in the row below it.",
       "rarity": "Rare",
       "colour": "ffff00ff"
+    },
+    "Thesis": {
+      "id": "Thesis",
+      "name": "Thesis",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 12 random [[Revealing|<span class='reveal'>Hidden</span>]] items into {{B|Empty}}.",
+      "rarity": "Burden",
+      "colour": "eeeeeeff"
     },
     "Three": {
       "id": "Three",
       "name": "Ticket",
-      "description": "On Equip: If you've Equipped a Ticket 3 or more times this game, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If you've [[Equipping|<span class='equip'>Equipped</span>]] a {{B|Three}} 3 or more times this game, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "3c2e20ff"
     },
     "ThreeD": {
       "id": "ThreeD",
       "name": "Prism",
-      "description": "On Equip: Reveal 3 random items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] 3 random items.",
       "rarity": "Uncommon",
       "colour": "759cffff"
     },
     "ThreeGold": {
       "id": "ThreeGold",
       "name": "Gold Bar",
-      "description": "Holds 3 Gold.",
+      "description": "Holds [[Gold|<span class='gold'>3 Gold</span>]].",
       "rarity": "Rare",
       "colour": "ffef49ff"
     },
     "Tinfoil": {
       "id": "Tinfoil",
       "name": "Tinfoil",
-      "description": "You can always Equip all items.",
+      "description": "You can always [[Equipping|<span class='equip'>Equip</span>]] all items.",
       "rarity": "Gift",
       "colour": "a5a5a5ff"
+    },
+    "Tomb": {
+      "id": "Tomb",
+      "name": "Tomb",
+      "description": "[[Modifier|<span class='modifier'>Curse</span>]] every 3rd item you [[Revealing|<span class='reveal'>Reveal</span>]].",
+      "rarity": "Rare",
+      "colour": "270d51ff"
     },
     "Toolbox": {
       "id": "Toolbox",
       "name": "Multi-tool",
-      "description": "On Equip: Morph the items above this into a Bag and a Wrecking Ball.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] the items above this into a Bag and a Wrecking Ball.",
       "rarity": "Rare",
       "colour": "c93d3dff"
     },
     "Top": {
       "id": "Top",
       "name": "Top",
-      "description": "Use: 2% chance to Lose.\nOtherwise, Reveal 1 random item and double the chance to lose.",
+      "description": "[[Using|<span class='use'>Use</span>]]: 2% chance to [[Losing|<span class='lose'>Lose</span>]].<br>Otherwise, [[Revealing|<span class='reveal'>Reveal</span>]] 1 random item and double the chance to lose.",
       "rarity": "Uncommon",
       "colour": "ebca00ff"
     },
     "Trading": {
       "id": "Trading",
       "name": "Roulette",
-      "description": "Use: Unequip a random other item, then Equip a random item.",
+      "description": "[[Using|<span class='use'>Use</span>]]: [[Unequipping|<span class='unequip'>Unequip</span>]] a random other item, then [[Equipping|<span class='equip'>Equip</span>]] a random item.",
       "rarity": "Epic",
       "colour": "faa300ff"
+    },
+    "TrainingDummy": {
+      "id": "TrainingDummy",
+      "name": "Training Dummy",
+      "description": "Prevent the next 5 times you would [[Revealing|<span class='reveal'>Reveal</span>]] an item.",
+      "rarity": "Burden",
+      "colour": "ffffffff"
+    },
+    "Trampoline": {
+      "id": "Trampoline",
+      "name": "Trampoline",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item within 2 spaces of this, immediately [[Unequipping|<span class='unequip'>Unequip</span>]] it.",
+      "rarity": "Exquisite",
+      "colour": "275054ff"
     },
     "Transmog": {
       "id": "Transmog",
       "name": "Test Tube",
-      "description": "Use: Choose a Revealed item to Morph.\nCan be Used once.",
+      "description": "[[Using|<span class='use'>Use</span>]]: Choose a [[Revealing|<span class='reveal'>Revealed</span>]] item to [[Morphing|<span class='morph'>Morph</span>]].<br>Can be [[Using|<span class='use'>Used</span>]] once.",
       "rarity": "Rare",
       "colour": "91668aff"
     },
     "Trapdoor": {
       "id": "Trapdoor",
       "name": "Trap",
-      "description": "On Equip: 25% chance to Lose.\nAfter Equipping a nearby item, if this is Revealed, Equips itself.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: 25% chance to [[Losing|<span class='lose'>Lose</span>]].<br>After [[Equipping|<span class='equip'>Equipping</span>]] a nearby item, if this is [[Revealing|<span class='reveal'>Revealed</span>]], [[Equipping|<span class='equip'>Equips</span>]] itself.",
       "rarity": "Epic",
       "colour": "000000ff"
     },
     "Trigaze": {
       "id": "Trigaze",
       "name": "Triangle",
-      "description": "On Equip: Reveal the corner items.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] the corner items.",
       "rarity": "Common",
       "colour": "ffffffff"
     },
     "Turret": {
       "id": "Turret",
       "name": "Turret",
-      "description": "After you Equip an item, Break the item this is pointing at, then rotates clockwise.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Break</span>]] the item this is pointing at, then rotates clockwise.",
       "rarity": "Rare",
       "colour": "ffffffff"
     },
     "Twister": {
       "id": "Twister",
       "name": "Twister",
-      "description": "On Equip or Round Start: Reveal the top item.\nWhen you Equip it, Reveal the second row.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Round|<span class='roundstart'>Round Start</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] the top item.<br>When you [[Equipping|<span class='equip'>Equip</span>]] it, [[Revealing|<span class='reveal'>Reveal</span>]] the second row.",
       "rarity": "Gift",
       "colour": "e0e006ff"
     },
     "Two": {
       "id": "Two",
       "name": "Sculpture",
-      "description": "When 2 Revealed items near this are the same, Win.",
+      "description": "When 2 [[Revealing|<span class='reveal'>Revealed</span>]] items near this are the same, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "898989ff"
     },
     "TwoGold": {
       "id": "TwoGold",
       "name": "Coin",
-      "description": "Holds 2 Gold.",
+      "description": "Holds [[Gold|<span class='gold'>2 Gold</span>]].",
       "rarity": "Common",
       "colour": "ffc400ff"
     },
     "Tyre": {
       "id": "Tyre",
       "name": "Tyre",
-      "description": "If you Win in the first 10 Equips, Reveal 3 random items in the next round.",
+      "description": "If you [[Winning|<span class='win'>Win</span>]] in the first 10 [[Equipping|<span class='equip'>Equips</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 3 random items in the next round.",
       "rarity": "Gift",
       "colour": "518e96ff"
     },
     "UFB": {
       "id": "UFB",
       "name": "UFO",
-      "description": "After you Equip an item directly above this, Swaps with it.\nWhen this is at the top, Win.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item directly above this, [[Swapping|<span class='swap'>Swaps</span>]] with it.<br>When this is at the top, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Uncommon",
       "colour": "2b7030ff"
     },
+    "Ukulele": {
+      "id": "Ukulele",
+      "name": "Ukulele",
+      "description": "Every 4 [[Equipping|<span class='equip'>Equips</span>]], 25% chance to [[Losing|<span class='lose'>Lose</span>]].",
+      "rarity": "Legendary",
+      "colour": "ce9167ff"
+    },
+    "Umbrella": {
+      "id": "Umbrella",
+      "name": "Umbrella",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, 20% chance to give it [[Modifier|<span class='modifier'>Muddy</span>]].<br>[[Using|<span class='use'>Use</span>]]: Choose a [[Modifier|<span class='modifier'>Muddy</span>]] item to [[Morphing|<span class='morph'>Morph</span>]].",
+      "rarity": "Gift",
+      "colour": "588d93ff"
+    },
     "Underrated": {
       "id": "Underrated",
-      "name": "Underrated item",
-      "description": "On Equip: Reveal the Hidden item you've Equipped the least.",
+      "name": "Underratedness",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Revealing|<span class='reveal'>Reveal</span>]] the [[Revealing|<span class='reveal'>Hidden</span>]] item you've [[Equipping|<span class='equip'>Equipped</span>]] the least.",
       "rarity": "Token",
       "colour": "ff4d4dff"
     },
     "Underworld": {
       "id": "Underworld",
       "name": "Underworld",
-      "description": "On Equip: Lose.\nThen, if you didn't Lose, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Losing|<span class='lose'>Lose</span>]].<br>Then, if you didn't [[Losing|<span class='lose'>Lose</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "000000ff"
     },
     "Unrevealed": {
       "id": "Unrevealed",
       "name": "Box",
-      "description": "Contains a Hidden item.\nClick to Equip it!",
+      "description": "Contains a [[Revealing|<span class='reveal'>Hidden</span>]] item.<br>Click to [[Equipping|<span class='equip'>Equip</span>]] it!",
       "rarity": "Token",
       "colour": "000000ff"
     },
     "Unstable": {
       "id": "Unstable",
       "name": "Sun",
-      "description": "When you try to Equip an item, 25% chance to Break and Reveal it instead.",
+      "description": "When you try to [[Equipping|<span class='equip'>Equip</span>]] an item, 25% chance to [[Breaking|<span class='break'>Break</span>]] and [[Revealing|<span class='reveal'>Reveal</span>]] it instead.",
       "rarity": "Epic",
       "colour": "ff5b00ff"
     },
     "Vampire": {
       "id": "Vampire",
       "name": "Vampire",
-      "description": "After you Equip an item, Breaks 2 random other Revealed items. If it can't, Lose.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Breaking|<span class='break'>Breaks</span>]] 2 random other [[Revealing|<span class='reveal'>Revealed</span>]] items. If it can't, [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Epic",
       "colour": "000000ff"
     },
     "Violin": {
       "id": "Violin",
       "name": "Violin",
-      "description": "After you Equip an item, 10% chance to Lose.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] a [[Revealing|<span class='reveal'>Revealed</span>]] item, 15% chance to [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Rare",
       "colour": "ab8660ff"
     },
     "Viral": {
       "id": "Viral",
       "name": "Virus",
-      "description": "After you Equip an item, Morph a random item near this into Decay, Equip it, and Swap with it.",
+      "description": "After you [[Equipping|<span class='equip'>Equip</span>]] an item, [[Morphing|<span class='morph'>Morph</span>]] a random item near this into {{B|Decayed}}, [[Equipping|<span class='equip'>Equip</span>]] it, and [[Swapping|<span class='swap'>Swap</span>]] with it.",
       "rarity": "Rare",
       "colour": "f38dffff"
     },
     "Decayed": {
       "id": "Decayed",
       "name": "Decay",
-      "description": "On Equip or Morph: If 5 Decays are Equipped, Lose.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]] or [[Morphing|<span class='morph'>Morph</span>]]: If 5 {{B|Decayed}} are [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Token",
-      "colour": "42283bff"
+      "colour": "654f50ff"
     },
     "Vortex": {
       "id": "Vortex",
-      "name": "Vortex",
-      "description": "When all items within 2 spaces of this are Equipped, Win.",
+      "name": "Globe",
+      "description": "When all items within 2 spaces of this are [[Equipping|<span class='equip'>Equipped</span>]], [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
-      "colour": "82ffa6ff"
+      "colour": "2c8940ff"
     },
     "Waterfall": {
       "id": "Waterfall",
       "name": "Droplet",
-      "description": "On Equip: If this is in the bottom row, Win. Otherwise, Morph a random item in the row below into a Droplet.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: If this is in the bottom row, [[Winning|<span class='win'>Win</span>]]. Otherwise, [[Morphing|<span class='morph'>Morph</span>]] a random item in the row below into a {{B|Waterfall}}.",
       "rarity": "Uncommon",
       "colour": "8ac2ffff"
     },
     "Wave": {
       "id": "Wave",
       "name": "Wave",
-      "description": "On Equip: Equip all items to the right of this.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Equipping|<span class='equip'>Equip</span>]] all items to the right of this.",
       "rarity": "Rare",
       "colour": "464fcaff"
     },
     "Whacka": {
       "id": "Whacka",
       "name": "Mole",
-      "description": "On Equip: Morph a random nearby Unequipped item into a Mole.\nIf this is the third Mole Equipped consecutively, Win.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] a random nearby [[Unequipping|<span class='unequip'>Unequipped</span>]] item into a {{B|Whacka}}.<br>If this is the third {{B|Whacka}} [[Equipping|<span class='equip'>Equipped</span>]] consecutively, [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Rare",
       "colour": "d8d8d8ff"
     },
     "Wine": {
       "id": "Wine",
       "name": "Wine",
-      "description": "If this item is Broken while Equipped, Reveal 5 random items.",
+      "description": "If this item is [[Breaking|<span class='break'>Broken</span>]] while [[Equipping|<span class='equip'>Equipped</span>]], [[Revealing|<span class='reveal'>Reveal</span>]] 5 random items.",
       "rarity": "Gift",
       "colour": "a81a05ff"
+    },
+    "Wing": {
+      "id": "Wing",
+      "name": "Wing",
+      "description": "The next time you [[Equipping|<span class='equip'>Equip</span>]] an item, this [[Swapping|<span class='swap'>Swaps</span>]] with it.",
+      "rarity": "Common",
+      "colour": "a12427ff"
     },
     "WinSeeker": {
       "id": "WinSeeker",
       "name": "Winseeker",
-      "description": "Displays the number of nearby items that can make you Win.",
+      "description": "Displays the number of nearby items that can make you [[Winning|<span class='win'>Win</span>]].",
       "rarity": "Common",
       "colour": "ff6060ff"
     },
     "Winter": {
       "id": "Winter",
       "name": "Snowman",
-      "description": "On Equip: Morph 4 random other items into Snowflakes.",
+      "description": "On [[Equipping|<span class='equip'>Equip</span>]]: [[Morphing|<span class='morph'>Morph</span>]] 4 random other items into {{B|Ice|Snowflakes}}.",
       "rarity": "Token",
       "colour": "ffffffff"
     },
     "Worldbearer": {
       "id": "Worldbearer",
       "name": "Safe",
-      "description": "If this item is Broken while Equipped, Lose.",
+      "description": "If this item is [[Breaking|<span class='break'>Broken</span>]] while [[Equipping|<span class='equip'>Equipped</span>]], [[Losing|<span class='lose'>Lose</span>]].",
       "rarity": "Common",
       "colour": "7d7d7dff"
     }
