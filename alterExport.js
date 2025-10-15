@@ -32,20 +32,33 @@ const origRelicSize = 256;
 const targetRelicSize = 150;
 
 function useExtraData(data, dataToUse) {
-    for (let category in dataToUse.add)
-        data[category] = data.hasOwnProperty(category) ? [...data[category], ...dataToUse.add[category]] : dataToUse.add[category]; //add the extra items to the category (or create it if it doesnt exist)
+    if (dataToUse == null) return;
+    
+    if (dataToUse.hasOwnProperty('add'))
+        for (let category in dataToUse.add)
+            data[category] = data.hasOwnProperty(category) ? [...data[category], ...dataToUse.add[category]] : dataToUse.add[category]; //add the extra items to the category (or create it if it doesnt exist)
 
-    for (let category in dataToUse.edit)
-        for (let editData of dataToUse.edit[category]) {
-            let item = data[category].find(i => Object.keys(editData.where).filter(key => i[key] != editData.where[key]).length == 0);
-            if (item == null) continue;
-            for (let i in editData.to) {
-                if (typeof editData.to[i] == 'function')
-                    item[i] = editData.to[i](item[i]);
-                else
-                    item[i] = editData.to[i];
+    if (dataToUse.hasOwnProperty('edit'))
+        for (let category in dataToUse.edit)
+            for (let editData of dataToUse.edit[category]) {
+                let item = data[category].find(i => Object.keys(editData.where).filter(key => i[key] != editData.where[key]).length == 0);
+                if (item == null) continue;
+                for (let i in editData.to) {
+                    if (typeof editData.to[i] == 'function')
+                        item[i] = editData.to[i](item[i]);
+                    else
+                        item[i] = editData.to[i];
+                }
             }
-        }
+    
+
+    if (dataToUse.hasOwnProperty('remove'))
+        for (let category in dataToUse.remove)
+            for (let removeData of dataToUse.remove[category]) {
+                let item = data[category].find(i => Object.keys(removeData).filter(key => i[key] != removeData[key]).length == 0);
+                if (item == null) continue;
+                data[category].splice(data[category].indexOf(item), 1);
+            }
 }
 
 canvas.loadImageOld = canvas.loadImage;

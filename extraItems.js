@@ -2310,6 +2310,21 @@ export default {
         }
     },
 
+    "Borealis Content": {
+        "pre": {
+            "remove": {
+                "cards": [
+                    {
+                        "id":"borealiscards:Bonk"
+                    },
+                    {
+                        "id":"borealiscards:DevastatingStrikeOLD"
+                    }
+                ]
+            }
+        }
+    },
+
     "Template": {
         "pre": {
             "add": {
