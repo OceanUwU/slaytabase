@@ -124,8 +124,8 @@ async function exportMod(modPath){
         let finish;
         let finished = new Promise(res => finish = res);
 
-        let up = cards.find(e => e.name == c.name+'+' && e.color == c.color); //find upgraded version of card
-        let altUp = cards.find(e => e.name == c.name+'*' && e.color == c.color); //find upgraded version of card
+        let up = cards.find(e => e.name == c.name+'+' && e.color == c.color && e.id == c.id); //find upgraded version of card
+        let altUp = cards.find(e => e.name == c.name+'*' && e.color == c.color && e.id == c.id); //find upgraded version of card
         let noUpgradeWithSameName = up == undefined;
         if (noUpgradeWithSameName)
             up = cards.find(e => e.id == c.id && e.upgrades == "1" && isNaN(e.name.slice(-1))) //cards which change their name on upgrade
