@@ -260,7 +260,7 @@ async function startThread() {
             if (channel) {
                 let daEmbed = await embed({...pack.item, score: pack.score, query: fn.unPunctuate(pack.item.id)});
                 let mods = [pack.item.mod, "Slay the Spire"];
-                let cards = pack.item.cards.map(n => search._docslist.find(c => c.name == n && c.itemType == 'card' && mods.includes(c.mod))); //search._docslist.filter(c => c.itemType == 'card' && mods.includes(c.mod) && item.item.cards.includes(c.name));
+                let cards = pack.item.cards.map(n => search._docslist.find(c => (c.name == n || c.name.replace(/ *\([^)]*\)*/g, "") == n) && c.itemType == 'card' && mods.includes(c.mod))); //search._docslist.filter(c => c.itemType == 'card' && mods.includes(c.mod) && item.item.cards.includes(c.name));
                 let canvas = createCanvas(339 * 5, 437 * Math.ceil(cards.length / 5));
                 let ctx = canvas.getContext('2d');
                 for (let i = 0; i < cards.length; i++) {
