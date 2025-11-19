@@ -142,4 +142,5 @@ export default {
     'Vessel_gray_color':['The Vessel', 3685694, '<:colorless_energy:382625433016991745>'],
     'Thepilot_character_color':['The Pilot', 168315, '<:pilot_energy:1410296308186746960>'],
     'Character_starlight_color':['The Starmaker', 10544127, '<:energy_orb_p_rianne:1425895048188264721>'],
+    'Frisk_red': ['The Fallen Human', 16711680, '<:colorless_energy:382625433016991745>'],
 };
