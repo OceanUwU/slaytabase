@@ -24,6 +24,7 @@ if (!fs.existsSync(packDiscussionsFilename))
     fs.writeFileSync(packDiscussionsFilename, '[]');
 const timeBetweenPackDiscussions = 24 * 60 * 60 * 1000 * 7;
 var packDiscussions = JSON.parse(fs.readFileSync(packDiscussionsFilename));
+var makingPackDiscussion = false;
 
 function checkForDiscussions() {
     startThread();
@@ -251,7 +252,8 @@ async function startThread() {
         }
     }
 
-    if (cfg.hasOwnProperty('packDiscussions') && cfg.packDiscussions != null && Date.now() > cfg.packDiscussions.startTime + timeBetweenPackDiscussions * packDiscussions.length) {
+    if (!makingPackDiscussion && cfg.hasOwnProperty('packDiscussions') && cfg.packDiscussions != null && Date.now() > cfg.packDiscussions.startTime + timeBetweenPackDiscussions * packDiscussions.length) {
+        makingPackDiscussion = true;
         let packs = fn.findAll('type=pack mod=packmaster')
             .filter(p => !packDiscussions.includes(p.item.id));
         if (packs.length > 0) {
@@ -294,6 +296,7 @@ async function startThread() {
                 }
             }
         }
+        makingPackDiscussion = false;
     }
 
     if (off.off) {
