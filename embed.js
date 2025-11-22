@@ -127,7 +127,7 @@ async function embed(item, msg, embeds=[], encode=true) {
         
         case 'fail':
             delete e.url;
-            e.description = `If you think this is a mistake, contact <@106068236000329728>\n\n[Search for "${item.query.replaceAll('+', '')}" on the Slay the Spire wiki](https://slay-the-spire.fandom.com/wiki/Special:Search?query=${item.query.replaceAll('+', '').replaceAll(' ', '+')})?`;
+            e.description = `If you think this is a mistake, contact <@106068236000329728>\n\n[Search for "${item.query.replaceAll('+', '')}" on the Slay the Spire wiki](https://slaythespire.wiki.gg/wiki/Special:Search?query=${item.query.replaceAll('+', '').replaceAll(' ', '+')})?`;
             e.color = 0;
             break;
     }
