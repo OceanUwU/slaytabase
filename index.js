@@ -817,7 +817,7 @@ const searchize = item => {
 async function main() {
     console.log('loading and parsing data...');
     data = JSON.parse(fs.readFileSync('./docs/dataformatted.json'));
-    let wikis = {'Slay the Spire': 'slay-the-spire'};
+    let wikis = {'Slay the Spire': 'slaythespire'};
     for (let itemType in data)
         for (let item of data[itemType]) {
             let character = characters[''];
@@ -826,7 +826,7 @@ async function main() {
             let wiki = wikis.hasOwnProperty(item.mod) ? wikis[item.mod] : false;
             let url = null;
             if (wiki)
-                url = `https://${wikis[item.mod]}.fandom.com/wiki/${searchize(item)}`;
+                url = `https://${wikis[item.mod]}.wiki.gg/wiki/${searchize(item)}`;
             switch(itemType) {
                 case 'cards':
                     img = `${item.mod}/cards/${item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`;
@@ -840,7 +840,7 @@ async function main() {
 
                 case 'potions':
                     img = `${item.mod}/potions/${item.id.replaceAll(' ', '').replaceAll(':','-')}.png`;
-                    if (wiki) url = `https://${wikis[item.mod]}.fandom.com/wiki/Potions`;
+                    if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Potions`;
                     character = characters[item.hasOwnProperty('color') ? item.color : ''];
                     break;
 
@@ -860,7 +860,7 @@ async function main() {
                 
                 case 'blights':
                     img = `${item.mod}/blights/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
-                    if (wiki) url = `https://${wikis[item.mod]}.fandom.com/wiki/Blights`;
+                    if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Blights`;
                     break;
                 
                 case 'mods':
