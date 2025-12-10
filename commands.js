@@ -1454,8 +1454,8 @@ __List of memes:__
                     if (body3.includes('playerAvatar medium')) {
                         body3 = body3.split('\n');
                         let avatarIndex = body3.findIndex(e => e.includes('playerAvatar medium'));
-                        let avatarLine = body3[avatarIndex+(body3[avatarIndex+1].includes('<div') ? 4 : 1)];
-                        author.iconURL = avatarLine.slice(avatarLine.indexOf('src=')+5, avatarLine.indexOf('" />'));
+                        let avatarLine = body3[avatarIndex+(body3[avatarIndex+1].includes('profile_avatar_frame') ? 10 : 3)];
+                        author.iconURL = avatarLine.slice(avatarLine.indexOf('srcset=')+8, avatarLine.indexOf('" />')-2);
                     }
                     let tableIndex = body2.findIndex(e => e.includes('class="stats_table"'));
                     let subs = body2[tableIndex+6].slice(body2[tableIndex+6].indexOf('<td>')+4, body2[tableIndex+6].indexOf('</td>'));
