@@ -17,6 +17,7 @@ export default {
     'Hermit_yellow': ['The Hermit', 10049803, '<:energy_hermit:1016192189438627980> '],
     'The_collector': ['The Collector', 2516557, '<:energy_collector:1140000611077730315>'],
     'Collectible': ['Collectible', 8285068, '<:energy_collector:1140000611077730315>'],
+    'Awakened_blue': ['The Awakened', 4737903, '<:energy_awakened_one:1452862185754722488>'],
     'Unchained_orange_color': ['The Unchained', 8013057, '<:UnchainedEnergy:1064527209471156274>'],
     'Unchained_booster_color': ['Unchained: Booster Pack', 8013057, '<:UnchainedEnergy:1064527209471156274>'],
     'Packmaster_rainbow': ['The Packmaster', 11375735, '<:PackmasterEnergy:1120007941572014091>'],
