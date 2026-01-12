@@ -344,7 +344,7 @@ const emojiReactions = {
     '🐯': ['tiger'],
     '🐢': ['turtle', 'snap'],
     '🐸': ['frog', 'ribbit'],
-    '🦦': ['otter', 'other', 'water'],
+    '🦦': ['otter', 'water'],
     '🦋': ['butterfly', 'moth'],
 };
 
