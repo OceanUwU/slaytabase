@@ -817,7 +817,7 @@ const searchize = item => {
 async function main() {
     console.log('loading and parsing data...');
     data = JSON.parse(fs.readFileSync('./docs/dataformatted.json'));
-    let wikis = {'Slay the Spire': 'slaythespire'};
+    let wikis = {'Slay the Spire': 'slaythespire', 'Downfall': 'slaythespiredownfall'};
     for (let itemType in data)
         for (let item of data[itemType]) {
             let character = characters[''];
