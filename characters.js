@@ -145,4 +145,5 @@ export default {
     'Character_starlight_color':['The Starmaker', 10544127, '<:energy_orb_p_rianne:1425895048188264721>'],
     'Frisk_red': ['The Fallen Human', 16711680, '<:colorless_energy:382625433016991745>'],
     'Ocean_aberrant_colour': ['The Aberrant', 4405835, '<:abby_energy:1471225970080878715>'],
+    'Ocean_wielder_colour': ['The Wielder', 16750118, '<:wielder_energy:1475662155159306382>'],
 };
