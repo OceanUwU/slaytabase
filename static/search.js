@@ -84,19 +84,21 @@ function addItems(items) {
         if (item.hasOwnProperty('character'))
             block.colour = item.character[1];
         
+        let modPath = item.mod;
+        if (item.v != 1) modPath = `${item.v}-${modPath}`;
         switch(item.itemType) {
             case 'card':
-                block.thumbnail = `/${item.mod}/cards/${item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`.toLowerCase();
-                block.content = `${item.type != 'Curse' ? `${item.rarity} ${item.type} / ` : ''}${item.cost == '' ? '' : `${item.cost} ${item.character[2]} / `}${item.character[0]} / ${item.hasOwnProperty('pack') ? `Pack: ${item.pack}` : item.mod}\n\n${item.description}${item.flavor ? `\n*${item.flavor}*` : ''}`;
+                block.thumbnail = `/${modPath}/cards/${item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`.toLowerCase();
+                block.content = `${item.type != 'Curse' ? `${item.rarity} ${item.type} / ` : ''}${item.cost == '' ? '' : `${item.cost} ${item.character[2]}${item.hasOwnProperty('starCost') ? ` ${item.starCost} <:energy_star:1477661993463844875>` : ''} / `}${item.character[0]} / ${item.hasOwnProperty('pack') ? `Pack: ${item.pack}` : item.mod}\n\n${item.description}${item.flavor ? `\n*${item.flavor}*` : ''}`;
                 break;
 
             case 'relic':
-                block.thumbnail = `/${item.mod}/relics/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '').replaceAll('?', '')}.png`.toLowerCase();
+                block.thumbnail = `/${modPath}/relics/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '').replaceAll('?', '')}.png`.toLowerCase();
                 block.content = ` ${item.tier} Relic / ${item.character[0]} / ${item.mod}\n\n${item.description}\n*${item.flavorText}*`;
                 break;
                 
             case 'potion':
-                block.thumbnail = `/${item.mod}/potions/${item.id.replaceAll(' ', '').replaceAll(':','-')}.png`.toLowerCase();
+                block.thumbnail = `/${modPath}/potions/${item.id.replaceAll(' ', '').replaceAll(':','-')}.png`.toLowerCase();
                 block.content = `${item.rarity} Potion / ${item.character[0]} / ${item.mod}\n\n${item.description}${item.flavor ? `\n*${item.flavor}*` : ''}`;
                 break;
             
@@ -107,12 +109,12 @@ function addItems(items) {
                 break;
                 
             case 'creature':
-                block.thumbnail = `/${item.mod}/creatures/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '')}.png`.toLowerCase();
+                block.thumbnail = `/${modPath}/creatures/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '')}.png`.toLowerCase();
                 block.content = `${item.type} / ${item.minHP == item.maxHP ? item.maxHP : `${item.minHP}-${item.maxHP}`}${item.hasOwnProperty('minHPA') && item.minHPA != item.minHP || item.maxHPA != item.maxHPA ? ` (${item.minHPA != item.maxHPA ? `${item.minHPA}-${item.maxHPA}` : item.maxHPA})` : ''} HP / ${item.mod}\n\n${item.hasOwnProperty('moves') ? item.moves.map(m => `**<:intent_${m.type}:${intentEmojis[m.type]}> ${m.name}**: ${m.description}`).join('\n') : ''}${item.description ? `\n\n${item.description}` : ''}`;
                 break;
 
             case 'blight':
-                block.thumbnail = `/${item.mod}/blights/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`.toLowerCase();
+                block.thumbnail = `/${modPath}/blights/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`.toLowerCase();
                 block.content = `Blight / ${item.mod}\n\n${item.description}`;
                 break;
             
@@ -134,7 +136,7 @@ function addItems(items) {
                 break;
         
             case 'nodemodifier':
-                block.content = `${item.type} Nodemodifier / ${item.mod}\n\n${item.description}\n*Appears on ${item.rooms.length > 1 ? `${item.rooms.slice(0, -1).join(', ')} and ${item.rooms.slice(-1)}` : item.rooms.join(', ')}*.`;
+                block.content = `${modPath} Nodemodifier / ${item.mod}\n\n${item.description}\n*Appears on ${item.rooms.length > 1 ? `${item.rooms.slice(0, -1).join(', ')} and ${item.rooms.slice(-1)}` : item.rooms.join(', ')}*.`;
                 block.thumbnail = `/${item.mod}/nodemodifiers/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`.toLowerCase();
                 break;
         
@@ -143,7 +145,7 @@ function addItems(items) {
                 break;
             
             case 'pack':
-                block.thumbnail = `/${item.mod}/packs/${item.id.replaceAll(':', '-')}.png`.toLowerCase();
+                block.thumbnail = `/${modPath}/packs/${item.id.replaceAll(':', '-')}.png`.toLowerCase();
                 block.color = 12083229;
                 block.content = `${item.mod.replace('The ', '')} Card Pack / By ${item.author}\n\n${item.description}\nOffense: ${stars(item.offense)}\nDefense: ${stars(item.defense)}\nSupport: ${stars(item.support)}\nFrontload: ${stars(item.frontload)}\nScaling: ${stars(item.scaling)}\nTags: ${item.tags.join(', ')}\n\nCards: ${item.cards.join(', ')}${item.credits.length > 0 ? '\n\nCredits: '+item.credits : ''}`;
                 break;

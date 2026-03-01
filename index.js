@@ -4,7 +4,8 @@ import MiniSearch from 'minisearch';
 import fs from 'fs';
 import commands from './commands.js';
 import embed from './embed.js';
-import characters from './characters.js';
+import characters1 from './characters-1.js';
+import characters2 from './characters-2.js';
 import keywordify from './keywords.js';
 import emojify from './emojis.js';
 import cfg from './cfg.js';
@@ -13,6 +14,7 @@ import { checkForDiscussions, firstDiscussion, getAllServerItems } from './daily
 import db from './models/index.js';
 import { match } from 'assert';
 import express from 'express';
+const characters = [null, characters1, characters2];
 
 const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.DirectMessages], partials: [Partials.Channel] });
 
@@ -231,7 +233,7 @@ let validQuery = q => !(q.startsWith('@') || q.startsWith('#') || q.startsWith('
 async function getEmbeds(msg, edit=true) {
     if (msg.content.includes('`')) return 0;
     let queries = [...msg.content.matchAll(/(?<=(^|[^\\]))((\<(.*?)\>)|(\[\[(.*?)\]\]))/g)];
-    let filters = queries.filter(e => e[2].trim().startsWith('<') ? validQuery(e[4]) : validQuery(e[6])).map(e => e[2].trim().startsWith('<'));
+    let filters = queries.filter(e => e[2].trim().startsWith('<') ? validQuery(e[4]) : validQuery(e[6])).map(e => e[2].trim().startsWith('<<') ? 2 : (e[2].trim().startsWith('<') ? 1 : 0));
     queries = queries.map(e => e[2].trim().startsWith('<') ? e[4] : e[6]).filter(validQuery);
     if (queries.length <= queryLimit) {
         if (queries.length > 0) {
@@ -240,13 +242,22 @@ async function getEmbeds(msg, edit=true) {
             let embeds = [];
             let server = await db.ServerSettings.findOne({where: {guild: msg.inGuild() ? msg.guildId : msg.channelId}});
             let user = await db.User.findOne({where: {id: msg.author.id}});
-            let filter = item => ['Slay the Spire', ...(server == null ? [] : JSON.parse(server.mod)), ...(user == null ? [] : JSON.parse(user.mods))].includes(item.item.mod);
             for (let i = 0; i < queries.length; i++) {
                 if (!edit)
                     typing = msg.channel.sendTyping();
                 let originalQuery = queries[i];
                 let query = new String(fn.unPunctuate(originalQuery));
-                query.filter = filters[i] ? filter : false;
+                switch (filters[i]) {
+                    case 1:
+                        query.filter = item => item.item.v == 1 && ['Slay the Spire', ...(server == null ? [] : JSON.parse(server.mod)), ...(user == null ? [] : JSON.parse(user.mods))].includes(item.item.mod);
+                        break;
+                    case 2:
+                        query.filter = item => item.item.v == 2 && ['Slay the Spire 2', ...(server == null ? [] : JSON.parse(server.mod)), ...(user == null ? [] : JSON.parse(user.mods))].includes(item.item.mod);
+                        break;
+                    default:
+                        query.filter = false;
+                        break;
+                }
                 let item;
                 if (msg.inGuild()) {
                     let customCommand = await db.CustomCommand.findOne({where: {guild: msg.guildId, call: query}});
@@ -820,46 +831,54 @@ async function main() {
     let wikis = {'Slay the Spire': 'slaythespire', 'Downfall': 'slaythespiredownfall'};
     for (let itemType in data)
         for (let item of data[itemType]) {
-            let character = characters[''];
             //if (item.type == 'Player' && item.name != 'The Snecko') continue;
             let img = null;
             let wiki = wikis.hasOwnProperty(item.mod) ? wikis[item.mod] : false;
+            if (item.hasOwnProperty('stsVersion')) {
+                item.v = item.stsVersion;
+                delete item.stsVersion;
+            }
+            if (!item.hasOwnProperty('v'))
+                item.v = 1;
+            let sts = item.v;
+            let modPath = `${(sts == 1) ? "" : `${sts}-`}${item.mod}`;
+            let character = characters[sts][''];
             let url = null;
             if (wiki)
                 url = `https://${wikis[item.mod]}.wiki.gg/wiki/${searchize(item)}`;
             switch(itemType) {
                 case 'cards':
-                    img = `${item.mod}/cards/${item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`;
-                    character = characters[item.color];
+                    img = `${modPath}/cards/${item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`;
+                    character = characters[sts][item.color];
                     break;
 
                 case 'relics':
-                    img = `${item.mod}/relics/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '').replaceAll('?', '')}.png`;
-                    character = characters[item.pool];
+                    img = `${modPath}/relics/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '').replaceAll('?', '')}.png`;
+                    character = characters[sts][item.pool];
                     break;
 
                 case 'potions':
-                    img = `${item.mod}/potions/${item.id.replaceAll(' ', '').replaceAll(':','-')}.png`;
+                    img = `${modPath}/potions/${item.id.replaceAll(' ', '').replaceAll(':','-')}.png`;
                     if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Potions`;
-                    character = characters[item.hasOwnProperty('color') ? item.color : ''];
+                    character = characters[sts][item.hasOwnProperty('color') ? item.color : ''];
                     break;
 
                 case 'bosss':
                     img = `extraImages/bosses/${item.name.replaceAll(' ', '')}.png`;
-                    character = Object.values(characters).find(ch => ch[0].replace('The ', '') == item.name.slice(0, item.name.indexOf(' ')));
+                    character = Object.values(characters[sts]).find(ch => ch[0].replace('The ', '') == item.name.slice(0, item.name.indexOf(' ')));
                     break;
 
                 case 'events':
                     img = `extraImages/events/${item.name.toLowerCase().replaceAll(' ', '').replaceAll('?', '').replaceAll('!', '')}.jpg`;
-                    character = characters[item.character];
+                    character = characters[sts][item.character];
                     break;
                 
                 case 'creatures':
-                    img = `${item.mod}/creatures/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '')}.png`;
+                    img = `${modPath}/creatures/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '')}.png`;
                     break;
                 
                 case 'blights':
-                    img = `${item.mod}/blights/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
+                    img = `${modPath}/blights/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
                     if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Blights`;
                     break;
                 
@@ -868,11 +887,11 @@ async function main() {
                     break;
                 
                 case 'packs':
-                    img = `${item.mod}/packs/${item.id.replaceAll(':', '-')}.png`;
+                    img = `${modPath}/packs/${item.id.replaceAll(':', '-')}.png`;
                     break;
                 
                 case 'nodemodifiers':
-                    img = `${item.mod}/nodemodifiers/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
+                    img = `${modPath}/nodemodifiers/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
                     break;
             }
             if (item.hasOwnProperty('altDescription')) {

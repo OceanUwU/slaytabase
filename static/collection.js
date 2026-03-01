@@ -45,9 +45,9 @@ setImageSize(document.getElementById("imagesPerRow"));
 function setUpgraded(check) {
     document.getElementById("showUpgrade").innerHTML = `.result > div > img {margin-left: ${check.checked ? -100 : 0}%;}`;
 }
-function color(colorName) {
+function color(colorName, v) {
     document.getElementById('colours').classList.add('d-none');
-    searchBar.value = `color=${colorName}`;
+    searchBar.value = `v=${v} color=${colorName}`;
     searchBar.onkeyup();
 }
 
@@ -70,7 +70,7 @@ function addItems(items) {
         el.id = i.item.id;
         el.classList.remove('d-none');
         let img = el.firstChild.firstChild
-        img.src = `/${i.item.mod}/cards/${i.item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`.toLowerCase();
+        img.src = `/${i.item.v == 1 ? '' : i.item.v + '-'}${i.item.mod}/cards/${i.item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`.toLowerCase();
         img.setAttribute('alt', i.item.name);
 
         resultsBox.appendChild(el);

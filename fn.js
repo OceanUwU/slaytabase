@@ -46,6 +46,19 @@ function findAll(query) {
                     results = results.filter(r => (r.item.hasOwnProperty('itemType') && r.item.itemType.toLowerCase().includes(val)) || (r.item.hasOwnProperty('type') && r.item.type.toLowerCase().includes(val)));
                     break;
 
+                case "sts":
+                case "slaythespire":
+                case "slay":
+                case "spire":
+                case "game":
+                case "version":
+                case "gameversion":
+                case "v":
+                    let v = Number.parseInt(val);
+                    if (!Number.isNaN(v) && Number.isSafeInteger(v))
+                        results = results.filter(r => (r.item.v == v));
+                    break;
+
                 case "mod":
                     mods.push(val);
                     break;
@@ -101,8 +114,8 @@ function findAll(query) {
         if (aM && !bM) return -1;
         else if (!aM && bM) return 1;
         else if (aM && bM) {
-            let aV = a.item.mod == 'Slay the Spire';
-            let bV = b.item.mod == 'Slay the Spire';
+            let aV = a.item.mod == 'Slay the Spire' || a.item.mod == 'Slay the Spire 2';
+            let bV = b.item.mod == 'Slay the Spire' || b.item.mod == 'Slay the Spire 2';
             if (aV && !bV) return -1;
             if (!bV && aV) return 1;
             return 0;

@@ -52,7 +52,7 @@ export default function keywordify(text, character) {
         let words = lines[i].split(' ');
         for (let j in words) {
             let word = words[j];
-            if (word.includes(':') && word.indexOf(':') != word.length-1 && !word.startsWith('**') && !word.startsWith('<')) //if is modded keyword
+            if (word.includes(':') && word.indexOf(':') != word.length-1 && !word.startsWith('**') && !word.includes('<')) //if is modded keyword
                 words[j] = `**${word.slice(word.indexOf(':')+1).replaceAll('_', ' ')}**`;
         }
         lines[i] = words.join(' ');

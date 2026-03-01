@@ -27,6 +27,8 @@ const exportCards = exportImages && !process.argv.includes('--no-card-images');
 
 const width = 678;
 const height = 874;
+const width2 = 734;
+const height2 = 916;
 
 const origRelicSize = 256;
 const targetRelicSize = 150;
@@ -106,6 +108,10 @@ async function exportMod(modPath){
             "optional_dependencies": []
         };
     }
+    let sts = data.mod.hasOwnProperty("stsVersion") ? data.mod.stsVersion : 1;
+    let w = (sts == 1 ? width : width2);
+    let h = (sts == 1 ? height : height2);
+    let newDataPath = 
 
     data.mod.name = data.mod.name.replaceAll(':', '');
     data.mods = [data.mod];
@@ -114,7 +120,7 @@ async function exportMod(modPath){
     for (let i of Object.keys(data).filter(n => n != 'mods'))
         for (let j of data[i])
             j.mod = mod;
-    let path = `docs/${mod}/`.toLowerCase();
+    let path = `docs/${sts == 1 ? "" : sts}-${mod}/`.toLowerCase();
     if (exportImages && fs.existsSync(path)) fs.rmSync(path, { recursive: true, force: true });
     if (!fs.existsSync(path)) fs.mkdirSync(path);
 
@@ -147,7 +153,7 @@ async function exportMod(modPath){
         //create image of card next to its upgrade
         let canv, ctx;
         if (exportCards) {
-            canv = canvas.createCanvas(width * (altUp != undefined ? 3 : 2), height); //double-width canvas if there is an upgrade
+            canv = canvas.createCanvas(w * (altUp != undefined ? 3 : 2), h); //double-width canvas if there is an upgrade
             ctx = canv.getContext('2d');
         }
         let cardPath = `${c.id.replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('?', '').replaceAll('"', '').replaceAll('/', '')}`;
@@ -157,12 +163,12 @@ async function exportMod(modPath){
             if (up == undefined) {
                 let betaPath = imgPath.replace('card-images', 'beta-card-images')+'.png';
                 if (fs.existsSync(betaPath))
-                    ctx.drawImage(await canvas.loadImage(betaPath), width, 0);
+                    ctx.drawImage(await canvas.loadImage(betaPath), w, 0);
             }
         }
         if (up != undefined && (altUp != undefined || multiUps.length < 2)) {
             if (exportCards)
-                ctx.drawImage(await canvas.loadImage(up.hasOwnProperty('imgPath') ? up.imgPath+'.png' : (imgPath+'Plus1.png')), width, 0);
+                ctx.drawImage(await canvas.loadImage(up.hasOwnProperty('imgPath') ? up.imgPath+'.png' : (imgPath+'Plus1.png')), w, 0);
 
             //update card to include numbers from upgrade
             if (c.cost != up.cost) c.cost = `${c.cost} (${up.cost})`;
@@ -170,7 +176,7 @@ async function exportMod(modPath){
             c.description = stringDifference(c.description, up.description).replaceAll('([E]', '( [E]');
             if (altUp != undefined) {
                 if (exportCards)
-                    ctx.drawImage(await canvas.loadImage(up.hasOwnProperty('imgPath') ? altUp.imgPath+'.png' : (imgPath+'Star.png')), width*2, 0);
+                    ctx.drawImage(await canvas.loadImage(up.hasOwnProperty('imgPath') ? altUp.imgPath+'.png' : (imgPath+'Star.png')), w*2, 0);
     
                 //update card to include numbers from upgrade
                 if (c.cost != altUp.cost) c.cost += ` (alt: ${altUp.cost})`;
@@ -181,9 +187,9 @@ async function exportMod(modPath){
                 let i = 0;
                 let size = Math.ceil(Math.sqrt(multiUps.length));
                 if (exportCards) {
-                    ctx.clearRect(width, 0, width, height);
+                    ctx.clearRect(w, 0, w, h);
                     for (let multiUp of multiUps)
-                        ctx.drawImage(await canvas.loadImage(multiUp.hasOwnProperty('imgPath') ? multiUp.imgPath+'.png' : `${imgPath}Plus${multiUp.upgrades}.png`), width+(i%size)*(width/size), Math.floor(i++/size)*(height/size), width/size, height/size);
+                        ctx.drawImage(await canvas.loadImage(multiUp.hasOwnProperty('imgPath') ? multiUp.imgPath+'.png' : `${imgPath}Plus${multiUp.upgrades}.png`), w+(i%size)*(w/size), Math.floor(i++/size)*(h/size), w/size, h/size);
                 }
                 let diffs = multiUps.map(multiUp => diffWords(c.description, multiUp.description));
                 let diff = diffs[0];
@@ -232,7 +238,7 @@ async function exportMod(modPath){
                 j.mod = mod;
     }
 
-    if (exportImages && fs.existsSync(`${gameDataPath}relics`)) {
+    if (exportImages && fs.existsSync(`${gameDataPath}relics`) && sts == 1) {
         console.log('\nCropping relics...');
         fs.mkdirSync(`${path}relics`);
         let relicDir = fs.readdirSync(`${gameDataPath}relics`).filter(n => n.includes('.png'));
@@ -248,7 +254,7 @@ async function exportMod(modPath){
             stream.pipe(out);
         }
     }
-    if (exportImages && fs.existsSync(`${gameDataPath}blights`)) {
+    if (exportImages && fs.existsSync(`${gameDataPath}blights`) && sts == 1) {
         console.log('\nCropping blights...');
         fs.mkdirSync(`${path}blights`);
         let relicDir = fs.readdirSync(`${gameDataPath}blights`).filter(n => n.includes('.png'));
@@ -266,7 +272,7 @@ async function exportMod(modPath){
     }
     if (exportImages) {
         console.log('Copying images...');
-        for (let i of ['creatures', 'potions', 'packs', 'nodemodifiers'])
+        for (let i of ['creatures', 'potions', 'packs', 'nodemodifiers', ...(sts == 1 ? [] : ['relics', 'blights'])])
             if (fs.existsSync(`${gameDataPath}${i}`))
                 copyRecursiveSync(`${gameDataPath}${i}`, `${path}${i}`);
     }
@@ -350,38 +356,40 @@ async function exportMod(modPath){
 
     //save new data
     console.log(`\nExporting data for ${modPath}...`);
-    let page = fs.readFileSync(`${gameDataPath}index.html`, 'utf-8');
-    page = page.replace('style.css', '../style.css');
-    let lines = page.split('\n');
-    for (let i in lines) {
-        let line = lines[i];
-        if (lines[i].includes('Upgraded image')) {
-            lines[i] = '';
-        }
-        if (lines[i].includes("beta-card-images")) {
-            let j = 0;
-            while (!(lines[Number(i)+(--j)].includes("  <tr>")))
+    if (fs.existsSync(`${gameDataPath}index.html`)) {
+        let page = fs.readFileSync(`${gameDataPath}index.html`, 'utf-8');
+        page = page.replace('style.css', '../style.css');
+        let lines = page.split('\n');
+        for (let i in lines) {
+            let line = lines[i];
+            if (lines[i].includes('Upgraded image')) {
+                lines[i] = '';
+            }
+            if (lines[i].includes("beta-card-images")) {
+                let j = 0;
+                while (!(lines[Number(i)+(--j)].includes("  <tr>")))
+                    lines[Number(i)+j] = '';
                 lines[Number(i)+j] = '';
-            lines[Number(i)+j] = '';
-            j = -1;
-            while (!(lines[Number(i)+(++j)].includes("  </tr>")))
+                j = -1;
+                while (!(lines[Number(i)+(++j)].includes("  </tr>")))
+                    lines[Number(i)+j] = '';
                 lines[Number(i)+j] = '';
-            lines[Number(i)+j] = '';
-        } else if (line.startsWith('    <td><a href="card-images')) {
-            lines[i] = line.replace('small-card-images', 'cards').replace('"card-images', '"cards');
-            lines[Number(i)+1] = '';
-        } else if (line.startsWith('    <td><a href="relics/popup/')) {
-            lines[i] = '    <td>'+line.slice(line.indexOf('">')+2,line.indexOf('</a>'))+'</td>'
-        } else if (line.startsWith('    <td><a href="relics/popup/')) {
-            lines[i] = '    <td>'+line.slice(line.indexOf('">')+2,line.indexOf('</a>'))+'</td>'
-        } else if (line.startsWith('    <td><img src="relics/')) {
-            let relicPath = line.slice(line.indexOf('/')+1,line.indexOf('" '))
-            if (relicPath.includes('-'))
-                lines[i] = '    <td><img src="relics/'+relicPath.slice(relicPath.indexOf('-')+1)+'" width="128" height="128"></td>';
+            } else if (line.startsWith('    <td><a href="card-images')) {
+                lines[i] = line.replace('small-card-images', 'cards').replace('"card-images', '"cards');
+                lines[Number(i)+1] = '';
+            } else if (line.startsWith('    <td><a href="relics/popup/')) {
+                lines[i] = '    <td>'+line.slice(line.indexOf('">')+2,line.indexOf('</a>'))+'</td>'
+            } else if (line.startsWith('    <td><a href="relics/popup/')) {
+                lines[i] = '    <td>'+line.slice(line.indexOf('">')+2,line.indexOf('</a>'))+'</td>'
+            } else if (line.startsWith('    <td><img src="relics/')) {
+                let relicPath = line.slice(line.indexOf('/')+1,line.indexOf('" '))
+                if (relicPath.includes('-'))
+                    lines[i] = '    <td><img src="relics/'+relicPath.slice(relicPath.indexOf('-')+1)+'" width="128" height="128"></td>';
+            }
         }
+        page = lines.join(' ').replaceAll('  ', '').replaceAll('\r', '').replaceAll('> <','><').replaceAll('>  <','><');
+        fs.writeFileSync(`${path}index.html`, page);
     }
-    page = lines.join(' ').replaceAll('  ', '').replaceAll('\r', '').replaceAll('> <','><').replaceAll('>  <','><');
-    fs.writeFileSync(`${path}index.html`, page);
     fs.writeFileSync(`${path}data.json`, JSON.stringify(data));
     console.log(`Done exporting ${modPath}!`);
 }
@@ -416,21 +424,22 @@ async function exportAll() {
     }
     lowercasify('docs');
     console.log('Collating all items...');
+    if (fs.existsSync('gamedata/export/index.html')) {
+        let page = fs.readFileSync('gamedata/export/index.html', 'utf-8');
+        page = page.slice(0, page.indexOf('<ul>')+4) + fs.readdirSync('docs').filter(isMod).map(mod => `<li><a href="${mod}">${JSON.parse(fs.readFileSync(`docs/${mod}/data.json`)).mods[0].name}</a></li>`).join('') + "</ul>Note: If you're the author of any of these mods and don't want its data in the Slaytabase, contact Ocean on the slay the spire discord.<br>" + page.slice(page.indexOf('</ul>')+5);
+        fs.writeFileSync('docs/index.html', page);
+    }
     let fullData = {};
-    let page = fs.readFileSync('gamedata/export/index.html', 'utf-8');
     for (let mod of fs.readdirSync('docs').filter(isMod)) {
         let data = JSON.parse(fs.readFileSync(`docs/${mod}/data.json`));
-        for (let i in data) {
+        for (let i in data)
             if (Array.isArray(data[i])) {
                 if (!fullData.hasOwnProperty(i)) fullData[i] = [];
                 fullData[i] = [...fullData[i], ...data[i]];
             }
-        }
     }
-    page = page.slice(0, page.indexOf('<ul>')+4) + fs.readdirSync('docs').filter(isMod).map(mod => `<li><a href="${mod}">${JSON.parse(fs.readFileSync(`docs/${mod}/data.json`)).mods[0].name}</a></li>`).join('') + "</ul>Note: If you're the author of any of these mods and don't want its data in the Slaytabase, contact Ocean on the slay the spire discord.<br>" + page.slice(page.indexOf('</ul>')+5);
     fs.writeFileSync('docs/data.json', JSON.stringify(fullData));
     fs.writeFileSync('docs/dataformatted.json', JSON.stringify(fullData, null, 4));
-    fs.writeFileSync('docs/index.html', page);
     console.log('Finished!');
 }
 

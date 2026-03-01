@@ -20,6 +20,7 @@ const emojis = [
     ['Vigor', 'p_vigor:997275506749743126'],
     ['Vulnerable', 'p_vulnerable:997273894861934602'],
     ['Weak', 'p_weak:997273893402325102'],
+    ['[STAR]', 'energy_star:1477661993463844875', true],
     ['hermit:Bruise', 'p_bruise:1031919239856136232'],
     ['hermit:Concentrate', 'p_concentration:1031918889065521242'],
     ['hermit:Rugged', 'p_rugged:1031918890571268116'],

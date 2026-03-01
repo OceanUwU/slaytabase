@@ -4,10 +4,6 @@
     overflow-y: scroll;
 }
 
-#colours {
-    overflow-y: scroll;
-}
-
 .result {
     padding: 0.644em 0.5em;
     transition: ease-in-out padding 0.1s;
@@ -30,7 +26,15 @@
     margin-left: -100%;
 }
 
-#colours > div {
+#colours {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    gap: 1em;
+    justify-content: center;
+}
+
+#colours > div > div {
     display: flex;
     justify-content: center;
     padding: 0.2em 0;

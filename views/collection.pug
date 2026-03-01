@@ -25,8 +25,13 @@ html
                         input.form-check-input#showUpgradeCheck(type="checkbox" oninput="setUpgraded(this)")
                         label.form-check-label(for="showUpgradeCheck"): b Upgrade
                 hr.text-secondary
-            #colours.d-none: each character, color in characters
-                div: button.btn.btn-primary(style=`background:#${character[1].toString(16).padStart(6, 0)};color:${(character[1]/65536*299)+(character[1]%65536/256*587)+(character[1]%256*114) > 155000 ? 'black': 'white'}` onclick=`color('${color}')`)= character[0]
+            #colours.d-none: each sts in characters.filter(s => s != null)
+                -
+                    console.log(sts)
+                div
+                    span.d-block.w-100.text-center.fw-bold StS#{characters.indexOf(sts)}
+                    each character, color in sts
+                        div: button.btn.btn-primary(style=`background:#${character[1].toString(16).padStart(6, 0)};color:${(character[1]/65536*299)+(character[1]%65536/256*587)+(character[1]%256*114) > 155000 ? 'black': 'white'}` onclick=`color('${color}',${characters.indexOf(sts)})`)= character[0]
             #results
             #resultFormat.result.d-none: div: img(alt="no result" loading="lazy" onclick="popup(this)")
         #popup(style="display: none")
