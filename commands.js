@@ -234,11 +234,15 @@ const commands =  {
     exact: {
         'help': () => ({
             title: bot.user.username,
-            description: `Search for items from Slay the Spire with <item>.
-Search for items from mods with [[item]].
+            description: `Search for items from Slay the Spire with **<item>**.
+Search for items from Slay the Spire **2** with **<<item>>**.
+Search for items from both games, including all  **mods** with **[[item]]**.
 You can use up to 10 commands in a message.
-If you edit or delete your message, I will update my reply to it, according to your changes.
+If you edit or delete your message, I will create, edit, or delete my reply to it, according to your changes.
+You can also delete my messages with right click -> Apps -> delete.
 Use **/i** to use autocomplete to find an item.
+Use **/run** to run commands that only you will see (e.g. \`/run <<bulk up>>\`).
+You can also [search for items using a web browser](${cfg.exportURL}/search).
 
 Type <fullhelp> for information on all of the bot's commands.`,
             thumbnail: {url: bot.user.avatarURL()},
