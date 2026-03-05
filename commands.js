@@ -278,6 +278,7 @@ __Commands:__
 - - in=drawpile - results must include the phrase "draw pile" (ignores spaces)
 - - ex=? - no results will include the specified phrase
 - - r=2 - get second result
+- - v=2 - get only items from 
 <s~item>, <d~[item]>, <i~[item name]>, <t~[item]>, <f~[item]> and <~[item]> are the same as the above, but the result is formatted differently
 <customcommands> - lists the server's custom commands
 <del> deletes your last search in this channel

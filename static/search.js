@@ -127,6 +127,14 @@ function addItems(items) {
                 block.content = `Keyword / ${item.mod}\n\n${item.description}`;
                 break;
         
+            case 'enchantment':
+                block.content = `Enchantment / ${item.mod}\n\n${item.description}`;
+                break;
+            
+            case 'affliction':
+                block.content = `Affliction / ${item.mod}\n\n${item.description}`;
+                break;
+        
             case 'mod':
                 block.content = `Mod by ${item.authors.join(', ')}\nVersion on bot: ${item.version}${item.credits.length > 0 ? `\nCredits: ${item.credits}` : ''}\n\n${item.originalDescription}`;
                 break;

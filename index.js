@@ -882,6 +882,14 @@ async function main() {
                     if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Blights`;
                     break;
                 
+                case 'enchantments':
+                    img = `${modPath}/enchantments/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
+                    break;
+                
+                case 'afflictions':
+                    img = `${modPath}/afflictions/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
+                    break;
+                
                 case 'mods':
                     item.mod = item.name;
                     break;

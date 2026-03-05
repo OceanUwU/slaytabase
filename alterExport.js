@@ -272,7 +272,7 @@ async function exportMod(modPath){
     }
     if (exportImages) {
         console.log('Copying images...');
-        for (let i of ['creatures', 'potions', 'packs', 'nodemodifiers', ...(sts == 1 ? [] : ['relics', 'blights'])])
+        for (let i of ['creatures', 'potions', 'packs', 'nodemodifiers', ...(sts == 1 ? [] : ['relics', 'blights', 'enchantments', 'afflictions'])])
             if (fs.existsSync(`${gameDataPath}${i}`))
                 copyRecursiveSync(`${gameDataPath}${i}`, `${path}${i}`);
     }
@@ -407,7 +407,7 @@ function gatherImages(path) {
 }
 
 async function exportAll() {
-    const isMod = n => !n.endsWith('.json') && !n.endsWith('.html') && !n.endsWith('.css') && !n.endsWith('.md') && !n.endsWith('.txt') && !['ModStSExporter', 'SlaytabaseModStSExporter', 'basemod', 'colors', 'extraimages'].includes(n);
+    const isMod = n => !n.endsWith('.json') && !n.endsWith('.html') && !n.endsWith('.css') && !n.endsWith('.md') && !n.endsWith('.txt') && !n.endsWith('.lua') && !['ModStSExporter', 'SlaytabaseModStSExporter', 'basemod', 'colors', 'extraimages'].includes(n);
     if (!process.argv.includes('--collate'))
         for (let mod of fs.readdirSync('gamedata/export').filter(isMod)) {
             await exportMod(mod);
