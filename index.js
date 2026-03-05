@@ -125,7 +125,7 @@ export {bot, search, website, setActivity};
 const setActivity = () => {
     if (fs.existsSync('presence.txt'))
         bot.user.setActivity(fs.readFileSync('presence.txt', 'utf-8'));
-    else bot.user.setActivity('Slay the Spire | <help>');
+    else bot.user.setActivity('Slay the Spire 2 | <<help>>');
 };
 
 bot.once('ready', async () => {
