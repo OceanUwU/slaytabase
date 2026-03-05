@@ -316,7 +316,7 @@ async function exportMod(modPath){
         }
     }
     
-    if (data.hasOwnProperty('events'))
+    if (data.hasOwnProperty('events') && sts == 1)
         for (let i in data.events) {
             let event = data.events[i];
             if (!event.hasOwnProperty('id'))

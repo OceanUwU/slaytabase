@@ -52,7 +52,15 @@ async function embed(item, msg, embeds=[], encode=true) {
         
         case 'event':
             e.color = 4608066;
-            e.description = `Event / Act${item.acts.length > 1 ? 's' : ''} ${item.acts.join(', ')} / ${item.character[0]}${item.character == 'All' ? ' characters' : ''} / ${item.mod}\n\`\`\`ansi\n${item.colouredDesc.replaceAll('\n', '\n``````ansi\n')}\n\`\`\``;
+            if (item.v == 1)
+                e.description = `Event / Act${item.acts.length > 1 ? 's' : ''} ${item.acts.join(', ')} / ${item.character[0]}${item.character == 'All' ? ' characters' : ''} / ${item.mod}\n\`\`\`ansi\n${item.colouredDesc.replaceAll('\n', '\n``````ansi\n')}\n\`\`\``;
+            else if (item.v == 2) {
+                e.description = `Event / ${item.mod}\n`;
+                for (let opt = 0; opt < item.options.length; opt += 2) {
+                    if (item.options.length - 1 < opt + 1) break;
+                    e.description += "\n[**" + item.options[opt] + "]** " + item.options[opt + 1];
+                }
+            }
             break;
             
         case 'creature':

@@ -870,7 +870,8 @@ async function main() {
 
                 case 'events':
                     img = `extraImages/events/${item.name.toLowerCase().replaceAll(' ', '').replaceAll('?', '').replaceAll('!', '')}.jpg`;
-                    character = characters[sts][item.character];
+                    if (sts == 1)
+                        character = characters[sts][item.character];
                     break;
                 
                 case 'creatures':
