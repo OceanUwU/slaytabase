@@ -104,8 +104,16 @@ function addItems(items) {
             
             case 'event':
                 block.colour = 4608066;
-                block.thumbnail = `/extraImages/events/${item.name.toLowerCase().replaceAll(' ', '').replaceAll('?', '').replaceAll('!', '')}.jpg`.toLowerCase();
-                block.content = `Event / Act${item.acts.length > 1 ? 's' : ''} ${item.acts.join(', ')} / ${item.character[0]}${item.character == 'All' ? ' characters' : ''} / ${item.mod}\n\`\`\`ansi\n${item.colouredDesc.replaceAll('\n', '\n``````ansi\n')}\n\`\`\``;
+                if (item.v == 1) {
+                    block.thumbnail = `/extraImages/events/${item.name.toLowerCase().replaceAll(' ', '').replaceAll('?', '').replaceAll('!', '')}.jpg`.toLowerCase();
+                    block.content = `Event / Act${item.acts.length > 1 ? 's' : ''} ${item.acts.join(', ')} / ${item.character[0]}${item.character == 'All' ? ' characters' : ''} / ${item.mod}\n\`\`\`ansi\n${item.colouredDesc.replaceAll('\n', '\n``````ansi\n')}\n\`\`\``;
+                } else if (item.v == 2) {
+                    block.content = `Event / ${item.mod}\n`;
+                    for (let opt = 0; opt < item.options.length; opt += 2) {
+                        if (item.options.length - 1 < opt + 1) break;
+                        block.content += "\n[**" + item.options[opt] + "]** " + item.options[opt + 1];
+                    }
+                }
                 break;
                 
             case 'creature':
