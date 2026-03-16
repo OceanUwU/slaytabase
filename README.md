@@ -11,7 +11,7 @@ invite the bot: https://discord.com/oauth2/authorize?client_id=96182444365357468
 1. in SpireExporter's mod config, disable "export vanilla items", and enable "export images"
 1. make sure your game is on a profile with no beta art enabled
 ### for slay the spire 2
-1. download the latest version of [sts2-exporter](https://github.com/OceanUwU/sts2-exporter/releases) instead
+1. download the latest version of [sts2-exporter](https://github.com/OceanUwU/sts2-exporter/releases)
 1. launch the game with the mod
 1. in the exporter config, disable "Export items from basegame", enable "Export images", set "Base card art type" to Regular, set "Upgraded card art type" to Beta, and disable "Include full texture dump"
 
