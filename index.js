@@ -291,7 +291,7 @@ async function getEmbeds(msg, edit=true) {
                             }};
                 if (!item)
                     item = fn.find(query)
-                console.log(`${msg.author.username} searched for "${query}", found ${typeof item == 'object' ? `${item.item.itemType} "${item.item.name}"` : 'nothing'}`);
+                console.log(`${msg.author.id} searched for "${query}", found ${typeof item == 'object' ? `${item.item.itemType} "${item.item.name}"` : 'nothing'}`);
                 let genEmbed = await embed({...item.item, score: item.score, query}, msg, embeds);
                 if (genEmbed != null) {
                     embeds.push(genEmbed);
