@@ -204,12 +204,13 @@ async function startThread() {
         }
     }));
 
-    await Promise.all((await db.Reminder.findAll({where: {at: {[Op.lt]: Date.now()}}})).map(async reminder => {
+    //remindme reminders
+    /*await Promise.all((await db.Reminder.findAll({where: {at: {[Op.lt]: Date.now()}}})).map(async reminder => {
         let user = await bot.users.fetch(reminder.user);
         if (user)
             user.send({embeds: [EmbedBuilder.from({title: reminder.contents, description: reminder.message})]}).catch(e => console.error);
         reminder.destroy();
-    }));
+    }));*/
 
     if (new Date().getHours() != lastHour) {
         lastHour = new Date().getHours();

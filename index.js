@@ -132,7 +132,7 @@ bot.once('ready', async () => {
     setActivity();
     setInterval(setActivity, 1000 * 60 * 60);
 	console.log('connected to discord. ready!');
-    await bot.users.fetch().catch(e => {});
+    //await bot.users.fetch().catch(e => {});
     await bot.channels.fetch().catch(e => {});
     bot.channels.cache.each(channel => {
         if (channel.hasOwnProperty('messages'))

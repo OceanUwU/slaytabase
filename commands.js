@@ -54,7 +54,7 @@ async function getMemeItems(arg, options, msg) {
         let items = await Promise.all(args.map(async (a, i) => {
             a = new String(a.trim());
             a.filter = arg.filter;
-            if (a.startsWith('user?')) {
+            /*if (a.startsWith('user?')) {
                 let id = a.slice(5)
                 let user;
                 if (id == 'me')
@@ -66,7 +66,7 @@ async function getMemeItems(arg, options, msg) {
                     user.image = await loadImage(user.url);
                     return user;
                 }
-            } else if (a.startsWith('att?')) {
+            } else */if (a.startsWith('att?')) {
                 let n = parseInt(a.slice(4));
                 let attachment = msg.attachments.at(n-1);
                 if (attachment == undefined)
@@ -298,12 +298,12 @@ __Commands:__
 <exportjson [search query]> same as the above, but returns the raw json details
 <calc [equation]> https://www.npmjs.com/package/calculator-by-str
 <plot [equation] [args]> - type <plot help> for more information
-<remindme [time]> links you to a message in a certain amount of time (e.g. 10m, 5h, 30d)
 <feedback?[message]> sends a message to a channel seen only by the bot author
 <lists> links to the bot's data
 <wiki?[search]> searches certain modding-related github repos for wiki pages
 <mtg?[card]> searches scryfall for a card from magic the gathering
 `,
+//<remindme [time]> links you to a message in a certain amount of time (e.g. 10m, 5h, 30d)
             thumbnail: {url: bot.user.avatarURL()},
         }),
 
@@ -1654,6 +1654,8 @@ __List of memes:__
         },
 
         'remindme ': async (msg, arg, args) => {
+            return {title: `This command is disabled, sorry.`};
+            /*
             let reqTime = Number(args[0].slice(0, -1));
             let time = reqTime;
             let timeunit = args[0].slice(-1);
@@ -1680,6 +1682,7 @@ __List of memes:__
                 message: msg.url
             });
             return {title: `Got it. I'll remind you <t:${Math.round(time/1000)}:R>.`};
+            */
         },
 
         'feedback?': async (msg, _, __, oa) => {
