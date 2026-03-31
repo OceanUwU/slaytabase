@@ -19,7 +19,8 @@ export default async (sequelize, DataTypes) => {
       primaryKey: true,
       type: DataTypes.STRING
     },
-    mods: DataTypes.STRING
+    mods: DataTypes.STRING,
+    optedout: DataTypes.BOOLEAN,
   }, {
     sequelize,
     modelName: 'User',

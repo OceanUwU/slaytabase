@@ -225,23 +225,32 @@ bot.once('ready', async () => {
             .setType(ApplicationCommandType.Message),
         new ContextMenuCommandBuilder()
             .setName('delete')
-            .setType(ApplicationCommandType.Message)
+            .setType(ApplicationCommandType.Message),
+        new SlashCommandBuilder()
+            .setName('optout')
+            .setDescription('If you opt out, the bot will ignore your messages.')
+            .setDMPermission(true)
+            .addBooleanOption(option =>
+                option.setName('out')
+                .setDescription('Opt out of Slaytabase replying to your messages?')
+                .setRequired(true)),
     ]);
 });
 
 let validQuery = q => !(q.startsWith('@') || q.startsWith('#') || q.startsWith(':') || q.startsWith('/') || q.startsWith('a:') || q.startsWith('t:') || q.startsWith('id:') || q.startsWith('http') || q.startsWith("sound:") || q == 'init' || q.length <= 0);
-async function getEmbeds(msg, edit=true) {
+async function getEmbeds(msg, edit=true, notFromMessage=false) {
     if (msg.content.includes('`')) return 0;
     let queries = [...msg.content.matchAll(/(?<=(^|[^\\]))((\<(.*?)\>)|(\[\[(.*?)\]\]))/g)];
     let filters = queries.filter(e => e[2].trim().startsWith('<') ? validQuery(e[4]) : validQuery(e[6])).map(e => e[2].trim().startsWith('<<') ? 2 : (e[2].trim().startsWith('<') ? 1 : 0));
     queries = queries.map(e => e[2].trim().startsWith('<') ? e[4] : e[6]).filter(validQuery);
     if (queries.length <= queryLimit) {
         if (queries.length > 0) {
+            let user = await db.User.findOne({where: {id: msg.author.id}});
+            if (!notFromMessage && user != null && user.optedout) return 0;
             let typing;
             if (!edit) typing = msg.channel.sendTyping();
             let embeds = [];
             let server = await db.ServerSettings.findOne({where: {guild: msg.inGuild() ? msg.guildId : msg.channelId}});
-            let user = await db.User.findOne({where: {id: msg.author.id}});
             for (let i = 0; i < queries.length; i++) {
                 if (!edit)
                     typing = msg.channel.sendTyping();
@@ -443,7 +452,7 @@ bot.on('interactionCreate', async interaction => {
                     if (fn.unPunctuate(interaction.content) == 'del' || fn.unPunctuate(interaction.content) == 'spoiler')
                         return await interaction.deleteReply();
                     interaction.author = interaction.user;
-                    let embeds = await getEmbeds(interaction);
+                    let embeds = await getEmbeds(interaction, true, true);
                     if (embeds.length == 0)
                         return await interaction.deleteReply();
                     await interaction.editReply({embeds, components: embeds.components});
@@ -477,7 +486,7 @@ bot.on('interactionCreate', async interaction => {
                     if (fn.unPunctuate(interaction.content) == 'del' || fn.unPunctuate(interaction.content) == 'spoiler')
                         return await interaction.deleteReply();
                     interaction.author = interaction.user;
-                    let embedsR = await getEmbeds(interaction);
+                    let embedsR = await getEmbeds(interaction, true, true);
                     if (embedsR.length == 0)
                         return await interaction.deleteReply();
                     if (embedsR === 0)
@@ -564,6 +573,19 @@ bot.on('interactionCreate', async interaction => {
                     else
                         await interaction.editReply(`Removed \`${removeUserMod}\` from your main mods.`);
                     break;
+                
+                case 'optout':
+                    await interaction.deferReply({ephemeral: true});
+                    let user = await db.User.findOne({where: {id: interaction.user.id}});
+                    if (user == null)
+                        await db.User.create({id: interaction.user.id, optedout: interaction.options.getBoolean('out')});
+                    else
+                        await db.User.update({optedout: interaction.options.getBoolean('out')}, { where: {id: interaction.user.id} });
+                    if (interaction.options.getBoolean('out'))
+                        await interaction.editReply(`Successfully opted out. I will no longer read or reply to your messages.`);
+                    else
+                        await interaction.editReply(`Successfully opted back in. I will reply to your messages again.`);
+
 
                 case 'setdiscussionchannel':
                     await interaction.deferReply();
@@ -681,7 +703,7 @@ bot.on('interactionCreate', async interaction => {
                         if (matches.length > 20) matches = matches.slice(0,20);
                         interaction.content = matches.slice(0,10).map(m => `[[d~${m}]]`).join('');
                         interaction.author = interaction.user;
-                        let embeds = await getEmbeds(interaction);
+                        let embeds = await getEmbeds(interaction, true, true);
                         matches = matches.reduce((acc, curr, i) => {
                             if (!(i % 5)) acc.push(matches.slice(i, i + 5));
                             return acc;
@@ -738,7 +760,7 @@ bot.on('interactionCreate', async interaction => {
                         await interaction.deferReply();
                         interaction.content = items.join('');
                         interaction.author = interaction.user;
-                        let embeds = await getEmbeds(interaction);
+                        let embeds = await getEmbeds(interaction, true, true);
                         await interaction.deleteReply();
                         if (embeds === 0 || embeds.length == 0) return;
                         await interaction.channel.send({
