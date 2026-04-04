@@ -132,7 +132,9 @@ function addItems(items) {
                 break;
             
             case 'keyword':
-                block.content = `Keyword / ${item.mod}\n\n${item.description}`;
+                block.content = `${item.v == 2 ? item.type : "Keyword"} / ${item.mod}\n\n${item.description}`;
+                if (item.v == 2 && item.hasIcon)
+                    block.thumbnail = `/${modPath}/keywords/${item.id}.png`.toLowerCase();
                 break;
         
             case 'enchantment':

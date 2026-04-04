@@ -114,6 +114,12 @@ function findAll(query) {
         if (aM && !bM) return -1;
         else if (!aM && bM) return 1;
         else if (aM && bM) {
+            if (a.item.mod == b.item.mod) {
+                let aK = a.item.itemType == "keyword";
+                let bK = b.item.itemType == "keyword";
+                if (aK && !bK) return 1;
+                if (!aK && bK) return -1;
+            }
             let aV = a.item.mod == 'Slay the Spire' || a.item.mod == 'Slay the Spire 2';
             let bV = b.item.mod == 'Slay the Spire' || b.item.mod == 'Slay the Spire 2';
             if (aV && !bV) return -1;

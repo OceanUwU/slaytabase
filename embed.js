@@ -77,7 +77,7 @@ async function embed(item, msg, embeds=[], encode=true) {
             break;
         
         case 'keyword':
-            e.description = `Keyword / ${item.mod}\n\n${item.description}`;
+            e.description = `${item.v == 2 ? item.type : "Keyword"} / ${item.mod}\n\n${item.description}`;
             break;
         
         case 'enchantment':

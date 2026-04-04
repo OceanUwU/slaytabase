@@ -272,7 +272,7 @@ async function exportMod(modPath){
     }
     if (exportImages) {
         console.log('Copying images...');
-        for (let i of ['creatures', 'potions', 'packs', 'nodemodifiers', ...(sts == 1 ? [] : ['relics', 'blights', 'enchantments', 'afflictions'])])
+        for (let i of ['creatures', 'potions', 'packs', 'nodemodifiers', ...(sts == 1 ? [] : ['relics', 'blights', 'enchantments', 'afflictions', 'keywords'])])
             if (fs.existsSync(`${gameDataPath}${i}`))
                 copyRecursiveSync(`${gameDataPath}${i}`, `${path}${i}`);
     }

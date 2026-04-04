@@ -924,6 +924,11 @@ async function main() {
                 case 'nodemodifiers':
                     img = `${modPath}/nodemodifiers/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
                     break;
+                
+                case 'keywords':
+                    if (sts == 2 && item.hasIcon)
+                        img = `${modPath}/keywords/${item.id}.png`;
+                    break;
             }
             if (item.hasOwnProperty('altDescription')) {
                 item.description += `\n\nBranching upgrade: ${item.altDescription}`;
