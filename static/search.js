@@ -138,10 +138,12 @@ function addItems(items) {
                 break;
         
             case 'enchantment':
+                block.thumbnail = `/${modPath}/enchantments/${item.id}.png`.toLowerCase();
                 block.content = `Enchantment / ${item.mod}\n\n${item.description}`;
                 break;
             
             case 'affliction':
+                block.thumbnail = `/${modPath}/afflictions/${item.id}.png`.toLowerCase();
                 block.content = `Affliction / ${item.mod}\n\n${item.description}`;
                 break;
         

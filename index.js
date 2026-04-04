@@ -930,6 +930,8 @@ async function main() {
                         img = `${modPath}/keywords/${item.id}.png`;
                     break;
             }
+            if (typeof(character) == 'string')
+                character = characters[sts][character];
             if (item.hasOwnProperty('altDescription')) {
                 item.description += `\n\nBranching upgrade: ${item.altDescription}`;
                 delete item.altDescription;

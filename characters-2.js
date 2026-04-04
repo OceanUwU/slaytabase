@@ -11,4 +11,7 @@ export default {
     'quest': ['Quest', 3418911, '<:energy_quest:1477663154228957325>'],
     'event': ['Event', 8026746, '<:energy_colorless:1477663149099323392>'],
     '': ['All', 8026746, '<:energy_colorless:1477663149099323392>'],
+
+    'card_pool∴mnemonist-mnemonist_card_pool': ['The Mnemonist', 9907250, '<:mnemonist_energy_icon:1490061402273087609>'],
+    'relic_pool∴mnemonist-mnemonist_relic_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
 };
