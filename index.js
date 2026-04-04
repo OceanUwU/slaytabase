@@ -972,6 +972,7 @@ async function main() {
                     'rooms',
                     'specialRule',
                     'effects',
+                    'ancient',
                 ].map(key => {
                     if (Array.isArray(key)) {
                         let look = newItem;

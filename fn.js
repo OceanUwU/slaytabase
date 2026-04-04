@@ -97,6 +97,10 @@ function findAll(query) {
                     let limitNum = Math.max(1, Math.min(parseInt(val), results.length));
                     if (!Number.isNaN(limitNum)) limit += limitNum;
                     break;
+                
+                case "ancient":
+                    results = results.filter(r => r.item.ancient && r.item.ancient.toLowerCase() == val);
+                    break;
             }
         }
     }

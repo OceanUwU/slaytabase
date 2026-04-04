@@ -94,7 +94,7 @@ function addItems(items) {
 
             case 'relic':
                 block.thumbnail = `/${modPath}/relics/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '').replaceAll('?', '')}.png`.toLowerCase();
-                block.content = ` ${item.tier} Relic / ${item.character[0]} / ${item.mod}\n\n${item.description}\n*${item.flavorText}*`;
+                block.content = ` ${item.tier} Relic /${item.ancient ? ` ${item.ancient} / ` : ''} ${item.character[0]} / ${item.mod}\n\n${item.description}\n*${item.flavorText}*`;
                 break;
                 
             case 'potion':

@@ -41,7 +41,7 @@ async function embed(item, msg, embeds=[], encode=true) {
 
         case 'relic':
             e.color = item.character[1];
-            e.description = ` ${item.tier} Relic / ${item.character[0]} / ${item.mod}\n\n${item.description}\n*-# ${item.flavorText.replaceAll("\n", "\n#- ")}*`;
+            e.description = `${item.tier} Relic /${item.ancient ? ` ${item.ancient} / ` : ''} ${item.character[0]} / ${item.mod}\n\n${item.description}\n*-# ${item.flavorText.replaceAll("\n", "\n#- ")}*`;
             break;
             
         case 'potion':
