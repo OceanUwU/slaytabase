@@ -24,10 +24,12 @@ const search = new MiniSearch({
         fuzzy: 0.4,
         boost: {
             name: 0.1
-        }
+        },
+        boostDocument: d => search._boosts[d]
     }
 });
 search._docs = {};
+search._boosts = {};
 search.searchFn = search.search;
 search.search = str => {
     let results = search.searchFn(fn.unPunctuate(str));
@@ -1007,6 +1009,14 @@ async function main() {
                 newItem.url = `${cfg.exportURL}/w/${encodeURIComponent(item.mod)}/${encodeURIComponent(item.id)}`.toLowerCase();
         }
     search._docslist = Object.values(search._docs);
+    for (let i in search._docs) {
+        let item = search._docs[i];
+        let boost = 1;
+        if (item.itemType == 'keyword' && search._docslist.some(s => s.v == item.v && s.mod == item.mod && s.itemType != item.itemType && s != item)) {
+            boost *= 0.75;
+        }
+        search._boosts[i] = boost;
+    }
     console.log('parsed data, connecting to discord...');
     bot.login(cfg.token);
     website.listen(cfg.websitePort, () => console.log(`Site running! Test at http://localhost:${cfg.websitePort}`));
