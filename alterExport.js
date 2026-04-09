@@ -120,7 +120,7 @@ async function exportMod(modPath){
     for (let i of Object.keys(data).filter(n => n != 'mods'))
         for (let j of data[i])
             j.mod = mod;
-    let path = `docs/${sts == 1 ? "" : sts}-${mod}/`.toLowerCase();
+    let path = `docs/${sts == 1 ? "" : (sts + "-")}${mod}/`.toLowerCase();
     if (exportImages && fs.existsSync(path)) fs.rmSync(path, { recursive: true, force: true });
     if (!fs.existsSync(path)) fs.mkdirSync(path);
 
