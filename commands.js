@@ -279,7 +279,7 @@ __Commands:__
 - - ex=? - no results will include the specified phrase
 - - r=2 - get second result
 - - v=2 - get only items from Slay the Spire 2
-<s~item>, <d~[item]>, <i~[item name]>, <t~[item]>, <f~[item]> and <~[item]> are the same as the above, but the result is formatted differently
+<~[item]>, <d~[item]>, <i~[item name]>, <t~[item]>, and <f~[item]> are the same as the above, but the result is formatted differently
 <customcommands> - lists the server's custom commands
 <del> deletes your last search in this channel
 <?[search query]> shows the most likely results for a search query
@@ -691,11 +691,10 @@ There are some filters available, but these are custom to this command and work 
         't~': async (msg, arg) => {
             let item = fn.find(arg);
             let itemEmbed = await embed({...item.item, score: item.score, query: arg}, undefined, undefined, false);
-
             return {
-                title: itemEmbed.data.thumbnail == null ? `No image for ${item.item.itemType} "${item.item.name}"` : '​',
-                thumbnail: itemEmbed.data.thumbnail,
-                color: itemEmbed.data.color,
+                ...itemEmbed.data,
+                footer: null,
+                description: null,
             };
         },
         
@@ -735,16 +734,6 @@ There are some filters available, but these are custom to this command and work 
         },
 
         '~': async (msg, arg) => {
-            let item = fn.find(arg);
-            let itemEmbed = await embed({...item.item, score: item.score, query: arg}, undefined, undefined, false);
-            return {
-                ...itemEmbed.data,
-                footer: null,
-                description: null,
-            };
-        },
-
-        's~': async (msg, arg) => {
             let item = fn.find(arg);
             let itemEmbed = await embed({...item.item, score: item.score, query: arg}, undefined, undefined, false);
             switch (item.item.itemType) {
