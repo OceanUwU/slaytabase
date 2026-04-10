@@ -231,6 +231,45 @@ async function makesweetMeme(template, arg, msg) {
     }
 }
 
+async function wikiSearch(githubUrl, arg) {
+    let url = `${githubUrl}+${arg.replaceAll(' ', '+')}`;
+    let response = await fetch(url);
+    let body = await response.text();
+    try {
+        if (body.includes('react-app.embeddedData')) {
+            body = body.slice(body.indexOf("react-app.embeddedData\">") + "react-app.embeddedData\">".length)
+            body = body.slice(0, body.indexOf("</script>"))
+            let result = JSON.parse(body).payload.results[0];
+            let baseWikiUrl = `https://github.com/${result.repo.repository.owner_login}/${result.repo.repository.name}/wiki/`;
+            let response2 = await fetch(`${baseWikiUrl}${result.path}`);
+            let content = await response2.text();
+            content = content.replace(/\[\[(.*)\]\]/g, `[$1](${baseWikiUrl}$1)`);
+            content = content.replace(/\[(.*)\]\(\#(.*)\)/g, `[$1](${baseWikiUrl}${result.path.replace('.md', '')}#$2)`);
+            content = content.replace(/\[(.*)\]\(((?!http).*)\)/g, `[$1](${baseWikiUrl}$2)`);
+            if (content.length > 300) {
+                content = content.slice(0, 300);
+                if ((content.match(new RegExp('```', 'gi')) ?? []).length % 2 == 1)
+                    content += '\n```';
+                content += '...';
+            }
+            return {
+                author: {
+                    name: `${result.repo.repository.owner_login}/${result.repo.repository.name} - Wiki`,
+                    iconURL: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+                },
+                title: result.title,
+                url: `${baseWikiUrl}${result.path.replace('.md', '')}`,
+                description: content,
+                footer: {text: `Last updated ${new Date(result.updated_at).toDateString()}`}
+            };
+        } else
+            return {title: `No GitHub wiki result for "${arg}"`, url};
+    } catch(e) {
+        console.error(e);
+        return {title: `No GitHub wiki result for "${arg}"`, url};
+    }
+}
+
 const commands =  {
     exact: {
         'help': () => ({
@@ -1526,42 +1565,11 @@ __List of memes:__
         },
 
         'wiki?': async (msg, arg) => {
-            let url = `https://github.com/search?type=wikis&q=repo%3Akiooeht%2FModTheSpire+repo%3Adaviscook477%2FBaseMod+repo%3Akiooeht%2FStSLib+repo%3AAlchyr%2FBasicMod+${arg.replaceAll(' ', '+')}`;
-            let response = await fetch(url);
-            let body = await response.text();
-            try {
-                if (body.includes('react-app.embeddedData')) {
-                    body = body.slice(body.indexOf("react-app.embeddedData\">") + "react-app.embeddedData\">".length)
-                    body = body.slice(0, body.indexOf("</script>"))
-                    let result = JSON.parse(body).payload.results[0];
-                    let baseWikiUrl = `https://github.com/${result.repo.repository.owner_login}/${result.repo.repository.name}/wiki/`;
-                    let response2 = await fetch(`${baseWikiUrl}${result.path}`);
-                    let content = await response2.text();
-                    content = content.replace(/\[\[(.*)\]\]/g, `[$1](${baseWikiUrl}$1)`);
-                    content = content.replace(/\[(.*)\]\(\#(.*)\)/g, `[$1](${baseWikiUrl}${result.path.replace('.md', '')}#$2)`);
-                    content = content.replace(/\[(.*)\]\(((?!http).*)\)/g, `[$1](${baseWikiUrl}$2)`);
-                    if (content.length > 1000) {
-                        content = content.slice(0, 1000);
-                        if ((content.match(new RegExp('```', 'gi')) ?? []).length % 2 == 1)
-                            content += '\n```';
-                        content += '...';
-                    }
-                    return {
-                        author: {
-                            name: `${result.repo.repository.owner_login}/${result.repo.repository.name} - Wiki`,
-                            iconURL: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
-                        },
-                        title: result.title,
-                        url: `${baseWikiUrl}${result.path.replace('.md', '')}`,
-                        description: content,
-                        footer: {text: `Last updated ${new Date(result.updated_at).toDateString()}`}
-                    };
-                } else
-                    return {title: `No GitHub wiki result for "${arg}"`, url};
-            } catch(e) {
-                console.error(e);
-                return {title: `No GitHub wiki result for "${arg}"`, url};
-            }
+            return await wikiSearch("https://github.com/search?type=wikis&q=repo%3Akiooeht%2FModTheSpire+repo%3Adaviscook477%2FBaseMod+repo%3Akiooeht%2FStSLib+repo%3AAlchyr%2FBasicMod", arg);
+        },
+
+        'wiki2?': async (msg, arg) => {
+            return await wikiSearch("https://github.com/search?type=wikis&q=repo%3AAlchyr%2FModTemplate-StS2", arg);
         },
 
         'baselib?': async (msg, arg) => {
@@ -1587,7 +1595,7 @@ __List of memes:__
                 }
                 let results = wikiSearch.search(arg.toString());
                 if (results.length == 0)
-                    return { title: `No [BaseLib Wiki](https://alchyr.github.io/BaseLib-Wiki/) result for "${arg}".` }
+                    return { title: ' ', description: `No [BaseLib Wiki](https://alchyr.github.io/BaseLib-Wiki/) result for "${arg}".` }
                 let result = Object.values(values).find(r => r.relUrl == results[0].id);
                 return {
                     title: result.doc == result.title ? result.doc : `${result.doc} > ${result.title}`,
@@ -1597,6 +1605,8 @@ __List of memes:__
                 }
             } catch (e) {
                 console.error(e);
+                if (results.length == 0)
+                return { title: ' ', description: `No [BaseLib Wiki](https://alchyr.github.io/BaseLib-Wiki/) result for "${arg}".` }
             }
         },
 
