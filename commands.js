@@ -25,6 +25,7 @@ import googleIt from 'google-it';
 import Perspective from './perspectivejs.js';
 import { JSDOM } from 'jsdom';
 import { off } from './dailyDiscussion.js';
+import MiniSearch from 'minisearch';
 
 registerFont('./memetemplates/Kreon-Regular.ttf', {family: "Kreon"});
 const mtsbotdata = JSON.parse(fs.readFileSync('./docs/mtsbotdata.json'));
@@ -1560,6 +1561,42 @@ __List of memes:__
             } catch(e) {
                 console.error(e);
                 return {title: `No GitHub wiki result for "${arg}"`, url};
+            }
+        },
+
+        'baselib?': async (msg, arg) => {
+            let url = "https://alchyr.github.io/BaseLib-Wiki/assets/js/search-data.json";
+            try {
+                let response = await fetch(url);
+                let body = await response.text();
+                let wikiSearch = new MiniSearch({
+                    fields: ['doc', 'title', 'content',],
+                    searchOptions: {
+                        fuzzy: 0.4,
+                        boost: {
+                            doc: 3,
+                            title: 3,
+                        }
+                    }
+                });
+                let values = JSON.parse(body);
+                for (let i in values) {
+                    let val = values[i];
+                    val.id = val.relUrl;
+                    wikiSearch.add(values[i]);
+                }
+                let results = wikiSearch.search(arg.toString());
+                if (results.length == 0)
+                    return { title: `No [BaseLib Wiki](https://alchyr.github.io/BaseLib-Wiki/) result for "${arg}".` }
+                let result = Object.values(values).find(r => r.relUrl == results[0].id);
+                return {
+                    title: result.doc == result.title ? result.doc : `${result.doc} > ${result.title}`,
+                    url: `https://alchyr.github.io/BaseLib-Wiki${result.relUrl}`,
+                    description: result.content.length <= 300 ? result.content : (result.content.substr(0, 300) + "..."),
+                    footer: { text: `BaseLib Wiki`, },
+                }
+            } catch (e) {
+                console.error(e);
             }
         },
 
