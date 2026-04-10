@@ -641,7 +641,6 @@ There are some filters available, but these are custom to this command and work 
             }));
             if (embeds.length == 0)
                 return {title: 'no results'};
-            console.log({...embeds[0].data, extra_embeds: embeds.slice(1)});
             return {...embeds[0].data, extra_embeds: embeds.slice(1)};
         },
 

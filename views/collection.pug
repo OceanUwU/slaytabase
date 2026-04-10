@@ -26,8 +26,6 @@ html
                         label.form-check-label(for="showUpgradeCheck"): b Upgrade
                 hr.text-secondary
             #colours.d-none: each sts in characters.filter(s => s != null)
-                -
-                    console.log(sts)
                 div
                     span.d-block.w-100.text-center.fw-bold StS#{characters.indexOf(sts)}
                     each character, color in sts

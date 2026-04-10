@@ -732,7 +732,6 @@ bot.on('interactionCreate', async interaction => {
                     if (!(cfg.overriders.includes(interaction.user.id)) && interaction.targetMessage.reference != null) {
                         let channel = await bot.channels.fetch(interaction.targetMessage.reference.channelId);
                         let repliedMessage = await channel.messages.fetch(interaction.targetMessage.reference.messageId);
-                        console.log(repliedMessage.author.id);
                         if (repliedMessage.author.id == interaction.user.id) {
                             interaction.targetMessage.delete().catch(()=>{});
                             interaction.deleteReply();
