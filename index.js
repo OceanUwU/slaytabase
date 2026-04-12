@@ -21,7 +21,7 @@ const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.G
 const search = new MiniSearch({
     fields: ['name', 'searchText'],
     searchOptions: {
-        fuzzy: 0.4,
+        fuzzy: 0.2,
         boost: {
             name: 0.1
         },
