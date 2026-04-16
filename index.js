@@ -368,6 +368,8 @@ const emojiReactions = {
     '🐸': ['frog', 'ribbit'],
     '🦦': ['otter', 'water'],
     '🦋': ['butterfly', 'moth'],
+    '🐴': ['horse', 'pony', 'course', 'hoarse'],
+    '🥭': ['mango', 'among', 'sus'], // sus as well, just for fun :3
 };
 
 bot.on('messageCreate', async msg => {
