@@ -172,6 +172,7 @@ async function exportMod(modPath){
 
             //update card to include numbers from upgrade
             if (c.cost != up.cost) c.cost = `${c.cost} (${up.cost})`;
+            if (c.hasOwnProperty('starCost') && c.starCost != up.starCost) c.starCost = `${c.starCost} (${up.starCost})`;
             if (noUpgradeWithSameName) c.name = stringDifference(c.name, up.name);
             c.description = stringDifference(c.description, up.description).replaceAll('([E]', '( [E]');
             if (altUp != undefined) {
