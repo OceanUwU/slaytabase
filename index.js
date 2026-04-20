@@ -868,7 +868,7 @@ async function main() {
             if (!item.hasOwnProperty('v'))
                 item.v = 1;
             let sts = item.v;
-            let modPath = `${(sts == 1) ? "" : `${sts}-`}${item.mod}`;""
+            let modPath = `${(sts == 1) ? "" : `${sts}-`}${item.mod}`;
             let character = characters[sts][''];
             let url = null;
             if (wiki)
