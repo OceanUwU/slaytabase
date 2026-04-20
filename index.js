@@ -851,7 +851,11 @@ const searchize = item => {
 async function main() {
     console.log('loading and parsing data...');
     data = JSON.parse(fs.readFileSync('./docs/dataformatted.json'));
-    let wikis = {'Slay the Spire': 'slaythespire', 'Downfall': 'slaythespiredownfall'};
+    let wikis = {
+      'Slay the Spire': 'slaythespire.wiki.gg/wiki/',
+      'Slay the Spire 2': 'slaythespire.wiki.gg/wiki/Slay_the_Spire_2:',
+      'Downfall': 'slaythespiredownfall.wiki.gg/wiki/'
+    };
     for (let itemType in data)
         for (let item of data[itemType]) {
             //if (item.type == 'Player' && item.name != 'The Snecko') continue;
@@ -864,11 +868,11 @@ async function main() {
             if (!item.hasOwnProperty('v'))
                 item.v = 1;
             let sts = item.v;
-            let modPath = `${(sts == 1) ? "" : `${sts}-`}${item.mod}`;
+            let modPath = `${(sts == 1) ? "" : `${sts}-`}${item.mod}`;""
             let character = characters[sts][''];
             let url = null;
             if (wiki)
-                url = `https://${wikis[item.mod]}.wiki.gg/wiki/${searchize(item)}`;
+                url = `https://${wikis[item.mod]}${searchize(item)}`;
             switch(itemType) {
                 case 'cards':
                     img = `${modPath}/cards/${item.id.replace('+', '').replaceAll(' ', '').replaceAll(':', '-').replaceAll('\'', '').replaceAll('\"', '').replaceAll('?', '').replaceAll('/', '')}.png`;
