@@ -903,7 +903,7 @@ async function main() {
                 
                 case 'blights':
                     img = `${modPath}/blights/${item.id.slice(item.id.indexOf(':')+1).replaceAll(' ', '').replaceAll('\'', '')}.png`;
-                    if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Blights`;
+                    if (wiki) url = `https://${wikis[item.mod]}Blights`;
                     break;
                 
                 case 'enchantments':
