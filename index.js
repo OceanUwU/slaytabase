@@ -886,7 +886,7 @@ async function main() {
 
                 case 'potions':
                     img = `${modPath}/potions/${item.id.replaceAll(' ', '').replaceAll(':','-')}.png`;
-                    if (wiki) url = `https://${wikis[item.mod]}.wiki.gg/wiki/Potions`;
+                    if (wiki) url = `https://${wikis[item.mod]}Potions`;
                     character = characters[sts][item.hasOwnProperty('color') ? item.color : ''];
                     break;
 
