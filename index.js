@@ -353,7 +353,7 @@ function getFilesFromEmbeds(embeds, spoiler=false) {
 const delfiles = files => files.forEach(file => fs.unlinkSync(file));
 
 const emojiReactions = {
-    '🦊': ['fox', 'silent', 'girl', 'chomp'],
+    '🦊': ['fox', 'girl', 'chomp'],
     '🐈': ['cat', 'kitty', 'kitten', 'meow', 'purrr', 'nom'],
     '🐀': ['rat'],
     '🐃': ['buffalo'],
