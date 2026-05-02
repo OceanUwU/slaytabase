@@ -1755,6 +1755,57 @@ __List of memes:__
                 }
             }
         },
+
+        'jg?': async (msg, arg, args) => { return await commands.prefix['jellyg?'](msg, arg, args); },
+        'jellyg?': async (msg, arg, args) => {
+            let filters = args.filter(a => a.includes('=') && !a.startsWith('=') && !a.endsWith("="));
+            args = args.filter(i => !filters.includes(i));
+            let argFilter = arg.filter;
+            arg = args.join(' ');
+            filters = filters.map(f => [f.slice(0, f.indexOf('=')), f.slice(f.indexOf('=')+1)]);
+            let r = 1;
+            for (let f of filters)
+                if (f[0] == 'r')
+                    r = Number.parseInt(f[1]);
+            if (Number.isNaN(r)) r = 1;
+            let url = `https://jellyg.ocean.lol/api/entries?q=${encodeURIComponent(arg)}`;
+            let response = await fetch(url);
+            let body = await response.text();
+            if (!body.startsWith("{")) return { title: body };
+            let results = JSON.parse(body);
+            if (!results.hasOwnProperty("entries") || !Array.isArray(results.entries)) return { title: "error" };
+            if (results.entries.length == 0) return { title: "No results" };
+            if (r < 1 || results.entries.length < r) return { title: "Result " + r + " of " + results.entries.length + " not found" };
+            url = `https://jellyg.ocean.lol/api/e/${results.entries[results.entries.length - r].id}`;
+            response = await fetch(url);
+            body = await response.text();
+            if (!body.startsWith("{")) return { title: body };
+            let result = JSON.parse(body);
+            let fileType = "File";
+            const videoTypes = ["mp4", "avi"];
+            const audioTypes = ["ogg", "wav", "mp4", "opus"];
+            const imageTypes = ["gif", "png", "jpg"];
+            if (videoTypes.includes(result.ext)) fileType = "Video";
+            else if (audioTypes.includes(result.ext)) fileType = "Audio";
+            else if (imageTypes.includes(result.ext)) fileType = "Image";
+            let embed = {
+                title: result.title,
+                url: `https://jellyg.ocean.lol/e/${result.id}`,
+                color: 10223600,
+                author: {
+                    name: "Jelly G.allery",
+                    url: `https://jellyg.ocean.lol/e/${result.id}`,
+                    iconURL: 'https://jellyg.ocean.lol/img/icon.png'
+                }
+            }
+            if (fileType == "Image")
+                embed.image = { url: `https://jellyg.ocean.lol/file/${result.id}.${result.ext}` };
+            else
+                embed.title += " (" + fileType + ")";
+            if (fileType == "Video")
+                embed.image = { url: `https://jellyg.ocean.lol/thumb/${result.id}.png` };
+            return embed;
+        }
     },
 
     suffix: {
