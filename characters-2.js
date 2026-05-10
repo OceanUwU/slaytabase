@@ -14,4 +14,5 @@ export default {
 
     'card_pool∴mnemonist-mnemonist_card_pool': ['The Mnemonist', 9907250, '<:mnemonist_energy_icon:1490061402273087609>'],
     'relic_pool∴mnemonist-mnemonist_relic_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
+    'potion_pool∴mnemonist-mnemonist_potion_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
 };
