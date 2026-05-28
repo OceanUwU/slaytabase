@@ -1461,20 +1461,19 @@ __List of memes:__
         },
 
         'ws?': async (msg, arg) => {
-            let response = await fetch(`https://steamcommunity.com/workshop/browse/?appid=646570&searchtext=${arg.replaceAll(' ', '+')}`);
+            let response = await fetch(`https://steamcommunity.com/workshop/browse/?appid=646570&browsesort=textsearch&num_per_page=10&searchtext=${arg.replaceAll(' ', '+')}`);
             let body = await response.text();
-            if (body.includes('class="ugc"')) {
-                body = body.split('\n');
-                let linkIndex = body.findIndex(e => e.includes('class="ugc"'));
-                let link = body[linkIndex];
-                let img = body[linkIndex+2];
-                let title = body[linkIndex+10];
-                let url = link.slice(link.indexOf('"')+1,link.indexOf('" '));
-                let imgUrl = img.slice(img.indexOf('src="')+5,img.indexOf('">'));
-                let name = title.slice(title.indexOf('s">')+3,title.indexOf('</div>'));
-                let description;
+            if (body.includes('class="tmIrUKf-Mh8-')) {
+                let dom = new JSDOM(body);
+                let doc = dom.window.document;
+                let results = Array.from(doc.getElementsByClassName("tmIrUKf-Mh8-"));
+                if (results.length <= 0) return { title: "not found" };
+                let el = results[0];
+                let url = el.querySelector('._3rvey4VpXts-').firstChild.href;
+                let name = el.querySelector('._3rvey4VpXts-').firstChild.innerHTML;
+                let img = el.querySelector('.rKsVnKsUFJQ-').firstChild.src;
                 let author = {};
-                let footer;
+                let description;
                 let response2 = await fetch(url);
                 let body2 = await response2.text();
                 if (body2.includes('class="stats_table"')) {
@@ -1514,10 +1513,10 @@ __List of memes:__
                     url,
                     author,
                     description,
-                    footer,
                     color: 1779768,
-                    thumbnail: {url: imgUrl},
+                    thumbnail: {url: img},
                 };
+                return { title: "wip" };
             } else return {title: `no mod found under ${arg}`};
         },
 
