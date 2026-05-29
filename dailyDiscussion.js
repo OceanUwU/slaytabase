@@ -215,36 +215,83 @@ async function startThread() {
     if (new Date().getHours() != lastHour) {
         lastHour = new Date().getHours();
         if (cfg.workshopReleasesChannel != null) {
-            let response = await fetch('https://steamcommunity.com/workshop/browse/?appid=646570&browsesort=mostrecent&section=readytouseitems&actualsort=mostrecent&p=1&numperpage=9');
+            let response = await fetch('https://steamcommunity.com/workshop/browse/?appid=646570&browsesort=mostrecent&actualsort=mostrecent&p=1&numperpage=10');
             let body = await response.text();
-            
-            if (body.includes('workshopItem')) {
+            if (body.includes('class="tmIrUKf-Mh8-')) {
                 let dom = new JSDOM(body);
-                let items = Array.from(dom.window.document.getElementsByClassName('workshopItem')).map(e => ({
-                    id: e.children[0].getAttribute('data-publishedfileid'),
-                    name: e.children[4].children[0].innerHTML,
-                    url: e.children[0].href,
-                    img: e.children[0].children[0].children[0].src,
-                    author: e.children[5].children[0].innerHTML,
-                    authorURL: e.children[5].children[0].href,
-                    weirdScriptThingy: e.parentElement.children[Array.from(e.parentElement.children).indexOf(e)+1].innerHTML.trim()
+                let doc = dom.window.document;
+                let results = Array.from(doc.getElementsByClassName("tmIrUKf-Mh8-")).slice(0, 10);
+                console.log(results.length);
+                let embeds = results.map(r => ({
+                    color: 1779768,
                 }));
-                let existsAlready = await Promise.all(items.map(async i => i.hasOwnProperty('id') && (await db.WorkshopItem.count({where: {id: i.id}}) > 0)));
-                items = items.filter((e, i) => !existsAlready[i]);
-                items.forEach(i => {
-                    db.WorkshopItem.create({id: i.id});
-                    i.description = JSON.parse(i.weirdScriptThingy.slice(i.weirdScriptThingy.indexOf('{'), -3)).description.replaceAll('<br />', '');
+                results.forEach(r => {
+                    r.id = r.querySelector("a").href.slice('https://steamcommunity.com/sharedfiles/filedetails/?id='.length);
                 });
+                let existsAlready = await Promise.all(results.map(async i => i.hasOwnProperty('id') && (await db.WorkshopItem.count({where: {id: i.id}}) > 0)));
+                results = results.filter((e, i) => !existsAlready[i]);
+                results.forEach(i => {
+                    db.WorkshopItem.create({id: i.id});
+                });
+                for (let i = 0; i < Math.min(results.length, 10); i++) {
+                    let el = results[i];
+                    let embed = embeds[i];
+                    let url = el.querySelector('._3rvey4VpXts-').firstChild.href;
+                    let name = el.querySelector('._3rvey4VpXts-').firstChild.innerHTML;
+                    let img = el.querySelector('.rKsVnKsUFJQ-').firstChild.src;
+                    let author = {};
+                    let description;
+                    let response2 = await fetch(url);
+                    let body2 = await response2.text();
+                    if (body2.includes('class="stats_table"')) {
+                        let dom2 = new JSDOM(body2);
+                        let doc2 = dom2.window.document;
+                        body2 = body2.split('\n');
+                        let authorLine = body2.find(e => e.includes('s Workshop'));
+                        author.name = `${authorLine.slice(authorLine.indexOf('0">')+3, authorLine.indexOf('s Workshop')-1)}'s Workshop`;
+                        author.url = authorLine.slice(authorLine.indexOf("href=")+6, authorLine.indexOf('0">')+1);
+                        let response3 = await fetch(author.url);
+                        let body3 = await response3.text();
+                        if (body3.includes('playerAvatar medium')) {
+                            body3 = body3.split('\n');
+                            let avatarIndex = body3.findIndex(e => e.includes('playerAvatar medium'));
+                            let avatarLine = body3[avatarIndex+(body3[avatarIndex+1].includes('profile_avatar_frame') ? 10 : 3)];
+                            author.iconURL = avatarLine.slice(avatarLine.indexOf('srcset=')+8, avatarLine.indexOf('" />')-2);
+                        }
+                        let tableIndex = body2.findIndex(e => e.includes('class="stats_table"'));
+                        let subs = body2[tableIndex+6].slice(body2[tableIndex+6].indexOf('<td>')+4, body2[tableIndex+6].indexOf('</td>'));
+                        let detailsIndex = body2.findIndex(e => e.includes('class="detailsStatsContainerRight"'));
+                        let date = body2[detailsIndex+2].slice(body2[detailsIndex+2].indexOf('">')+2, body2[detailsIndex+2].indexOf(' @ '));
+                        let tags = Array.from(doc2.querySelectorAll('.col_right > .rightDetailsBlock a')).filter(a => !a.parentElement.classList.contains('change_note_link')).map(a => a.textContent);
+                        description = `[Open in Steam](${cfg.exportURL}/redirect/${encodeURIComponent(`steam://url/CommunityFilePage/${url.slice(url.indexOf('=')+1, url.indexOf('&'))})`)}${tags.length > 0 ? `\n**Tags**: ${tags.join(', ')}` : ''}`;
+                        let itemDesc = doc2.querySelector('.workshopItemDescription').textContent.replaceAll('\n', ' ');
+                        if (itemDesc.length > 200)
+                            itemDesc = itemDesc.slice(0, 200) + "...";
+                        if (itemDesc.length > 0)
+                            description += "\n\n" + itemDesc;
+                        let commentIndex = body2.findIndex(e => e.includes('commentthread'));
+                        if (commentIndex != -1) body2 = body2.slice(0, commentIndex);
+                        let githubLine = body2.find(e => e.includes('/linkfilter/?url=https://github.com'));
+                        if (githubLine != undefined) {
+                            githubLine = githubLine.slice(githubLine.indexOf('/linkfilter/?url=https://github.com')+17);
+                            description += ` / [GitHub](${githubLine.slice(0, githubLine.indexOf('"'))})`;
+                        } else {
+                            githubLine = body2.find(e => e.includes('/linkfilter/?url=http://github.com'));
+                            if (githubLine != undefined) {
+                                githubLine = githubLine.slice(githubLine.indexOf('/linkfilter/?url=http://github.com')+17);
+                                description += ` / [GitHub](${githubLine.slice(0, githubLine.indexOf('"'))})`;
+                            }
+                        }
+                        console.log(description);
+                    }
+                    embed.title = name;
+                    embed.url = url;
+                    embed.thumbnail = {url: img};
+                    embed.author = author;
+                    embed.description = description;
+                }
 
-                if (items.length > 0) {
-                    let embeds = items.map(i => ({
-                        title: i.name,
-                        url: i.url,
-                        description: i.description,
-                        thumbnail: {url: i.img},
-                        author: {name: `${i.author}'s Workshop`, url: i.authorURL, iconURL: `https://static.wikia.nocookie.net/logopedia/images/5/56/Steam_Icon_2014.svg/revision/latest/scale-to-width-down/50?cb=20190826175003`},
-                        color: 1779768,
-                    }));
+                if (embeds.length > 0) {
                     let channel = await bot.channels.fetch(cfg.workshopReleasesChannel);
                     if (channel != null)
                         channel.send({content: `${embeds.length > 1 ? `${embeds.length} n` : 'N'}ew Steam Workshop release${embeds.length > 1 ? 's' : ''}!`, embeds});
