@@ -221,18 +221,17 @@ async function startThread() {
                 let dom = new JSDOM(body);
                 let doc = dom.window.document;
                 let results = Array.from(doc.getElementsByClassName("tmIrUKf-Mh8-")).slice(0, 10);
-                console.log(results.length);
+                results.forEach(r => {
+                    r.wsID = r.querySelector("a").href.slice('https://steamcommunity.com/sharedfiles/filedetails/?id='.length);
+                });
+                let existsAlready = await Promise.all(results.map(async r => Object.hasOwn(r, 'wsID') && (await db.WorkshopItem.count({where: {id: r.wsID}}) > 0)));
+                results = results.filter((e, i) => !existsAlready[i]);
+                await Promise.all(results.map(async i => {
+                    await db.WorkshopItem.create({id: i.wsID});
+                }));
                 let embeds = results.map(r => ({
                     color: 1779768,
                 }));
-                results.forEach(r => {
-                    r.id = r.querySelector("a").href.slice('https://steamcommunity.com/sharedfiles/filedetails/?id='.length);
-                });
-                let existsAlready = await Promise.all(results.map(async i => i.hasOwnProperty('id') && (await db.WorkshopItem.count({where: {id: i.id}}) > 0)));
-                results = results.filter((e, i) => !existsAlready[i]);
-                results.forEach(i => {
-                    db.WorkshopItem.create({id: i.id});
-                });
                 for (let i = 0; i < Math.min(results.length, 10); i++) {
                     let el = results[i];
                     let embed = embeds[i];
