@@ -1073,6 +1073,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-FIREBALL",
+            "name": "Fireball",
+            "color": "event",
+            "rarity": "Ancient",
+            "type": "Attack",
+            "cost": "2 (1)",
+            "description": "Retain.\nDeal 14 damage to ALL enemies.\nWhen Retained, increase this card's damage by 7 this combat.",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-SHIFTING_FORM",
             "name": "Shifting Form",
             "color": "event",
@@ -148844,6 +148855,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-CARDIO_GAIN",
+            "name": "Cardio Gain",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "Every 5 times you hit an enemy with an Attack, gain [E].",
+            "flavorText": "\"We'll turn that flicker in your step into a roaring flame!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-CHARONS_OBOL",
             "name": "Charon's Obol",
             "pool": "colorless",
@@ -148851,6 +148873,17 @@
             "tier": "Event",
             "description": "Your next Question Mark room is guaranteed to be a Shop.",
             "flavorText": "\"Hrraauuggh, naaaauugggghh...\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-CONTROLLED_BURN",
+            "name": "Controlled Burn",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "You may Burn card rewards to Hestia. For each card burned, upgrade a random card in your Deck.",
+            "flavorText": "\"Sacrifices sometimes must be made, dearie. So round them up and put them to the flame!\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149009,6 +149042,50 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-FIRE_AWAY",
+            "name": "Fire Away",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "Whenever you hit an enemy with an Attack, gain 2 Block.",
+            "flavorText": "\"Don't let the fire in your heart sputter out, all right?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-FLAME_FLOURISH",
+            "name": "Flame Flourish",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "Whenever you play a Skill, gain 3 Vigor.",
+            "flavorText": "\"Well now I reckon it's time to fan the flames a bit, isn't it then?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-FLAME_STRIKE",
+            "name": "Flame Strike",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "The first 3 Attacks you play from your Hand each combat are played an additional time.",
+            "flavorText": "\"Eh, a right good burn like that deserves another. Only fair, don't you agree, hot stuff?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-FLASH_FRY",
+            "name": "Flash Fry",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "At the start of combat, gain 5 Favor. At the end of your turn, lose 1 Favor. When combat ends, gain 30 Gold per Favor. If you defeat an Elite with any Favor remaining, obtain an additional Relic reward.",
+            "flavorText": "\"Some evening, mayhaps you'll settle down to a nice comfortable life, but ohh, not tonight!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-FLOOD_GAIN",
             "name": "Flood Gain",
             "pool": "colorless",
@@ -149036,7 +149113,7 @@
             "pool": "colorless",
             "ancient": "Hephaestus",
             "tier": "Ancient",
-            "description": "At the start of each turn, apply 6 Blast to the enemy with the lowest HP and increase this amount by 1 for this combat.",
+            "description": "Whenever you apply a debuff to an enemy, they take 12 damage.",
             "flavorText": "\"Don't like what I see, down comes my hammer just like that!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149053,12 +149130,23 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-GLOWING_COAL",
+            "name": "Glowing Coal",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "At the start of each combat, add 1 Fireball into your Hand.",
+            "flavorText": "\"Let's keep that everlasting flame alive and well, what say you, hot stuff?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-GRAND_CALDERA",
             "name": "Grand Caldera",
             "pool": "colorless",
             "ancient": "Hephaestus",
             "tier": "Ancient",
-            "description": "Every 3 turns, deal 30 damage to ALL enemies.",
+            "description": "Every 3 turns, deal 24 damage and apply 1 Vulnerable and 1 Weak to ALL enemies.",
             "flavorText": "\"Was as close as I am liable to get to blowing up. Still working at it, mind!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149119,6 +149207,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-HEAT_RUSH",
+            "name": "Heat Rush",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "At the start of each turn, gain [E] and Exhaust 1 card from your Hand.",
+            "flavorText": "\"All right, hot stuff! We're turning up the temperature to get things roaring, then!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-HEAVEN_FLOURISH",
             "name": "Heaven Flourish",
             "pool": "colorless",
@@ -149170,6 +149269,28 @@
             "tier": "Ancient",
             "description": "Gain [E] at the start of each turn. Start each combat with 5 Hangover.",
             "flavorText": "\"No use fighting the inevitable when you're thirsty, yeah?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-HIGHLY_FLAMMABLE",
+            "name": "Highly Flammable",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "Whenever you apply a debuff to an enemy, apply 2 additional stacks.",
+            "flavorText": "\"What say we add a little fuel to this fire we've got going, why don't we?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-HOT_POT",
+            "name": "Hot Pot",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "Whenever you would lose HP, lose 3 less.",
+            "flavorText": "\"Play with fire and you get yourself burned! It’s just as simple as that unless I say otherwise.\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149267,7 +149388,7 @@
             "pool": "colorless",
             "ancient": "Aphrodite",
             "tier": "Ancient",
-            "description": "Whenever you apply debuffs on enemies, apply twice as much.",
+            "description": "Whenever you apply a debuff to an enemy, apply twice as much.",
             "flavorText": "\"Our emotions ran a little hot there, didn't they... I still can feel my heart racing, and if I'm not mistaken, yours might have been, too!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149322,7 +149443,7 @@
             "pool": "colorless",
             "ancient": "Athena",
             "tier": "Ancient",
-            "description": "Whenever you play a Skill, gain 3 Vigor.",
+            "description": "At the end of your turn, deal damage equal to 50% of your Block to ALL enemies.",
             "flavorText": "\"For Olympus!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149366,7 +149487,7 @@
             "pool": "colorless",
             "ancient": "Ares",
             "tier": "Ancient",
-            "description": "At the start of each enemy's turn, it loses 5 HP for each unique debuff it has.",
+            "description": "At the start of each enemy's turn, it loses 8 HP for each unique debuff it has.",
             "flavorText": "\"Perhaps the dead you stand against have long forgotten the experience of anguish and despair. I trust that you shall soon remind them for me?\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149432,7 +149553,7 @@
             "pool": "colorless",
             "ancient": "Athena",
             "tier": "Ancient",
-            "description": "Every [E][E][E] you spend, deal 4 damage to a random enemy 3 times.",
+            "description": "Every [E][E][E] you spend, deal 5 damage to a random enemy 3 times.",
             "flavorText": "\"And I wouldn't advise getting run through by my spear, yet at times it must be done.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149526,6 +149647,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-SLOW_COOKER",
+            "name": "Slow Cooker",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "You can now Slow Cook at Rest Sites.",
+            "flavorText": "\"I've been cooking up a little something special just for you, hot stuff!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-SMITHY_RUSH",
             "name": "Smithy Rush",
             "pool": "colorless",
@@ -149533,6 +149665,17 @@
             "tier": "Ancient",
             "description": "Whenever you play a Skill, gain 2 Forge Armor.",
             "flavorText": "\"Let's get to work!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-SMOLDER_RING",
+            "name": "Smolder Ring",
+            "pool": "colorless",
+            "ancient": "Hestia",
+            "tier": "Ancient",
+            "description": "At the end of your turn, deal damage equal to 2 times the number of Attacks played this turn to ALL enemies.",
+            "flavorText": "\"Everything's going to be covered in soot by the time we're through!\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149850,7 +149993,7 @@
             "pool": "colorless",
             "ancient": "Hephaestus",
             "tier": "Ancient",
-            "description": "Start each combat with 20 Forge Armor.",
+            "description": "Whenever you end your turn with any unspent Energy, gain 14 Block.",
             "flavorText": "\"You got a dangerous line of work, witchie. Though I can get you some protection here.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149905,7 +150048,7 @@
             "pool": "colorless",
             "ancient": "Hephaestus",
             "tier": "Ancient",
-            "description": "Whenever you play a Skill, apply 3 Blast to a random enemy.",
+            "description": "At the start of your turn, add a random Skill into your Hand. It's free to play this turn.",
             "flavorText": "\"Just clanking away as always, though let's do some clanking now on your behalf.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149960,7 +150103,7 @@
             "pool": "colorless",
             "ancient": "Dionysus",
             "tier": "Ancient",
-            "description": "Gain a random amount of Max HP between 40 to 60. Future healing effects are randomized between 50% and 100% effectiveness.",
+            "description": "Gain a random amount of Max HP between 40 to 60. Future healing effects are randomized between 50% and 125% effectiveness.",
             "flavorText": "\"Don't anybody worry about a thing, we've got it all under control!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -198465,6 +198608,15 @@
             "mod": "Hades Ancients"
         },
         {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.HADESANCIENTS-SLOW_COOK.title and Description=static_hover_tips.HADESANCIENTS-SLOW_COOK.description",
+            "name": "Slow Cook",
+            "description": "Remove {CardsToRemove} {CardsToRemove:plural:card|cards} from your Deck and gain {StrengthToGain} Strength at the start of each combat.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "hasIcon": true,
             "id": "POWER.HADESANCIENTS-BLITZ_POWER",
             "name": "Blitz",
@@ -212789,7 +212941,7 @@
         {
             "id": "HadesAncients",
             "name": "Hades Ancients",
-            "version": "v0.4.4",
+            "version": "v0.6.1",
             "authors": [
                 "JohnnyBazooka89"
             ],
