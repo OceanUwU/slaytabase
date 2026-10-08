@@ -1084,6 +1084,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-CLEAN_KILL",
+            "name": "Clean Kill",
+            "color": "event",
+            "rarity": "Ancient",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 15 (20) damage.\nIf Fatal, Upgrade 1 random card in your Deck.\nExhaust.",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-SHIFTING_FORM",
             "name": "Shifting Form",
             "color": "event",
@@ -148794,7 +148805,7 @@
             "pool": "colorless",
             "ancient": "Dionysus",
             "tier": "Ancient",
-            "description": "At the start of each combat, shuffle 5 random Power cards into your Draw Pile. They're free to play this combat.",
+            "description": "At the start of each of your first 5 turns, add a random Power card into your Hand. It's free to play this turn.",
             "flavorText": "\"Enjoying that one, yeah? Well we've got plenty more, just let me know!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -148926,7 +148937,7 @@
             "pool": "colorless",
             "ancient": "Athena",
             "tier": "Ancient",
-            "description": "Start each combat with 2 Dexterity. Every time you play 8 Skills, gain 1 Blur.",
+            "description": "Start each combat with 2 Dexterity. Up to 10 Block persists across turns.",
             "flavorText": "\"Then make haste.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -148959,7 +148970,7 @@
             "pool": "colorless",
             "ancient": "Zeus",
             "tier": "Ancient",
-            "description": "Whenever you are attacked, deal 5 damage to ALL enemies.",
+            "description": "Whenever you are attacked, deal 6 damage to ALL enemies.",
             "flavorText": "\"Who dares oppose my niece?\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -148992,7 +149003,7 @@
             "pool": "colorless",
             "ancient": "Dionysus",
             "tier": "Ancient",
-            "description": "Choose 5 Skills in your Deck. Enchant them with Intoxicate 4.",
+            "description": "Choose 3 Skills in your Deck. Enchant them with Intoxicate 2.",
             "flavorText": "\"Now come, my friends, drink up, like there's no tomorrow!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149005,6 +149016,17 @@
             "tier": "Ancient",
             "description": "Whenever you play a Power card, apply 8 Hangover to ALL enemies.",
             "flavorText": "\"So I say, can't we just, wait ... have I not already told this one before? You'll tell me if I did? Or if you don't remember, that's cool! Neither do I, haha. What were we on about?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-EASY_SHOT",
+            "name": "Easy Shot",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "The first 0[E] card you play from your Hand each turn is played an additional time.",
+            "flavorText": "\"They won't know what hit them.\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149104,6 +149126,17 @@
             "tier": "Ancient",
             "description": "Every 4th Skill you play from your Hand is free.",
             "flavorText": "\"The more distracted you can make them, the easier they are to kill!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-FULLY_LOADED",
+            "name": "Fully Loaded",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "At the start of each combat, add 3 different random Attacks into your Hand. They're free to play this turn.",
+            "flavorText": "\"The skilled huntress keeps her bag of tricks full and with her at all times.\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149295,6 +149328,39 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-HUNTER_DASH",
+            "name": "Hunter Dash",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "Start each combat with 2 Dexterity and 3 Thorns.",
+            "flavorText": "\"I've got your back, Sister, so just keep moving forward.\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-HUNTER_INSTINCT",
+            "name": "Hunter Instinct",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "At the start of your turn, add a random 0[E] card into your Hand. It's free to play this turn.",
+            "flavorText": "\"The hunt is on...\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-HUNTERS_MARK",
+            "name": "Hunter's Mark",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "At the start of each turn, apply 1 Marked to a random enemy.",
+            "flavorText": "\"We're the Silver Sisters, and we never miss our mark.\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-HYDRAULIC_MIGHT",
             "name": "Hydraulic Might",
             "pool": "colorless",
@@ -149328,13 +149394,35 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-KILLING_STROKE",
+            "name": "Killing Stroke",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "Upon pickup, add 1 Clean Kill to your Deck.",
+            "flavorText": "\"May your aim ever be true. Not unlike mine!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-KING_TIDE",
             "name": "King Tide",
             "pool": "colorless",
             "ancient": "Poseidon",
             "tier": "Ancient",
-            "description": "At the start of each Normal/Elite/Boss combat, gain 1/3/5 Strength.",
+            "description": "At the start of each Normal/Elite/Boss combat, gain 2/3/4 Strength.",
             "flavorText": "\"A storm is brewing, Niece. Big one, this time, why, even bigger than the last! Prepare!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-LETHAL_SNARE",
+            "name": "Lethal Snare",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "The first time each turn you apply a debuff to an enemy, apply 1 Weak and 1 Vulnerable to ALL enemies.",
+            "flavorText": "\"May Moonlight guide you to your prey, and expose his every weakness.\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149482,6 +149570,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-PRESSURE_POINTS",
+            "name": "Pressure Points",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "Every 5th Attack you play deals 150% more damage.",
+            "flavorText": "\"That ought to do it!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-PROFUSE_BLEEDING",
             "name": "Profuse Bleeding",
             "pool": "colorless",
@@ -149509,7 +149608,7 @@
             "pool": "colorless",
             "ancient": "Ares",
             "tier": "Ancient",
-            "description": "At the end of each Elite combat, gain 1 Glory. Start each combat with 2 Strength and 2 Thorns for each 1 Glory.",
+            "description": "At the end of each Elite combat, gain 1 Glory. Start each combat with 2 Strength and 2 Thorns per Glory.",
             "flavorText": "\"May all the death you bring become the stuff of legends told in fearful mortal whisperings around the world, my kin.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149542,7 +149641,7 @@
             "pool": "colorless",
             "ancient": "Athena",
             "tier": "Ancient",
-            "description": "At the start of your turn, if you have 25% HP or less, heal to full HP and gain 3 Strength and 3 Dexterity. Works once.",
+            "description": "Upon pickup, gain 1 potion slot filled with Divine Reprieve.",
             "flavorText": "\"Now let's get you back to proper fighting shape.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149603,6 +149702,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-SHADOW_POUNCE",
+            "name": "Shadow Pounce",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "The first time each turn you play 3 Attacks, the next Skill you play from your Hand is free to play.",
+            "flavorText": "\"Tread ever softly and strike swift and true, Sister.\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-SHAMELESS_ATTITUDE",
             "name": "Shameless Attitude",
             "pool": "colorless",
@@ -149619,7 +149729,7 @@
             "pool": "colorless",
             "ancient": "Zeus",
             "tier": "Ancient",
-            "description": "Every 3 combats, you may remove a card from your Deck.",
+            "description": "Upon pickup, remove 1 card from your Deck. Every 3 combats, you may remove a card from your Deck.",
             "flavorText": "\"This shall come as a shock!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149707,7 +149817,7 @@
             "pool": "colorless",
             "ancient": "Athena",
             "tier": "Ancient",
-            "description": "Upon pickup and at the start of each future Act, gain 1 Death Defiance.",
+            "description": "Upon pickup and at the start of each future Act, gain 1 Death Defiance. While your HP is at or below 40%, you have 2 additional Dexterity.",
             "flavorText": "\"Thank the Fates that you eluded Typhon's fury.\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149718,7 +149828,7 @@
             "pool": "colorless",
             "ancient": "Zeus",
             "tier": "Ancient",
-            "description": "Whenever you deal unblocked attack damage to an enemy, deal 50% of that damage to a different random enemy. If there are no other enemies, deal it to the original target instead.",
+            "description": "Whenever you deal unblocked attack damage to an enemy, deal 3 damage to a different random enemy. If there are no other enemies, deal 3 damage to the original target instead.",
             "flavorText": "\"Our enemies will soon be in for quite the shock, I think!\"",
             "v": 2,
             "mod": "Hades Ancients"
@@ -149751,8 +149861,19 @@
             "pool": "colorless",
             "ancient": "Dionysus",
             "tier": "Ancient",
-            "description": "Whenever you Rest at a Rest Site, heal fully and start the next combat with an additional 3 Strength.",
+            "description": "Whenever you Rest at a Rest Site, heal to full HP and gain 1 Relaxation. Start each combat with 2 Strength per Relaxation.",
             "flavorText": "\"Drink! Drink! Drink! Drink! Drink! Drink! Drink! Hehe, yeah!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-SUPPORT_FIRE",
+            "name": "Support Fire",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "Whenever you play a card, deal 2 damage to a random enemy.",
+            "flavorText": "\"Providing covering fire!\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -149850,7 +149971,7 @@
             "pool": "colorless",
             "ancient": "Hecate",
             "tier": "Ancient",
-            "description": "Your Attacks deal 40% more damage to enemies that do not intend to attack.",
+            "description": "The first enemy you attack each combat gains Torment.",
             "flavorText": "In the deepest reaches of the Underworld, three are as feared as the god of the dead himself.",
             "v": 2,
             "mod": "Hades Ancients"
@@ -150043,6 +150164,17 @@
             "mod": "Hades Ancients"
         },
         {
+            "id": "HADESANCIENTS-VITAL_SIGN",
+            "name": "Vital Sign",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "Your Attacks deal 50% more damage against enemies that have 50% HP or more.",
+            "flavorText": "\"Go cut that wretched Architect down to size for me, would you?\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "HADESANCIENTS-VOLCANIC_FLOURISH",
             "name": "Volcanic Flourish",
             "pool": "colorless",
@@ -150094,6 +150226,17 @@
             "tier": "Ancient",
             "description": "The 3rd Attack you play from your Hand each turn is played an additional time.",
             "flavorText": "\"Here comes the wave!\"",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "id": "HADESANCIENTS-WHISPERED_PRAYER",
+            "name": "Whispered Prayer",
+            "pool": "colorless",
+            "ancient": "Artemis",
+            "tier": "Ancient",
+            "description": "Whenever you play a Power card, gain 1 Strength.",
+            "flavorText": "\"The Moon's light wanes again, but your strength needn't falter.\"",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -185821,6 +185964,15 @@
             "mod": "100% Spire Juice"
         },
         {
+            "id": "HADESANCIENTS-DIVINE_REPRIEVE",
+            "name": "Divine Reprieve",
+            "color": "colorless",
+            "rarity": "Event",
+            "description": "Heal to full HP. If used in combat, take an extra turn and gain 3 Strength and 3 Dexterity.",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
             "id": "MNEMONIST-HISTORIANS_TINCTURE",
             "name": "Historian's Tincture",
             "color": "potion_pool∴mnemonist-mnemonist_potion_pool",
@@ -198717,10 +198869,55 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.HADESANCIENTS-TORMENT_POWER",
+            "name": "Torment",
+            "description": "This creature takes 2 additional damage from each hit from your Attacks.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HADESANCIENTS-FESTIVE_FOG_POWER",
+            "name": "Festive Fog",
+            "description": "Creatures with Festive Fog take 40% more damage and deal 20% less damage. Each turn, Festive Fog is reduced by 1.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.HADESANCIENTS-HANGOVER_POWER",
             "name": "Hangover",
             "description": "Hungover creatures take damage at the end of their turn. Each turn, Hangover is reduced by 1.",
             "type": "Debuff",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HADESANCIENTS-DIVINE_REPRIEVE_POWER",
+            "name": "Divine Reprieve",
+            "description": "",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HADESANCIENTS-MARKED_POWER",
+            "name": "Marked",
+            "description": "This turn, your next Attack that damages the Marked creature deals double damage.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Hades Ancients"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HADESANCIENTS-SHADOW_POUNCE_POWER",
+            "name": "Shadow Pounce",
+            "description": "The next Skill you play is free to play.",
+            "type": "Buff",
             "v": 2,
             "mod": "Hades Ancients"
         },
@@ -212919,7 +213116,7 @@
         {
             "id": "BaseLib",
             "name": "BaseLib",
-            "version": "v3.4.5",
+            "version": "v3.4.7",
             "authors": [
                 "Alchyr"
             ],
@@ -212941,7 +213138,7 @@
         {
             "id": "HadesAncients",
             "name": "Hades Ancients",
-            "version": "v0.6.1",
+            "version": "v0.8.1",
             "authors": [
                 "JohnnyBazooka89"
             ],
@@ -215922,15 +216119,15 @@
         },
         {
             "id": "HADESANCIENTS-SPLASH",
-            "name": "Splashing",
+            "name": "Splashing 999",
             "description": "Apply N Riptide on every hit.",
             "v": 2,
             "mod": "Hades Ancients"
         },
         {
             "id": "HADESANCIENTS-INTOXICATE",
-            "name": "Intoxicate",
-            "description": "Apply N Hangover to ALL enemies.",
+            "name": "Intoxicate 999",
+            "description": "Apply N Festive Fog to ALL enemies.",
             "v": 2,
             "mod": "Hades Ancients"
         },
