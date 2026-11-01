@@ -15,4 +15,7 @@ export default {
     'card_pool∴mnemonist-mnemonist_card_pool': ['The Mnemonist', 9907250, '<:mnemonist_energy_icon:1490061402273087609>'],
     'relic_pool∴mnemonist-mnemonist_relic_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
     'potion_pool∴mnemonist-mnemonist_potion_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
+    'tectonic': ['The Tectonic', 5708317, '<:energy_ironclad:1477663151674626119>'],
+    'acolyte': ['The Acolyte', 2573075, '<:energy_silent:1477663156934545448>'],
+    'captain': ['The Captain', 6960640, '<:energy_regent:1477663155239780423>'],
 };
