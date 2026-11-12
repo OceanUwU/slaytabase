@@ -2173,6 +2173,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "BLAZE",
+            "name": "Blaze",
+            "color": "ironclad",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "Give another player 5 (7) Strength.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "BLOOD_WALL",
             "name": "Blood Wall",
             "color": "ironclad",
@@ -2187,7 +2198,7 @@
             "id": "BLOODLETTING",
             "name": "Bloodletting",
             "color": "ironclad",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "type": "Skill",
             "cost": "0",
             "description": "Lose 3 HP.\nGain [E][E] ( [E]).",
@@ -2300,7 +2311,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 5 (8) Block.\nYou receive 50% less damage from Vulnerable enemies this turn.",
+            "description": "Gain 4 (7) Block.\nYou receive 50% less damage from Vulnerable enemies this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2333,7 +2344,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "1",
-            "description": "At the start of your turn, lose 1 HP and gain 8 (10) Block.",
+            "description": "At the start of your turn, lose 1 HP and gain 7 (10) Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2341,7 +2352,7 @@
             "id": "CRUELTY",
             "name": "Cruelty",
             "color": "ironclad",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
             "description": "Vulnerable enemies take an additional 25 (50)% damage.",
@@ -2377,7 +2388,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "3",
-            "description": "At the start of your turn, gain 2 (3) Strength.",
+            "description": "At the start of your turn, gain 3 (4) Strength.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2407,7 +2418,7 @@
             "id": "DOMINATE",
             "name": "Dominate",
             "color": "ironclad",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "type": "Skill",
             "cost": "1",
             "description": "Apply 1 (2) Vulnerable.\nGain 1 Strength for each Vulnerable on the enemy.\nExhaust.",
@@ -2442,8 +2453,8 @@
             "color": "ironclad",
             "rarity": "Uncommon",
             "type": "Skill",
-            "cost": "2 (1)",
-            "description": "Gain [E] for each Attack in your Hand.\nYou cannot gain\nadditional [E] this turn.",
+            "cost": "3",
+            "description": "Gain 15 (20) Block.\nAttacks in your Hand cost 1 less [E] until played.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2509,7 +2520,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "If you Exhausted a card this turn, gain  (4)[E]~~- [E][E] -~~ .\nExhaust.",
+            "description": "If you Exhausted a card this turn, gain [E][E][E] ( [E]).\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2564,7 +2575,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "3",
-            "description": "Deal 16 (21) damage to ALL enemies.\nAt the end of your turn, if this is in your Exhaust Pile, play it.",
+            "description": "Deal 18 (24) damage to ALL enemies.\nAt the end of your turn, if this is in your Exhaust Pile, play it.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2652,7 +2663,18 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "3",
-            "description": "Deal 15 (20) damage.\nEnemy loses 10 (15) Strength this turn.",
+            "description": "Deal 20 (26) damage.\nEnemy loses 10 (15) Strength this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MIDNIGHT",
+            "name": "Midnight",
+            "color": "ironclad",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "12",
+            "description": "Deal 60 (72) damage.\nCosts 1 less [E] for each card Exhausted this combat by ANYONE.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2701,13 +2723,24 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "OUTRAGE",
+            "name": "Outrage",
+            "color": "ironclad",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 9 (13) damage.\nAdd a copy of this card into EVERYONE'S Discard Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "PACTS_END",
             "name": "Pact's End",
             "color": "ironclad",
             "rarity": "Rare",
             "type": "Attack",
             "cost": "0",
-            "description": "If you have 3 or more cards in your Exhaust Pile,\ndeal 17 (23) damage to ALL enemies.",
+            "description": "If you have 3 or more cards in your Exhaust Pile,\ndeal 18 (24) damage to ALL enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2784,7 +2817,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 9 damage.\nIncrease this card's damage by 5 (9) this combat.",
+            "description": "Deal 10 damage.\nIncrease this card's damage by 5 (10) this combat.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2817,7 +2850,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 7 (9) damage.\nGain 2 (3) Strength this turn.",
+            "description": "Deal 7 (9) damage.\nGain 3 (4) Strength this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2916,7 +2949,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "1 (0)",
-            "description": "Take double damage from enemies.\nAllies take half damage from enemies.",
+            "description": "Take 50% more damage from enemies.\nAllies take 50% less damage from enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -2924,10 +2957,10 @@
             "id": "TAUNT",
             "name": "Taunt",
             "color": "ironclad",
-            "rarity": "Uncommon",
+            "rarity": "Common",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 7 (8) Block.\nApply 1 (2) Vulnerable.",
+            "description": "Gain 6 (7) Block.\nApply 1 (2) Vulnerable.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3067,7 +3100,7 @@
             "id": "ACCELERANT",
             "name": "Accelerant",
             "color": "silent",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
             "description": "Poison is triggered 1 (2) additional time (times).",
@@ -3125,7 +3158,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain 2 (3) Dexterity this turn.",
+            "description": "Gain 2 (4) Dexterity this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3181,6 +3214,17 @@
             "type": "Skill",
             "cost": "1",
             "description": "Add 3 (4) Shivs into your Hand.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BLADE_SYMPHONY",
+            "name": "Blade Symphony",
+            "color": "silent",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2 (1)",
+            "description": "Add 2 Shivs to ALL players' Hands.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3273,6 +3317,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "CONCOCT",
+            "name": "Concoct",
+            "color": "silent",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Choose another player. Whenever their Attacks deal unblocked damage this turn, they apply 3 (4) Poison.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "DAGGER_SPRAY",
             "name": "Dagger Spray",
             "color": "silent",
@@ -3353,7 +3408,7 @@
             "id": "ECHOING_SLASH",
             "name": "Echoing Slash",
             "color": "silent",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Attack",
             "cost": "1",
             "description": "Deal 10 (13) damage to ALL enemies.\nRepeat this effect for each enemy killed.",
@@ -3389,7 +3444,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Draw cards until you have 6 (7) in your Hand.",
+            "description": "Draw 2 (3) cards.\nRetain your Hand this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3401,6 +3456,17 @@
             "type": "Skill",
             "cost": "0",
             "description": "Remove all Artifact and Block from the enemy.\nApply 2 (3) Vulnerable.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "FADE",
+            "name": "Fade",
+            "color": "silent",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Retain.\nAnother player gains 6 (9) Dexterity this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3430,7 +3496,7 @@
             "id": "FLANKING",
             "name": "Flanking",
             "color": "silent",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "type": "Skill",
             "cost": "2 (1)",
             "description": "The enemy takes double attack damage from other players this turn.",
@@ -3455,18 +3521,18 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Sly.\nDeal 6 (8) damage to ALL enemies.",
+            "description": "Sly.\nDeal 7 (9) damage to ALL enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
         {
-            "id": "SCARE",
-            "name": "Scare",
+            "id": "SIDESTEP",
+            "name": "Sidestep",
             "color": "silent",
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "0",
-            "description": "Apply 1 Weak to ALL enemies.\n~~- Exhaust. -~~ ",
+            "description": "Next turn, gain [E] ( [E]).",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3509,8 +3575,8 @@
             "color": "silent",
             "rarity": "Uncommon",
             "type": "Skill",
-            "cost": "3",
-            "description": "Sly.\nApply 4 (6) Poison to ALL enemies.",
+            "cost": "2",
+            "description": "Apply 4 (6) Poison and 1 (2) Weak to ALL enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3597,8 +3663,8 @@
             "color": "silent",
             "rarity": "Uncommon",
             "type": "Attack",
-            "cost": "1",
-            "description": "Deal 9 (11) damage.\nDeals 4 (5) additional damage for each card discarded this turn.",
+            "cost": "3",
+            "description": "Sly.\nDeal 19 (23) damage to the enemy with the lowest HP.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3608,8 +3674,8 @@
             "color": "silent",
             "rarity": "Uncommon",
             "type": "Skill",
-            "cost": "1 (0)",
-            "description": "Gain Block equal to Poison on ALL enemies.\nExhaust.",
+            "cost": "1",
+            "description": "Gain Block equal to Poison on ALL enemies.\n~~- Exhaust. -~~ ",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3661,10 +3727,10 @@
             "id": "OUTBREAK",
             "name": "Outbreak",
             "color": "silent",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "Every 3 times you apply Poison, deal 11 (15) damage to ALL enemies.",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "3",
+            "description": "Apply 9 (12) Poison to ALL enemies.\nPoison triggers immediately.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3675,7 +3741,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Shivs gain Retain.\nThe first Shiv you play each turn deals 9 (12) additional damage.",
+            "description": "Shivs gain Retain.\nThe first Shiv you play each turn deals 8 (11) additional damage.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3862,7 +3928,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "2",
-            "description": " (Innate.)\nWhenever you draw a card during your turn, deal 2 damage to ALL enemies.",
+            "description": " (Innate.)\nWhenever you draw a card during your turn, deal 3 damage to ALL enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -3972,7 +4038,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "2 (1)",
-            "description": "Weak enemies take double damage from Attacks.",
+            "description": "Weak enemies take 50% more damage from your Attacks.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4002,10 +4068,10 @@
             "id": "WELL_LAID_PLANS",
             "name": "Well-Laid Plans",
             "color": "silent",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "type": "Power",
-            "cost": "1",
-            "description": "At the end of your turn, Retain up to 1 (2) card (cards).",
+            "cost": "2 (1)",
+            "description": "At the end of your turn, you no longer discard your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4028,7 +4094,7 @@
             "type": "Skill",
             "cost": "0",
             "description": "Gain [E][E] ( [E]).",
-            "starCost": "3",
+            "starCost": "2",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4184,7 +4250,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "0",
-            "description": "Deal 11 (15) damage.\nAdd a Debris into your Hand.",
+            "description": "Deal 10 (14) damage.\nAdd a Debris into your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4208,6 +4274,18 @@
             "type": "Skill",
             "cost": "1",
             "description": "Forge 3 (5).\nSovereign Blade deals double damage to the enemy this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CONSTELLATION",
+            "name": "Constellation",
+            "color": "regent",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Another player draws 1 card, gains [E], and gains 9 (12) Block.",
+            "starCost": "2",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4263,7 +4341,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 7 (8) damage to ALL enemies. All enemies lose 1 (2) Strength this turn.",
+            "description": "Deal 8 (9) damage to ALL enemies. All enemies lose 1 (2) Strength this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4297,7 +4375,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 30 (40) damage.",
+            "description": "Deal 35 (45) damage.",
             "starCost": "4",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -4433,8 +4511,8 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 12 (13) damage.\nDraw 2 (3) cards.",
-            "starCost": "2",
+            "description": "Deal 12 (13) damage.\nNext turn, draw 2 (3) cards.",
+            "starCost": "1",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4533,7 +4611,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "3",
-            "description": "Deal 30 (38) damage.\nIf this kills an enemy, gain [STAR][STAR][STAR][STAR][STAR].",
+            "description": "Deal 30 (38) damage.\nIf this kills an enemy, gain\n5[STAR].",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4645,7 +4723,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "2 (1)",
-            "description": "Every 4[E] you spend,\ngain [E].",
+            "description": "Every [E][E][E][E] you spend,\ngain [E].",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4706,13 +4784,24 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "PLOT",
+            "name": "Plot",
+            "color": "regent",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Next turn, ALL players draw 2 (3) cards.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "PILLAR_OF_CREATION",
             "name": "Pillar of Creation",
             "color": "regent",
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you create a card, gain 3 (4) Block.",
+            "description": "Whenever you create a card, gain 2 (3) Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4757,7 +4846,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "1",
-            "description": "Forge 9 (13).\nNext turn, gain [E].",
+            "description": "Forge 8 (12).\nNext turn, gain [E].",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4781,7 +4870,7 @@
             "type": "Skill",
             "cost": "1",
             "description": "Gain 1 (2) Strength. ALL enemies lose 1 Strength.",
-            "starCost": "3",
+            "starCost": "2",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4871,7 +4960,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "1",
-            "description": "Forge 5 (8).\nDraw 2 cards.",
+            "description": "Forge 6 (9).\nDraw 2 cards.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4938,7 +5027,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 6 (8) Vigor.",
+            "description": "Gain 7 (10) Vigor.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -4963,6 +5052,17 @@
             "cost": "1",
             "description": "Forge 30 (40).",
             "starCost": "4",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TUTOR",
+            "name": "Tutor",
+            "color": "regent",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Another player chooses a card in their Draw Pile to add into their Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5072,7 +5172,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 4 (6)[E].\nCards cost an additional [E] this turn.",
+            "description": "Gain  (6)[E]~~- [E][E][E] -~~ .\nCards cost an additional [E] this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5084,6 +5184,17 @@
             "type": "Attack",
             "cost": "4",
             "description": "Deal 52 (63) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CACOPHONY",
+            "name": "Cacophony",
+            "color": "necrobinder",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2",
+            "description": "Every 33 cards drawn by ALL players, deal 66 (99) damage to a random enemy.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5303,7 +5414,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "2 (1)",
-            "description": "Exhaust your Hand.\nIf 9 cards were Exhausted this way, gain 1 Intangible.",
+            "description": "Play ALL Ethereal cards in your Exhaust Pile.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5446,7 +5557,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you play a Soul, a random enemy loses 6 (8) HP.",
+            "description": "Whenever you play a Soul, a random enemy loses 7 (9) HP.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5479,7 +5590,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "2",
-            "description": "ALL players Summon 6 (8).\nExhaust.",
+            "description": "ALL players Summon 6 (8).",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5545,7 +5656,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "0",
-            "description": "Gain  (4)[E]~~- [E][E] -~~ .\nDraw 2 cards.\nAt the start of your turn, apply 3 Doom to yourself.",
+            "description": "Gain [E][E][E] ( [E]).\nDraw 2 cards.\nAt the start of your turn, apply 3 Doom to yourself.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5699,7 +5810,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 9 (11) damage.\nAdd a Soul (+) into your Draw Pile.",
+            "description": "Deal 10 (13) damage.\nAdd a Soul (+) into your Draw Pile.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5721,7 +5832,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "1 (0)",
-            "description": "Retain.\nIf Osty is alive, he dies and you gain Block equal to double his Max HP.",
+            "description": "Retain.\nIf Osty is alive, he dies and you gain Block equal to triple his Max HP.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5798,7 +5909,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you apply Doom, gain 2 (3) Block.",
+            "description": "Whenever you apply Doom, gain 3 (4) Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5842,7 +5953,18 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 9 damage.\nDeals 2 (3) additional damage for each Soul in your Exhaust Pile.",
+            "description": "Deal 9 damage.\nDeals 4 (6) additional damage for each Soul in your Exhaust Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SOULBOUND",
+            "name": "Soulbound",
+            "color": "necrobinder",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": " (Innate.)\nChoose an ally.\nWhenever you create a Soul, add a Soul to their Draw Pile.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5908,7 +6030,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "2",
-            "description": "Deal 13 damage.\nPermanently increase this card's damage by 4 (5).\nExhaust.",
+            "description": "Deal 13 damage.\nPermanently increase this card's damage by 5 (7).\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5919,7 +6041,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "2",
-            "description": " (Retain.)\nDeal damage equal to the enemy's Doom.\nExhaust.",
+            "description": " (Retain.)\nDeal damage equal to the enemy's Doom.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -5942,6 +6064,17 @@
             "type": "Skill",
             "cost": "0",
             "description": "Gain 7 (9) Block.\nAdd a copy of this card into your Discard Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "UNDERWORLD",
+            "name": "Underworld",
+            "color": "necrobinder",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "Whenever other players deal attack damage this turn, apply that much Doom.\n~~- Exhaust. -~~ ",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6040,7 +6173,7 @@
             "rarity": "Ancient",
             "type": "Power",
             "cost": "1",
-            "description": "Gain 4 (5) Focus.\nAt the start of your turn, lose 1 Focus.",
+            "description": "Gain 5 (6) Focus.\nAt the start of your turn, lose 1 Focus.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6436,7 +6569,18 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "0",
-            "description": "Deal 3 (5) damage for each [E] previously spent this turn.",
+            "description": "Deal 3 (5) damage for each [E] spent on other cards this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "HIBERNATE",
+            "name": "Hibernate",
+            "color": "defect",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "This turn, your Frost grants ALL allies Block.\nChannel 2 (3) Frost.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6469,7 +6613,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "2",
-            "description": "Deal 28 (36) damage to ALL enemies.\nLose 3 Focus.",
+            "description": "Deal 24 (30) damage to ALL enemies.\nLose 3 Focus this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6488,10 +6632,21 @@
             "id": "IGNITION",
             "name": "Ignition",
             "color": "defect",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
             "description": "Another player Channels Plasma.\n~~- Exhaust. -~~ ",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "IMITATION_LEARNING",
+            "name": "Imitation Learning",
+            "color": "defect",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Choose another player.\nThe next 2 (3) times they play a Power, you play a copy of it.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6579,7 +6734,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 10 (13) damage.\nReduce this card's cost to 0 [E].",
+            "description": "Deal 11 (15) damage.\nReduce this card's cost to 0 [E].",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6601,7 +6756,18 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "2",
-            "description": "Deal 10 (13) damage.\nApply 2 (3) Weak.\nChannel 1 Dark.",
+            "description": "Deal 10 (13) damage.\nApply 1 (2) Weak.\nChannel 1 Dark.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ONE_FOR_ALL",
+            "name": "One for All",
+            "color": "defect",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "EVERYONE'S 0 [E] Attacks deal 3 (4) additional damage.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6656,7 +6822,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "3",
-            "description": "Deal 9 (12) damage twice.\nChannel 2 Glass.",
+            "description": "Deal 10 (13) damage twice.\nChannel 2 Glass.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6667,7 +6833,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "2",
-            "description": "Deal 13 (14) damage.\nDraw 1 (2) card (cards).\nWhenever you create a Status, reduce this card's cost to 0 [E] until played.",
+            "description": "Deal 13 (14) damage.\nDraw 1 (2) card (cards).\nWhenever you create a Status, reduce this card's cost by 1 [E] until played.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6711,7 +6877,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 7 (11) damage to ALL enemies.\nEvoke all of your Orbs twice.",
+            "description": "Deal 7 (11) damage to ALL enemies.\nEvoke all of your Orbs twice.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6799,7 +6965,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "3",
-            "description": "Deal 24 (32) damage.\nIf this kills an enemy, gain [E][E][E].",
+            "description": "Deal 26 (34) damage.\nIf this kills an enemy, gain [E][E][E].",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6810,7 +6976,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain 4 (6)[E].\nExhaust.",
+            "description": "Gain  (6)[E]~~- [E][E][E] -~~ .\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6832,7 +6998,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 2 Focus this turn for each unique Orb you have.\n~~- Exhaust. -~~ ",
+            "description": "Gain 1 (2) Focus this turn for each unique Orb you have.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6876,7 +7042,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you Evoke Lightning, deal 6 (8) damage to each enemy hit.",
+            "description": "Whenever you Evoke Lightning, deal 8 (11) damage to each enemy hit.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6886,8 +7052,8 @@
             "color": "defect",
             "rarity": "Rare",
             "type": "Power",
-            "cost": "1",
-            "description": " (Innate.)\nWhenever you create a Status, Channel 1 random Orb.",
+            "cost": "1 (0)",
+            "description": "Whenever you create a Status, Channel 1 random Orb.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -6947,6 +7113,996 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "ALL_IS_WELL",
+            "name": "All Is Well",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you create a Sadness, gain 4 (5) Block.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ANGUISH",
+            "name": "Anguish",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 6 (7) damage.\nDeals 6 (7) additional damage for each Sadness you have created this combat.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ARCHERY",
+            "name": "Archery",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "At the start of your turn, gain 4 (5) Aim.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ARROW_STAB",
+            "name": "Arrow Stab",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 9 (12) damage.\nIf you have an Arrow, put a card that can Shoot from your Discard Pile into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BLOSSOM_SHOT",
+            "name": "Blossom Shot",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "2",
+            "description": "Shoot an Arrow to deal 11 (14) damage and gain Stretch equal to the damage dealt.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BLOT_OUT_THE_SKY",
+            "name": "Blot out the Sky",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Add a random card that can Shoot into your Hand. It's free to play this turn.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BOUNCE",
+            "name": "Bounce",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 10 (13) Stretch.\nAt the start of your next turn, return this to your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BOW_SMACK",
+            "name": "Bow Smack",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 8 (11) damage.\nIf the enemy is Impaled, gain [E].",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BRACE",
+            "name": "Brace",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "X",
+            "description": "Gain 8 (11) Aim X times.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BRIGHTEN_UP",
+            "name": "Brighten Up",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Add 2 Sadness to your Hand.\nAdd 2 (3) Joy to your Hand.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CHO_BARBS",
+            "name": "Cho Barbs",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 7 (9) Block.\nGain 3 (4) Thorns this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CHO_CHORUS",
+            "name": "Cho Chorus",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "3",
+            "description": "Gain 12 (15) Block.\nPlay ALL “Wah” and “Ki” cards in your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CHO_FIRM",
+            "name": "Cho Firm",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 6 (8) Block.\nIf you have an Arrow, gain Block an additional time.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CHO_KI",
+            "name": "Cho Ki",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 8 (11) Block.\nRegain any spent Stretch.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CHO_LIMBS",
+            "name": "Cho Limbs",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "Gain 5 (7) Block twice.\nCosts 2 less [E] if you have a Wah Melody or Ki Melody.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CHO_READY",
+            "name": "Cho Ready",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 8 (11) Block.\n Gain 3 (5) Aim.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CODA",
+            "name": "Coda",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "6",
+            "description": "Deal 40 (55) damage.\nCosts 2 less [E] for each Melody you have.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "COMPOST",
+            "name": "Compost",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "0",
+            "description": "Whenever an enemy dies, ALL players gain [E] ( [E]).",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "COVERING_FIRE",
+            "name": "Covering Fire",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you Shoot, allies gain 8 (11) Block.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DEEP_STRETCH",
+            "name": "Deep Stretch",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 7 (10) Stretch.\nDraw 1 card.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DEFEND_FOOL",
+            "name": "Defend",
+            "color": "fool",
+            "rarity": "Basic",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 5 (8) Block.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DISLIKE_YOU",
+            "name": "Dislike You",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 8 (9) damage.\nThe enemy takes 50 (75)% additional damage from Shots this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DIVINE_SHOT",
+            "name": "Divine Shot",
+            "color": "fool",
+            "rarity": "Ancient",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Retain.\nShoot an Arrow to deal 40 (50) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ECSTASY",
+            "name": "Ecstasy",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "At the start of your turn, Transform 1 random Sadness in your Hand into Joy.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ENCORE",
+            "name": "Encore",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain [E].\nDraw 2 (3) cards.\nYou can only play 1 more card this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ENNUI",
+            "name": "Ennui",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "At the start of your turn, add 1 Sadness to your Hand and draw 2 (3) additional cards.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ENRAPTURE",
+            "name": "Enrapture",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Give another player 6 (9) Vigor and 6 (9) Stretch.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "ENSEMBLE",
+            "name": "Ensemble",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "3",
+            "description": "The next 4 (5) cards played by other players are free to play.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "EPIC_RETRIEVAL",
+            "name": "Epic Retrieval",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "2",
+            "description": "Deal 15 (20) damage.\nIf this Dislodges an Arrow, gain [E][E][E] ( [E]).",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "EXPLOSIVE_ARROWS",
+            "name": "Explosive Arrows",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you Impale an enemy, deal 6 (8) damage to ALL enemies.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "FLORESCENCE",
+            "name": "Florescence",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Exhaust ALL of your cards that Shoot and create The Shot. (+.)\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "GROWTH",
+            "name": "Growth",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Exhaust ALL Sadness in your Hand.\nGain 4 (6) Stretch for each card Exhausted.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "HARMONIC_SHIELD",
+            "name": "Harmonic Shield",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 5 (7) Block for each Melody you have.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "HEAVY_SHOT",
+            "name": "Heavy Shot",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "2",
+            "description": "Shoot an Arrow to deal 20 (25) damage.\nAim affects this card 2 times.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "HIDDEN_ROOTS",
+            "name": "Hidden Roots",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "At the start of your turn, gain 3 (4) Stretch.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "HOBBLING_SHOT",
+            "name": "Hobbling Shot",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 13 (14) damage and apply 1 (2) Weak and Vulnerable.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "HONING",
+            "name": "Honing",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "3 (2)",
+            "description": "Arrows deal 50% additional damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "JEST",
+            "name": "Jest",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "2",
+            "description": "Gain 14 (18) Block.\nAdd 1 Sadness into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "KI_CHANT",
+            "name": "Ki Chant",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Look at the top 3 (4) cards of your Draw Pile. Choose 1 to add to your Hand and discard the rest.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "KI_HOP",
+            "name": "Ki Hop",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 7 (8) damage.\nIf the enemy is Impaled, draw 2 (3) cards.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "KI_REST",
+            "name": "Ki Rest",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "Next turn, gain 5 (6)[E].\nIf you have a Wah Melody or Cho Melody, Retain your Hand this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "KI_VERSE",
+            "name": "Ki Verse",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "The next  (2) “Wah”, “Cho”, or “Ki” card (cards) you play this turn is (are) played an additional time.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "KI_WHIP",
+            "name": "Ki Whip",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 5 (6) damage.\nNext turn, gain [E][E] ( [E]).",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "LOCKED_IN",
+            "name": "Locked In",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Put a card that can Shoot from your Draw Pile into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "FOOLISH_SHOT",
+            "name": "Foolish Shot",
+            "color": "fool",
+            "rarity": "Basic",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 15 (20) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "LOST_LUTE",
+            "name": "Lost Lute",
+            "color": "fool",
+            "rarity": "Ancient",
+            "type": "Power",
+            "cost": "3 (2)",
+            "description": "Whenever you gain a Melody, play the top card of your Draw Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "LULLABY",
+            "name": "Lullaby",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "0",
+            "description": " (Innate.)\nWhen you gain every Melody, gain 20 Block.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MELODIC_SHOT",
+            "name": "Melodic Shot",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "1 (0)",
+            "description": "Shoot an Arrow to deal 12 (13) damage.\nHits an additional time for each Melody you have.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MOTIF",
+            "name": "Motif",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "Whenever you gain a Melody, draw 1 card.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MOURNING_BLOW",
+            "name": "Mourning Blow",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 10 (15) damage.\nTransform this into Sadness and return it to your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MYTHIC_FORM",
+            "name": "Mythic Form",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "3",
+            "description": "At the start of your turn, add a random  (Upgraded) Tarot card into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "NAIL",
+            "name": "Nail",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "2",
+            "description": "If the enemy is Impaled, Deal 20 (25) damage and apply 2 (3) Weak and Vulnerable.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "NOCK",
+            "name": "Nock",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 5 (7) Aim.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "PUNCH_OF_JOY",
+            "name": "Punch of Joy",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "2",
+            "description": "Deal 13 (17) damage.\nTransform 1 random Sadness in your Hand into Joy.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "QUICK_SHOT",
+            "name": "Quick Shot",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Shoot an Arrow to deal 10 (13) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "QUIETUS",
+            "name": "Quietus",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "This turn, your next Shot deals double (triple) damage but the Arrow is destroyed.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "QUIVER",
+            "name": "Quiver",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "Gain 1 (2) additional Arrow (Arrows).",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "RAIN_SHOT",
+            "name": "Rain Shot",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 12 (15) damage.\nDamage ALL other enemies equal to the damage dealt.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "RAPID_SHOT",
+            "name": "Rapid Shot",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 3 damage 3 (4) times.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "RECALL",
+            "name": "Recall",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "If the enemy is Impaled, Dislodge and put a card from your Discard Pile on top of your Draw Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "REPEAT_SHOT",
+            "name": "Repeat Shot",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "X",
+            "description": "Shoot an Arrow to deal 15 (20) damage X times.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "RHYTHM_STRIKE",
+            "name": "Rhythm Strike",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 4 (5) damage.\nHits an additional time for each Melody you have.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "RUMMAGE",
+            "name": "Rummage",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Draw 3 (4) cards.\nAdd a Sadness into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SELF_DEPRECATE",
+            "name": "Self Deprecate",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Add a Sadness to your Hand.\nAdd 2 (3) Joy to all allies' Hands.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SERRATED_ARROWS",
+            "name": "Serrated Arrows",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Impaled enemies take 25 (50)% more damage from your Attacks.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SHOW_OFF",
+            "name": "Show Off",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 5 Aim.\nIf a non-minion enemy dies this turn, permanently increase this card's Aim by 2 (3).\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SIMPLETON",
+            "name": "Simpleton",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "At the end of your turn, play the least expensive card in your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SKY_SHOT",
+            "name": "Sky Shot",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Innate.\nShoot an Arrow to deal 30 (40) damage.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SONG_PATH",
+            "name": "Song Path",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you gain a Cho Melody, gain 5 (7) Block.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "SORROWFUL_STRIKE",
+            "name": "Sorrowful Strike",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 13 (17) damage.\nAdd 2 Sadness into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "STEADY_CADENCE",
+            "name": "Steady Cadence",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 10 (13) damage.\nDraw 1 card for each Melody you have.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "STRIKE_FOOL",
+            "name": "Strike",
+            "color": "fool",
+            "rarity": "Basic",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 6 (9) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TIMBER",
+            "name": "Timber",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "3",
+            "description": "Deal 20 (25) damage.\nIf this kills an enemy, deal 30 (35) damage to ALL enemies.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TRICK_SHOT",
+            "name": "Trick Shot",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 12 (15) damage and return this card to your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TUNE",
+            "name": "Tune",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "At the end of your turn, if you have a Ki Melody, the next card you play costs 0 [E].",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "UPROOT",
+            "name": "Uproot",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "If the enemy is Impaled, Dislodge and apply 3 (4) Vulnerable.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "VIOLENT_CHORD",
+            "name": "Violent Chord",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you gain a Wah Melody, deal 9 (12) damage to ALL enemies.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "VITRIOL",
+            "name": "Vitriol",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Apply 2 (3) Weak.\nAdd a Sadness into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_BLAST",
+            "name": "Wah Blast",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "2",
+            "description": "Deal 14 (18) damage to ALL enemies.\nIf you have a Cho Melody or Ki Melody, hits twice.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_CHO",
+            "name": "Wah Cho",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Gain 3 (5) Block.\nDeal 3 (5) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_CHO_KI",
+            "name": "Wah Cho Ki",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Gain 9 (12) Block.\nDeal 9 (12) damage.\nDraw 1 (2) card (cards).",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_HAMMER",
+            "name": "Wah Hammer",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 9 (12) damage.\nDeals double damage to Impaled enemies.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_KI",
+            "name": "Wah Ki",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 2 (4) damage 2 times.\nNext turn, gain [E] and draw 1 card.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_SYMPHONY",
+            "name": "Wah Symphony",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "2",
+            "description": "Deal 6 damage to ALL enemies.\nDeals 4 (6) additional damage for ALL your cards containing “Wah”, “Cho”, or “Ki”.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_SWEEP",
+            "name": "Wah Sweep",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 8 (11) damage to ALL enemies.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WAH_TOUCH",
+            "name": "Wah Touch",
+            "color": "fool",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 6 (8) damage.\nApply 1 (2) Vulnerable.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WHISTLING_ARROWS",
+            "name": "Whistling Arrows",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 3 (4) Block.\nWhenever you Shoot an Arrow, return this to your Hand from the Discard Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WREST",
+            "name": "Wrest",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "If the enemy is Impaled, Dislodge and draw 2 (3) cards.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "YAH",
+            "name": "Yah!",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "The first time you Dislodge an Arrow each turn, gain [E] ( [E]).",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "YOGA",
+            "name": "Yoga",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "ALL players gain 6 (8) Stretch.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "ALCHEMIZE",
             "name": "Alchemize",
             "color": "colorless",
@@ -6985,7 +8141,7 @@
             "color": "colorless",
             "rarity": "Rare",
             "type": "Power",
-            "cost": "1",
+            "cost": "2",
             "description": " (Innate.)\nWhenever you gain Block on your turn, other players gain half that much Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -7332,6 +8488,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "MY_SHINIES",
+            "name": "My Shinies",
+            "color": "colorless",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 1 damage for every 20 (10) Gold you have.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "NOSTALGIA",
             "name": "Nostalgia",
             "color": "colorless",
@@ -7447,8 +8614,8 @@
             "color": "colorless",
             "rarity": "Rare",
             "type": "Attack",
-            "cost": "2",
-            "description": "Deal 15 (18) damage.\nDeals 5 (8) additional damage for each unique debuff on the enemy.",
+            "cost": "1",
+            "description": "Deal 10 (12) damage.\nDeals 5 (8) additional damage for each unique debuff on the enemy.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7478,10 +8645,10 @@
             "id": "SALVO",
             "name": "Salvo",
             "color": "colorless",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 12 (16) damage.\nRetain your Hand this turn.",
+            "description": "Deal 10 (14) damage.\nRetain your Hand this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7544,7 +8711,7 @@
             "id": "SPLASH",
             "name": "Splash",
             "color": "colorless",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "type": "Skill",
             "cost": "1",
             "description": "Choose 1 of 3 random  (Upgraded) Attacks from another character to add into your Hand. It's free to play this turn.",
@@ -7570,6 +8737,17 @@
             "type": "Attack",
             "cost": "2",
             "description": "Deal 11 (15) damage.\nThe next Attack another player plays on the enemy is played an extra time.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_BALL",
+            "name": "The Ball",
+            "color": "colorless",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 10 damage.\nIncrease this card's damage by 10 (15) this combat and give it to a random ally.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7849,6 +9027,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "ABUNDANCE",
+            "name": "Abundance",
+            "color": "event",
+            "rarity": "Ancient",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Choose 1 of 3 Upgraded Powers to add into your Hand. It's free to play this turn.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "APOTHEOSIS",
             "name": "Apotheosis",
             "color": "event",
@@ -7877,7 +9066,7 @@
             "rarity": "Ancient",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain [E][E] ( [E]).\nDraw 2 (3) cards.\nLose 1 Max HP.",
+            "description": "Gain [E][E] ( [E]).\nDraw 2 (3) cards.\nLose 2 Max HP.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7915,6 +9104,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "DINGY_DAGGER",
+            "name": "Dingy Dagger",
+            "color": "event",
+            "rarity": "Event",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 7 (11) (16) (22) (29) (37) (46) (56) (67) (79) damage.\nCan be upgraded any number of times.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "DISTRACTION",
             "name": "Distraction",
             "color": "silent",
@@ -7943,7 +9143,7 @@
             "rarity": "Event",
             "type": "Skill",
             "cost": "0",
-            "description": "Reduce the cost of ALL cards in your Hand to 1 this turn (combat).\nExhaust.",
+            "description": "Reduce the cost of ALL cards in your Hand to 1 this turn (combat).",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7981,6 +9181,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "GOD_BYRD",
+            "name": "God Byrd",
+            "color": "event",
+            "rarity": "Event",
+            "type": "Skill",
+            "cost": "0",
+            "description": "At the start of your next turn, deal 30 (40) damage to ALL enemies.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "HELLO_WORLD",
             "name": "Hello World",
             "color": "defect",
@@ -7998,7 +9209,7 @@
             "rarity": "Ancient",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 5 (6) damage twice.\nIncrease the damage of ALL Maul cards by 1 (2) this combat.",
+            "description": "Deal 5 (6) damage twice.\nIncrease the damage of ALL Maul cards by 2 (3) this combat.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8010,6 +9221,28 @@
             "type": "Skill",
             "cost": "2",
             "description": "Add 3 (5) random Attacks into your Draw Pile. They're free to play this combat.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MIGHTY_SHIELD",
+            "name": "Mighty Shield",
+            "color": "event",
+            "rarity": "Event",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 20 (25) Block.\nAdd 3 Dazed into your Draw Pile.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MIGHTY_WEAPON",
+            "name": "Mighty Weapon",
+            "color": "event",
+            "rarity": "Event",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 25 (30) damage to ALL enemies.\nAdd 2 Dazed into your Draw Pile.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8064,7 +9297,7 @@
             "rarity": "Ancient",
             "type": "Skill",
             "cost": "3",
-            "description": "Gain 15 (17) Block.\nNext turn, draw 2 (3) cards and gain [E][E] ( [E]).\nExhaust.",
+            "description": "Gain 16 (18) Block.\nNext turn, draw 2 (3) cards and gain [E][E] ( [E]).\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8129,7 +9362,7 @@
             "color": "event",
             "rarity": "Ancient",
             "type": "Attack",
-            "cost": "3",
+            "cost": "2",
             "description": "Deal 33 (44) damage.\nStun the enemy.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -8142,6 +9375,17 @@
             "type": "Quest",
             "cost": "",
             "description": "Unplayable.\nCan be hatched at a Rest Site.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DOWSING",
+            "name": "Dowsing",
+            "color": "quest",
+            "rarity": "Quest",
+            "type": "Quest",
+            "cost": "",
+            "description": "Unplayable.\nAfter entering 4 more ? rooms, transforms into an Abundance.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8245,6 +9489,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "SADNESS",
+            "name": "Sadness",
+            "color": "status",
+            "rarity": "Status",
+            "type": "Status",
+            "cost": "",
+            "description": "Unplayable.\nRetain.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "SLIMED",
             "name": "Slimed",
             "color": "status",
@@ -8300,6 +9555,28 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "AMNESIA",
+            "name": "Amnesia",
+            "color": "token",
+            "rarity": "Status",
+            "type": "Status",
+            "cost": "",
+            "description": "This turn, draw 2 fewer cards and lose [E].",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DEATH",
+            "name": "Death",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Apply 75 (99) Doom.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "DISINTEGRATION",
             "name": "Disintegration",
             "color": "token",
@@ -8317,7 +9594,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain [E].\nDraw 1 (2) card (cards).\nExhaust.",
+            "description": "Gain [E] ( [E]).\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8328,7 +9605,40 @@
             "rarity": "Token",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 16 (20) damage.",
+            "description": "Deal 20 (24) damage.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "JOY",
+            "name": "Joy",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain [E] ( [E]).\nDraw 1 card.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "JUDGEMENT",
+            "name": "Judgement",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "If the enemy has 30 (40) or less HP, set their HP to 0.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "JUSTICE",
+            "name": "Justice",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 30 (35) damage.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8361,7 +9671,7 @@
             "rarity": "Token",
             "type": "Attack",
             "cost": "0",
-            "description": "Deal 13 (16) damage.\nExhaust.",
+            "description": "Deal 11 (13) damage.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8372,7 +9682,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain 8 (11) Block.\nExhaust.",
+            "description": "Gain 7 (10) Block.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8443,6 +9753,215 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "STRENGTH",
+            "name": "Strength",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 4 (5) Strength.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TEMPERANCE",
+            "name": "Temperance",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 30 (35) Block.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_CHARIOT",
+            "name": "The Chariot",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 25 (30) damage to ALL enemies.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_DEVIL",
+            "name": "The Devil",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Exhaust your Hand.\nPlay (Upgrade)  (and play) the top card of your Draw Pile for each card Exhausted this way.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_FOOL",
+            "name": "The Fool",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Play 2 (3) random cards from your Hand.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_LOVERS",
+            "name": "The Lovers",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Fill your Hand with random  (upgraded) cards from other characters.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_EMPEROR",
+            "name": "The Emperor",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 7 (9)[E].\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_EMPRESS",
+            "name": "The Empress",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Apply 3 (4) Weak.\nApply 3 (4) Vulnerable.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_HANGED_MAN",
+            "name": "The Hanged Man",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Lose 6 (3) HP.\nTake an extra turn after this one.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_HERMIT",
+            "name": "The Hermit",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Discard a card.\nDraw 2 (3) cards.\nDiscarded Curses are Exhausted.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_HIEROPHANT",
+            "name": "The Hierophant",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Add 3 (4) random Colorless cards into your Hand.\nThey cost 1 less [E] this turn.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_HIGH_PRIESTESS",
+            "name": "The High Priestess",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Retain.\nDraw 4 (5) cards.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_MAGICIAN",
+            "name": "The Magician",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 3 (4) Orb Slots.\nChannel 3 (4) random Orbs.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_MOON",
+            "name": "The Moon",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Fill your Hand with Shivs. (+.)\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_SHOT",
+            "name": "The Shot",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 10 (13) damage for each card Exhausted by Florescence.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_STAR",
+            "name": "The Star",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Next turn, gain [E][E][E] ( [E]) and draw 3 (4) cards.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_SUN",
+            "name": "The Sun",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Draw 2 (3) cards.\nGain [E][E] ( [E]).\nAdd a Soot into your Discard Pile.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_TOWER",
+            "name": "The Tower",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Attack",
+            "cost": "0",
+            "description": "Deal 2 (3) damage for each floor traveled.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THE_WORLD",
+            "name": "The World",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Put 5 (7) random cards from your Discard Pile into your Hand.\nExhaust.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "WASTE_AWAY",
             "name": "Waste Away",
             "color": "token",
@@ -8450,6 +9969,17 @@
             "type": "Status",
             "cost": "",
             "description": "Gain 1 less [E] per turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WHEEL_OF_FORTUNE",
+            "name": "Wheel of Fortune",
+            "color": "token",
+            "rarity": "Token",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Discard your Hand.\nDraw 7 (9) cards.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -149773,7 +151303,7 @@
             "pool": "colorless",
             "ancient": "Orobas",
             "tier": "Ancient",
-            "description": "Upon pickup, gain 4 potion slots filled with random potions.",
+            "description": "Upon pickup, gain 4 potion slots filled with random Potions.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -149867,6 +151397,28 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "BATH_ROBES",
+            "name": "Bath Robes",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "At the start of the next Boss combat, heal all of your HP.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BATH_TOWEL",
+            "name": "Bath Towel",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "At the start of each combat, heal 8 HP.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "BEATING_REMNANT",
             "name": "Beating Remnant",
             "pool": "colorless",
@@ -149883,7 +151435,7 @@
             "pool": "colorless",
             "ancient": "Nonupeipe",
             "tier": "Ancient",
-            "description": "Upon pickup, choose 3 cards in your Deck. Enchant them with Swift 3.",
+            "description": "Upon pickup, Enchant 4 random cards in your Deck with Swift 2.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -149905,7 +151457,7 @@
             "pool": "colorless",
             "ancient": null,
             "tier": "Shop",
-            "description": "While you have no potions, you have 2 additional Dexterity.",
+            "description": "While you have no Potions, you have 2 additional Dexterity.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -149951,6 +151503,17 @@
             "tier": "Event",
             "description": "Whenever you add a card to your Deck, add one additional copy.",
             "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BIZARRE_LAMP",
+            "name": "Bizarre Lamp",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Shop",
+            "description": "At the start of each combat, add a Joy and a Sadness into your Hand.",
+            "flavorText": "PLACEHOLDER",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -150114,7 +151677,7 @@
             "pool": "colorless",
             "ancient": "Nonupeipe",
             "tier": "Ancient",
-            "description": "The 5th card you play from your hand each turn is free.",
+            "description": "The 6th card you play from your hand each turn is free.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150164,12 +151727,23 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "BYRDINE",
+            "name": "Byrdine",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "Upon pickup, Transform Byrd Swoop into God Byrd. A Byrdine will accompany you in battles.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "BYRDPIP",
             "name": "Byrdpip",
             "pool": "colorless",
             "ancient": null,
             "tier": "Event",
-            "description": "Upon pickup, gain the card Byrd Swoop. A Byrdpip will accompany you in battles.",
+            "description": "Upon pickup, gain the card Byrd Swoop. A Byrdpip will accompany you in battles. Once you play Byrd Swoop 6 times, you can evolve Byrdpip at a Rest Site.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150213,7 +151787,7 @@
             "pool": "colorless",
             "ancient": null,
             "tier": "Shop",
-            "description": "Upon pickup, brews 5 random potions.",
+            "description": "Upon pickup, brews 5 random Potions.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150318,6 +151892,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "CONDUCTORS_BATON",
+            "name": "Conductor's Baton",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Rare",
+            "description": "When you gain every Melody, receive 25% less attack damage until your next turn.",
+            "flavorText": "PLACEHOLDER",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "CRACKED_CORE",
             "name": "Cracked Core",
             "pool": "defect",
@@ -150389,7 +151974,7 @@
             "pool": "colorless",
             "ancient": "Nonupeipe",
             "tier": "Ancient",
-            "description": "At the start of each combat, fill all empty potion slots with random potions.",
+            "description": "At the start of each combat, fill all empty potion slots with random Potions.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150422,7 +152007,7 @@
             "pool": "colorless",
             "ancient": "Nonupeipe",
             "tier": "Ancient",
-            "description": "Whenever you play 2 or fewer cards in a turn, take half damage from enemies.",
+            "description": "Start combat with 20 Block. Your Block is not removed at the start of your 2nd turn.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150444,7 +152029,7 @@
             "pool": "colorless",
             "ancient": "Vakuu",
             "tier": "Ancient",
-            "description": "Upon pickup, lose 9 Max HP. Add 3 Apparitions to your Deck.",
+            "description": "Upon pickup, add 2 random Curses and 3 Apparitions to your Deck.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150455,7 +152040,7 @@
             "pool": "colorless",
             "ancient": null,
             "tier": "Starter",
-            "description": "At the start of each combat, gain [STAR][STAR][STAR][STAR][STAR][STAR].",
+            "description": "At the start of each combat, gain 7[STAR].",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150478,6 +152063,17 @@
             "ancient": null,
             "tier": "Shop",
             "description": "Upon pickup, obtain an additional copy of a card in your Deck.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "DOWSING_ROD",
+            "name": "Dowsing Rod",
+            "pool": "colorless",
+            "ancient": "Neow",
+            "tier": "Ancient",
+            "description": "Upon pickup, add 1 Dowsing to your Deck.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -150589,6 +152185,17 @@
             "tier": "Uncommon",
             "description": "For every 5 cards in your Deck, heal 3 HP whenever you enter a Rest Site.",
             "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "EXERCISE_MAT",
+            "name": "Exercise Mat",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Common",
+            "description": "Start each combat with 6 Stretch.",
+            "flavorText": "PLACEHOLDER",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -150714,6 +152321,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "FERTILIZER",
+            "name": "Fertilizer",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Rare",
+            "description": "Whenever you create a Sadness, gain 1 Strength.",
+            "flavorText": "PLACEHOLDER",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "FESTIVE_POPPER",
             "name": "Festive Popper",
             "pool": "colorless",
@@ -150807,7 +152425,7 @@
             "pool": "colorless",
             "ancient": "Nonupeipe",
             "tier": "Ancient",
-            "description": "Upon pickup, mark 7 random combats. Enemies in those rooms have 1 HP.",
+            "description": "Upon pickup, mark 8 random combats. Enemies in those rooms have 1 HP.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -151005,7 +152623,7 @@
             "pool": "colorless",
             "ancient": null,
             "tier": "Event",
-            "description": "At the start of your turn, play a copy of your last played Attack or Skill.",
+            "description": "At the start of your turn, play a copy of your last played Attack.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -151440,6 +153058,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "MIGHTY_WINGS",
+            "name": "Mighty Wings",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "Whenever you deal 30 or more attack damage in a single hit, gain 2 Strength.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "MINI_REGENT",
             "name": "Mini Regent",
             "pool": "regent",
@@ -151539,6 +153168,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "NEOWS_SACRIFICE",
+            "name": "Neow's Sacrifice",
+            "pool": "colorless",
+            "ancient": "Neow",
+            "tier": "Ancient",
+            "description": "Upon pickup, procure 1 Ambergris and add 1 Guilty to your Deck.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "NEOWS_TALISMAN",
             "name": "Neow's Talisman",
             "pool": "colorless",
@@ -151612,6 +153252,28 @@
             "tier": "Ancient",
             "description": "Upon pickup, Enchant all Strikes in your Deck with Tezcatara's Ember.",
             "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "OBSIDIAN_VICE",
+            "name": "Obsidian Vice",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "At the end of your turn, deal 1 damage to a random enemy for each card in your Hand.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "OCARINA",
+            "name": "Ocarina",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Uncommon",
+            "description": "At the start of each combat, add a random “Wah”, “Cho”, or “Ki” card into your Hand.",
+            "flavorText": "PLACEHOLDER",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -151907,7 +153569,7 @@
             "pool": "colorless",
             "ancient": "Neow",
             "tier": "Ancient",
-            "description": "Upon pickup, gain 1 potion slot and procure 2 random potions.",
+            "description": "Upon pickup, gain 1 potion slot and procure 2 random Potions.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152149,7 +153811,7 @@
             "pool": "regent",
             "ancient": null,
             "tier": "Uncommon",
-            "description": "Whenever you create a card, gain 2 Block.",
+            "description": "The first time you create a card each turn, gain 4 Block.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152325,7 +153987,7 @@
             "pool": "colorless",
             "ancient": "Tezcatara",
             "tier": "Ancient",
-            "description": "At the start of your turn, spend 5 Gold to gain [E].",
+            "description": "At the start of your turn, spend 3 Gold to gain [E].",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152347,7 +154009,7 @@
             "pool": "colorless",
             "ancient": "Vakuu",
             "tier": "Ancient",
-            "description": "Upon pickup, add 2 random Curses and 3 Wishes to your Deck.",
+            "description": "Upon pickup, lose 9 Max HP. Add 3 Wishes to your Deck.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152380,7 +154042,7 @@
             "pool": "colorless",
             "ancient": "Nonupeipe",
             "tier": "Ancient",
-            "description": "Upon pickup, gain 999 Gold.",
+            "description": "Upon pickup, gain 888 Gold.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152391,7 +154053,7 @@
             "pool": "colorless",
             "ancient": "Neow",
             "tier": "Ancient",
-            "description": "Upon pickup, lose all Gold. Enchant all cards in the first card reward with Glam.",
+            "description": "Upon pickup, lose all Gold. Enchant all cards in your first card reward with Glam.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152452,12 +154114,23 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "SONG_BOW",
+            "name": "Song Bow",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Starter",
+            "description": "Start each combat with 6 Aim.",
+            "flavorText": "PLACEHOLDER",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "SOZU",
             "name": "Sozu",
             "pool": "colorless",
             "ancient": "Darv",
             "tier": "Ancient",
-            "description": "Gain [E] at the start of each turn. You can no longer obtain potions.",
+            "description": "Gain [E] at the start of each turn. You can no longer obtain Potions.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152525,6 +154198,17 @@
             "tier": "Ancient",
             "description": "Upon pickup, add 1 Brightest Flame to your Deck.",
             "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "STORYTELLER",
+            "name": "Storyteller",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Starter",
+            "description": "Start each combat with 12 Aim. At the end of your turn, gain 3 Aim.",
+            "flavorText": "PLACEHOLDER",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -152661,6 +154345,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "THUMBSCREW",
+            "name": "Thumbscrew",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "Attacks that hit multiple times hit one additional time.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "TINGSHA",
             "name": "Tingsha",
             "pool": "silent",
@@ -152677,7 +154372,7 @@
             "pool": "colorless",
             "ancient": null,
             "tier": "Uncommon",
-            "description": "Whenever you Rest, procure 2 random potions.",
+            "description": "Whenever you Rest, procure 2 random Potions.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152688,7 +154383,7 @@
             "pool": "colorless",
             "ancient": "Tezcatara",
             "tier": "Ancient",
-            "description": "At the start of your turn, Exhaust the top card of your Draw Pile and gain 1 Strength.",
+            "description": "At the start of your turn, Exhaust 1 card from your Hand and gain 1 Strength.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152700,6 +154395,17 @@
             "ancient": null,
             "tier": "Shop",
             "description": "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your Hand.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TORMENTOUS_COLLAR",
+            "name": "Tormentous Collar",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "At the start of Elite combats, apply 2 Weak to ALL enemies.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152743,7 +154449,7 @@
             "pool": "colorless",
             "ancient": "Tezcatara",
             "tier": "Ancient",
-            "description": "Upon pickup, obtain 4 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away.",
+            "description": "Upon pickup, obtain 5 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152778,6 +154484,17 @@
             "tier": "Uncommon",
             "description": "Every time you play 10 Skills, gain 7 Block.",
             "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TWINE",
+            "name": "Twine",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Rare",
+            "description": "Whenever you Dislodge an Arrow, gain 4 Block.",
+            "flavorText": "PLACEHOLDER",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -152875,7 +154592,7 @@
             "pool": "colorless",
             "ancient": "Tezcatara",
             "tier": "Ancient",
-            "description": "Start each combat with an additional 4[E].",
+            "description": "Start each combat with an additional [E][E][E][E].",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -152969,6 +154686,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "WHITTLING_KNIFE",
+            "name": "Whittling Knife",
+            "pool": "fool",
+            "ancient": null,
+            "tier": "Uncommon",
+            "description": "Whenever you shuffle your Draw Pile, gain 5 Aim.",
+            "flavorText": "PLACEHOLDER",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "WING_CHARM",
             "name": "Wing Charm",
             "pool": "colorless",
@@ -153008,6 +154736,17 @@
             "ancient": null,
             "tier": "Event",
             "description": "Receive 3 random Relics after 5 combats.",
+            "flavorText": "Details for this relic will be revealed in the future...",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WUPPY",
+            "name": "Wuppy",
+            "pool": "colorless",
+            "ancient": null,
+            "tier": "Event",
+            "description": "Wuppy has 0/0 HP. Wuppy absorbs ALL attack damage in combat.",
             "flavorText": "Details for this relic will be revealed in the future...",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -185287,6 +187026,15 @@
             "mod": "Mnemonist"
         },
         {
+            "id": "AMBERGRIS",
+            "name": "Ambergris",
+            "color": "colorless",
+            "rarity": "Event",
+            "description": "Heal for 50% of your Max HP. If used in combat, take an extra turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "ASHWATER",
             "name": "Ashwater",
             "color": "ironclad",
@@ -185359,6 +187107,15 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "BOTTLED_SONG",
+            "name": "Bottled Song",
+            "color": "fool",
+            "rarity": "Uncommon",
+            "description": "Add a random “Wah”, “Cho”, and “Ki” card into your Hand. They're free to play this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "CLARITY",
             "name": "Clarity Extract",
             "color": "colorless",
@@ -185382,6 +187139,15 @@
             "color": "regent",
             "rarity": "Rare",
             "description": "Add 3 Upgraded Colorless cards into your Hand.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "CRYSTALLINE_EUPHORIA",
+            "name": "Crystalline Euphoria",
+            "color": "fool",
+            "rarity": "Rare",
+            "description": "Add 3 Joy into your Hand.\nFill your Hand with Sadness.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -185733,6 +187499,15 @@
             "color": "colorless",
             "rarity": "Common",
             "description": "Choose 1 of 3 random Power cards to add into your Hand. It's free to play this turn.",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "PRECISION_POTION",
+            "name": "Precision Potion",
+            "color": "fool",
+            "rarity": "Common",
+            "description": "Gain 21 Aim.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -190049,6 +191824,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "FOOL",
+            "name": "The Fool",
+            "type": "Player",
+            "minHP": 0,
+            "maxHP": 77,
+            "minHPA": 0,
+            "maxHPA": 0,
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "AEONGLASS",
             "name": "Aeonglass",
             "type": "",
@@ -190086,7 +191872,40 @@
             "name": "Axebot",
             "type": "",
             "minHP": 70,
-            "maxHP": 78,
+            "maxHP": 70,
+            "minHPA": 0,
+            "maxHPA": 0,
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BATTLE_FRIEND_V1",
+            "name": "Battle Friend V1.0",
+            "type": "",
+            "minHP": 75,
+            "maxHP": 75,
+            "minHPA": 0,
+            "maxHPA": 0,
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BATTLE_FRIEND_V2",
+            "name": "Battle Friend V2.0",
+            "type": "",
+            "minHP": 150,
+            "maxHP": 150,
+            "minHPA": 0,
+            "maxHPA": 0,
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "BATTLE_FRIEND_V3",
+            "name": "Battle Friend V3.0",
+            "type": "",
+            "minHP": 300,
+            "maxHP": 300,
             "minHPA": 0,
             "maxHPA": 0,
             "v": 2,
@@ -190340,6 +192159,17 @@
             "type": "",
             "minHP": 150,
             "maxHP": 150,
+            "minHPA": 0,
+            "maxHPA": 0,
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "FAKE_MERCHANT_MONSTER",
+            "name": "The Merchant???",
+            "type": "",
+            "minHP": 165,
+            "maxHP": 165,
             "minHPA": 0,
             "maxHPA": 0,
             "v": 2,
@@ -190637,6 +192467,17 @@
             "type": "",
             "minHP": 300,
             "maxHP": 300,
+            "minHPA": 0,
+            "maxHPA": 0,
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MYSTERIOUS_KNIGHT",
+            "name": "Mysterious Knight",
+            "type": "",
+            "minHP": 101,
+            "maxHP": 101,
             "minHPA": 0,
             "maxHPA": 0,
             "v": 2,
@@ -190952,7 +192793,7 @@
         },
         {
             "id": "TEST_SUBJECT",
-            "name": "Test Subject #C59",
+            "name": "Test Subject #C175",
             "type": "",
             "minHP": 100,
             "maxHP": 100,
@@ -197951,16 +199792,7 @@
             "hasIcon": false,
             "id": "LocString with Title=card_keywords.BASELIB-PURGE.title and Description=card_keywords.BASELIB-PURGE.description",
             "name": "Purge",
-            "description": "Removed from combat and your deck permanently.",
-            "type": "Keyword",
-            "v": 2,
-            "mod": "BaseLib"
-        },
-        {
-            "hasIcon": false,
-            "id": "LocString with Title=static_hover_tips.BASELIB-EXHAUSTIVE.title and Description=static_hover_tips.BASELIB-EXHAUSTIVE.description",
-            "name": "Exhaustive",
-            "description": "This card Exhausts after N uses.",
+            "description": "Removed from combat and your Deck permanently.",
             "type": "Keyword",
             "v": 2,
             "mod": "BaseLib"
@@ -197969,7 +199801,7 @@
             "hasIcon": false,
             "id": "LocString with Title=static_hover_tips.BASELIB-PERSIST.title and Description=static_hover_tips.BASELIB-PERSIST.description",
             "name": "Persist",
-            "description": "This card returns to your hand the first N times it is played each turn.",
+            "description": "This card returns to your hand the first X times it is played each turn.",
             "type": "Keyword",
             "v": 2,
             "mod": "BaseLib"
@@ -197978,7 +199810,52 @@
             "hasIcon": false,
             "id": "LocString with Title=static_hover_tips.BASELIB-REFUND.title and Description=static_hover_tips.BASELIB-REFUND.description",
             "name": "Refund",
+            "description": "When energy is spent on this card, up to X of that energy is refunded.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "BaseLib"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.BASELIB-SCRY.title and Description=static_hover_tips.BASELIB-SCRY.description",
+            "name": "Scry",
+            "description": "Look at the top X cards of your Draw Pile. You may discard any of them.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "BaseLib"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.BASELIB-EXHAUSTIVE.smartTitle and Description=static_hover_tips.BASELIB-EXHAUSTIVE.smartDescription",
+            "name": "Exhaustive 98765",
+            "description": "This card Exhausts after N uses.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "BaseLib"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.BASELIB-PERSIST.smartTitle and Description=static_hover_tips.BASELIB-PERSIST.smartDescription",
+            "name": "Persist 98765",
+            "description": "This card returns to your hand the first N times it is played each turn.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "BaseLib"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.BASELIB-REFUND.smartTitle and Description=static_hover_tips.BASELIB-REFUND.smartDescription",
+            "name": "Refund 98765",
             "description": "When energy is spent on this card, up to N of that energy is refunded.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "BaseLib"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.BASELIB-SCRY.smartTitle and Description=static_hover_tips.BASELIB-SCRY.smartDescription",
+            "name": "Scry 98765",
+            "description": "Look at the top N cards of your Draw Pile. You may discard any of them.",
             "type": "Keyword",
             "v": 2,
             "mod": "BaseLib"
@@ -198608,7 +200485,43 @@
             "hasIcon": false,
             "id": "LocString with Title=static_hover_tips.COOK.title and Description=static_hover_tips.COOK.description",
             "name": "Cook",
-            "description": "Remove 2 cards from your Deck and gain 9 Max HP at a Rest Site.",
+            "description": "Remove 2 cards from your Deck and gain 5 Max HP at a Rest Site.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.WAH_MELODY.title and Description=static_hover_tips.WAH_MELODY.description",
+            "name": "Wah Melody",
+            "description": "Activates if you played a “Wah” card this turn.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.CHO_MELODY.title and Description=static_hover_tips.CHO_MELODY.description",
+            "name": "Cho Melody",
+            "description": "Activates if you played a “Cho” card this turn.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.KI_MELODY.title and Description=static_hover_tips.KI_MELODY.description",
+            "name": "Ki Melody",
+            "description": "Activates if you played a “Ki” card this turn.",
+            "type": "Keyword",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": false,
+            "id": "LocString with Title=static_hover_tips.TAROT.title and Description=static_hover_tips.TAROT.description",
+            "name": "Tarot",
+            "description": "Unique cards with special effects.",
             "type": "Keyword",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -198642,6 +200555,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.AEONGLASS_DOMINION_POWER",
+            "name": "Aeonglass Dominion",
+            "description": "At the start of your turn, add 1 Wither to the top of your Draw Pile.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.AFTERIMAGE_POWER",
             "name": "Afterimage",
             "description": "Whenever you play a card, gain 1 Block.",
@@ -198660,9 +200582,45 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.AIM_POWER",
+            "name": "Aim",
+            "description": "Your next Arrow deals more damage.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.ALL_IS_WELL_POWER",
+            "name": "All Is Well",
+            "description": "Whenever you create a Sadness, gain 4 Block.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.AMNESIA_POWER",
+            "name": "Amnesia",
+            "description": "This turn, draw 2 fewer cards and lose [E].",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.ANTICIPATE_POWER",
             "name": "Anticipate",
             "description": "Gain Dexterity until the end of this turn.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.ARCHERY_POWER",
+            "name": "Archery",
+            "description": "At the start of your turn, gain 4 Aim.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -198822,6 +200780,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.CACOPHONY_POWER",
+            "name": "Cacophony",
+            "description": "Every 33 cards drawn by ALL players, deal damage to a random enemy.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.CALAMITY_POWER",
             "name": "Calamity",
             "description": "Whenever you play an Attack, add a random Attack into your Hand.",
@@ -198851,7 +200818,7 @@
             "hasIcon": true,
             "id": "POWER.CHAINS_OF_BINDING_POWER",
             "name": "Chains of Binding",
-            "description": "The first 3 cards drawn each turn are Afflicted with Bound.",
+            "description": "The first 1 cards drawn each turn are Afflicted with Bound.",
             "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -198860,7 +200827,16 @@
             "hasIcon": true,
             "id": "POWER.CHILD_OF_THE_STARS_POWER",
             "name": "Child of the Stars",
-            "description": "Gain 1 Block for each [STAR] spent.",
+            "description": "Gain 2 Block for each [STAR] spent.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.CHO_BARBS_POWER",
+            "name": "Cho Barbs",
+            "description": "Gain Thorns this turn.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -198879,6 +200855,33 @@
             "id": "POWER.COLOSSUS_POWER",
             "name": "Colossus",
             "description": "You receive 50% less damage from Vulnerable enemies this turn.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.COMPOST_POWER",
+            "name": "Compost",
+            "description": "Whenever an enemy dies, ALL players gain Energy.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.CONCOCT_POWER",
+            "name": "Concoct",
+            "description": "Whenever you deal unblocked attack damage this turn, apply 3 Poison.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.CONDUCTORS_BATON_POWER",
+            "name": "Conductor's Baton",
+            "description": "Receive 25% less attack damage until your next turn.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -198969,6 +200972,15 @@
             "id": "POWER.COVERED_POWER",
             "name": "Covered",
             "description": "An ally is covering you. All attacks that would be directed to you are redirected to them instead.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.COVERING_FIRE_POWER",
+            "name": "Covering Fire",
+            "description": "Whenever you Shoot, allies gain 1 Block.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199103,7 +201115,7 @@
             "hasIcon": true,
             "id": "POWER.DEMON_FORM_POWER",
             "name": "Demon Form",
-            "description": "At the start of your turn, gain 2 Strength.",
+            "description": "At the start of your turn, gain 3 Strength.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199128,15 +201140,6 @@
         },
         {
             "hasIcon": true,
-            "id": "POWER.DIAMOND_DIADEM_POWER",
-            "name": "Diamond Diadem",
-            "description": "Enemies deal 50% less damage this turn.",
-            "type": "Buff",
-            "v": 2,
-            "mod": "Slay the Spire 2"
-        },
-        {
-            "hasIcon": true,
             "id": "POWER.DIE_FOR_YOU_POWER",
             "name": "Die for You",
             "description": "Osty absorbs all unblocked attack damage.",
@@ -199148,7 +201151,16 @@
             "hasIcon": true,
             "id": "POWER.DISINTEGRATION_POWER",
             "name": "Disintegration",
-            "description": "At the end of your turn, take 5 damage.",
+            "description": "At the end of your turn, take 1 damage.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.DISLIKE_YOU_POWER",
+            "name": "Dislike You",
+            "description": "This enemy takes 50% additional damage from Shots this turn.",
             "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199209,6 +201221,24 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.ECSTASY_POWER",
+            "name": "Ecstasy",
+            "description": "At the start of your turn, Transform 1 random Sadness in your Hand into Joy.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.ENCORE_POWER",
+            "name": "Encore",
+            "description": "You can only play 1 more card this turn.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.ENERGY_NEXT_TURN_POWER",
             "name": "Energy Next Turn",
             "description": "Gain additional Energy next turn.",
@@ -199227,9 +201257,27 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.ENNUI_POWER",
+            "name": "Ennui",
+            "description": "At the start of your turn, add 1 Sadness to your Hand and draw 2 additional cards.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.ENRAGE_POWER",
             "name": "Enrage",
             "description": "Whenever you play a Skill, gains 2 Strength.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.ENSEMBLE_POWER",
+            "name": "Ensemble",
+            "description": "The next 3 cards played by other players are free to play.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199257,6 +201305,42 @@
             "id": "POWER.ESCAPE_ARTIST_POWER",
             "name": "Escape Artist",
             "description": "Exits the combat after 4 turns.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.EXPLOSIVE_ARROWS_POWER",
+            "name": "Explosive Arrows",
+            "description": "Whenever you Impale an enemy, deal 6 damage to ALL enemies.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.EXPLOSIVE_POWER",
+            "name": "Explosive",
+            "description": "When this creature dies, it explodes, dealing damage.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.EXTRA_TURN_POWER",
+            "name": "Extra Turn",
+            "description": "Take an extra turn after this one.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.FADE_POWER",
+            "name": "Fade",
+            "description": "Gain Dexterity until the end of this turn.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199398,6 +201482,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.FREE_CARD_POWER",
+            "name": "Free Card",
+            "description": "The next card you play costs 0 [E].",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.FREE_POWER_POWER",
             "name": "Free Power",
             "description": "The next Power you play costs 0 [E].",
@@ -199461,6 +201554,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.GOD_BYRD_POWER",
+            "name": "God Byrd",
+            "description": "At the start of your next turn, deal 20 damage to ALL enemies.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.GRAVITY_POWER",
             "name": "Gravity",
             "description": "Whenever you play a card this turn, deal 2 damage to ALL enemies.",
@@ -199472,7 +201574,7 @@
             "hasIcon": true,
             "id": "POWER.GUARDED_POWER",
             "name": "Guarded",
-            "description": "Take half damage from enemies.",
+            "description": "Take 50% less damage from enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199587,9 +201689,36 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.HIBERNATE_POWER",
+            "name": "Hibernate",
+            "description": "This turn, your Frost grants ALL allies Block.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HIDDEN_ROOTS_POWER",
+            "name": "Hidden Roots",
+            "description": "At the start of your turn, gain 5 Stretch.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.HIGH_VOLTAGE_POWER",
             "name": "High Voltage",
             "description": "At the end of this creature's turn, it gains 2 Strength.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HONING_POWER",
+            "name": "Honing",
+            "description": "Arrows deal 50% additional damage.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199600,6 +201729,15 @@
             "name": "Hotfix",
             "description": "Gain Focus until the end of this turn.",
             "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.HYPERBEAM_FOCUS_DOWN_POWER",
+            "name": "Hyperbeam",
+            "description": "Lose Focus until the end of this turn.",
+            "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -199618,6 +201756,24 @@
             "name": "Imbalanced",
             "description": "If this creature's attacks are fully blocked by any player, it becomes Stunned.",
             "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.IMITATION_LEARNING_POWER",
+            "name": "Imitation Learning",
+            "description": "When another player plays a Power, you play a copy of it.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.IMPALED_POWER",
+            "name": "Impaled",
+            "description": "An enemy is Impaled when it is shot by an Arrow. The Arrow is Dislodged after you hit the enemy 3 times.",
+            "type": "Power",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -199654,6 +201810,15 @@
             "name": "Infinite Blades",
             "description": "At the start of your turn, add a Shiv into your Hand.",
             "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.INSATIABLE_DOMINION_POWER",
+            "name": "Insatiable Dominion",
+            "description": "At the end of your turn, take damage based on the turn count.",
+            "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -199704,9 +201869,27 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.KI_VERSE_POWER",
+            "name": "Ki Verse",
+            "description": "The next “Wah”, “Cho”, or “Ki” card you play this turn is played an additional time.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.KNOCKDOWN_POWER",
             "name": "Knockdown",
-            "description": "This creature takes 0 times the damage from other players this turn.",
+            "description": "This creature takes 1 times the damage from other players this turn.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.LAGAVULIN_MATRIARCH_DOMINION_POWER",
+            "name": "Lagavulin Matriarch Dominion",
+            "description": "At the end of this turn, lose 1 Strength and Dexterity.",
             "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199743,6 +201926,24 @@
             "id": "POWER.LOOP_POWER",
             "name": "Loop",
             "description": "At the start of your turn, trigger the passive ability of your next Orb.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.LOST_LUTE_POWER",
+            "name": "Lost Lute",
+            "description": "Whenever you gain a Melody, play the top card of your Draw Pile.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.LULLABY_POWER",
+            "name": "Lullaby",
+            "description": "When you gain every Melody, gain 20 Block.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199857,6 +202058,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.MOCK_GATED_TURN_START_POWER",
+            "name": "powers.MOCK_GATED_TURN_START_POWER.title",
+            "description": "powers.MOCK_GATED_TURN_START_POWER.description",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.MOCK_INVINCIBLE_ON_DEATH_POWER",
             "name": "Mock Invincible on Death",
             "description": "",
@@ -199896,6 +202106,15 @@
             "id": "POWER.MOCK_PREVENT_DEATH_POWER",
             "name": "Mock Prevent Death",
             "description": "",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.MOCK_RECORD_CARD_CHANGED_PILES_POWER",
+            "name": "powers.MOCK_RECORD_CARD_CHANGED_PILES_POWER.title",
+            "description": "powers.MOCK_RECORD_CARD_CHANGED_PILES_POWER.description",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -199977,6 +202196,24 @@
             "id": "POWER.MONOLOGUE_POWER",
             "name": "Monologue",
             "description": "Whenever you play a card this turn, gain 1 Strength this turn.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.MOTIF_POWER",
+            "name": "Motif",
+            "description": "Whenever you gain a Melody, draw 1 card.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.MYTHIC_FORM_POWER",
+            "name": "Mythic Form",
+            "description": "At the start of your turn, add 1 random Tarot into your Hand.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200073,6 +202310,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.ONE_FOR_ALL_POWER",
+            "name": "One for All",
+            "description": "Your 0 [E] Attacks deal more damage.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.ONE_TWO_PUNCH_POWER",
             "name": "One-Two Punch",
             "description": "Your next Attack is played an extra time this turn.",
@@ -200085,15 +202331,6 @@
             "id": "POWER.ORBIT_POWER",
             "name": "Orbit",
             "description": "Every 4 Energy you spend, gain an Energy.",
-            "type": "Buff",
-            "v": 2,
-            "mod": "Slay the Spire 2"
-        },
-        {
-            "hasIcon": true,
-            "id": "POWER.OUTBREAK_POWER",
-            "name": "Outbreak",
-            "description": "Every 10 times you apply Poison, deal damage to ALL enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200165,7 +202402,7 @@
             "hasIcon": true,
             "id": "POWER.PHANTOM_BLADES_POWER",
             "name": "Phantom Blades",
-            "description": "Shivs gain Retain.\nThe first Shiv you play each turn deals 9 additional damage.",
+            "description": "Shivs gain Retain.\nThe first Shiv you play each turn deals 8 additional damage.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200183,7 +202420,7 @@
             "hasIcon": true,
             "id": "POWER.PILLAR_OF_CREATION_POWER",
             "name": "Pillar of Creation",
-            "description": "Whenever you create a card, gain 5 Block.",
+            "description": "Whenever you create a card, gain 1 Block.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200247,6 +202484,15 @@
             "id": "POWER.PYRE_POWER",
             "name": "Pyre",
             "description": "Gain 1 Energy at the start of each turn.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.QUIETUS_POWER",
+            "name": "Quietus",
+            "description": "Your next Shot this turn deals 2 times more damage but the Arrow is destroyed.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200442,6 +202688,15 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.SERRATED_ARROWS_POWER",
+            "name": "Serrated Arrows",
+            "description": "Impaled enemies take additional damage from your Attacks.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.SETUP_STRIKE_POWER",
             "name": "Setup Strike",
             "description": "Gain Strength until the end of this turn.",
@@ -200472,6 +202727,15 @@
             "id": "POWER.SHADOW_STEP_POWER",
             "name": "Shadow Step",
             "description": "Next turn, Attacks deal double damage.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.SHOW_OFF_POWER",
+            "name": "Show Off",
+            "description": "If a non-minion enemy dies this turn, permanently increase the Aim of this Show Off by 1.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200517,6 +202781,15 @@
             "id": "POWER.SIGNAL_BOOST_POWER",
             "name": "Signal Boost",
             "description": "Your next Power is played an extra time.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.SIMPLETON_POWER",
+            "name": "Simpleton",
+            "description": "At the end of your turn, play the least expensive card in your Hand.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200613,6 +202886,24 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.SONG_PATH_POWER",
+            "name": "Song Path",
+            "description": "Whenever you gain a Cho Melody, gain 5 Block.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.SOULBOUND_POWER",
+            "name": "Soulbound",
+            "description": "Whenever {ApplierName} creates a Soul, add a Soul to your Draw Pile.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.SPECTRUM_SHIFT_POWER",
             "name": "Spectrum Shift",
             "description": "At the start of your turn, add 1 random Colorless card into your Hand.",
@@ -200633,7 +202924,7 @@
             "hasIcon": true,
             "id": "POWER.SPEEDSTER_POWER",
             "name": "Speedster",
-            "description": "Whenever you draw a card during your turn, deal 1 damage to ALL enemies.",
+            "description": "Whenever you draw a card during your turn, deal 3 damage to ALL enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200730,9 +203021,18 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.STRETCH_POWER",
+            "name": "Stretch",
+            "description": "The next time you gain Block from a card, gain additional Block.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.SUBROUTINE_POWER",
             "name": "Subroutine",
-            "description": "Whenever you play a Power, gain 1 [E].",
+            "description": "Whenever you play a Power, gain [E].",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200804,7 +203104,7 @@
             "hasIcon": true,
             "id": "POWER.TAG_TEAM_POWER",
             "name": "Tag Team",
-            "description": "The next Attack another player plays on the enemy is played 0 extra times.",
+            "description": "The next Attack another player plays on the enemy is played an extra time.",
             "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200831,7 +203131,7 @@
             "hasIcon": true,
             "id": "POWER.TANK_POWER",
             "name": "Tank",
-            "description": "Take double damage from enemies. Allies take half damage from enemies.",
+            "description": "Take 50% more damage from enemies. Allies take 50% less damage from enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200939,7 +203239,7 @@
             "hasIcon": true,
             "id": "POWER.TRACKING_POWER",
             "name": "Tracking",
-            "description": "Weak enemies take 2 times more damage from Attacks.",
+            "description": "Weak enemies take 50% more damage from your Attacks.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200955,9 +203255,27 @@
         },
         {
             "hasIcon": true,
+            "id": "POWER.TUNE_POWER",
+            "name": "Tune",
+            "description": "At the end of your turn, if you have a Ki Melody, the next card you play costs 0 energy.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
             "id": "POWER.TYRANNY_POWER",
             "name": "Tyranny",
             "description": "At the start of your turn, draw a card and Exhaust a card from your Hand.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.UNDERWORLD_POWER",
+            "name": "Underworld",
+            "description": "Whenever other players deal attack damage this turn, apply that much Doom.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -200994,6 +203312,15 @@
             "id": "POWER.VIGOR_POWER",
             "name": "Vigor",
             "description": "Your next Attack deals additional damage.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.VIOLENT_CHORD_POWER",
+            "name": "Violent Chord",
+            "description": "Whenever you gain a Wah Melody, deal 9 damage to ALL enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -201047,7 +203374,7 @@
             "hasIcon": true,
             "id": "POWER.WELL_LAID_PLANS_POWER",
             "name": "Well-Laid Plans",
-            "description": "At the end of your turn, Retain up to 1 card.",
+            "description": "At the end of your turn, you no longer discard your Hand.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -201066,6 +203393,33 @@
             "id": "POWER.WRAITH_FORM_POWER",
             "name": "Wraith Form",
             "description": "At the start of your turn, lose 1 Dexterity.",
+            "type": "Debuff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.WUPPYS_LOYALTY_POWER",
+            "name": "Wuppy's Loyalty",
+            "description": "Wuppy absorbs ALL attack damage.",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.YAH_POWER",
+            "name": "Yah!",
+            "description": "The first time you Dislodge an Arrow each turn, gain [E].",
+            "type": "Buff",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "hasIcon": true,
+            "id": "POWER.YOU_ARE_MINE_POWER",
+            "name": "You Are Mine",
+            "description": "Next turn, gain 3 Weak, Vulnerable, and Frail.",
             "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -212277,7 +214631,7 @@
         {
             "id": "BaseLib",
             "name": "BaseLib",
-            "version": "v3.3.2",
+            "version": "v3.4.8",
             "authors": [
                 "Alchyr"
             ],
@@ -215351,7 +217705,7 @@
         {
             "id": "INKY",
             "name": "Inky",
-            "description": "This card deals 1 additional damage and applies 1 Weak.",
+            "description": "This card applies 1 Weak.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -215807,7 +218161,7 @@
             "description": "A doorway existed where none existed moments before...\n\nYou enter to find two shimmering doorways and a well-dressed doorman.\n“Finally, a visitor! Please please! Choose a door, any door!”\n\nAre we still in the Spire? How is this place so clean?",
             "options": [
                 "Light Door",
-                "Upgrade 2 random cards.",
+                "Upgrade a card.",
                 "Dark Door",
                 "Remove 1 card from your Deck."
             ],
@@ -215828,6 +218182,17 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "WATERFALL_OF_OBVIOUS_SECRETS",
+            "name": "Waterfall of Obvious Secrets",
+            "description": "You spot a waterfall with an easy passage to get behind it.",
+            "options": [
+                "Enter Waterfall",
+                ""
+            ],
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "WATERLOGGED_SCRIPTORIUM",
             "name": "Waterlogged Scriptorium",
             "description": "Navigating the murky passages, you stumble upon a withered figure working a small shop. The multitude of shelves are stuffed full of damp scrolls and parchment.\n\nNoticing a patron has entered, the scribe-shopkeeper snaps to attention and gestures at some implements arranged on a desk.",
@@ -215837,11 +218202,26 @@
                 "Tentacle Quill",
                 "Pay 55 Gold. Enchant a card with Steady.",
                 "Locked",
-                "Requires 99 Gold.",
+                "Requires 120 Gold.",
                 "Prickly Sponge",
-                "Pay 99 Gold. Enchant 2 cards with Steady.",
+                "Pay 120 Gold. Enchant 2 cards with Steady.",
                 "Bloody Ink",
                 "Gain 6 Max HP."
+            ],
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "WUPPY_IN_TROUBLE",
+            "name": "Wuppy in Trouble",
+            "description": "\"Myuuu- Myuyuyuu!\"\n\nA shrill cry rings out from a thicket of electric coral.\n\nLooks like a lone wuppy is tangled up and getting zapped!",
+            "options": [
+                "Ignore",
+                "Procure a random potion.",
+                "Help Immediately",
+                "Add an Injury to your Deck. Obtain Wuppy with 60 HP.",
+                "Be Cautious",
+                "Lose 0 HP. Obtain Wuppy with 30 HP."
             ],
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -215885,6 +218265,8 @@
                 "Obtain 3 Necrobinder cards.",
                 "Red",
                 "Obtain 3 Ironclad cards.",
+                "Yellow",
+                "Obtain 3 Fool cards.",
                 "Equality",
                 "Obtain Prismatic Shard.",
                 "Blue",
@@ -215983,7 +218365,7 @@
                 "Emotional Awareness",
                 "Pay 125 Gold. Remove 1 card from your Deck.",
                 "Breathing Techniques",
-                "Pay 50 Gold. Add 2 Enlightenment to your Deck.",
+                "Pay 25 Gold. Add an Enlightenment to your Deck.",
                 "Arachnid Acupuncture",
                 "Pay 250 Gold. Remove 2 cards from your Deck."
             ],
@@ -216058,14 +218440,31 @@
             "mod": "Slay the Spire 2"
         },
         {
-            "id": "TRIAL",
-            "name": "The Trial",
-            "description": "You join a line of people entering a massive building.\n\nAs you pass under a golden archway, horns blare, confetti explodes, and streamers glide down from the ceiling!\n\n“Entrant {EntrantNumber}, you are the DECIDER for today's Trial.”",
+            "id": "SHRINE_OF_THE_WARLORD",
+            "name": "Shrine of the Warlord",
+            "description": "A passageway in the floor takes you to an underground shrine devoted to a massive khimeric beast. Its massive frame looms over 3 distinct artifacts.\n\nThere’s a plaque on the floor before it. It reads:\n“BECOME MIGHTY.”\n- Tanx",
             "options": [
-                "Reject",
-                "You are not allowed to Reject.",
-                "Accept",
-                "Serve as today's Decider."
+                "Take the Wings",
+                "Add a Clumsy to your Deck. Obtain Mighty Wings.",
+                "Take the Weapon",
+                "Add Mighty Weapon to your Deck.",
+                "Take the Shield",
+                "Add Mighty Shield to your Deck."
+            ],
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "THERMAE_NONUPEIPE",
+            "name": "Thermae Nonupeipe",
+            "description": "PLACEHOLDER: You enter a grandiose bathhouse.\nUpon parting multiple silken portières, you are greeted by two attendants in sync.\n\n“Weary one, come rest thy flesh and partake from our waters.”\nThey hand you a small, smooth slate featuring a variety of services.",
+            "options": [
+                "Thermal Baths",
+                "Pay 88 Gold. ",
+                "Private Oasis",
+                "Lose ALL your Gold. ",
+                "Drink Bath Water",
+                "Lose 31 HP. Add 3 Guilty to your Deck. Obtain ."
             ],
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -216077,6 +218476,19 @@
             "options": [
                 "Accept",
                 "Create a custom card to add to your Deck."
+            ],
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "TRIAL",
+            "name": "The Trial",
+            "description": "You join a line of people entering a massive building.\n\nAs you pass under a golden archway, horns blare, confetti explodes, and streamers glide down from the ceiling!\n\n“Entrant {EntrantNumber}, you are the DECIDER for today's Trial.”",
+            "options": [
+                "Reject",
+                "You are not allowed to Reject.",
+                "Accept",
+                "Serve as today's Decider."
             ],
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -216127,6 +218539,17 @@
             "name": "The Merchant???",
             "description": "Placeholder",
             "options": [],
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
+            "id": "MUSEUM_OF_TORTURE",
+            "name": "Museum of Torture",
+            "description": "You step into a small but elaborate museum and are greeted by an attendant.\n\n“Weeelcome to the Museum of Tooorture.”\nUncertain as to why the attendant is talking this way, you step through a heavy door and progress further into the museum.",
+            "options": [
+                "Continue",
+                ""
+            ],
             "v": 2,
             "mod": "Slay the Spire 2"
         },
