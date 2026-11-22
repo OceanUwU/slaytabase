@@ -16,5 +16,8 @@ export default {
     'card_pool∴mnemonist-mnemonist_card_pool': ['The Mnemonist', 9907250, '<:mnemonist_energy_icon:1490061402273087609>'],
     'relic_pool∴mnemonist-mnemonist_relic_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
     'potion_pool∴mnemonist-mnemonist_potion_pool': 'card_pool∴mnemonist-mnemonist_card_pool',
-    'tung': ['The Tung', 10515272, '<:tung_energy_icon:1573847620819095593>'],
+    'card_pool∴triplet-triple_t_card_pool': ['The Tung', 10515272, '<:tung_energy_icon:1573847620819095593>'],
+    'relic_pool∴triplet-triple_t_relic_pool': 'card_pool∴triplet-triple_t_card_pool',
+    'potion_pool∴triplet-triple_t_potion_pool': 'card_pool∴triplet-triple_t_card_pool',
+    
 };
