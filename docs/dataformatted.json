@@ -7163,7 +7163,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you create a Sadness, gain 4 (5) Block.",
+            "description": "Whenever you create a Sadness, gain 4 (6) Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7182,10 +7182,10 @@
             "id": "ARCHERY",
             "name": "Archery",
             "color": "fool",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "type": "Power",
             "cost": "1",
-            "description": "At the start of your turn, gain 4 (5) Aim.",
+            "description": "At the start of your turn, gain 6 (8) Aim.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7195,8 +7195,8 @@
             "color": "fool",
             "rarity": "Common",
             "type": "Attack",
-            "cost": "1",
-            "description": "Deal 9 (12) damage.\nIf you have an Arrow, put a card that can Shoot from your Discard Pile into your Hand.",
+            "cost": "2",
+            "description": "Deal 13 (15) damage.\nGain 6 (8) Aim.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7229,7 +7229,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 10 (13) Stretch.\nAt the start of your next turn, return this to your Hand.",
+            "description": "Gain 8 (11) Stretch.\nAt the start of your next turn, return this to your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7273,7 +7273,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 7 (9) Block.\nGain 3 (4) Thorns this turn.",
+            "description": "Gain 8 (10) Block.\nGain 2 (3) Thorns this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7284,7 +7284,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "3",
-            "description": "Gain 12 (15) Block.\nPlay ALL “Wah” and “Ki” cards in your Hand.",
+            "description": "Gain 14 (18) Block.\nPlay ALL “Wah” and “Ki” cards in your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7295,7 +7295,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 6 (8) Block.\nIf you have an Arrow, gain Block an additional time.",
+            "description": "Gain 5 (7) Block.\nIf you have an Arrow, gain Block an additional time.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7328,7 +7328,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 8 (11) Block.\n Gain 3 (5) Aim.",
+            "description": "Gain 7 (9) Block.\n Gain 3 (4) Aim.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7460,7 +7460,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "3",
-            "description": "The next 4 (5) cards played by other players are free to play.\nExhaust.",
+            "description": "The next 4 (5) cards played by other players cost 0 [E].\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7479,10 +7479,10 @@
             "id": "EXPLOSIVE_ARROWS",
             "name": "Explosive Arrows",
             "color": "fool",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you Impale an enemy, deal 6 (8) damage to ALL enemies.",
+            "description": "Whenever you Impale an enemy, deal 8 (11) damage to ALL enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7492,8 +7492,8 @@
             "color": "fool",
             "rarity": "Rare",
             "type": "Skill",
-            "cost": "0",
-            "description": "Exhaust ALL of your cards that Shoot and create The Shot. (+.)\nExhaust.",
+            "cost": "1",
+            "description": "Choose a card in your Hand to Transform into The Shot. (+.)",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7504,7 +7504,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Exhaust ALL Sadness in your Hand.\nGain 4 (6) Stretch for each card Exhausted.",
+            "description": "Gain 8 (11) Block.\nTransform 1 random Sadness in your Hand into a copy of this card.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7515,7 +7515,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "1",
-            "description": "Gain 5 (7) Block for each Melody you have.",
+            "description": "Gain 4 (6) Block.\nGain 4 (6) additional Block for each Melody you have.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7523,10 +7523,10 @@
             "id": "HEAVY_SHOT",
             "name": "Heavy Shot",
             "color": "fool",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "type": "Attack",
             "cost": "2",
-            "description": "Shoot an Arrow to deal 20 (25) damage.\nAim affects this card 2 times.",
+            "description": "Shoot an Arrow to deal 16 (17) damage.\nAim affects this card 3 (4) times.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7559,7 +7559,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "3 (2)",
-            "description": "Arrows deal 50% additional damage.",
+            "description": "Arrows deal double damage.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7570,7 +7570,7 @@
             "rarity": "Common",
             "type": "Skill",
             "cost": "2",
-            "description": "Gain 14 (18) Block.\nAdd 1 Sadness into your Hand.",
+            "description": "Gain 15 (19) Block.\nAdd 1 Sadness into your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7603,7 +7603,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "2",
-            "description": "Next turn, gain 5 (6)[E].\nIf you have a Wah Melody or Cho Melody, Retain your Hand this turn.",
+            "description": "Next turn, gain  (5)[E]~~- [E][E][E] -~~ .\nIf you have a Wah Melody or Cho Melody, Retain your Hand this turn.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7614,7 +7614,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "1",
-            "description": "The next  (2) “Wah”, “Cho”, or “Ki” card (cards) you play this turn is (are) played an additional time.",
+            "description": "The next  (2) “Wah” or “Cho” card (cards) you play this turn is (are) played an additional time.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7668,8 +7668,8 @@
             "color": "fool",
             "rarity": "Rare",
             "type": "Power",
-            "cost": "0",
-            "description": " (Innate.)\nWhen you gain every Melody, gain 20 Block.",
+            "cost": "1",
+            "description": "When you gain every Melody, gain 12 (16) Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7679,8 +7679,8 @@
             "color": "fool",
             "rarity": "Rare",
             "type": "Attack",
-            "cost": "1 (0)",
-            "description": "Shoot an Arrow to deal 12 (13) damage.\nHits an additional time for each Melody you have.",
+            "cost": "1",
+            "description": "Shoot an Arrow to deal 12 (14) damage.\nHits an additional time for each Melody you have.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7688,7 +7688,7 @@
             "id": "MOTIF",
             "name": "Motif",
             "color": "fool",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "type": "Power",
             "cost": "2 (1)",
             "description": "Whenever you gain a Melody, draw 1 card.",
@@ -7713,7 +7713,7 @@
             "rarity": "Rare",
             "type": "Power",
             "cost": "3",
-            "description": "At the start of your turn, add a random  (Upgraded) Tarot card into your Hand.",
+            "description": "~~- Ethereal. -~~\nAt the start of your turn, add a random Tarot card into your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7724,7 +7724,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "2",
-            "description": "If the enemy is Impaled, Deal 20 (25) damage and apply 2 (3) Weak and Vulnerable.",
+            "description": "If the enemy is Impaled, deal 20 (25) damage and apply 2 (3) Weak and Vulnerable.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7740,13 +7740,24 @@
             "mod": "Slay the Spire 2"
         },
         {
+            "id": "OPTIMISM",
+            "name": "Optimism",
+            "color": "fool",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Exhaust ALL Sadness in your Hand.\nDraw 1 card for each card Exhausted.\n~~- Exhaust. -~~ ",
+            "v": 2,
+            "mod": "Slay the Spire 2"
+        },
+        {
             "id": "PUNCH_OF_JOY",
             "name": "Punch of Joy",
             "color": "fool",
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "2",
-            "description": "Deal 13 (17) damage.\nTransform 1 random Sadness in your Hand into Joy.",
+            "description": "Deal 14 (16) damage.\nTransform 1 (2) random Sadness in your Hand into Joy.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7768,7 +7779,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "1",
-            "description": "This turn, your next Shot deals double (triple) damage but the Arrow is destroyed.\nExhaust.",
+            "description": "This turn, your next Shot deals double (triple) damage.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7776,10 +7787,10 @@
             "id": "QUIVER",
             "name": "Quiver",
             "color": "fool",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Gain 1 (2) additional Arrow (Arrows).",
+            "description": " (Innate.)\nGain 1 additional Arrow.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7795,13 +7806,13 @@
             "mod": "Slay the Spire 2"
         },
         {
-            "id": "RAPID_SHOT",
-            "name": "Rapid Shot",
+            "id": "TWIN_SHOT",
+            "name": "Twin Shot",
             "color": "fool",
-            "rarity": "Uncommon",
+            "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Shoot an Arrow to deal 3 damage 3 (4) times.",
+            "description": "Shoot an Arrow to deal 7 (10) damage twice.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7811,8 +7822,8 @@
             "color": "fool",
             "rarity": "Common",
             "type": "Skill",
-            "cost": "1 (0)",
-            "description": "If the enemy is Impaled, Dislodge and put a card from your Discard Pile on top of your Draw Pile.",
+            "cost": "0",
+            "description": "Retain.\nIf the enemy is Impaled, Dislodge.\n~~- Exhaust. -~~ ",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7823,7 +7834,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "X",
-            "description": "Shoot an Arrow to deal 15 (20) damage X times.",
+            "description": "Shoot an Arrow to deal 13 (16) damage X times.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7856,7 +7867,7 @@
             "rarity": "Rare",
             "type": "Skill",
             "cost": "1",
-            "description": "Add a Sadness to your Hand.\nAdd 2 (3) Joy to all allies' Hands.",
+            "description": "Add a Sadness to your Hand.\nAdd 1 (2) Joy to all allies' Hands.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7867,7 +7878,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Impaled enemies take 25 (50)% more damage from your Attacks.",
+            "description": "Impaled enemies take 50 (75)% more damage from your Attacks.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7877,7 +7888,7 @@
             "color": "fool",
             "rarity": "Rare",
             "type": "Skill",
-            "cost": "1",
+            "cost": "0",
             "description": "Gain 5 Aim.\nIf a non-minion enemy dies this turn, permanently increase this card's Aim by 2 (3).\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -7888,8 +7899,8 @@
             "color": "fool",
             "rarity": "Rare",
             "type": "Power",
-            "cost": "2 (1)",
-            "description": "At the end of your turn, play the least expensive card in your Hand.",
+            "cost": "2",
+            "description": "At the end of your turn, play the  (2) least expensive card (cards) in your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7911,7 +7922,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you gain a Cho Melody, gain 5 (7) Block.",
+            "description": "Whenever you gain a Cho Melody, gain 4 (6) Block.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7922,7 +7933,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 13 (17) damage.\nAdd 2 Sadness into your Hand.",
+            "description": "Deal 13 (17) damage.\nAdd 1 Sadness into your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7966,7 +7977,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "1",
-            "description": "Shoot an Arrow to deal 12 (15) damage and return this card to your Hand.",
+            "description": "Shoot an Arrow to deal 12 (14) damage and draw 2 (3) cards.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7976,8 +7987,8 @@
             "color": "fool",
             "rarity": "Uncommon",
             "type": "Power",
-            "cost": "2 (1)",
-            "description": "At the end of your turn, if you have a Ki Melody, the next card you play costs 0 [E].",
+            "cost": "1",
+            "description": "Whenever you gain a Ki Melody, Upgrade a (2) random card (cards) in your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -7987,7 +7998,7 @@
             "color": "fool",
             "rarity": "Uncommon",
             "type": "Skill",
-            "cost": "1",
+            "cost": "0",
             "description": "If the enemy is Impaled, Dislodge and apply 3 (4) Vulnerable.",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -7999,7 +8010,7 @@
             "rarity": "Uncommon",
             "type": "Power",
             "cost": "1",
-            "description": "Whenever you gain a Wah Melody, deal 9 (12) damage to ALL enemies.",
+            "description": "Whenever you gain a Wah Melody, deal 7 (9) damage to ALL enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8010,7 +8021,7 @@
             "rarity": "Uncommon",
             "type": "Skill",
             "cost": "0",
-            "description": "Apply 2 (3) Weak.\nAdd a Sadness into your Hand.",
+            "description": "Apply 2 (3) Weak.\nAdd 2 Sadness into your Hand.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8042,8 +8053,8 @@
             "color": "fool",
             "rarity": "Rare",
             "type": "Attack",
-            "cost": "1",
-            "description": "Gain 9 (12) Block.\nDeal 9 (12) damage.\nDraw 1 (2) card (cards).",
+            "cost": "2",
+            "description": "Deal 8 (10) damage.\nGain 8 (10) Block.\nDraw 1 (2) card (cards).",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8054,7 +8065,7 @@
             "rarity": "Common",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 9 (12) damage.\nDeals double damage to Impaled enemies.",
+            "description": "Deal 9 (11) damage.\nDeals double damage to Impaled enemies.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8065,7 +8076,7 @@
             "rarity": "Uncommon",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 2 (4) damage 2 times.\nNext turn, gain [E] and draw 1 card.",
+            "description": "Deal 3 (4) damage 2 times.\nPut a card from your Discard Pile on top of your Draw Pile.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8076,7 +8087,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "2",
-            "description": "Deal 6 damage to ALL enemies.\nDeals 4 (6) additional damage for ALL your cards containing “Wah”, “Cho”, or “Ki”.",
+            "description": "Deal 6 damage to ALL enemies.\nDeals 4 (6) additional damage for ALL your cards containing “Cho” or “Ki”.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -8538,7 +8549,7 @@
             "rarity": "Rare",
             "type": "Attack",
             "cost": "1",
-            "description": "Deal 1 damage for every 20 (10) Gold you have.",
+            "description": "Deal 2 (3) damage. Hits an additional time for every 25 Gold you have.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9616,7 +9627,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Apply 75 (99) Doom.\nExhaust.",
+            "description": "Apply 66 (81) Doom.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9814,7 +9825,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain 30 (35) Block.\nExhaust.",
+            "description": "Gain 20 (25) Block.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9869,7 +9880,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Gain 7 (9)[E].\nExhaust.",
+            "description": "Gain [E][E][E] ( [E]).\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9902,7 +9913,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Discard a card.\nDraw 2 (3) cards.\nDiscarded Curses are Exhausted.\nExhaust.",
+            "description": "Discard a card.\nDraw 3 (4) cards.\nDiscarded Curses are Exhausted.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9913,7 +9924,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Add 3 (4) random Colorless cards into your Hand.\nThey cost 1 less [E] this turn.\nExhaust.",
+            "description": "Add 3 (4) random Colorless cards into your Hand.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9956,8 +9967,8 @@
             "color": "token",
             "rarity": "Token",
             "type": "Attack",
-            "cost": "1",
-            "description": "Shoot an Arrow to deal 10 (13) damage for each card Exhausted by Florescence.",
+            "cost": "0",
+            "description": "Shoot an Arrow to deal 20 (25) damage.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9979,7 +9990,7 @@
             "rarity": "Token",
             "type": "Skill",
             "cost": "0",
-            "description": "Draw 2 (3) cards.\nGain [E][E] ( [E]).\nAdd a Soot into your Discard Pile.\nExhaust.",
+            "description": "Draw 2 (3) cards.\nGain [E][E] ( [E]).\nAdd 2 Soot into your Draw Pile.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -9990,7 +10001,7 @@
             "rarity": "Token",
             "type": "Attack",
             "cost": "0",
-            "description": "Deal 2 (3) damage for each floor traveled.\nExhaust.",
+            "description": "Deal 1 (2) damage for each floor traveled.\nExhaust.",
             "v": 2,
             "mod": "Slay the Spire 2"
         },
@@ -11267,6 +11278,906 @@
             "description": "Tunglike.\nRetain.\nDeal 2 damage 3 times.\nExhaust.",
             "v": 2,
             "mod": "Triple T"
+        },
+        {
+            "id": "Distribution",
+            "name": "Allocate",
+            "color": "Blue",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Lose 1 Strength. Lose 1 Dexterity. Gain 1 Focus.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Fan",
+            "name": "Fan",
+            "color": "Blue",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2 (1)",
+            "description": "Channel 1 Wind.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Pulse",
+            "name": "Pulse",
+            "color": "Blue",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Trigger the passive ability of all Orbs once.~~-  Exhaust. -~~ ",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Cancel",
+            "name": "Undo",
+            "color": "Blue",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Set your HP to what it was last turn. Exhaust.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "ElectricPowerLearning",
+            "name": "Antique Electrodynamics",
+            "color": "Blue",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2",
+            "description": "Lightning now hits ALL enemies. (If there is only one enemy, Lightning will hit twice.)",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Bomb",
+            "name": "Bomb",
+            "color": "Colorless",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Deal 40 damage to ALL enemies. Remove this card from your deck permanently. Cannot be upgraded. Exhaust.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BettingIsNotGood",
+            "name": "Gambling",
+            "color": "Colorless",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Randomly do one of the follwing:\n1.lose 3 (6) HP; 2.heal 5 (10) HP; 3.deal 20 (30) damage to ALL enemies; 4.gain 15 (25) Gold.\n~~- Exhaust. -~~ ",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Battery",
+            "name": "Battery",
+            "color": "Colorless",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "3",
+            "description": "Choose a rechargeable relic and fully ~~- recharge  -~~ it. This card will be removed from master deck if used. ~~- Ethereal.  -~~ Exhaust.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BloodyBrimstone",
+            "name": "Bloody Brimstone",
+            "color": "Colorless",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Lose 3 Max HP, deal real damage equal to 25 (33) % of your (the)  (highest) Max HP  (of ALL enemies) (minimum 30 (40)) to ALL enemies.\nExhaust.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "ChaosCard",
+            "name": "Chaos Card",
+            "color": "Colorless",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "3",
+            "description": "Deal damage equal to 99% of the Max HP of the target. This card will be removed from the deck permanently if used or Exhuasted..Draw 1 card when draw this card. Cannot be upgraded. Exhaust. Ethereal.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "DoctorFetus",
+            "name": "Doctor Fetus",
+            "color": "Colorless",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2",
+            "description": "At the start of your turn, add a Quick Bomb that costs 2 (1) to your hand.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "EpicFetus",
+            "name": "Epic Fetus",
+            "color": "Colorless",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "3",
+            "description": "At the start of each turn, add a [Epic Attack (+)] to your hand.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "SuicideKing",
+            "name": "Suicide King",
+            "color": "Colorless",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "3",
+            "description": "Suicide.And add large amount of rewards at reward screen.This card will be removed from the deck permanently if used. Exhaust. Ethereal.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "IceBreaker:Embers",
+            "name": "Ember",
+            "color": "Colorless",
+            "rarity": "Special",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Retain.\nAdd X (+1) Spark into your hand.\nGain X (+1) [E].\nExhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Spark",
+            "name": "Spark",
+            "color": "Colorless",
+            "rarity": "Special",
+            "type": "Attack",
+            "cost": "0",
+            "description": "im:Magic. im:Ranged.\nDeal 4 (6) damage.\nDraw one (two) card (cards). Exhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Defend_IceBreaker",
+            "name": "Defend",
+            "color": "Icebreaker",
+            "rarity": "Basic",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 5 (8) Block.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MagicFlame",
+            "name": "Magical Flame",
+            "color": "Icebreaker",
+            "rarity": "Basic",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged.\nDeal 8 (12) damage.\nShuffle 1 (2) Spark into your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:IceShield",
+            "name": "Snow Zone",
+            "color": "Icebreaker",
+            "rarity": "Basic",
+            "type": "Skill",
+            "cost": "2",
+            "description": "im:Magic.\nGain 8 (12) Block.\nApply 1 (2) Weak to ALL enemies.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Strike_IceBreaker",
+            "name": "Strike",
+            "color": "Icebreaker",
+            "rarity": "Basic",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 6 (9) damage.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:RedMoon",
+            "name": "Bloody Moon",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 6 (8) damage.\nAdd 1 (2) Spark on the top of your draw pile.\nim:Respond : Apply 1 (2) Vulnerable to a random enemy.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:TimeCreation",
+            "name": "Chronocreate",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 3 (4) Block.\nGain 3 (4) im:Chronostasis.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:TimeLetter",
+            "name": "Chronomunicate",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged.\nDeal 6 (8) damage.\nIf you have no less than two im:Chronostasis, consume three and deal 6 (8) damage once more, at the start of your next turn, gain 3 (4) im:Chronostasis.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:TimeRing",
+            "name": "Chronoring",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Gain 1 (3) im:Chronostasis.\nIncrease this card's im:Chronostasis by 1 this combat.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MaterialDecomposition",
+            "name": "Decompose Material",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Exhaust 1 card. Gain 2 (3) im:Resonance.\nOutside im:Gap: Exhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Flash",
+            "name": "Flash",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "0",
+            "description": "im:Ranged.\nDeal 3 damage.\nIf you have no [E] left , gain [E] ( [E]).",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:FrostWind",
+            "name": "Frosty Wind",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 6 (8) damage,\nApply 1 (2) Weak.\nim:Respond : Gain 3 (4) Block.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:GhostGlim",
+            "name": "Ghost Lantern",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "0",
+            "description": "im:Magic. im:Ranged.\nThis enemy lose 4 (8) HP.\nShuffle 1 (2) Spark into your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:GhostStar",
+            "name": "Ghost Star",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Connect.\nGain 8 (12) Block.\nChoose a card from your discard pile and put it to the bottom of your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Light",
+            "name": "Hikari",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "0",
+            "description": "im:Magic. im:Ranged.\nDeal 4 (6) damage.\nIf there's Spark in your draw pile, play one (two) to ~~- a  -~~ random enemy (enemies).",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:DeepColdSwamp",
+            "name": "Karma (Icy Connection)",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Connect (2).\nGain 6 (8) Block.\nim:Respond : gain 1 (2) im:Chronostasis.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Oracle",
+            "name": "Oracle",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Connect (2).\nGain 6 (8) Block.\nChoose 1 (2) card to Retain for a turn.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Perception",
+            "name": "Perception",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Scry 4 (6).\nGain [E] for each Power you Scried.\nim:Gap : draw 1 card.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:OtherPartyOfMissing",
+            "name": "See You Otherside",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 4 (6) Block.\nIf you enter im:Chronogap or end your turn with this card is in hand, increase this card's Block by 4 (6) in this combat.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:HeavySnow",
+            "name": "Snowflakes",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged.\nDeal 4 (6) damage to ALL enemies.\n Apply 1 (2) Weak to ALL enemies.\nWhenever you im:Respond successfully, increase this card's damage by two (three) this combat.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SoulTremor",
+            "name": "Soul Tremor",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Magic.  (Retain.)\nApply 1 (2) Weak and Vulnerable to ALL enemies.\nim:Gap : ALL enemies lose 8 (12) HP and maxHP.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:StaffStrike",
+            "name": "Staff Strike",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Deal 4 (6) damage.\nGain 4 (6) Block.\nDraw 1 (2) cards.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Leap",
+            "name": "Warp",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "im:Magic. im:Connect.\nGain 4 Block.\nim:Respond : gain [E].",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SwingStaff",
+            "name": "Waving Staff",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Connect 3 (4) cards.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SnowWalk",
+            "name": "Yuki no Sou",
+            "color": "Icebreaker",
+            "rarity": "Common",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Magic. im:Connect.\nApply 3 (4) Weak to ALL enemies.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:AirCut",
+            "name": "Air Cut",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "0",
+            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 3 (6) damage.\nim:Respond : draw 1 card.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SeeYouTomorrow",
+            "name": "Asahi",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you im:Respond successfully, gain 4 (6) Block.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:BloodyPath",
+            "name": "Bloody Execute",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "Retain. im:Magic. im:Ranged.\nRemove ALL of your powers.\nDeal 8 (12) damage for each power removed.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:CascadeIceWall",
+            "name": "Cascaded (Wishes) Icy (at) Wall (that Time)",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Magic. im:Connect.\nGain 8 (12) Block.\nOutside im:Gap: Add a copy of this card into your discard pile.\n im:Gap : Play ALL copies in draw pile, hand and discard pile then Exhaust them.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:CTL",
+            "name": "Catch the Light",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "Whenever you im:Respond successfully, draw 1 card.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:FakeParley",
+            "name": "Chronochime",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Connect (2).\ngain 1 (2) im:Chronostasis.\nOutside im:Gap : Next  (two) im:Magic  can be affected by im:Resonance.\nim:Gap : draw 1 (2) cards.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Electrospark",
+            "name": "Chronoflame",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2 (1)",
+            "description": "Retain.\nGain im:Chronostasis equal to Spark you played this combat (no more than 12).",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:TimeShadow",
+            "name": "Chronoshadow",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "gain 3 (4) im:Chronostasis.\nScry 3 (4).\nDraw 1 card.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Chronover",
+            "name": "Chronover",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Exchange your draw pile and discard pile, gain 3 im:Chronostasis ( and 3 im:Resonance).",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MaterialCreation",
+            "name": "Create Material",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Add 2 (3) random cards into your hand.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Negate",
+            "name": "Deny",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "0",
+            "description": "Whenever you im:Respond unsuccessfully, deal 6 (8) damage to ALL enemies.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Detonate",
+            "name": "Detonate",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "X",
+            "description": "im:Magic.\nAt the start of your next turn, deal 8 (12) X damage to ALL enemies.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:DistortReality",
+            "name": "Distort Reality",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Gain 4 (6) im:Resonance.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:EarthCollapse",
+            "name": "Earth Collapse",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "2",
+            "description": "im:Magic. im:Ranged.\nDeal 8 (12) damage to ALL enemies.\nAll enemies lose 4 (6) Strength this turn.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:EliminateDistractions",
+            "name": "Eliminate Distractions",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Choose 2 (3) cards from your draw pile and Exhaust them. Shuffle a Dazed into your darw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:ExtraTrigger",
+            "name": "Extra Trigger",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Exhaust up to 2 cards.\nAt the start of your next turn, add their copies into your hand, they cost 0 before you play.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MagicExtraction",
+            "name": "Extract Mana",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "Remove at most 2 (3) Weak on an enemy, gain that many [E].\n~~- Exhaust. -~~ ",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Pyroblast",
+            "name": "Fire Burst",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "2",
+            "description": "im:Magic. im:Ranged.\nDeal damage equal to 4 plus the number of Spark you played this combat multiply 3 (4) to ALL enemies.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:WheelOfHeat",
+            "name": "Flame Wheel",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you play a Spark , deal 3 (4) damage to ALL enemies.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Flarier",
+            "name": "Flarier",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Magic.\nAdd a Spark (+) into your hand.\nWhenever you play a Spark this turn, gain 3 (4) Block.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:NightOfFireworks",
+            "name": "Hanabi",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "At the start of your turn or when you enter im:Chronogap , shuffle 1 Spark (+) into your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:HolyZone",
+            "name": "Holy Zone",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": " (Retain.)\nStun all enemies whose HP is less than half. Exhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:IceDebrisSplashed",
+            "name": "Icy Burst",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged.\nDeal damage equal to im:Chronostasis 2 (3) times.\nim:Gap : Lock its damage to twelve.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Inspire",
+            "name": "Inspire (Hallucination)",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "im:Connect.\nGain 8 (12) Block.\nYour next im:Magic costs 0.\nim:Gap :Your next im:Magic is played twice.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MagicalFlood",
+            "name": "Magical (Ghost) Surge (Rule)",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1 (0)",
+            "description": "Whenever you enter im:Chronogap, draw 2 cards.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:ManaAgitation",
+            "name": "Mana Agitation",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "0",
+            "description": "im:Magic.\nPut 3 (4) im:Magic into your hand (Draw pile is prior).\nTake damage equal to number of cards in your hand.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Niflheimr",
+            "name": "Niflheimr",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "At the start of your turn ( or whenever you enter im:Chronogap), ALL enemies lose 1 Strength.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SeaOfLanterns",
+            "name": "Red (Sea) and (of) Silver (Lantern)",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "2",
+            "description": "im:Magic. im:Connect.\nGain 8 (12) Block.\nShuffle 1 (2) Spark into your draw pile.\nim:Respond : Shuffle an additional Spark. (火花+.)",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SilverDoor",
+            "name": "Silver Gate",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Skill",
+            "cost": "1",
+            "description": "im:Magic.\nGain 8 (12) Block.\nWithin this (two) turn (turns), you won't lose im:Resonance.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:StarDust",
+            "name": "Star Dust",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "The first 1 (2) time you im:Respond successfully within a turn, gain [E].",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Thunder",
+            "name": "Thunder",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "0",
+            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 3 (6) damage.\nWhenever you im:Respond successfully, put this card into your hand if it is in your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Overgrow",
+            "name": "Tuft",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged.\nDeal 6 (8) damage.\nGain 6 (8) Block.\nAt the star of your next turn, add a copy with Exhaust into your hand.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:VitalLoop",
+            "name": "Vital Loop",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": " (Innate.)\nAfter the start of your turn, put no more than 1 card from your discard pile to shuffle into draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:YesterdayOnceMore",
+            "name": "Yesterday Once More",
+            "color": "Icebreaker",
+            "rarity": "Uncommon",
+            "type": "Power",
+            "cost": "1",
+            "description": "Whenever you  (play a) im:Respond (Connect) successfully (card), gain 1 im:Chronostasis.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:AllInAsh",
+            "name": "All In Ash",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "X",
+            "description": "Exhaust your hand.\nAdd an Ember (+) into your hand.\nExhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:AsterismForm",
+            "name": "Asterism Form",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "3",
+            "description": "At the start of your turn or when you enter im:Chronogap , choose 1 of 15 random  (Upgraded) cards from ALL colors to play.\nEvery card can be used only once for a single run.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:SpaceOfChaos",
+            "name": "Chaospace",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "2",
+            "description": "im:Magic.\nGain 1 (2) Buffer. Exhaust.\nim:Gap : Gain an additional Buffer.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:TimeLeap",
+            "name": "Chronoleap",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "1",
+            "description": "At the start of your turn, gain 2 (3) im:Chronostasis.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:DeepCalculate",
+            "name": "Deep Calculate",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "Whenever you play a im:Connect card, additionally trigger its im:Respond once.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:DemonDeLaplace",
+            "name": "Demon De Laplace",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "3",
+            "description": "~~- Ethereal. -~~\nWhenever you play a card is created in combat, gain 1 im:Resonance.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:DiffuseFuture",
+            "name": "Diffuse Future",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Outside im:Gap : enter im:Chronogap.\nim:Gap : end your turn, gain an extra turn and enter im:Gap when it start.\nExhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:FantasyDream",
+            "name": "Fantasy Dream",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "When you play a card which is not Exhaust or Power , Exhaust it and im:Trigger once more.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MemoriesFloodBack",
+            "name": "Frosted Star Fantasy",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "0",
+            "description": " (Retain.)\nExhaust your hand.\nAdd copies of all cards you start this combat into your hand.\nThis card will only appear at the bottom of your draw pile. Exhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:GhostFantasy",
+            "name": "Ghost (Past) Fantasy (as a Dream)",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Can only be played as the only card in your hand.\nChoose 1 of 3 random  (Upgraded) cards to add into your hand, repeat 4 times. (They cost 0 this turn.)\n",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:HauntHell",
+            "name": "Ghost Hell",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "3",
+            "description": "im:Magic. im:Ranged.\nDeal 3 (4) damage to ALL enemies six times.\nShuffle 6 Spark into your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:HarshTemperament",
+            "name": "Harsh",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Power",
+            "cost": "2 (1)",
+            "description": "Whenever you enter im:Chronogap , your next im:Magic with non 0 cost will played twice.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:InfinityFortress",
+            "name": "Infinity Fortress",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "2",
+            "description": "Gain 2 (3) Metallicize for each [E] you have now.\nExhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:FreezeKing",
+            "name": "King Freezing! (Styx)",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "1",
+            "description": "im:Magic. im:Ranged.\nDeal 8 (12) damage.\nApply 2 (3) Weak.\nChoose at most 2 (3) cards from discard pile to shuffle into your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:TriggerLightning",
+            "name": "Lighting Connecting",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1",
+            "description": "Innate. im:Connect.\nWhen this card is Upgraded, im:Connect 1.\nCan be Upgraded any number of times.\nExhaust.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:OnChronosBehalf",
+            "name": "On Chrono's Behalf!",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Attack",
+            "cost": "2",
+            "description": "im:Ranged.\nDeal 8 (12) damage to ALL enemies.\nIf Fatal, im:Connect.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Snap",
+            "name": "Snap",
+            "color": "Icebreaker",
+            "rarity": "Rare",
+            "type": "Skill",
+            "cost": "1 (0)",
+            "description": "Choose and play a im:Magic in your draw pile.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         },
         {
             "id": "oceanabby:Robotization",
@@ -150175,906 +151086,6 @@
             "cost": "2",
             "description": "oceanwielder:Hit ALL enemies 4 (5) times.\nBear 2 oceanwielder:Weight.",
             "mod": "Wielder (The)"
-        },
-        {
-            "id": "Distribution",
-            "name": "Allocate",
-            "color": "Blue",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Lose 1 Strength. Lose 1 Dexterity. Gain 1 Focus.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Fan",
-            "name": "Fan",
-            "color": "Blue",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "2 (1)",
-            "description": "Channel 1 Wind.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Pulse",
-            "name": "Pulse",
-            "color": "Blue",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Trigger the passive ability of all Orbs once.~~-  Exhaust. -~~ ",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Cancel",
-            "name": "Undo",
-            "color": "Blue",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1 (0)",
-            "description": "Set your HP to what it was last turn. Exhaust.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "ElectricPowerLearning",
-            "name": "Antique Electrodynamics",
-            "color": "Blue",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "2",
-            "description": "Lightning now hits ALL enemies. (If there is only one enemy, Lightning will hit twice.)",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Bomb",
-            "name": "Bomb",
-            "color": "Colorless",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Deal 40 damage to ALL enemies. Remove this card from your deck permanently. Cannot be upgraded. Exhaust.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BettingIsNotGood",
-            "name": "Gambling",
-            "color": "Colorless",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Randomly do one of the follwing:\n1.lose 3 (6) HP; 2.heal 5 (10) HP; 3.deal 20 (30) damage to ALL enemies; 4.gain 15 (25) Gold.\n~~- Exhaust. -~~ ",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Battery",
-            "name": "Battery",
-            "color": "Colorless",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "3",
-            "description": "Choose a rechargeable relic and fully ~~- recharge  -~~ it. This card will be removed from master deck if used. ~~- Ethereal.  -~~ Exhaust.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BloodyBrimstone",
-            "name": "Bloody Brimstone",
-            "color": "Colorless",
-            "rarity": "Rare",
-            "type": "Attack",
-            "cost": "1",
-            "description": "Lose 3 Max HP, deal real damage equal to 25 (33) % of your (the)  (highest) Max HP  (of ALL enemies) (minimum 30 (40)) to ALL enemies.\nExhaust.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "ChaosCard",
-            "name": "Chaos Card",
-            "color": "Colorless",
-            "rarity": "Rare",
-            "type": "Attack",
-            "cost": "3",
-            "description": "Deal damage equal to 99% of the Max HP of the target. This card will be removed from the deck permanently if used or Exhuasted..Draw 1 card when draw this card. Cannot be upgraded. Exhaust. Ethereal.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "DoctorFetus",
-            "name": "Doctor Fetus",
-            "color": "Colorless",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "2",
-            "description": "At the start of your turn, add a Quick Bomb that costs 2 (1) to your hand.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "EpicFetus",
-            "name": "Epic Fetus",
-            "color": "Colorless",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "3",
-            "description": "At the start of each turn, add a [Epic Attack (+)] to your hand.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "SuicideKing",
-            "name": "Suicide King",
-            "color": "Colorless",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "3",
-            "description": "Suicide.And add large amount of rewards at reward screen.This card will be removed from the deck permanently if used. Exhaust. Ethereal.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "IceBreaker:Embers",
-            "name": "Ember",
-            "color": "Colorless",
-            "rarity": "Special",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Retain.\nAdd X (+1) Spark into your hand.\nGain X (+1) [E].\nExhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Spark",
-            "name": "Spark",
-            "color": "Colorless",
-            "rarity": "Special",
-            "type": "Attack",
-            "cost": "0",
-            "description": "im:Magic. im:Ranged.\nDeal 4 (6) damage.\nDraw one (two) card (cards). Exhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Defend_IceBreaker",
-            "name": "Defend",
-            "color": "Icebreaker",
-            "rarity": "Basic",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Gain 5 (8) Block.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MagicFlame",
-            "name": "Magical Flame",
-            "color": "Icebreaker",
-            "rarity": "Basic",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged.\nDeal 8 (12) damage.\nShuffle 1 (2) Spark into your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:IceShield",
-            "name": "Snow Zone",
-            "color": "Icebreaker",
-            "rarity": "Basic",
-            "type": "Skill",
-            "cost": "2",
-            "description": "im:Magic.\nGain 8 (12) Block.\nApply 1 (2) Weak to ALL enemies.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Strike_IceBreaker",
-            "name": "Strike",
-            "color": "Icebreaker",
-            "rarity": "Basic",
-            "type": "Attack",
-            "cost": "1",
-            "description": "Deal 6 (9) damage.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:RedMoon",
-            "name": "Bloody Moon",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 6 (8) damage.\nAdd 1 (2) Spark on the top of your draw pile.\nim:Respond : Apply 1 (2) Vulnerable to a random enemy.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:TimeCreation",
-            "name": "Chronocreate",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "0",
-            "description": "Gain 3 (4) Block.\nGain 3 (4) im:Chronostasis.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:TimeLetter",
-            "name": "Chronomunicate",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged.\nDeal 6 (8) damage.\nIf you have no less than two im:Chronostasis, consume three and deal 6 (8) damage once more, at the start of your next turn, gain 3 (4) im:Chronostasis.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:TimeRing",
-            "name": "Chronoring",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "0",
-            "description": "Gain 1 (3) im:Chronostasis.\nIncrease this card's im:Chronostasis by 1 this combat.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MaterialDecomposition",
-            "name": "Decompose Material",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "0",
-            "description": "Exhaust 1 card. Gain 2 (3) im:Resonance.\nOutside im:Gap: Exhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Flash",
-            "name": "Flash",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "0",
-            "description": "im:Ranged.\nDeal 3 damage.\nIf you have no [E] left , gain [E] ( [E]).",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:FrostWind",
-            "name": "Frosty Wind",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 6 (8) damage,\nApply 1 (2) Weak.\nim:Respond : Gain 3 (4) Block.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:GhostGlim",
-            "name": "Ghost Lantern",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "0",
-            "description": "im:Magic. im:Ranged.\nThis enemy lose 4 (8) HP.\nShuffle 1 (2) Spark into your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:GhostStar",
-            "name": "Ghost Star",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Connect.\nGain 8 (12) Block.\nChoose a card from your discard pile and put it to the bottom of your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Light",
-            "name": "Hikari",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "0",
-            "description": "im:Magic. im:Ranged.\nDeal 4 (6) damage.\nIf there's Spark in your draw pile, play one (two) to ~~- a  -~~ random enemy (enemies).",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:DeepColdSwamp",
-            "name": "Karma (Icy Connection)",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Connect (2).\nGain 6 (8) Block.\nim:Respond : gain 1 (2) im:Chronostasis.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Oracle",
-            "name": "Oracle",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Connect (2).\nGain 6 (8) Block.\nChoose 1 (2) card to Retain for a turn.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Perception",
-            "name": "Perception",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "0",
-            "description": "Scry 4 (6).\nGain [E] for each Power you Scried.\nim:Gap : draw 1 card.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:OtherPartyOfMissing",
-            "name": "See You Otherside",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Gain 4 (6) Block.\nIf you enter im:Chronogap or end your turn with this card is in hand, increase this card's Block by 4 (6) in this combat.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:HeavySnow",
-            "name": "Snowflakes",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged.\nDeal 4 (6) damage to ALL enemies.\n Apply 1 (2) Weak to ALL enemies.\nWhenever you im:Respond successfully, increase this card's damage by two (three) this combat.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SoulTremor",
-            "name": "Soul Tremor",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Magic.  (Retain.)\nApply 1 (2) Weak and Vulnerable to ALL enemies.\nim:Gap : ALL enemies lose 8 (12) HP and maxHP.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:StaffStrike",
-            "name": "Staff Strike",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Attack",
-            "cost": "1",
-            "description": "Deal 4 (6) damage.\nGain 4 (6) Block.\nDraw 1 (2) cards.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Leap",
-            "name": "Warp",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1 (0)",
-            "description": "im:Magic. im:Connect.\nGain 4 Block.\nim:Respond : gain [E].",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SwingStaff",
-            "name": "Waving Staff",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Connect 3 (4) cards.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SnowWalk",
-            "name": "Yuki no Sou",
-            "color": "Icebreaker",
-            "rarity": "Common",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Magic. im:Connect.\nApply 3 (4) Weak to ALL enemies.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:AirCut",
-            "name": "Air Cut",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "0",
-            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 3 (6) damage.\nim:Respond : draw 1 card.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SeeYouTomorrow",
-            "name": "Asahi",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "Whenever you im:Respond successfully, gain 4 (6) Block.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:BloodyPath",
-            "name": "Bloody Execute",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "1",
-            "description": "Retain. im:Magic. im:Ranged.\nRemove ALL of your powers.\nDeal 8 (12) damage for each power removed.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:CascadeIceWall",
-            "name": "Cascaded (Wishes) Icy (at) Wall (that Time)",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Magic. im:Connect.\nGain 8 (12) Block.\nOutside im:Gap: Add a copy of this card into your discard pile.\n im:Gap : Play ALL copies in draw pile, hand and discard pile then Exhaust them.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:CTL",
-            "name": "Catch the Light",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "2 (1)",
-            "description": "Whenever you im:Respond successfully, draw 1 card.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:FakeParley",
-            "name": "Chronochime",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Connect (2).\ngain 1 (2) im:Chronostasis.\nOutside im:Gap : Next  (two) im:Magic  can be affected by im:Resonance.\nim:Gap : draw 1 (2) cards.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Electrospark",
-            "name": "Chronoflame",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "2 (1)",
-            "description": "Retain.\nGain im:Chronostasis equal to Spark you played this combat (no more than 12).",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:TimeShadow",
-            "name": "Chronoshadow",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "gain 3 (4) im:Chronostasis.\nScry 3 (4).\nDraw 1 card.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Chronover",
-            "name": "Chronover",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Exchange your draw pile and discard pile, gain 3 im:Chronostasis ( and 3 im:Resonance).",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MaterialCreation",
-            "name": "Create Material",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "0",
-            "description": "Add 2 (3) random cards into your hand.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Negate",
-            "name": "Deny",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "0",
-            "description": "Whenever you im:Respond unsuccessfully, deal 6 (8) damage to ALL enemies.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Detonate",
-            "name": "Detonate",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "X",
-            "description": "im:Magic.\nAt the start of your next turn, deal 8 (12) X damage to ALL enemies.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:DistortReality",
-            "name": "Distort Reality",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Gain 4 (6) im:Resonance.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:EarthCollapse",
-            "name": "Earth Collapse",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "2",
-            "description": "im:Magic. im:Ranged.\nDeal 8 (12) damage to ALL enemies.\nAll enemies lose 4 (6) Strength this turn.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:EliminateDistractions",
-            "name": "Eliminate Distractions",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Choose 2 (3) cards from your draw pile and Exhaust them. Shuffle a Dazed into your darw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:ExtraTrigger",
-            "name": "Extra Trigger",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1 (0)",
-            "description": "Exhaust up to 2 cards.\nAt the start of your next turn, add their copies into your hand, they cost 0 before you play.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MagicExtraction",
-            "name": "Extract Mana",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "0",
-            "description": "Remove at most 2 (3) Weak on an enemy, gain that many [E].\n~~- Exhaust. -~~ ",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Pyroblast",
-            "name": "Fire Burst",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "2",
-            "description": "im:Magic. im:Ranged.\nDeal damage equal to 4 plus the number of Spark you played this combat multiply 3 (4) to ALL enemies.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:WheelOfHeat",
-            "name": "Flame Wheel",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "Whenever you play a Spark , deal 3 (4) damage to ALL enemies.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Flarier",
-            "name": "Flarier",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Magic.\nAdd a Spark (+) into your hand.\nWhenever you play a Spark this turn, gain 3 (4) Block.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:NightOfFireworks",
-            "name": "Hanabi",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "At the start of your turn or when you enter im:Chronogap , shuffle 1 Spark (+) into your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:HolyZone",
-            "name": "Holy Zone",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "0",
-            "description": " (Retain.)\nStun all enemies whose HP is less than half. Exhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:IceDebrisSplashed",
-            "name": "Icy Burst",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged.\nDeal damage equal to im:Chronostasis 2 (3) times.\nim:Gap : Lock its damage to twelve.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Inspire",
-            "name": "Inspire (Hallucination)",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "2",
-            "description": "im:Connect.\nGain 8 (12) Block.\nYour next im:Magic costs 0.\nim:Gap :Your next im:Magic is played twice.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MagicalFlood",
-            "name": "Magical (Ghost) Surge (Rule)",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1 (0)",
-            "description": "Whenever you enter im:Chronogap, draw 2 cards.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:ManaAgitation",
-            "name": "Mana Agitation",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "0",
-            "description": "im:Magic.\nPut 3 (4) im:Magic into your hand (Draw pile is prior).\nTake damage equal to number of cards in your hand.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Niflheimr",
-            "name": "Niflheimr",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "At the start of your turn ( or whenever you enter im:Chronogap), ALL enemies lose 1 Strength.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SeaOfLanterns",
-            "name": "Red (Sea) and (of) Silver (Lantern)",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "2",
-            "description": "im:Magic. im:Connect.\nGain 8 (12) Block.\nShuffle 1 (2) Spark into your draw pile.\nim:Respond : Shuffle an additional Spark. (火花+.)",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SilverDoor",
-            "name": "Silver Gate",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Skill",
-            "cost": "1",
-            "description": "im:Magic.\nGain 8 (12) Block.\nWithin this (two) turn (turns), you won't lose im:Resonance.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:StarDust",
-            "name": "Star Dust",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "The first 1 (2) time you im:Respond successfully within a turn, gain [E].",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Thunder",
-            "name": "Thunder",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "0",
-            "description": "im:Magic. im:Ranged. im:Connect.\nDeal 3 (6) damage.\nWhenever you im:Respond successfully, put this card into your hand if it is in your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Overgrow",
-            "name": "Tuft",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged.\nDeal 6 (8) damage.\nGain 6 (8) Block.\nAt the star of your next turn, add a copy with Exhaust into your hand.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:VitalLoop",
-            "name": "Vital Loop",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": " (Innate.)\nAfter the start of your turn, put no more than 1 card from your discard pile to shuffle into draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:YesterdayOnceMore",
-            "name": "Yesterday Once More",
-            "color": "Icebreaker",
-            "rarity": "Uncommon",
-            "type": "Power",
-            "cost": "1",
-            "description": "Whenever you  (play a) im:Respond (Connect) successfully (card), gain 1 im:Chronostasis.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:AllInAsh",
-            "name": "All In Ash",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "X",
-            "description": "Exhaust your hand.\nAdd an Ember (+) into your hand.\nExhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:AsterismForm",
-            "name": "Asterism Form",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "3",
-            "description": "At the start of your turn or when you enter im:Chronogap , choose 1 of 15 random  (Upgraded) cards from ALL colors to play.\nEvery card can be used only once for a single run.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:SpaceOfChaos",
-            "name": "Chaospace",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "2",
-            "description": "im:Magic.\nGain 1 (2) Buffer. Exhaust.\nim:Gap : Gain an additional Buffer.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:TimeLeap",
-            "name": "Chronoleap",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "1",
-            "description": "At the start of your turn, gain 2 (3) im:Chronostasis.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:DeepCalculate",
-            "name": "Deep Calculate",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "2 (1)",
-            "description": "Whenever you play a im:Connect card, additionally trigger its im:Respond once.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:DemonDeLaplace",
-            "name": "Demon De Laplace",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "3",
-            "description": "~~- Ethereal. -~~\nWhenever you play a card is created in combat, gain 1 im:Resonance.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:DiffuseFuture",
-            "name": "Diffuse Future",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "1 (0)",
-            "description": "Outside im:Gap : enter im:Chronogap.\nim:Gap : end your turn, gain an extra turn and enter im:Gap when it start.\nExhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:FantasyDream",
-            "name": "Fantasy Dream",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "2 (1)",
-            "description": "When you play a card which is not Exhaust or Power , Exhaust it and im:Trigger once more.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MemoriesFloodBack",
-            "name": "Frosted Star Fantasy",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "0",
-            "description": " (Retain.)\nExhaust your hand.\nAdd copies of all cards you start this combat into your hand.\nThis card will only appear at the bottom of your draw pile. Exhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:GhostFantasy",
-            "name": "Ghost (Past) Fantasy (as a Dream)",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Can only be played as the only card in your hand.\nChoose 1 of 3 random  (Upgraded) cards to add into your hand, repeat 4 times. (They cost 0 this turn.)\n",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:HauntHell",
-            "name": "Ghost Hell",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Attack",
-            "cost": "3",
-            "description": "im:Magic. im:Ranged.\nDeal 3 (4) damage to ALL enemies six times.\nShuffle 6 Spark into your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:HarshTemperament",
-            "name": "Harsh",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Power",
-            "cost": "2 (1)",
-            "description": "Whenever you enter im:Chronogap , your next im:Magic with non 0 cost will played twice.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:InfinityFortress",
-            "name": "Infinity Fortress",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "2",
-            "description": "Gain 2 (3) Metallicize for each [E] you have now.\nExhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:FreezeKing",
-            "name": "King Freezing! (Styx)",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Attack",
-            "cost": "1",
-            "description": "im:Magic. im:Ranged.\nDeal 8 (12) damage.\nApply 2 (3) Weak.\nChoose at most 2 (3) cards from discard pile to shuffle into your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:TriggerLightning",
-            "name": "Lighting Connecting",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "1",
-            "description": "Innate. im:Connect.\nWhen this card is Upgraded, im:Connect 1.\nCan be Upgraded any number of times.\nExhaust.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:OnChronosBehalf",
-            "name": "On Chrono's Behalf!",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Attack",
-            "cost": "2",
-            "description": "im:Ranged.\nDeal 8 (12) damage to ALL enemies.\nIf Fatal, im:Connect.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Snap",
-            "name": "Snap",
-            "color": "Icebreaker",
-            "rarity": "Rare",
-            "type": "Skill",
-            "cost": "1 (0)",
-            "description": "Choose and play a im:Magic in your draw pile.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         }
     ],
     "relics": [
@@ -156840,6 +156851,609 @@
             "flavorText": "Clickity clack clack sahur!",
             "v": 2,
             "mod": "Triple T"
+        },
+        {
+            "id": "BookOfRevelations",
+            "name": "Book of Revelations",
+            "tier": "Common",
+            "pool": "",
+            "description": "6 charges. When fully charged, right-click to gain barricade and 10 soul heart.",
+            "flavorText": "A part of bookworm.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "HowToJump",
+            "name": "How to Jump",
+            "tier": "Common",
+            "pool": "",
+            "description": "Negate damage 10% of the time. Right-click to jump.",
+            "flavorText": "A part of bookworm.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "SalivaCoin",
+            "name": "Swallowed Penny",
+            "tier": "Common",
+            "pool": "",
+            "description": "Whenever you lose HP, gain 7 Gold.",
+            "flavorText": "The keeper's swallowed penny! It's game over.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "TheBean",
+            "name": "The Bean",
+            "tier": "Common",
+            "pool": "",
+            "description": "1 charge. When fully charged, right-click to apply 5 poison to ALL enemies.",
+            "flavorText": "Toot on command.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BelialBook",
+            "name": "The Book Of Belial",
+            "tier": "Common",
+            "pool": "",
+            "description": "3 charges. When fully charged, right-click to gain 5 strength.",
+            "flavorText": "In fact, it is called the book of Pilates",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "AnarchistCookbook",
+            "name": "Anarchist Cookbook",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "3 charges. Right-click to give 6 The Bomb effect, which deals damage to ALL opposing characters later, to the player and ALL enemies randomly. Your The Bomb effect will be triggered first.",
+            "flavorText": "A part of bookworm.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "TheBible",
+            "name": "Bible",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "6 charges. When fully charged, right-click to gain 6 Flight.",
+            "flavorText": "Want to defeat the heart immediately? Not a chance.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BookofShadows",
+            "name": "Book of Shadows",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "3 charges. When fully charged, right-click to prevent all damages for the next 2 turns.",
+            "flavorText": "A part of bookworm.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "DeadEye",
+            "name": "Dead eye",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "Gain 1 strength whenever you play attacks on the same target in a row in the same turn. The strength gained will be removed at the end of the turn and when you attack different enemies.",
+            "flavorText": "Accuracy brings strength!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "DoctorsRemote",
+            "name": "Doctor's Remote",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "2 charges. When fully charged, right-click to add a [Epic attack +2] to your hand.",
+            "flavorText": "Use it as a bomb",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "GnawedLeaf",
+            "name": "Gnawed Leaf",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "After three consecutive turns without playing any cards, the player will be immune to all damages until a card is played.",
+            "flavorText": "One two three wood people.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "TuHaoJin",
+            "name": "Magic Fingers",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "Right-click to pay 1 Gold to deal 1 damage to ALL enemies. Whenever you use this relic, increase the cost and damage of this relic by 1.",
+            "flavorText": "Pay to play",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "SatanicBible",
+            "name": "Satanic Bible",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "6 charges. When fully charged, right-click to gain barricade, 30 block, and 10 black heart.",
+            "flavorText": "A part of bookworm.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "SharpPlug",
+            "name": "Sharp Plug",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "Right-Click to lose half HP(Max 50, Min 15),select a chargeable relic which is 0 charge,and charge to full charge.",
+            "flavorText": "Awesome Combo!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "PillsDrop",
+            "name": "Spire's pills",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "Pills may drop at the end of each battle. The pills with the same color will have the same effect. (If you save and quit at the pill reward screen, pill's effect still works.)",
+            "flavorText": "Open your mouth to take the medicine.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "DeathBook",
+            "name": "The Necronomicon",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "6 Charges. When fully charged, right-click to deal 40 damage to ALL enemies.",
+            "flavorText": "This Necronomicon is not the Necronomicon",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "UnicornStump",
+            "name": "Unicorn Stump",
+            "tier": "Uncommon",
+            "pool": "",
+            "description": "1 charge. When fully charged, right-click to immune to all damages this turn, and you cannot play any cards this turn. Cannot be used after playing any cards.",
+            "flavorText": "It stands still like a mountain!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BlankCard",
+            "name": "Blank Card",
+            "tier": "Rare",
+            "pool": "",
+            "description": "6 charges. When fully charged, right-click to select a card from your hand and play it once at the start of each following turns.",
+            "flavorText": "Hoho! Easy game!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BloodDonationMachine",
+            "name": "Blood Donation Machine",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Right-click to donate 1 HP for 20 Gold (10%), 10 Gold (30%), 5 Gold (30%), or 1 Gold (30%). It has a 3% probability of exlosion every time it is used. Upon explosion, gain 7 Max HP or get Blood Donation Bag. You cannot donate blood during boss fights.",
+            "flavorText": "Is this a German machine?",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "D4",
+            "name": "D4",
+            "tier": "Rare",
+            "pool": "",
+            "description": "6 charges,roll all relics you obtained,replace every relic to the random relic with same relic tier.",
+            "flavorText": "ROLL！",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "D6",
+            "name": "D6",
+            "tier": "Rare",
+            "pool": "",
+            "description": "6 charges. When fully charged, right-click to re-roll the shop, relic that elite dropped, the treasure chest and the boss treasure chest.",
+            "flavorText": "The D6! It's game over",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Damocles",
+            "name": "Damocles",
+            "tier": "Rare",
+            "pool": "",
+            "description": "An extra relic is gained after battle, but have chance to die when you lose HP from enemies, 10% at the beginning and gain 4% chance whenever you gain damage. If your next hp loss will cause death, it will begin to pulse to remind you.\nWhen resurrected, lose this relic.",
+            "flavorText": "A king’sfortune… but at what cost?",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Diplopia",
+            "name": "Diplopia",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Right-click to choose and copy an existing relic. (Copying Diplopia will get a Diplopia, but new one won't work.)",
+            "flavorText": "Double discounts with Diplopia is also available at the Spire!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "EdensBlessing",
+            "name": "Eden's Blessing",
+            "tier": "Rare",
+            "pool": "",
+            "description": "At the start of each battle, gain 1 Strength, Dexterity, or Focus randomly. You start you next game with a random rare relic.",
+            "flavorText": "The blessing from Eden",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "ForgetMeNow",
+            "name": "Forget Me Now",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Only be used once,right-click to go back to the first floor of current dungeon(at BossTreasureRoom,you go to next dungeon as normal; at boss room, nothing will happen.).",
+            "flavorText": "go back",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "GuppysHead",
+            "name": "Guppy's Head",
+            "tier": "Rare",
+            "pool": "",
+            "description": "1 charge. When fully charged, right-click to summon a fly that deals damage to enemies.",
+            "flavorText": "A part of Guppy",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "GuppysPaw",
+            "name": "Guppy's Paw",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Right click to trade 1 Max Hp for 3 Soul Heart.",
+            "flavorText": "A part of Guppy.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "GuppysTail",
+            "name": "Guppy's Tail",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Little chests are now large chests.",
+            "flavorText": "A part of Guppy.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Leech",
+            "name": "Leech",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Summon a leech at battle start, leech will deal damage and heal for you.",
+            "flavorText": "gain blood!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "MoneyPower",
+            "name": "MONEY = POWER",
+            "tier": "Rare",
+            "pool": "",
+            "description": "At the start of each battle, gain Gold / 150 strength.",
+            "flavorText": "Gold = Strength",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "PokeGo",
+            "name": "Poke Go",
+            "tier": "Rare",
+            "pool": "",
+            "description": "Right-Click to get a PokeBall(1 cost).\nPokeBall can catch the monster(not boss) which HP only left 1\nor catch 1 HP BOSS at the chance of 15%,\nand become your pet.(max pet amount = 1)",
+            "flavorText": "Gotta catch em...",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "PunchingBag",
+            "name": "Punching Bag",
+            "tier": "Rare",
+            "pool": "",
+            "description": "summon a Scape Goat at battle start.Right-Click this relic to get a card to change a enemy's target to Scape Goat",
+            "flavorText": "don't hurt me.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Void",
+            "name": "Void",
+            "tier": "Rare",
+            "pool": "",
+            "description": "6 charges, at 2 or 4 or 6 charge can inhale relics from the relic list by right-click, gain 1 charge when inhale relic(cannot inhale the bloom mark, passive relics get random initial attributes, clickable relics get its effect, and gain the effect immediately when full charge), if full charge,right-click can trigger all effect it already gains.",
+            "flavorText": "Consume",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "YumHeart",
+            "name": "Yum Heart",
+            "tier": "Rare",
+            "pool": "",
+            "description": "4 charges. When fully charged, right-click to heal 25 HP.",
+            "flavorText": "Miss Mo is really bad!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "MaYiHuaBei",
+            "name": "AliPay",
+            "tier": "Special",
+            "pool": "",
+            "description": "Click to get 500 temporary Gold. You will lose all Gold the next time you lose Gold. This relic is disabled once used until entering the boss room. (Not Isaac related, just remained as the first relic I made)",
+            "flavorText": "Money - easy come easy go",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BloodBag",
+            "name": "Blood Bag",
+            "tier": "Special",
+            "pool": "",
+            "description": "Gain 7 max HP.",
+            "flavorText": "Only occurs after Blood Donation Machine crack",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BloodDonationBag",
+            "name": "Blood Donation Bag",
+            "tier": "Special",
+            "pool": "",
+            "description": "Right-click to donate 1 HP for 10 Gold (20%), 5 Gold (30%), or 1 Gold (50%). You cannot donate blood during boss fights.",
+            "flavorText": "The quality is not as good as the Blood Donation Machine",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "NineLifeCat",
+            "name": "Dead Cat",
+            "tier": "Special",
+            "pool": "",
+            "description": "Upon pick up, reduce your Max HP by 75% and gain 9 lives. When resurrected, heal to full HP.",
+            "flavorText": "9 lives! A part of Guppy",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "GuppysCollar",
+            "name": "Guppy's Collar",
+            "tier": "Special",
+            "pool": "",
+            "description": "When you would die, heal to 1 HP with 60% of chance.",
+            "flavorText": "A part of Guppy.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "GuppysHairball",
+            "name": "Guppy's Hairball",
+            "tier": "Special",
+            "pool": "",
+            "description": "At the start of each battle, summon a Hairball that deals damage to enemies. Once per battle, when the Hairball kills an enemy, its Strength is permanently increased by 2.",
+            "flavorText": "A part of Guppy.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "HushsDoor",
+            "name": "Hush's Door",
+            "tier": "Special",
+            "pool": "",
+            "description": "The key to Hush. Right click to cancel challenging hush, do it before you enter the second last floor.",
+            "flavorText": "Rush!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Incubus",
+            "name": "Incubus",
+            "tier": "Special",
+            "pool": "",
+            "description": "At the start of each battle, summon an Incubus, which, at the end of each turn, plays the last card you played that turn.",
+            "flavorText": "Conjoined haven't finished.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "JudasShadow",
+            "name": "Judas' Shadow",
+            "tier": "Special",
+            "pool": "",
+            "description": "After the death, you will resurrect into the shadow of Judah. ​​Max Hp = 1, receive 40 black hearts. gain 15 strength at battle start.",
+            "flavorText": "Be stronger!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "KeepersGift",
+            "name": "Keeper's gift",
+            "tier": "Special",
+            "pool": "",
+            "description": "Right-click to use, select and obtain a relic from 3 random Isaac relics.",
+            "flavorText": "Select one from three.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "MegaBlast",
+            "name": "Mega Blast",
+            "tier": "Special",
+            "pool": "",
+            "description": "12 charges. When fully charged, right-click to defeat ALL enemies(by 12 * 500 damage) at battle start for 15 seconds.",
+            "flavorText": "RUSH!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "MomsKnife",
+            "name": "Mom's Knife",
+            "tier": "Special",
+            "pool": "",
+            "description": "summon a knife at battle start, left-click and press,release to discharge the knife,knife take damage to the monsters on the way.",
+            "flavorText": "take huge damage",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "MyShadow",
+            "name": "My Shadow",
+            "tier": "Special",
+            "pool": "",
+            "description": "When you lose Hp, summon a Charger.",
+            "flavorText": "Me! And my shaaaadow!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "RottenBaby",
+            "name": "Rotten Baby",
+            "tier": "Special",
+            "pool": "",
+            "description": "Spawn a fly at turn start.",
+            "flavorText": "A nice baby",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Succubus",
+            "name": "Succubus",
+            "tier": "Special",
+            "pool": "",
+            "description": "At the beginning of each battle, summon a succubus that moves, deals damage to enemies and gives 1 strength to the player temporarily.",
+            "flavorText": "Something fun!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "ChampionBelt",
+            "name": "Isaac's Champion Belt",
+            "tier": "Boss",
+            "pool": "",
+            "description": "Gain [E], when you enter monster room,turn ascension level to 20, switch it into elite room with 80% of chance.",
+            "flavorText": "Challenging me!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "MagicMushroom",
+            "name": "Magic Mushroom",
+            "tier": "Boss",
+            "pool": "",
+            "description": "Upon pick up, gain 7 max HP. At the start of each battle, gain 1 strength, 1 dexterity, 1 focus, 1 plated armor, 1 regeneration, 1 fire breathing, 1 juggernaut, 1 thorns, 1 feel no pain, 1 blur, 1 conserve, and 1 anger.",
+            "flavorText": "All stat up.",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "NineVolt",
+            "name": "9 Volt",
+            "tier": "Shop",
+            "pool": "",
+            "description": "Your chargeable relics will gain 1 charge after use.",
+            "flavorText": "No effect for one charge relics",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "BFFS",
+            "name": "BFFS!",
+            "tier": "Shop",
+            "pool": "",
+            "description": "All minions gain 5 strength when they summon.",
+            "flavorText": "Best Friends Forever!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Chaos",
+            "name": "Chaos",
+            "tier": "Shop",
+            "pool": "",
+            "description": "Chaos causes relics to be chosen from random item pools.",
+            "flavorText": "!!!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "Habit",
+            "name": "Habit",
+            "tier": "Shop",
+            "pool": "",
+            "description": "Add 1 charge to your first chargeable relic which is not full of charge when you lose HP.",
+            "flavorText": "You will be glad to see this",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "SteamSale",
+            "name": "Steam Sale",
+            "tier": "Shop",
+            "pool": "",
+            "description": "50% discount on all products! If you hold a membership card or another Steam Sale at the same time, all products are free!",
+            "flavorText": "Double discounts is also available at the Spire!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "TheBattery",
+            "name": "The Battery",
+            "tier": "Shop",
+            "pool": "",
+            "description": "Chargeable relics get the double charge limit.",
+            "flavorText": "Double Charge!",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "IceBreaker:StaffBlizzard",
+            "name": "Blizzard Staff",
+            "tier": "Starter",
+            "pool": "Icebreaker",
+            "description": "The first time of the combat when you gain Block , double it.\nStart each combat with 4 im:Chronostasis.",
+            "flavorText": "It is made of solid-state icy magical power completely.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:ConnectionOfMeteor",
+            "name": "Connection of Meteor",
+            "tier": "Common",
+            "pool": "Icebreaker",
+            "description": "Upon pickup, Add im:Connect to 1 Non-Connect card of Warrior in your deck.",
+            "flavorText": "Meteors across the night sky,the wishes at that time was \"accompany with you forever\".",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:MagicalScroll",
+            "name": "Magical Scroll",
+            "tier": "Common",
+            "pool": "Icebreaker",
+            "description": "Choose 1 of 3 random im:Magic cards to add to your hand, it cost 0 this turn.",
+            "flavorText": "It looks like a recipe -- present from Ame.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:EyeOfSpiritualView",
+            "name": "Eye of Soul",
+            "tier": "Uncommon",
+            "pool": "Icebreaker",
+            "description": "At the start of your turn, gain 1 im:Resonance.",
+            "flavorText": "A small stone looks like an eye, you can catch the glimpse of magical power stream -- present from Disobey.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Amulet",
+            "name": "Amulet",
+            "tier": "Rare",
+            "pool": "",
+            "description": "The first time in combat you lose HP, heal 8.",
+            "flavorText": "You can feel vitality is streaming in it -- present from Shiroikumo.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Constellation",
+            "name": "Constellation",
+            "tier": "Rare",
+            "pool": "Icebreaker",
+            "description": "Every 6 turns, enter im:Chronogap at the start of your turn.",
+            "flavorText": "I dance with ghosts, incarnate as a star, and race the dawn.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:CrystalOfRadiance",
+            "name": "Crystal of Radiance",
+            "tier": "Rare",
+            "pool": "Icebreaker",
+            "description": "Whenever you play a Spark outside of im:Chronogap , gain 1 im:Chronostasis.",
+            "flavorText": "A knob of solidified radiance -- present from Brandy.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Letter",
+            "name": "Letter",
+            "tier": "Boss",
+            "pool": "Icebreaker",
+            "description": "Whenever you enter im:Chronogap , gain 1 additional [E] and draw 1 card.",
+            "flavorText": "\"The spire is spreading corrupt power.\" -- You can't be more familiar with the handwriting.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:StaffMidwinter",
+            "name": "Midwinter Staff",
+            "tier": "Boss",
+            "pool": "Icebreaker",
+            "description": "Replaces Blizzard Staff. The first time of the combat when you gain Block , double it.\nAt the start of your turn, gain im:Chronostais equal to the number of turns experienced in this combat.",
+            "flavorText": "It was injected divine power by the God of Time,and became a unique wand -- present from Chronos.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:Telescope",
+            "name": "Telescope",
+            "tier": "Boss",
+            "pool": "",
+            "description": "At the start of your turn, draw 1 less card ,\nthen choose a card from your draw pile to add into your hand.",
+            "flavorText": "You can see the scenery in the distance……don't use it to peep the bath house -- present form Fukuhi.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         },
         {
             "id": "oceanabby:MutationCatalyst",
@@ -188394,609 +189008,6 @@
             "description": "[oceanwielder:TixIcon] no longer draw cards and now grant [E] .\nMoxie no longer grants [E] and now draws cards.",
             "flavorText": "You're fairly certain it wasn't made this way, but you don't have the heart to take away its hat, it looks too content.",
             "mod": "Wielder (The)"
-        },
-        {
-            "id": "BookOfRevelations",
-            "name": "Book of Revelations",
-            "tier": "Common",
-            "pool": "",
-            "description": "6 charges. When fully charged, right-click to gain barricade and 10 soul heart.",
-            "flavorText": "A part of bookworm.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "HowToJump",
-            "name": "How to Jump",
-            "tier": "Common",
-            "pool": "",
-            "description": "Negate damage 10% of the time. Right-click to jump.",
-            "flavorText": "A part of bookworm.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "SalivaCoin",
-            "name": "Swallowed Penny",
-            "tier": "Common",
-            "pool": "",
-            "description": "Whenever you lose HP, gain 7 Gold.",
-            "flavorText": "The keeper's swallowed penny! It's game over.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "TheBean",
-            "name": "The Bean",
-            "tier": "Common",
-            "pool": "",
-            "description": "1 charge. When fully charged, right-click to apply 5 poison to ALL enemies.",
-            "flavorText": "Toot on command.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BelialBook",
-            "name": "The Book Of Belial",
-            "tier": "Common",
-            "pool": "",
-            "description": "3 charges. When fully charged, right-click to gain 5 strength.",
-            "flavorText": "In fact, it is called the book of Pilates",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "AnarchistCookbook",
-            "name": "Anarchist Cookbook",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "3 charges. Right-click to give 6 The Bomb effect, which deals damage to ALL opposing characters later, to the player and ALL enemies randomly. Your The Bomb effect will be triggered first.",
-            "flavorText": "A part of bookworm.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "TheBible",
-            "name": "Bible",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "6 charges. When fully charged, right-click to gain 6 Flight.",
-            "flavorText": "Want to defeat the heart immediately? Not a chance.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BookofShadows",
-            "name": "Book of Shadows",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "3 charges. When fully charged, right-click to prevent all damages for the next 2 turns.",
-            "flavorText": "A part of bookworm.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "DeadEye",
-            "name": "Dead eye",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "Gain 1 strength whenever you play attacks on the same target in a row in the same turn. The strength gained will be removed at the end of the turn and when you attack different enemies.",
-            "flavorText": "Accuracy brings strength!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "DoctorsRemote",
-            "name": "Doctor's Remote",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "2 charges. When fully charged, right-click to add a [Epic attack +2] to your hand.",
-            "flavorText": "Use it as a bomb",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "GnawedLeaf",
-            "name": "Gnawed Leaf",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "After three consecutive turns without playing any cards, the player will be immune to all damages until a card is played.",
-            "flavorText": "One two three wood people.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "TuHaoJin",
-            "name": "Magic Fingers",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "Right-click to pay 1 Gold to deal 1 damage to ALL enemies. Whenever you use this relic, increase the cost and damage of this relic by 1.",
-            "flavorText": "Pay to play",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "SatanicBible",
-            "name": "Satanic Bible",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "6 charges. When fully charged, right-click to gain barricade, 30 block, and 10 black heart.",
-            "flavorText": "A part of bookworm.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "SharpPlug",
-            "name": "Sharp Plug",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "Right-Click to lose half HP(Max 50, Min 15),select a chargeable relic which is 0 charge,and charge to full charge.",
-            "flavorText": "Awesome Combo!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "PillsDrop",
-            "name": "Spire's pills",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "Pills may drop at the end of each battle. The pills with the same color will have the same effect. (If you save and quit at the pill reward screen, pill's effect still works.)",
-            "flavorText": "Open your mouth to take the medicine.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "DeathBook",
-            "name": "The Necronomicon",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "6 Charges. When fully charged, right-click to deal 40 damage to ALL enemies.",
-            "flavorText": "This Necronomicon is not the Necronomicon",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "UnicornStump",
-            "name": "Unicorn Stump",
-            "tier": "Uncommon",
-            "pool": "",
-            "description": "1 charge. When fully charged, right-click to immune to all damages this turn, and you cannot play any cards this turn. Cannot be used after playing any cards.",
-            "flavorText": "It stands still like a mountain!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BlankCard",
-            "name": "Blank Card",
-            "tier": "Rare",
-            "pool": "",
-            "description": "6 charges. When fully charged, right-click to select a card from your hand and play it once at the start of each following turns.",
-            "flavorText": "Hoho! Easy game!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BloodDonationMachine",
-            "name": "Blood Donation Machine",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Right-click to donate 1 HP for 20 Gold (10%), 10 Gold (30%), 5 Gold (30%), or 1 Gold (30%). It has a 3% probability of exlosion every time it is used. Upon explosion, gain 7 Max HP or get Blood Donation Bag. You cannot donate blood during boss fights.",
-            "flavorText": "Is this a German machine?",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "D4",
-            "name": "D4",
-            "tier": "Rare",
-            "pool": "",
-            "description": "6 charges,roll all relics you obtained,replace every relic to the random relic with same relic tier.",
-            "flavorText": "ROLL！",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "D6",
-            "name": "D6",
-            "tier": "Rare",
-            "pool": "",
-            "description": "6 charges. When fully charged, right-click to re-roll the shop, relic that elite dropped, the treasure chest and the boss treasure chest.",
-            "flavorText": "The D6! It's game over",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Damocles",
-            "name": "Damocles",
-            "tier": "Rare",
-            "pool": "",
-            "description": "An extra relic is gained after battle, but have chance to die when you lose HP from enemies, 10% at the beginning and gain 4% chance whenever you gain damage. If your next hp loss will cause death, it will begin to pulse to remind you.\nWhen resurrected, lose this relic.",
-            "flavorText": "A king’sfortune… but at what cost?",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Diplopia",
-            "name": "Diplopia",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Right-click to choose and copy an existing relic. (Copying Diplopia will get a Diplopia, but new one won't work.)",
-            "flavorText": "Double discounts with Diplopia is also available at the Spire!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "EdensBlessing",
-            "name": "Eden's Blessing",
-            "tier": "Rare",
-            "pool": "",
-            "description": "At the start of each battle, gain 1 Strength, Dexterity, or Focus randomly. You start you next game with a random rare relic.",
-            "flavorText": "The blessing from Eden",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "ForgetMeNow",
-            "name": "Forget Me Now",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Only be used once,right-click to go back to the first floor of current dungeon(at BossTreasureRoom,you go to next dungeon as normal; at boss room, nothing will happen.).",
-            "flavorText": "go back",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "GuppysHead",
-            "name": "Guppy's Head",
-            "tier": "Rare",
-            "pool": "",
-            "description": "1 charge. When fully charged, right-click to summon a fly that deals damage to enemies.",
-            "flavorText": "A part of Guppy",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "GuppysPaw",
-            "name": "Guppy's Paw",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Right click to trade 1 Max Hp for 3 Soul Heart.",
-            "flavorText": "A part of Guppy.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "GuppysTail",
-            "name": "Guppy's Tail",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Little chests are now large chests.",
-            "flavorText": "A part of Guppy.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Leech",
-            "name": "Leech",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Summon a leech at battle start, leech will deal damage and heal for you.",
-            "flavorText": "gain blood!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "MoneyPower",
-            "name": "MONEY = POWER",
-            "tier": "Rare",
-            "pool": "",
-            "description": "At the start of each battle, gain Gold / 150 strength.",
-            "flavorText": "Gold = Strength",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "PokeGo",
-            "name": "Poke Go",
-            "tier": "Rare",
-            "pool": "",
-            "description": "Right-Click to get a PokeBall(1 cost).\nPokeBall can catch the monster(not boss) which HP only left 1\nor catch 1 HP BOSS at the chance of 15%,\nand become your pet.(max pet amount = 1)",
-            "flavorText": "Gotta catch em...",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "PunchingBag",
-            "name": "Punching Bag",
-            "tier": "Rare",
-            "pool": "",
-            "description": "summon a Scape Goat at battle start.Right-Click this relic to get a card to change a enemy's target to Scape Goat",
-            "flavorText": "don't hurt me.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Void",
-            "name": "Void",
-            "tier": "Rare",
-            "pool": "",
-            "description": "6 charges, at 2 or 4 or 6 charge can inhale relics from the relic list by right-click, gain 1 charge when inhale relic(cannot inhale the bloom mark, passive relics get random initial attributes, clickable relics get its effect, and gain the effect immediately when full charge), if full charge,right-click can trigger all effect it already gains.",
-            "flavorText": "Consume",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "YumHeart",
-            "name": "Yum Heart",
-            "tier": "Rare",
-            "pool": "",
-            "description": "4 charges. When fully charged, right-click to heal 25 HP.",
-            "flavorText": "Miss Mo is really bad!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "MaYiHuaBei",
-            "name": "AliPay",
-            "tier": "Special",
-            "pool": "",
-            "description": "Click to get 500 temporary Gold. You will lose all Gold the next time you lose Gold. This relic is disabled once used until entering the boss room. (Not Isaac related, just remained as the first relic I made)",
-            "flavorText": "Money - easy come easy go",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BloodBag",
-            "name": "Blood Bag",
-            "tier": "Special",
-            "pool": "",
-            "description": "Gain 7 max HP.",
-            "flavorText": "Only occurs after Blood Donation Machine crack",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BloodDonationBag",
-            "name": "Blood Donation Bag",
-            "tier": "Special",
-            "pool": "",
-            "description": "Right-click to donate 1 HP for 10 Gold (20%), 5 Gold (30%), or 1 Gold (50%). You cannot donate blood during boss fights.",
-            "flavorText": "The quality is not as good as the Blood Donation Machine",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "NineLifeCat",
-            "name": "Dead Cat",
-            "tier": "Special",
-            "pool": "",
-            "description": "Upon pick up, reduce your Max HP by 75% and gain 9 lives. When resurrected, heal to full HP.",
-            "flavorText": "9 lives! A part of Guppy",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "GuppysCollar",
-            "name": "Guppy's Collar",
-            "tier": "Special",
-            "pool": "",
-            "description": "When you would die, heal to 1 HP with 60% of chance.",
-            "flavorText": "A part of Guppy.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "GuppysHairball",
-            "name": "Guppy's Hairball",
-            "tier": "Special",
-            "pool": "",
-            "description": "At the start of each battle, summon a Hairball that deals damage to enemies. Once per battle, when the Hairball kills an enemy, its Strength is permanently increased by 2.",
-            "flavorText": "A part of Guppy.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "HushsDoor",
-            "name": "Hush's Door",
-            "tier": "Special",
-            "pool": "",
-            "description": "The key to Hush. Right click to cancel challenging hush, do it before you enter the second last floor.",
-            "flavorText": "Rush!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Incubus",
-            "name": "Incubus",
-            "tier": "Special",
-            "pool": "",
-            "description": "At the start of each battle, summon an Incubus, which, at the end of each turn, plays the last card you played that turn.",
-            "flavorText": "Conjoined haven't finished.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "JudasShadow",
-            "name": "Judas' Shadow",
-            "tier": "Special",
-            "pool": "",
-            "description": "After the death, you will resurrect into the shadow of Judah. ​​Max Hp = 1, receive 40 black hearts. gain 15 strength at battle start.",
-            "flavorText": "Be stronger!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "KeepersGift",
-            "name": "Keeper's gift",
-            "tier": "Special",
-            "pool": "",
-            "description": "Right-click to use, select and obtain a relic from 3 random Isaac relics.",
-            "flavorText": "Select one from three.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "MegaBlast",
-            "name": "Mega Blast",
-            "tier": "Special",
-            "pool": "",
-            "description": "12 charges. When fully charged, right-click to defeat ALL enemies(by 12 * 500 damage) at battle start for 15 seconds.",
-            "flavorText": "RUSH!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "MomsKnife",
-            "name": "Mom's Knife",
-            "tier": "Special",
-            "pool": "",
-            "description": "summon a knife at battle start, left-click and press,release to discharge the knife,knife take damage to the monsters on the way.",
-            "flavorText": "take huge damage",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "MyShadow",
-            "name": "My Shadow",
-            "tier": "Special",
-            "pool": "",
-            "description": "When you lose Hp, summon a Charger.",
-            "flavorText": "Me! And my shaaaadow!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "RottenBaby",
-            "name": "Rotten Baby",
-            "tier": "Special",
-            "pool": "",
-            "description": "Spawn a fly at turn start.",
-            "flavorText": "A nice baby",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Succubus",
-            "name": "Succubus",
-            "tier": "Special",
-            "pool": "",
-            "description": "At the beginning of each battle, summon a succubus that moves, deals damage to enemies and gives 1 strength to the player temporarily.",
-            "flavorText": "Something fun!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "ChampionBelt",
-            "name": "Isaac's Champion Belt",
-            "tier": "Boss",
-            "pool": "",
-            "description": "Gain [E], when you enter monster room,turn ascension level to 20, switch it into elite room with 80% of chance.",
-            "flavorText": "Challenging me!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "MagicMushroom",
-            "name": "Magic Mushroom",
-            "tier": "Boss",
-            "pool": "",
-            "description": "Upon pick up, gain 7 max HP. At the start of each battle, gain 1 strength, 1 dexterity, 1 focus, 1 plated armor, 1 regeneration, 1 fire breathing, 1 juggernaut, 1 thorns, 1 feel no pain, 1 blur, 1 conserve, and 1 anger.",
-            "flavorText": "All stat up.",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "NineVolt",
-            "name": "9 Volt",
-            "tier": "Shop",
-            "pool": "",
-            "description": "Your chargeable relics will gain 1 charge after use.",
-            "flavorText": "No effect for one charge relics",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "BFFS",
-            "name": "BFFS!",
-            "tier": "Shop",
-            "pool": "",
-            "description": "All minions gain 5 strength when they summon.",
-            "flavorText": "Best Friends Forever!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Chaos",
-            "name": "Chaos",
-            "tier": "Shop",
-            "pool": "",
-            "description": "Chaos causes relics to be chosen from random item pools.",
-            "flavorText": "!!!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "Habit",
-            "name": "Habit",
-            "tier": "Shop",
-            "pool": "",
-            "description": "Add 1 charge to your first chargeable relic which is not full of charge when you lose HP.",
-            "flavorText": "You will be glad to see this",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "SteamSale",
-            "name": "Steam Sale",
-            "tier": "Shop",
-            "pool": "",
-            "description": "50% discount on all products! If you hold a membership card or another Steam Sale at the same time, all products are free!",
-            "flavorText": "Double discounts is also available at the Spire!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "TheBattery",
-            "name": "The Battery",
-            "tier": "Shop",
-            "pool": "",
-            "description": "Chargeable relics get the double charge limit.",
-            "flavorText": "Double Charge!",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "IceBreaker:StaffBlizzard",
-            "name": "Blizzard Staff",
-            "tier": "Starter",
-            "pool": "Icebreaker",
-            "description": "The first time of the combat when you gain Block , double it.\nStart each combat with 4 im:Chronostasis.",
-            "flavorText": "It is made of solid-state icy magical power completely.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:ConnectionOfMeteor",
-            "name": "Connection of Meteor",
-            "tier": "Common",
-            "pool": "Icebreaker",
-            "description": "Upon pickup, Add im:Connect to 1 Non-Connect card of Warrior in your deck.",
-            "flavorText": "Meteors across the night sky,the wishes at that time was \"accompany with you forever\".",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:MagicalScroll",
-            "name": "Magical Scroll",
-            "tier": "Common",
-            "pool": "Icebreaker",
-            "description": "Choose 1 of 3 random im:Magic cards to add to your hand, it cost 0 this turn.",
-            "flavorText": "It looks like a recipe -- present from Ame.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:EyeOfSpiritualView",
-            "name": "Eye of Soul",
-            "tier": "Uncommon",
-            "pool": "Icebreaker",
-            "description": "At the start of your turn, gain 1 im:Resonance.",
-            "flavorText": "A small stone looks like an eye, you can catch the glimpse of magical power stream -- present from Disobey.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Amulet",
-            "name": "Amulet",
-            "tier": "Rare",
-            "pool": "",
-            "description": "The first time in combat you lose HP, heal 8.",
-            "flavorText": "You can feel vitality is streaming in it -- present from Shiroikumo.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Constellation",
-            "name": "Constellation",
-            "tier": "Rare",
-            "pool": "Icebreaker",
-            "description": "Every 6 turns, enter im:Chronogap at the start of your turn.",
-            "flavorText": "I dance with ghosts, incarnate as a star, and race the dawn.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:CrystalOfRadiance",
-            "name": "Crystal of Radiance",
-            "tier": "Rare",
-            "pool": "Icebreaker",
-            "description": "Whenever you play a Spark outside of im:Chronogap , gain 1 im:Chronostasis.",
-            "flavorText": "A knob of solidified radiance -- present from Brandy.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Letter",
-            "name": "Letter",
-            "tier": "Boss",
-            "pool": "Icebreaker",
-            "description": "Whenever you enter im:Chronogap , gain 1 additional [E] and draw 1 card.",
-            "flavorText": "\"The spire is spreading corrupt power.\" -- You can't be more familiar with the handwriting.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:StaffMidwinter",
-            "name": "Midwinter Staff",
-            "tier": "Boss",
-            "pool": "Icebreaker",
-            "description": "Replaces Blizzard Staff. The first time of the combat when you gain Block , double it.\nAt the start of your turn, gain im:Chronostais equal to the number of turns experienced in this combat.",
-            "flavorText": "It was injected divine power by the God of Time,and became a unique wand -- present from Chronos.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:Telescope",
-            "name": "Telescope",
-            "tier": "Boss",
-            "pool": "",
-            "description": "At the start of your turn, draw 1 less card ,\nthen choose a card from your draw pile to add into your hand.",
-            "flavorText": "You can see the scenery in the distance……don't use it to peep the bath house -- present form Fukuhi.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         }
     ],
     "potions": [
@@ -189760,6 +189771,27 @@
             "description": "Choose a non-Tunglike Attack in your Hand to gain Tunglike this combat.",
             "v": 2,
             "mod": "Triple T"
+        },
+        {
+            "id": "IceBreaker:BottledInspire",
+            "name": "Bottled Inspiration",
+            "rarity": "Common",
+            "description": "Choose 1 of 3 random Magic cards to add to your hand, it cost 0 this turn.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:BottledLight",
+            "name": "Bottled Light",
+            "rarity": "Uncommon",
+            "description": "All cards in your hand cost 1 less in this turn.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "id": "IceBreaker:BottledTime",
+            "name": "Bottled Time",
+            "rarity": "Rare",
+            "description": "End your turn and take an extra turn after this one.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         },
         {
             "id": "oceanabby:RadioactiveSpider",
@@ -193829,27 +193861,6 @@
             "rarity": "Rare",
             "description": "Wield a random weapon and a random shield.",
             "mod": "Wielder (The)"
-        },
-        {
-            "id": "IceBreaker:BottledInspire",
-            "name": "Bottled Inspiration",
-            "rarity": "Common",
-            "description": "Choose 1 of 3 random Magic cards to add to your hand, it cost 0 this turn.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:BottledLight",
-            "name": "Bottled Light",
-            "rarity": "Uncommon",
-            "description": "All cards in your hand cost 1 less in this turn.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "id": "IceBreaker:BottledTime",
-            "name": "Bottled Time",
-            "rarity": "Rare",
-            "description": "End your turn and take an extra turn after this one.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         }
     ],
     "creatures": [
@@ -194908,7 +194919,7 @@
         },
         {
             "id": "TEST_SUBJECT",
-            "name": "Test Subject #C175",
+            "name": "Test Subject #C177",
             "type": "",
             "minHP": 100,
             "maxHP": 100,
@@ -195136,6 +195147,22 @@
             "maxHPA": 0,
             "v": 2,
             "mod": "Triple T"
+        },
+        {
+            "id": "Monstro",
+            "name": "Monstro",
+            "type": "Boss",
+            "minHP": "250",
+            "maxHP": "250",
+            "mod": "[IsaacMod]以撒尖塔"
+        },
+        {
+            "id": "IceBreakerCharacter",
+            "name": "Zehhyo no Yusha",
+            "type": "Player",
+            "minHP": "60",
+            "maxHP": "60",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         },
         {
             "id": "TheAberrant",
@@ -201705,22 +201732,6 @@
             "minHPA": "63",
             "maxHPA": "70",
             "mod": "Wielder (The)"
-        },
-        {
-            "id": "Monstro",
-            "name": "Monstro",
-            "type": "Boss",
-            "minHP": "250",
-            "maxHP": "250",
-            "mod": "[IsaacMod]以撒尖塔"
-        },
-        {
-            "id": "IceBreakerCharacter",
-            "name": "Zehhyo no Yusha",
-            "type": "Player",
-            "minHP": "60",
-            "maxHP": "60",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         }
     ],
     "keywords": [
@@ -202854,7 +202865,7 @@
             "hasIcon": true,
             "id": "POWER.ARCHERY_POWER",
             "name": "Archery",
-            "description": "At the start of your turn, gain 4 Aim.",
+            "description": "At the start of your turn, gain 6 Aim.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -203286,7 +203297,7 @@
             "hasIcon": true,
             "id": "POWER.DAMPEN_POWER",
             "name": "Dampen",
-            "description": "While Magi Knight is alive, ALL your cards are Downgraded.",
+            "description": "While Magi Knight is alive, ALL your cards are fully Downgraded.",
             "type": "Debuff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -203511,7 +203522,7 @@
             "hasIcon": true,
             "id": "POWER.ENSEMBLE_POWER",
             "name": "Ensemble",
-            "description": "The next 3 cards played by other players are free to play.",
+            "description": "The next 3 cards played by other players cost 0 [E].",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -203547,7 +203558,7 @@
             "hasIcon": true,
             "id": "POWER.EXPLOSIVE_ARROWS_POWER",
             "name": "Explosive Arrows",
-            "description": "Whenever you Impale an enemy, deal 6 damage to ALL enemies.",
+            "description": "Whenever you Impale an enemy, deal 8 damage to ALL enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -203716,15 +203727,6 @@
         },
         {
             "hasIcon": true,
-            "id": "POWER.FREE_CARD_POWER",
-            "name": "Free Card",
-            "description": "The next card you play costs 0 [E].",
-            "type": "Buff",
-            "v": 2,
-            "mod": "Slay the Spire 2"
-        },
-        {
-            "hasIcon": true,
             "id": "POWER.FREE_POWER_POWER",
             "name": "Free Power",
             "description": "The next Power you play costs 0 [E].",
@@ -203853,7 +203855,7 @@
             "hasIcon": true,
             "id": "POWER.HARD_TO_KILL_POWER",
             "name": "Hard to Kill",
-            "description": "Reduce all damage taken and HP lost by Exoskeleton to 9.",
+            "description": "Reduce all HP lost by Exoskeleton to 9.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -203952,7 +203954,7 @@
             "hasIcon": true,
             "id": "POWER.HONING_POWER",
             "name": "Honing",
-            "description": "Arrows deal 50% additional damage.",
+            "description": "Arrows deal double damage.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -204105,7 +204107,7 @@
             "hasIcon": true,
             "id": "POWER.KI_VERSE_POWER",
             "name": "Ki Verse",
-            "description": "The next “Wah”, “Cho”, or “Ki” card you play this turn is played an additional time.",
+            "description": "The next “Wah” or “Cho” card you play this turn is played an additional time.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -204726,7 +204728,7 @@
             "hasIcon": true,
             "id": "POWER.QUIETUS_POWER",
             "name": "Quietus",
-            "description": "Your next Shot this turn deals 2 times more damage but the Arrow is destroyed.",
+            "description": "Your next Shot this turn deals 2 times more damage.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -205122,7 +205124,7 @@
             "hasIcon": true,
             "id": "POWER.SONG_PATH_POWER",
             "name": "Song Path",
-            "description": "Whenever you gain a Cho Melody, gain 5 Block.",
+            "description": "Whenever you gain a Cho Melody, gain 4 Block.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -205491,7 +205493,7 @@
             "hasIcon": true,
             "id": "POWER.TUNE_POWER",
             "name": "Tune",
-            "description": "At the end of your turn, if you have a Ki Melody, the next card you play costs 0 energy.",
+            "description": "Whenever you gain a Ki Melody, Upgrade a random card in your Hand.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -205554,7 +205556,7 @@
             "hasIcon": true,
             "id": "POWER.VIOLENT_CHORD_POWER",
             "name": "Violent Chord",
-            "description": "Whenever you gain a Wah Melody, deal 9 damage to ALL enemies.",
+            "description": "Whenever you gain a Wah Melody, deal 7 damage to ALL enemies.",
             "type": "Buff",
             "v": 2,
             "mod": "Slay the Spire 2"
@@ -206161,6 +206163,61 @@
             "type": "Buff",
             "v": 2,
             "mod": "Triple T"
+        },
+        {
+            "name": "Chronogap",
+            "description": "Upon entering Chronogap , gain [E] [E] .\nPlaying a card in the Gap will not trigger buffs about playing cards on enemies.\nExit at the end of your turn.( You can enter another Gap when you're in the Gap)",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Chronostasis",
+            "description": "When you obtain no less than 12 Chronostasis , lose 12 Chronostasis , enter Chronogap.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Connect",
+            "description": "Upon pickup, choose a card in your deck to be its target.\nWhenever you play this card while the target is in your draw pile, put it into your hand.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "闪避",
+            "description": "受到的 攻击 伤害减半 。",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "飞行",
+            "description": "有 飞行 状态的生物受到的 攻击 伤害减半 。",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Magic",
+            "description": "Magics is not affected by most of buffs on yourself.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "拥有",
+            "description": "存在于抽牌堆，或弃牌堆，或手牌的牌视为 拥有 这张牌。",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Ranged",
+            "description": "Ignore Thorn and Flight.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Resonance",
+            "description": "When you are in Chronogap, Resonance adds additional numerical value to Magics.\nAfter it works, reduced by 1.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Respond",
+            "description": "If a card is putted into your hand as a Connect target, or put its Connect target into your hand, it is regarded as Respond successfully.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
+        },
+        {
+            "name": "Trigger",
+            "description": "Trigger a card's effect but not regarded as play it.",
+            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         },
         {
             "name": "Acid",
@@ -216146,61 +216203,6 @@
             "name": "Wield",
             "description": "Trigger the Dequip effect of your current weapon or shield, then replace it with a new one.",
             "mod": "Wielder (The)"
-        },
-        {
-            "name": "Chronogap",
-            "description": "Upon entering Chronogap , gain [E] [E] .\nPlaying a card in the Gap will not trigger buffs about playing cards on enemies.\nExit at the end of your turn.( You can enter another Gap when you're in the Gap)",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Chronostasis",
-            "description": "When you obtain no less than 12 Chronostasis , lose 12 Chronostasis , enter Chronogap.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Connect",
-            "description": "Upon pickup, choose a card in your deck to be its target.\nWhenever you play this card while the target is in your draw pile, put it into your hand.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "闪避",
-            "description": "受到的 攻击 伤害减半 。",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "飞行",
-            "description": "有 飞行 状态的生物受到的 攻击 伤害减半 。",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Magic",
-            "description": "Magics is not affected by most of buffs on yourself.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "拥有",
-            "description": "存在于抽牌堆，或弃牌堆，或手牌的牌视为 拥有 这张牌。",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Ranged",
-            "description": "Ignore Thorn and Flight.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Resonance",
-            "description": "When you are in Chronogap, Resonance adds additional numerical value to Magics.\nAfter it works, reduced by 1.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Respond",
-            "description": "If a card is putted into your hand as a Connect target, or put its Connect target into your hand, it is regarded as Respond successfully.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
-        },
-        {
-            "name": "Trigger",
-            "description": "Trigger a card's effect but not regarded as play it.",
-            "mod": "[Zehhyo no Yusha] 绝冰的勇者"
         }
     ],
     "augments": [
@@ -217395,6 +217397,39 @@
             "credits": "",
             "description": "TUNG TUNG TUNG SAHUR.",
             "stsVersion": 2
+        },
+        {
+            "name": "[IsaacMod]以撒尖塔",
+            "version": "1.3.0",
+            "authors": [
+                "Keeper"
+            ],
+            "credits": "",
+            "description": "以撒尖塔，你穷未顽过的船新版本",
+            "mts_version": "0.0.0",
+            "sts_version": "",
+            "dependencies": [],
+            "optional_dependencies": []
+        },
+        {
+            "name": "[Zehhyo no Yusha] 绝冰的勇者",
+            "version": "1.2.0",
+            "authors": [
+                "Temple9",
+                "akdream10086",
+                "GM_Whitose",
+                "很很很喜欢**的银墨",
+                "10000volts"
+            ],
+            "credits": "",
+            "description": "",
+            "mts_version": "3.24.0",
+            "sts_version": "03-07-2022",
+            "dependencies": [
+                "basemod",
+                "stslib"
+            ],
+            "optional_dependencies": []
         },
         {
             "name": "Aberrant (The)",
@@ -220281,39 +220316,6 @@
             "description": "A character mod with no direct damage or block numbers.",
             "mts_version": "3.18.2",
             "sts_version": "12-22-2020",
-            "dependencies": [
-                "basemod",
-                "stslib"
-            ],
-            "optional_dependencies": []
-        },
-        {
-            "name": "[IsaacMod]以撒尖塔",
-            "version": "1.3.0",
-            "authors": [
-                "Keeper"
-            ],
-            "credits": "",
-            "description": "以撒尖塔，你穷未顽过的船新版本",
-            "mts_version": "0.0.0",
-            "sts_version": "",
-            "dependencies": [],
-            "optional_dependencies": []
-        },
-        {
-            "name": "[Zehhyo no Yusha] 绝冰的勇者",
-            "version": "1.2.0",
-            "authors": [
-                "Temple9",
-                "akdream10086",
-                "GM_Whitose",
-                "很很很喜欢**的银墨",
-                "10000volts"
-            ],
-            "credits": "",
-            "description": "",
-            "mts_version": "3.24.0",
-            "sts_version": "03-07-2022",
             "dependencies": [
                 "basemod",
                 "stslib"
